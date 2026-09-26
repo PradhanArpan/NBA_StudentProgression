@@ -1,0 +1,2243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>NBA Criterion 4 & P4/P5 Dashboard | Department of Civil Engineering</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <style>
+    :root {
+      --civil-navy: #1b365d;
+      --civil-blue: #0284c7;
+      --civil-amber: #d97706;
+      --civil-green: #059669;
+    }
+    body { font-family: 'Segoe UI', system-ui, -apple-system, sans-serif; background: #f1f5f9; color: #1e293b; }
+    .tab-btn { transition: all 0.15s ease-in-out; color: #cbd5e1; }
+    .tab-btn:hover { color: #ffffff; background: rgba(255,255,255,0.08); }
+    .tab-btn.active { background: #ffffff; color: #1b365d; font-weight: 700; box-shadow: 0 4px 12px rgba(0,0,0,0.12); }
+    .tab-view { display: none; }
+    .tab-view.active { display: block; }
+    .nba-card { background: #ffffff; border-radius: 12px; box-shadow: 0 1px 3px rgba(0,0,0,0.05), 0 10px 20px -5px rgba(0,0,0,0.04); border: 1px solid #e2e8f0; padding: 1.25rem; }
+    .kpi-card { background: #ffffff; border-radius: 12px; padding: 1.15rem; border-left: 4px solid var(--civil-navy); box-shadow: 0 1px 3px rgba(0,0,0,0.05); }
+    table { border-collapse: collapse; width: 100%; font-size: 0.825rem; }
+    th { background: #1b365d; color: #ffffff; padding: 9px 12px; text-align: left; font-size: 0.73rem; font-weight: 600; letter-spacing: 0.04em; text-transform: uppercase; }
+    td { padding: 8px 12px; border-bottom: 1px solid #e2e8f0; }
+    tr:hover td { background: #f8fafc; }
+    .badge { display: inline-flex; align-items: center; padding: 2px 8px; border-radius: 9999px; font-size: 0.72rem; font-weight: 600; }
+    .badge-green { background: #dcfce7; color: #15803d; }
+    .badge-blue  { background: #e0f2fe; color: #0369a1; }
+    .badge-amber { background: #fef3c7; color: #b45309; }
+    .badge-purple{ background: #f3e8ff; color: #7e22ce; }
+    .badge-red   { background: #fee2e2; color: #b91c1c; }
+    .badge-gray  { background: #f1f5f9; color: #475569; }
+    .prog-track { height: 7px; border-radius: 9999px; background: #e2e8f0; overflow: hidden; }
+    .prog-bar   { height: 100%; border-radius: 9999px; background: #1b365d; }
+    .sec-head   { font-size: 1.05rem; font-weight: 700; color: #1b365d; margin-bottom: 0.75rem; padding-bottom: 0.4rem; border-bottom: 2px solid #e2e8f0; display: flex; align-items: center; justify-content: space-between; }
+    /* Modal */
+    #modal-overlay, #modal-intake-overlay, #modal-doc-upload-overlay { display: none; position: fixed; inset: 0; background: rgba(15,23,42,0.6); z-index: 100; align-items: center; justify-content: center; backdrop-filter: blur(2px); }
+    #modal-overlay.open, #modal-intake-overlay.open, #modal-doc-upload-overlay.open { display: flex; }
+    #modal-box { background: white; border-radius: 14px; width: min(96vw, 760px); max-height: 90vh; display: flex; flex-direction: column; box-shadow: 0 25px 50px -12px rgba(0,0,0,0.25); }
+    #modal-intake-box { background: white; border-radius: 14px; width: min(96vw, 920px); max-height: 90vh; display: flex; flex-direction: column; box-shadow: 0 25px 50px -12px rgba(0,0,0,0.25); }
+    #modal-body, #modal-intake-body { overflow-y: auto; flex: 1; padding: 1.5rem; }
+    .form-group label { display: block; font-size: 0.78rem; font-weight: 600; color: #334155; margin-bottom: 0.25rem; }
+    .form-group input, .form-group select { width: 100%; border: 1px solid #cbd5e1; border-radius: 6px; padding: 6px 10px; font-size: 0.85rem; }
+    .form-group input:focus, .form-group select:focus { outline: 2px solid #1b365d; border-color: transparent; }
+    .sem-grid-row { display: grid; grid-template-columns: 85px 1fr 1fr 1fr; gap: 8px; align-items: center; margin-bottom: 6px; }
+    #toast { position: fixed; bottom: 24px; right: 24px; padding: 12px 20px; border-radius: 8px; font-size: 0.875rem; color: white; transform: translateY(100px); opacity: 0; transition: all 0.3s; z-index: 999; }
+    #toast.show { transform: translateY(0); opacity: 1; }
+    canvas { max-height: 260px; }
+  </style>
+</head>
+<body>
+
+  <!-- Top Header with Official University & Civil Engineering Details -->
+  <header style="background: #1b365d;" class="text-white px-5 py-3 shadow-md">
+    <div class="max-w-7xl mx-auto flex flex-col md:flex-row md:items-center justify-between gap-3">
+      <div class="flex items-center gap-3">
+        <div class="w-2 h-11 bg-amber-400 rounded-sm"></div>
+        <div>
+          <div class="text-xs uppercase tracking-wider text-amber-300 font-semibold">CHRIST (Deemed to be University) · Faculty of Engineering</div>
+          <div class="text-lg font-bold flex items-center gap-2">
+            <span>Department of Civil Engineering</span>
+            <span class="text-xs bg-blue-700/80 text-blue-100 px-2 py-0.5 rounded font-normal">Tier-I NBA SAR Cycle</span>
+          </div>
+          <div class="text-xs text-slate-300 mt-0.5">
+            B.Tech in Civil Engineering · Criterion 4: Students' Performance (120 Marks) &amp; P4/P5 Metrics
+          </div>
+        </div>
+      </div>
+      <div class="text-xs text-right bg-blue-900/40 p-2.5 rounded border border-blue-400/20">
+        <div><span class="text-amber-300 font-semibold">Criterion 4 In-Charges:</span> Dr. Arpan Pradhan &amp; Dr. Shibu K Mani</div>
+        <div><span class="text-slate-300">NBA Coordinator:</span> Dr. Thejas H K &nbsp;|&nbsp; <span class="text-slate-300">HOD:</span> Dr. Sujatha Unnikrishnan</div>
+        <div class="text-blue-200 mt-0.5 text-[11px]">Assessment: CAY 2026-27 · CAYm1 2025-26 · CAYm2 2024-25</div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Navigation Bar with all NBA Criteria 4, P4/P5, and Civil Student Tabs -->
+  <nav style="background: #0f2444;" class="px-3 py-1.5 shadow-inner sticky top-0 z-40">
+    <div class="max-w-7xl mx-auto flex flex-wrap gap-1 items-center">
+      <button onclick="switchTab('overview')"      id="tab-overview"      class="tab-btn active px-3 py-1.5 rounded-md text-xs font-medium">🏛️ Overview (Criteria 4 &amp; P4/P5)</button>
+      <button onclick="switchTab('table4a')"       id="tab-table4a"       class="tab-btn px-3 py-1.5 rounded-md text-xs font-medium">📋 Table 4A &amp; 4B (Admissions)</button>
+      <button onclick="switchTab('enrolment')"     id="tab-enrolment"     class="tab-btn px-3 py-1.5 rounded-md text-xs font-medium">4.1 Enrolment (20M)</button>
+      <button onclick="switchTab('successrate')"   id="tab-successrate"   class="tab-btn px-3 py-1.5 rounded-md text-xs font-medium">4.2 Success Rate (15M)</button>
+      <button onclick="switchTab('api')"           id="tab-api"           class="tab-btn px-3 py-1.5 rounded-md text-xs font-medium">4.3–4.5 API (30M)</button>
+      <button onclick="switchTab('placement')"     id="tab-placement"     class="tab-btn px-3 py-1.5 rounded-md text-xs font-medium">4.6 Placement (30M)</button>
+      <button onclick="switchTab('activities')"    id="tab-activities"    class="tab-btn px-3 py-1.5 rounded-md text-xs font-medium">4.7 Activities (25M)</button>
+      <button onclick="switchTab('p4progression')" id="tab-p4progression" class="tab-btn px-3 py-1.5 rounded-md text-xs font-medium">📊 P-4 Student Progression</button>
+      <button onclick="switchTab('p5analysis')"    id="tab-p5analysis"    class="tab-btn px-3 py-1.5 rounded-md text-xs font-medium">📈 P-5 Result Classification</button>
+      <button onclick="switchTab('students')"      id="tab-students"      class="tab-btn px-3 py-1.5 rounded-md text-xs font-medium">Student Directory</button>
+      <button onclick="switchTab('p4files')"       id="tab-p4files"       class="tab-btn px-3 py-1.5 rounded-md text-xs font-medium">📁 P4 Files &amp; Word DOC</button>
+    </div>
+  </nav>
+
+  <!-- Main Container -->
+  <main class="max-w-7xl mx-auto p-4 md:p-6 space-y-6">
+
+    <!-- =====================================================================
+         1. OVERVIEW: Only NBA Criteria 4, P-4, and P-5 Information
+         ===================================================================== -->
+    <div id="view-overview" class="tab-view active space-y-6">
+      
+      <!-- Top Banner Summary -->
+      <div class="bg-gradient-to-r from-blue-900 via-indigo-900 to-slate-900 text-white rounded-xl p-5 shadow-sm border border-blue-800">
+        <div class="flex flex-col md:flex-row md:items-center justify-between gap-4">
+          <div>
+            <span class="inline-block px-2.5 py-0.5 rounded text-[11px] font-semibold bg-amber-400 text-slate-900 mb-2">NBA TIER-I SAR CRITERION 4 REPORT</span>
+            <h1 class="text-xl font-bold">Students' Performance Assessment &amp; Pre-Qualifier Compliance</h1>
+            <p class="text-xs text-blue-200 mt-1 max-w-2xl">
+              Civil Engineering B.Tech program evaluation covering Enrolment Ratio (4.1), Success Rate within Stipulated Period (4.2), Academic Performance Indices (4.3–4.5), Placement &amp; Progression (4.6), and Professional Activities (4.7) alongside NBA Pre-Qualifier P-4 and P-5 records.
+            </p>
+          </div>
+          <div class="bg-white/10 backdrop-blur rounded-lg p-3 text-center border border-white/15 min-w-[200px]">
+            <div class="text-xs text-blue-200 uppercase font-medium">Criterion 4 Claimed Score</div>
+            <div class="text-3xl font-extrabold text-amber-400 mt-0.5">102.07 <span class="text-sm font-normal text-slate-200">/ 120</span></div>
+            <div class="text-[11px] text-emerald-400 font-semibold mt-1">★ 85.06% Achievement Ratio</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- KPI Metrics Grid (NBA Specific) -->
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+        <div class="kpi-card">
+          <div class="text-xs font-semibold text-slate-500 uppercase">4.1 Enrolment Ratio</div>
+          <div class="text-2xl font-bold text-slate-800 mt-1">97.8%</div>
+          <div class="text-xs text-emerald-600 font-semibold mt-0.5">20.00 / 20 Marks (≥90%)</div>
+          <div class="text-[11px] text-slate-400 mt-1">Sanctioned: 60/yr · 3-Yr Avg</div>
+        </div>
+        <div class="kpi-card" style="border-left-color: #059669;">
+          <div class="text-xs font-semibold text-slate-500 uppercase">4.2 Success Rate</div>
+          <div class="text-2xl font-bold text-emerald-600 mt-1">80.07%</div>
+          <div class="text-xs text-emerald-700 font-semibold mt-0.5">12.01 / 15 Marks</div>
+          <div class="text-[11px] text-slate-400 mt-1">Without + With Backlogs</div>
+        </div>
+        <div class="kpi-card" style="border-left-color: #d97706;">
+          <div class="text-xs font-semibold text-slate-500 uppercase">4.3–4.5 Average API</div>
+          <div class="text-2xl font-bold text-amber-600 mt-1">6.15</div>
+          <div class="text-xs text-amber-700 font-semibold mt-0.5">18.45 / 30 Marks</div>
+          <div class="text-[11px] text-slate-400 mt-1">1st Yr: 5.55 | 2nd: 6.19 | 3rd: 6.71</div>
+        </div>
+        <div class="kpi-card" style="border-left-color: #7c3aed;">
+          <div class="text-xs font-semibold text-slate-500 uppercase">4.6 Placement &amp; Higher</div>
+          <div class="text-2xl font-bold text-indigo-600 mt-1">93.71%</div>
+          <div class="text-xs text-indigo-700 font-semibold mt-0.5">28.11 / 30 Marks</div>
+          <div class="text-[11px] text-slate-400 mt-1">Placed + Higher Studies + Entrep.</div>
+        </div>
+      </div>
+
+      <!-- Criterion 4 Full Scorecard Table & Visuals -->
+      <div class="grid grid-cols-1 lg:grid-cols-3 gap-6">
+        
+        <!-- Scorecard Table (2 cols) -->
+        <div class="lg:col-span-2 nba-card">
+          <div class="sec-head">
+            <span>NBA Criterion 4 Evaluation Scorecard (Table 15 Summary)</span>
+            <span class="text-xs bg-slate-100 text-slate-600 px-2 py-1 rounded font-normal">Source: Criterion-4_Completed_PreQualifier.docx</span>
+          </div>
+          <div class="overflow-x-auto">
+            <table>
+              <thead>
+                <tr>
+                  <th>Sub-Criterion</th>
+                  <th>Evaluation Parameter</th>
+                  <th>Assessment Basis</th>
+                  <th class="text-right">Max</th>
+                  <th class="text-right">Claimed</th>
+                  <th class="text-center">% Scored</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td class="font-bold text-blue-900">4.1</td>
+                  <td class="font-medium">Enrolment Ratio in First Year</td>
+                  <td>Avg ER = 97.8% (≥90% criteria met across CAY, CAYm1, CAYm2)</td>
+                  <td class="text-right">20</td>
+                  <td class="text-right font-bold text-emerald-700">20.00</td>
+                  <td class="text-center"><span class="badge badge-green">100%</span></td>
+                </tr>
+                <tr>
+                  <td class="font-bold text-blue-900">4.2</td>
+                  <td class="font-medium">Success Rate in Stipulated Period</td>
+                  <td>Avg SR = 80.07% (LYG: 86.36%, LYGm1: 61.54%, LYGm2: 92.31%)</td>
+                  <td class="text-right">15</td>
+                  <td class="text-right font-bold text-emerald-700">12.01</td>
+                  <td class="text-center"><span class="badge badge-green">80.1%</span></td>
+                </tr>
+                <tr>
+                  <td class="font-bold text-blue-900">4.3</td>
+                  <td class="font-medium">Academic Performance — 1st Year</td>
+                  <td>Avg 1st Year API = 5.55 across 2023, 2022, 2021 Batches</td>
+                  <td class="text-right">10</td>
+                  <td class="text-right font-bold text-amber-700">5.55</td>
+                  <td class="text-center"><span class="badge badge-amber">55.5%</span></td>
+                </tr>
+                <tr>
+                  <td class="font-bold text-blue-900">4.4</td>
+                  <td class="font-medium">Academic Performance — 2nd Year</td>
+                  <td>Avg 2nd Year API = 6.19 across 2022, 2021, 2020 Batches</td>
+                  <td class="text-right">10</td>
+                  <td class="text-right font-bold text-amber-700">6.19</td>
+                  <td class="text-center"><span class="badge badge-amber">61.9%</span></td>
+                </tr>
+                <tr>
+                  <td class="font-bold text-blue-900">4.5</td>
+                  <td class="font-medium">Academic Performance — 3rd Year</td>
+                  <td>Avg 3rd Year API = 6.71 across 2021, 2020, 2019 Batches</td>
+                  <td class="text-right">10</td>
+                  <td class="text-right font-bold text-emerald-700">6.71</td>
+                  <td class="text-center"><span class="badge badge-green">67.1%</span></td>
+                </tr>
+                <tr>
+                  <td class="font-bold text-blue-900">4.6</td>
+                  <td class="font-medium">Placement, Higher Studies &amp; Entrep.</td>
+                  <td>Avg Placement Index = 93.71% (LYG: 89.47%, LYGm1: 100%, LYGm2: 91.67%)</td>
+                  <td class="text-right">30</td>
+                  <td class="text-right font-bold text-emerald-700">28.11</td>
+                  <td class="text-center"><span class="badge badge-green">93.7%</span></td>
+                </tr>
+                <tr>
+                  <td class="font-bold text-blue-900">4.7</td>
+                  <td class="font-medium">Professional Activities</td>
+                  <td>ASCE, ICI, IGBC, IEI Chapters + NIRMAN Newsletter + Magazines</td>
+                  <td class="text-right">25</td>
+                  <td class="text-right font-bold text-emerald-700">23.50</td>
+                  <td class="text-center"><span class="badge badge-green">94.0%</span></td>
+                </tr>
+                <tr class="bg-blue-50/70 font-bold border-t-2 border-blue-900">
+                  <td colspan="3" class="text-blue-950">TOTAL CRITERION 4 MARKS CLAIMED</td>
+                  <td class="text-right text-blue-950">120</td>
+                  <td class="text-right text-emerald-700 text-base">102.07</td>
+                  <td class="text-center"><span class="badge badge-green">85.1%</span></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+        <!-- Radar / Progress Chart (1 col) -->
+        <div class="nba-card flex flex-col justify-between">
+          <div class="sec-head">
+            <span>Score Attainment Radar</span>
+            <span class="text-xs text-slate-400">120 Max</span>
+          </div>
+          <div class="flex-1 flex items-center justify-center">
+            <canvas id="chartCriteriaRadar" class="w-full"></canvas>
+          </div>
+          <div class="mt-3 pt-3 border-t border-slate-100 text-xs text-slate-500 space-y-1">
+            <div class="flex justify-between"><span>Program:</span> <span class="font-medium text-slate-700">B.Tech Civil Engineering</span></div>
+            <div class="flex justify-between"><span>Criteria Incharge:</span> <span class="font-medium text-slate-700">Dr. Arpan Pradhan &amp; Dr. Shibu K Mani</span></div>
+            <div class="flex justify-between"><span>Pre-Qualifier Status:</span> <span class="font-bold text-emerald-600">COMPLETED &amp; COMPLIANT</span></div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Pre-Qualifier P-4 and P-5 Summary Row -->
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+        
+        <!-- P-4 Summary Card -->
+        <div class="nba-card">
+          <div class="sec-head">
+            <span>P-4 Summary — Students Graduated (Without &amp; With Backlogs)</span>
+            <span class="badge badge-blue">Table 4.1</span>
+          </div>
+          <p class="text-xs text-slate-600 mb-3">Comparison of successfully graduated students against total cohort size across the three assessment batches.</p>
+          <div class="overflow-x-auto">
+            <table>
+              <thead>
+                <tr>
+                  <th>Graduating Batch</th>
+                  <th class="text-center">Total Admitted (A*)</th>
+                  <th class="text-center">Without Backlogs</th>
+                  <th class="text-center">With Backlogs</th>
+                  <th class="text-center">Total Graduated (B)</th>
+                  <th class="text-right">Success Rate</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td class="font-semibold">Batch 2022 (LYG)</td>
+                  <td class="text-center">22</td>
+                  <td class="text-center font-semibold text-emerald-600">7</td>
+                  <td class="text-center font-semibold text-amber-600">12</td>
+                  <td class="text-center font-bold">19</td>
+                  <td class="text-right font-bold text-emerald-700">86.36%</td>
+                </tr>
+                <tr>
+                  <td class="font-semibold">Batch 2021 (LYGm1)</td>
+                  <td class="text-center">13</td>
+                  <td class="text-center font-semibold text-emerald-600">5</td>
+                  <td class="text-center font-semibold text-amber-600">3</td>
+                  <td class="text-center font-bold">8</td>
+                  <td class="text-right font-bold text-emerald-700">61.54%</td>
+                </tr>
+                <tr>
+                  <td class="font-semibold">Batch 2020 (LYGm2)</td>
+                  <td class="text-center">26</td>
+                  <td class="text-center font-semibold text-emerald-600">10</td>
+                  <td class="text-center font-semibold text-amber-600">14</td>
+                  <td class="text-center font-bold">24</td>
+                  <td class="text-right font-bold text-emerald-700">92.31%</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="mt-3 pt-2 text-xs flex justify-between items-center text-slate-500">
+            <span>Average Graduation Success Rate: <strong>80.07%</strong></span>
+            <button onclick="switchTab('p4progression')" class="text-blue-700 font-semibold hover:underline">View Detailed P-4 Lists →</button>
+          </div>
+        </div>
+
+        <!-- P-5 Summary Card -->
+        <div class="nba-card">
+          <div class="sec-head">
+            <span>P-5 Summary — Semester-wise Division of Class</span>
+            <span class="badge badge-purple">Table 5.1</span>
+          </div>
+          <p class="text-xs text-slate-600 mb-3">Academic performance distribution across Semester I to VIII (Distinction, First Class, Second Class, Pass, Fail).</p>
+          <canvas id="chartP5Overview"></canvas>
+          <div class="mt-3 pt-2 text-xs flex justify-between items-center text-slate-500">
+            <span>Final Sem Distinction Rate: <strong>60.9%</strong> | Avg Final Marks: <strong>81.22%</strong></span>
+            <button onclick="switchTab('p5analysis')" class="text-blue-700 font-semibold hover:underline">View Full P-5 Matrix →</button>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
+    <!-- =====================================================================
+         2. TABLE 4A & 4B: Formal NBA Pre-Qualifier Admission & Exits
+         ===================================================================== -->
+    <div id="view-table4a" class="tab-view space-y-6">
+      <div class="nba-card">
+        <div class="sec-head">
+          <span>Table No. 4A: Admission Details (Excluding Multiple Entry &amp; Exit)</span>
+          <button onclick="openIntakeModal()" class="px-2.5 py-1 bg-blue-900 hover:bg-blue-800 text-white rounded text-xs font-semibold flex items-center gap-1 shadow-sm transition">
+            ⚙️ Edit Sanctioned Intake &amp; Config
+          </button>
+        </div>
+        <p class="text-xs text-slate-600 mb-4">Official admission statistics for B.Tech Civil Engineering. <strong>N1</strong> (Regular) and <strong>N2</strong> (Lateral) are dynamically pooled from the <strong>Student Directory</strong>; <strong>N</strong> (Sanctioned Intake) can be adjusted anytime.</p>
+        <div class="overflow-x-auto">
+          <table class="whitespace-nowrap">
+            <thead>
+              <tr>
+                <th>Item / Parameter</th>
+                <th class="text-center">CAY<br><span class="text-[10px] text-blue-200">(2026-27)</span></th>
+                <th class="text-center">CAYm1<br><span class="text-[10px] text-blue-200">(2025-26)</span></th>
+                <th class="text-center">CAYm2<br><span class="text-[10px] text-blue-200">(2024-25)</span></th>
+                <th class="text-center">CAYm3<br><span class="text-[10px] text-blue-200">(2023-24)</span></th>
+                <th class="text-center">CAYm4 (LYG)<br><span class="text-[10px] text-blue-200">(2022-23)</span></th>
+                <th class="text-center">CAYm5 (LYGm1)<br><span class="text-[10px] text-blue-200">(2021-22)</span></th>
+                <th class="text-center">CAYm6 (LYGm2)<br><span class="text-[10px] text-blue-200">(2020-21)</span></th>
+              </tr>
+            </thead>
+            <tbody id="table4a-dynamic-body"></tbody>
+          </table>
+        </div>
+      </div>
+
+      <!-- Table 4B and Table 4C -->
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+        <div class="nba-card">
+          <div class="sec-head"><span>Table 4B: Multiple Entry and Exit Points</span></div>
+          <div class="overflow-x-auto">
+            <table class="whitespace-nowrap">
+              <thead>
+                <tr>
+                  <th>Item / Batch</th>
+                  <th class="text-center">2022 (LYG)</th>
+                  <th class="text-center">2021 (LYGm1)</th>
+                  <th class="text-center">2020 (LYGm2)</th>
+                </tr>
+              </thead>
+              <tbody id="table4b-dynamic-body"></tbody>
+            </table>
+          </div>
+        </div>
+
+        <div class="nba-card">
+          <div class="sec-head"><span>Table 4C: Total Graduated in Stipulated Period</span></div>
+          <div class="overflow-x-auto">
+            <table class="whitespace-nowrap">
+              <thead>
+                <tr>
+                  <th>Year of Entry</th>
+                  <th class="text-center">Effective (A*)</th>
+                  <th class="text-center">Graduated (B)</th>
+                  <th class="text-center">Success %</th>
+                  <th class="text-center">Status</th>
+                </tr>
+              </thead>
+              <tbody id="table4c-dynamic-body"></tbody>
+            </table>
+          </div>
+          <div class="mt-3 p-2.5 bg-emerald-50 rounded text-xs text-emerald-800">
+            <strong>Formula:</strong> A* = (N1 + N2 + N3 + N4 + N5 - N6). B = Total students graduated within stipulated period.
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- =====================================================================
+         3. 4.1 ENROLMENT RATIO (20 MARKS)
+         ===================================================================== -->
+    <div id="view-enrolment" class="tab-view space-y-6">
+      <div class="nba-card">
+        <div class="sec-head">
+          <span>4.1 Enrolment Ratio Evaluation (20 Marks)</span>
+          <span class="badge badge-green">Full 20.00 / 20 Claimed</span>
+        </div>
+        <div id="enrolment-kpis" class="grid grid-cols-1 md:grid-cols-3 gap-4 mb-5"></div>
+
+        <div class="overflow-x-auto">
+          <table class="whitespace-nowrap">
+            <thead>
+              <tr>
+                <th>Assessment Parameter</th>
+                <th class="text-center">CAY (2026-27)</th>
+                <th class="text-center">CAYm1 (2025-26)</th>
+                <th class="text-center">CAYm2 (2024-25)</th>
+              </tr>
+            </thead>
+            <tbody id="table-enrolment-dynamic-body"></tbody>
+          </table>
+        </div>
+
+        <div id="enrolment-calc-box" class="mt-4 p-3 bg-emerald-50 border border-emerald-200 rounded-lg text-xs text-emerald-900 leading-relaxed"></div>
+      </div>
+
+      <div class="nba-card">
+        <div class="sec-head"><span>Enrolment Trend Chart</span></div>
+        <canvas id="chartEnrolmentTrend"></canvas>
+      </div>
+    </div>
+
+    <!-- =====================================================================
+         4. 4.2 SUCCESS RATE (15 MARKS)
+         ===================================================================== -->
+    <div id="view-successrate" class="tab-view space-y-6">
+      <div class="nba-card">
+        <div class="sec-head">
+          <span>4.2 Success Rate in Stipulated Period (15 Marks)</span>
+          <span class="badge badge-green">12.01 / 15 Claimed</span>
+        </div>
+        <div class="overflow-x-auto">
+          <table>
+            <thead>
+              <tr>
+                <th>Item / Parameter</th>
+                <th class="text-center">LYG (Batch 2022)</th>
+                <th class="text-center">LYGm1 (Batch 2021)</th>
+                <th class="text-center">LYGm2 (Batch 2020)</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr><td>A* = Admitted (1st yr + Lateral - Exits)</td><td class="text-center">22</td><td class="text-center">13</td><td class="text-center">26</td></tr>
+              <tr><td>Graduated WITHOUT Backlogs</td><td class="text-center text-emerald-600 font-semibold">7</td><td class="text-center text-emerald-600 font-semibold">5</td><td class="text-center text-emerald-600 font-semibold">10</td></tr>
+              <tr><td>Graduated WITH Backlogs</td><td class="text-center text-amber-600 font-semibold">12</td><td class="text-center text-amber-600 font-semibold">3</td><td class="text-center text-amber-600 font-semibold">14</td></tr>
+              <tr class="font-bold"><td>B = Total Graduated in Stipulated Duration</td><td class="text-center">19</td><td class="text-center">8</td><td class="text-center">24</td></tr>
+              <tr class="bg-blue-50/70 font-bold border-t-2 border-slate-300">
+                <td>Success Rate (SR = (B / A*) * 100)</td>
+                <td class="text-center text-emerald-700">86.36%</td>
+                <td class="text-center text-emerald-700">61.54%</td>
+                <td class="text-center text-emerald-700">92.31%</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="mt-4 p-3 bg-blue-50 border border-blue-200 rounded-lg text-xs text-blue-900 leading-relaxed">
+          <strong>NBA Calculation:</strong> Average SR of three batches = (86.36 + 61.54 + 92.31) / 3 = <strong>80.07%</strong>.<br>
+          <strong>Marks Awarded:</strong> 1.5 × Average SR / 10 = 1.5 × 80.07 / 10 = <strong>12.01 / 15 Marks</strong>.
+        </div>
+      </div>
+
+      <div class="nba-card">
+        <div class="sec-head"><span>Success Rate Distribution (Without vs With Backlog)</span></div>
+        <canvas id="chartSuccessBreakdown"></canvas>
+      </div>
+    </div>
+
+    <!-- =====================================================================
+         5. 4.3–4.5 ACADEMIC PERFORMANCE INDEX (API - 30 MARKS)
+         ===================================================================== -->
+    <div id="view-api" class="tab-view space-y-6">
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+        <div class="kpi-card">
+          <div class="text-xs font-semibold text-slate-500 uppercase">4.3 1st Year API</div>
+          <div class="text-2xl font-bold text-slate-800 mt-1">5.55 <span class="text-xs font-normal text-slate-500">/ 10</span></div>
+          <div class="text-xs text-slate-500 mt-1">CAYm1: 5.90 | CAYm2: 5.41 | CAYm3: 5.34</div>
+        </div>
+        <div class="kpi-card" style="border-left-color: #0284c7;">
+          <div class="text-xs font-semibold text-slate-500 uppercase">4.4 2nd Year API</div>
+          <div class="text-2xl font-bold text-slate-800 mt-1">6.19 <span class="text-xs font-normal text-slate-500">/ 10</span></div>
+          <div class="text-xs text-slate-500 mt-1">CAYm1: 5.69 | CAYm2: 6.47 | CAYm3: 6.40</div>
+        </div>
+        <div class="kpi-card" style="border-left-color: #059669;">
+          <div class="text-xs font-semibold text-slate-500 uppercase">4.5 3rd Year API</div>
+          <div class="text-2xl font-bold text-slate-800 mt-1">6.71 <span class="text-xs font-normal text-slate-500">/ 10</span></div>
+          <div class="text-xs text-slate-500 mt-1">CAYm1: 7.11 | CAYm2: 6.35 | CAYm3: 6.66</div>
+        </div>
+      </div>
+
+      <!-- API Breakdown Tables -->
+      <div class="nba-card">
+        <div class="sec-head"><span>Summary of Academic Performance Indices (API = X × (Y / Z))</span></div>
+        <div class="overflow-x-auto">
+          <table>
+            <thead>
+              <tr>
+                <th>Criterion Level</th>
+                <th>Assessed Cohorts</th>
+                <th class="text-center">Batch 1 API</th>
+                <th class="text-center">Batch 2 API</th>
+                <th class="text-center">Batch 3 API</th>
+                <th class="text-right">Average API</th>
+                <th class="text-right">Marks Claimed</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="font-bold">4.3 First Year API</td>
+                <td>CAYm1 (2023), CAYm2 (2022), CAYm3 (2021)</td>
+                <td class="text-center">5.90</td>
+                <td class="text-center">5.41</td>
+                <td class="text-center">5.34</td>
+                <td class="text-right font-bold">5.55</td>
+                <td class="text-right font-bold text-emerald-700">5.55 / 10</td>
+              </tr>
+              <tr>
+                <td class="font-bold">4.4 Second Year API</td>
+                <td>CAYm1 (2022), CAYm2 (2021), CAYm3 (2020)</td>
+                <td class="text-center">5.69</td>
+                <td class="text-center">6.47</td>
+                <td class="text-center">6.40</td>
+                <td class="text-right font-bold">6.19</td>
+                <td class="text-right font-bold text-emerald-700">6.19 / 10</td>
+              </tr>
+              <tr>
+                <td class="font-bold">4.5 Third Year API</td>
+                <td>CAYm1 (2021), CAYm2 (2020), CAYm3 (2019)</td>
+                <td class="text-center">7.11</td>
+                <td class="text-center">6.35</td>
+                <td class="text-center">6.66</td>
+                <td class="text-right font-bold">6.71</td>
+                <td class="text-right font-bold text-emerald-700">6.71 / 10</td>
+              </tr>
+              <tr class="bg-blue-50/70 font-bold border-t-2 border-slate-300">
+                <td colspan="5">TOTAL ACADEMIC PERFORMANCE (API) MARKS CLAIMED</td>
+                <td class="text-right text-blue-950">18.45 / 30</td>
+                <td class="text-right text-emerald-700 text-base">18.45 / 30</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <div class="nba-card">
+        <div class="sec-head"><span>API Progression Across Years</span></div>
+        <canvas id="chartApiProgression"></canvas>
+      </div>
+    </div>
+
+    <!-- =====================================================================
+         6. 4.6 PLACEMENT, HIGHER STUDIES & ENTREPRENEURSHIP (30 MARKS)
+         ===================================================================== -->
+    <div id="view-placement" class="tab-view space-y-6">
+      <div class="nba-card">
+        <div class="sec-head">
+          <span>4.6 Placement, Higher Studies and Entrepreneurship (30 Marks)</span>
+          <span class="badge badge-green">28.11 / 30 Claimed</span>
+        </div>
+        <div class="overflow-x-auto">
+          <table>
+            <thead>
+              <tr>
+                <th>Item / Parameter</th>
+                <th class="text-center">LYG (Batch 2022)</th>
+                <th class="text-center">LYGm1 (Batch 2021)</th>
+                <th class="text-center">LYGm2 (Batch 2020)</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr><td>FS* = Total Final Year Students</td><td class="text-center font-bold">19</td><td class="text-center font-bold">8</td><td class="text-center font-bold">24</td></tr>
+              <tr><td>X = Students Placed in Industry</td><td class="text-center text-emerald-600 font-semibold">13</td><td class="text-center text-emerald-600 font-semibold">5</td><td class="text-center text-emerald-600 font-semibold">16</td></tr>
+              <tr><td>Y = Admitted to Higher Studies (M.Tech/MS)</td><td class="text-center text-blue-600 font-semibold">3</td><td class="text-center text-blue-600 font-semibold">2</td><td class="text-center text-blue-600 font-semibold">5</td></tr>
+              <tr><td>Z = Taking up Entrepreneurship</td><td class="text-center text-purple-600 font-semibold">1</td><td class="text-center text-purple-600 font-semibold">1</td><td class="text-center text-purple-600 font-semibold">1</td></tr>
+              <tr class="font-bold"><td>Total Career Progression (X + Y + Z)</td><td class="text-center">17</td><td class="text-center">8</td><td class="text-center">22</td></tr>
+              <tr class="bg-blue-50/70 font-bold border-t-2 border-slate-300">
+                <td>Placement Index (P = ((X+Y+Z)/FS) * 100)</td>
+                <td class="text-center text-emerald-700">89.47%</td>
+                <td class="text-center text-emerald-700">100.00%</td>
+                <td class="text-center text-emerald-700">91.67%</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="mt-4 p-3 bg-emerald-50 border border-emerald-200 rounded-lg text-xs text-emerald-900 leading-relaxed">
+          <strong>NBA Calculation:</strong> Average Placement Index = (89.47 + 100.00 + 91.67) / 3 = <strong>93.71%</strong>.<br>
+          <strong>Marks Awarded:</strong> 0.30 × Average P = 0.30 × 93.71 = <strong>28.11 / 30 Marks</strong>.
+        </div>
+      </div>
+
+      <!-- Civil Recruiters & Highlights -->
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+        <div class="nba-card">
+          <div class="sec-head"><span>Key Civil Engineering Recruiters</span></div>
+          <div class="flex flex-wrap gap-2 pt-2">
+            <span class="badge badge-blue">L&amp;T Construction</span>
+            <span class="badge badge-blue">Tata Projects</span>
+            <span class="badge badge-blue">Sobha Developers</span>
+            <span class="badge badge-blue">Afcons Infrastructure</span>
+            <span class="badge badge-blue">NCC Urban</span>
+            <span class="badge badge-blue">Prestige Group</span>
+            <span class="badge badge-blue">Brigade Group</span>
+            <span class="badge badge-blue">Atkins Global</span>
+            <span class="badge badge-blue">Shapoorji Pallonji</span>
+          </div>
+          <div class="mt-4 text-xs text-slate-500">
+            Average Salary Package: <strong>₹6.2 LPA</strong> | Highest Package: <strong>₹9.5 LPA</strong>
+          </div>
+        </div>
+
+        <div class="nba-card">
+          <div class="sec-head"><span>Higher Studies Institutes</span></div>
+          <div class="flex flex-wrap gap-2 pt-2">
+            <span class="badge badge-purple">IIT Madras (Structural Engg)</span>
+            <span class="badge badge-purple">IIT Bombay (Geotechnical)</span>
+            <span class="badge badge-purple">NITK Surathkal (Transportation)</span>
+            <span class="badge badge-purple">NICMAR Pune (ACM)</span>
+            <span class="badge badge-purple">NUS Singapore (Civil &amp; Env)</span>
+            <span class="badge badge-purple">TU Delft (Hydraulics)</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- =====================================================================
+         7. 4.7 PROFESSIONAL ACTIVITIES (25 MARKS)
+         ===================================================================== -->
+    <div id="view-activities" class="tab-view space-y-6">
+      <div class="nba-card">
+        <div class="sec-head">
+          <span>4.7 Professional Activities &amp; Student Bodies (25 Marks)</span>
+          <span class="badge badge-green">23.50 / 25 Claimed</span>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-4">
+          <div>
+            <div class="text-xs font-bold uppercase text-slate-500 mb-2">Student Chapters &amp; Professional Societies</div>
+            <div class="space-y-2 text-xs">
+              <div class="p-2.5 bg-slate-50 rounded border flex items-center justify-between">
+                <div><strong>ASCE</strong> — American Society of Civil Engineers (Student Chapter)</div>
+                <span class="badge badge-green">Active</span>
+              </div>
+              <div class="p-2.5 bg-slate-50 rounded border flex items-center justify-between">
+                <div><strong>ICI</strong> — Indian Concrete Institute (Student Chapter)</div>
+                <span class="badge badge-green">Active</span>
+              </div>
+              <div class="p-2.5 bg-slate-50 rounded border flex items-center justify-between">
+                <div><strong>IGBC</strong> — Indian Green Building Council (Student Chapter)</div>
+                <span class="badge badge-green">Active</span>
+              </div>
+              <div class="p-2.5 bg-slate-50 rounded border flex items-center justify-between">
+                <div><strong>IEI</strong> — Institution of Engineers (India) Civil Chapter</div>
+                <span class="badge badge-green">Active</span>
+              </div>
+            </div>
+          </div>
+
+          <div>
+            <div class="text-xs font-bold uppercase text-slate-500 mb-2">Department Publications &amp; Newsletters</div>
+            <div class="space-y-2 text-xs">
+              <div class="p-2.5 bg-slate-50 rounded border">
+                <div class="font-bold text-blue-900">NIRMAN — Department Newsletter</div>
+                <div class="text-slate-500">Editor: Dr. Shibu K Mani · Frequency: 2 Issues / Year · Student Editorial Team</div>
+              </div>
+              <div class="p-2.5 bg-slate-50 rounded border">
+                <div class="font-bold text-blue-900">CIVIL TECH HORIZONS — Annual Magazine</div>
+                <div class="text-slate-500">Editor: Dr. Arpan Pradhan · Frequency: Annual · Technical Papers &amp; Designs</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- =====================================================================
+         8. P-4 STUDENT PROGRESSION
+         ===================================================================== -->
+    <div id="view-p4progression" class="tab-view space-y-6">
+      <div class="nba-card">
+        <div class="sec-head">
+          <span>P-4.1.1 Summary Report: Students Appeared vs Successfully Completed</span>
+          <div class="flex gap-2 items-center">
+            <a href="/download/p4-template" class="px-2.5 py-1 bg-amber-600 hover:bg-amber-700 text-white rounded text-xs font-semibold shadow-sm transition">⬇ P-4 Blank Template (.xlsx)</a>
+            <a href="/download/p4-completed" class="px-2.5 py-1 bg-emerald-700 hover:bg-emerald-800 text-white rounded text-xs font-semibold shadow-sm transition">⬇ P-4 Completed (.xlsx)</a>
+          </div>
+        </div>
+        <div class="overflow-x-auto">
+          <table>
+            <thead>
+              <tr>
+                <th>Batch</th>
+                <th class="text-center">Appeared in Exam</th>
+                <th class="text-center">Completed W/O Backlogs</th>
+                <th class="text-center">Completed W/ Backlogs</th>
+                <th class="text-center">Total Graduates</th>
+                <th class="text-center">Total in Batch</th>
+                <th class="text-right">Success %</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="font-bold">Batch of (2022-23 / LYG)</td>
+                <td class="text-center">19</td>
+                <td class="text-center font-bold text-emerald-600">7</td>
+                <td class="text-center font-bold text-amber-600">12</td>
+                <td class="text-center font-bold">19</td>
+                <td class="text-center">22</td>
+                <td class="text-right font-bold text-emerald-700">86.36%</td>
+              </tr>
+              <tr>
+                <td class="font-bold">Batch of (2021-22 / LYGm1)</td>
+                <td class="text-center">8</td>
+                <td class="text-center font-bold text-emerald-600">5</td>
+                <td class="text-center font-bold text-amber-600">3</td>
+                <td class="text-center font-bold">8</td>
+                <td class="text-center">13</td>
+                <td class="text-right font-bold text-emerald-700">61.54%</td>
+              </tr>
+              <tr>
+                <td class="font-bold">Batch of (2020-21 / LYGm2)</td>
+                <td class="text-center">24</td>
+                <td class="text-center font-bold text-emerald-600">10</td>
+                <td class="text-center font-bold text-amber-600">14</td>
+                <td class="text-center font-bold">24</td>
+                <td class="text-center">26</td>
+                <td class="text-right font-bold text-emerald-700">92.31%</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <!-- Filterable P-4 Graduated Students Table -->
+      <div class="nba-card">
+        <div class="sec-head">
+          <span>P-4.2 Graduated Civil Engineering Students Roster</span>
+          <div class="flex gap-2">
+            <select id="p4-filter-type" onchange="renderP4Roster()" class="text-xs border rounded p-1">
+              <option value="all">All Graduated Students</option>
+              <option value="without">Without Backlogs (Table 4.2)</option>
+              <option value="with">With Backlogs (Table 4.3)</option>
+            </select>
+            <select id="p4-filter-batch" onchange="renderP4Roster()" class="text-xs border rounded p-1">
+              <option value="all">All Batches</option>
+              <option value="2022">Batch 2022</option>
+              <option value="2021">Batch 2021</option>
+              <option value="2020">Batch 2020</option>
+            </select>
+          </div>
+        </div>
+        <div class="overflow-x-auto">
+          <table>
+            <thead>
+              <tr>
+                <th>Reg No</th>
+                <th>Student Name</th>
+                <th>Batch</th>
+                <th>Gender</th>
+                <th>State</th>
+                <th>Graduation Status</th>
+                <th>Final CGPA / %</th>
+              </tr>
+            </thead>
+            <tbody id="p4-roster-body"></tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+
+    <!-- =====================================================================
+         9. P-5 RESULT ANALYSIS & DIVISION OF CLASS
+         ===================================================================== -->
+    <div id="view-p5analysis" class="tab-view space-y-6">
+      <div class="nba-card">
+        <div class="sec-head">
+          <span>P-5.1.1 Summary Report of Graduated Students (Table 5.1 Division of Class)</span>
+          <div class="flex gap-2 items-center">
+            <a href="/download/p5-template" class="px-2.5 py-1 bg-amber-600 hover:bg-amber-700 text-white rounded text-xs font-semibold shadow-sm transition">⬇ P-5 Blank Template (.xlsx)</a>
+            <a href="/download/p5-completed" class="px-2.5 py-1 bg-purple-700 hover:bg-purple-800 text-white rounded text-xs font-semibold shadow-sm transition">⬇ P-5 Completed (.xlsx)</a>
+          </div>
+        </div>
+        <div class="overflow-x-auto">
+          <table>
+            <thead>
+              <tr>
+                <th>Academic Year / Division</th>
+                <th colspan="2" class="text-center">I Year</th>
+                <th colspan="2" class="text-center">II Year</th>
+                <th colspan="2" class="text-center">III Year</th>
+                <th colspan="2" class="text-center">IV Year</th>
+              </tr>
+              <tr>
+                <th>Classification</th>
+                <th class="text-center">Sem I</th>
+                <th class="text-center">Sem II</th>
+                <th class="text-center">Sem III</th>
+                <th class="text-center">Sem IV</th>
+                <th class="text-center">Sem V</th>
+                <th class="text-center">Sem VI</th>
+                <th class="text-center">Sem VII</th>
+                <th class="text-center">Sem VIII</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="font-semibold text-emerald-700">First Class with Distinction (FC-D)</td>
+                <td class="text-center">1</td><td class="text-center">2</td><td class="text-center">1</td><td class="text-center">3</td>
+                <td class="text-center">1</td><td class="text-center">1</td><td class="text-center">2</td><td class="text-center font-bold text-emerald-700">14</td>
+              </tr>
+              <tr>
+                <td class="font-semibold text-blue-700">First Class (FC)</td>
+                <td class="text-center">14</td><td class="text-center">18</td><td class="text-center">20</td><td class="text-center">18</td>
+                <td class="text-center">11</td><td class="text-center">9</td><td class="text-center">17</td><td class="text-center font-bold text-blue-700">9</td>
+              </tr>
+              <tr>
+                <td class="font-semibold text-amber-700">Second Class (SC)</td>
+                <td class="text-center">9</td><td class="text-center">3</td><td class="text-center">0</td><td class="text-center">1</td>
+                <td class="text-center">1</td><td class="text-center">9</td><td class="text-center">0</td><td class="text-center font-bold text-amber-700">0</td>
+              </tr>
+              <tr>
+                <td class="font-semibold text-slate-700">Pass Class (P)</td>
+                <td class="text-center">0</td><td class="text-center">1</td><td class="text-center">0</td><td class="text-center">0</td>
+                <td class="text-center">0</td><td class="text-center">2</td><td class="text-center">0</td><td class="text-center font-bold">0</td>
+              </tr>
+              <tr>
+                <td class="font-semibold text-red-600">Failed / Backlog</td>
+                <td class="text-center">0</td><td class="text-center">0</td><td class="text-center">3</td><td class="text-center">2</td>
+                <td class="text-center">10</td><td class="text-center">2</td><td class="text-center">4</td><td class="text-center font-bold text-emerald-600">0</td>
+              </tr>
+              <tr class="bg-slate-50 font-bold">
+                <td>Total Cohort Count</td>
+                <td class="text-center">24</td><td class="text-center">24</td><td class="text-center">24</td><td class="text-center">24</td>
+                <td class="text-center">23</td><td class="text-center">23</td><td class="text-center">23</td><td class="text-center">23</td>
+              </tr>
+              <tr class="bg-blue-50/70 font-semibold border-t">
+                <td>Average Marks (Percentage)</td>
+                <td class="text-center">63.76%</td><td class="text-center">67.39%</td><td class="text-center">70.38%</td><td class="text-center">72.03%</td>
+                <td class="text-center">62.32%</td><td class="text-center">60.91%</td><td class="text-center">70.60%</td><td class="text-center font-bold text-emerald-800">81.22%</td>
+              </tr>
+              <tr class="bg-blue-100/70 font-bold border-t">
+                <td>Academic Year Average</td>
+                <td colspan="2" class="text-center">65.58%</td>
+                <td colspan="2" class="text-center">71.20%</td>
+                <td colspan="2" class="text-center">61.62%</td>
+                <td colspan="2" class="text-center text-emerald-900">75.91%</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <div class="nba-card">
+        <div class="sec-head"><span>Figure 5.1: Semester-Wise Division of Class</span></div>
+        <canvas id="chartP5FullStacked"></canvas>
+      </div>
+    </div>
+
+    <!-- =====================================================================
+         10. STUDENT DIRECTORY & MANAGER (CIVIL ENGINEERING)
+         ===================================================================== -->
+    <div id="view-students" class="tab-view space-y-4">
+      <div class="nba-card">
+        <div class="flex flex-col md:flex-row md:items-center justify-between gap-3 mb-4">
+          <div class="flex flex-wrap gap-1.5" id="batch-filter-container"></div>
+          <div class="flex items-center gap-2">
+            <input type="text" id="student-search-input" oninput="renderStudentsTable()" placeholder="🔍 Search Civil Student by Name / Reg No..." class="border rounded-md px-3 py-1.5 text-xs w-64">
+            <button onclick="openStudentModal()" class="px-3 py-1.5 bg-blue-900 text-white rounded-md text-xs font-semibold hover:bg-blue-800 flex items-center gap-1">
+              <span>+ Add Civil Student</span>
+            </button>
+          </div>
+        </div>
+
+        <div class="overflow-x-auto">
+          <table class="w-full whitespace-nowrap">
+            <thead>
+              <tr class="whitespace-nowrap">
+                <th class="whitespace-nowrap px-3 py-2 text-center">Batch</th>
+                <th class="whitespace-nowrap px-3 py-2">Reg No</th>
+                <th class="whitespace-nowrap px-3 py-2">Student Name</th>
+                <th class="whitespace-nowrap px-3 py-2 text-center">Gender</th>
+                <th class="whitespace-nowrap px-3 py-2">Domicile</th>
+                <th class="whitespace-nowrap px-3 py-2 text-center">Category</th>
+                <th class="whitespace-nowrap px-3 py-2 text-center">Status</th>
+                <th class="whitespace-nowrap px-3 py-2 text-center">CGPA</th>
+                <th class="whitespace-nowrap px-3 py-2 text-center">Backlogs</th>
+                <th class="whitespace-nowrap px-2.5 py-2 text-center">SGPA 1</th>
+                <th class="whitespace-nowrap px-2.5 py-2 text-center">SGPA 2</th>
+                <th class="whitespace-nowrap px-2.5 py-2 text-center">SGPA 3</th>
+                <th class="whitespace-nowrap px-2.5 py-2 text-center">SGPA 4</th>
+                <th class="whitespace-nowrap px-2.5 py-2 text-center">SGPA 5</th>
+                <th class="whitespace-nowrap px-2.5 py-2 text-center">SGPA 6</th>
+                <th class="whitespace-nowrap px-2.5 py-2 text-center">SGPA 7</th>
+                <th class="whitespace-nowrap px-2.5 py-2 text-center">SGPA 8</th>
+                <th class="whitespace-nowrap px-3 py-2">Internship 1</th>
+                <th class="whitespace-nowrap px-3 py-2">Internship 2</th>
+                <th class="whitespace-nowrap px-3 py-2">Placement</th>
+                <th class="whitespace-nowrap px-3 py-2 text-right">Actions</th>
+              </tr>
+            </thead>
+            <tbody id="civil-students-table-body"></tbody>
+          </table>
+        </div>
+
+        <div class="mt-3 text-xs text-slate-500 flex justify-between items-center" id="student-record-counter">
+          <span>Showing students</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- =====================================================================
+         11. P4 FILES & TEMPLATES DOWNLOAD HUB
+         ===================================================================== -->
+    <div id="view-p4files" class="tab-view space-y-6">
+      
+      <!-- Section 1: Typeset Blank Templates -->
+      <div class="nba-card">
+        <div class="sec-head">
+          <span>Typeset Blank Templates (Ready to Typeset &amp; Fill)</span>
+          <span class="badge badge-amber">Blank Templates</span>
+        </div>
+        <p class="text-xs text-slate-600 mb-4">Download clean, standard NBA-formatted blank templates to typeset, customize, and fill with custom or updated student progression data.</p>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+          
+          <div class="p-4 bg-amber-50/50 rounded-lg border border-amber-200 flex flex-col justify-between">
+            <div>
+              <div class="flex items-center justify-between mb-1">
+                <span class="text-xs font-bold uppercase text-amber-700">Word Template</span>
+                <span class="badge badge-gray text-[10px]">.docx</span>
+              </div>
+              <div class="font-bold text-sm text-slate-800">Criterion 4 Blank Template</div>
+              <div class="text-xs text-slate-500 mt-1">Official NBA format with blank tables for 4A, 4B, 4C, 4.1 to 4.7 ready for custom typesetting.</div>
+            </div>
+            <div class="mt-4 pt-3 border-t border-amber-200/60">
+              <a href="/download/criterion4-template" class="block text-center py-2 bg-amber-600 hover:bg-amber-700 text-white text-xs font-bold rounded-md transition shadow-sm">
+                ⬇ Download Template (.docx)
+              </a>
+            </div>
+          </div>
+
+          <div class="p-4 bg-amber-50/50 rounded-lg border border-amber-200 flex flex-col justify-between">
+            <div>
+              <div class="flex items-center justify-between mb-1">
+                <span class="text-xs font-bold uppercase text-amber-700">Excel Template</span>
+                <span class="badge badge-gray text-[10px]">.xlsx</span>
+              </div>
+              <div class="font-bold text-sm text-slate-800">P-4 Progression Template</div>
+              <div class="text-xs text-slate-500 mt-1">Blank typeset sheets for P-4.1.1 Summary, P-4.2.1 (Without Backlogs), and P-4.2.2 (With Backlogs) with built-in Excel formulas.</div>
+            </div>
+            <div class="mt-4 pt-3 border-t border-amber-200/60">
+              <a href="/download/p4-template" class="block text-center py-2 bg-amber-600 hover:bg-amber-700 text-white text-xs font-bold rounded-md transition shadow-sm">
+                ⬇ Download P-4 Template (.xlsx)
+              </a>
+            </div>
+          </div>
+
+          <div class="p-4 bg-amber-50/50 rounded-lg border border-amber-200 flex flex-col justify-between">
+            <div>
+              <div class="flex items-center justify-between mb-1">
+                <span class="text-xs font-bold uppercase text-amber-700">Excel Template</span>
+                <span class="badge badge-gray text-[10px]">.xlsx</span>
+              </div>
+              <div class="font-bold text-sm text-slate-800">P-5 Classification Template</div>
+              <div class="text-xs text-slate-500 mt-1">Blank typeset matrix for Table 5.1 (FC-D, FC, SC, Pass, Fail across Sem 1 to 8) with automated SUM &amp; AVERAGE formulas.</div>
+            </div>
+            <div class="mt-4 pt-3 border-t border-amber-200/60">
+              <a href="/download/p5-template" class="block text-center py-2 bg-amber-600 hover:bg-amber-700 text-white text-xs font-bold rounded-md transition shadow-sm">
+                ⬇ Download P-5 Template (.xlsx)
+              </a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- Section 2: Completed / Data-Filled Workbooks & Pre-Qualifier Documents -->
+      <div class="nba-card">
+        <div class="sec-head">
+          <span>Completed &amp; Pre-Filled Documents (Civil Engineering Data)</span>
+          <span class="badge badge-green">Ready for Submission</span>
+        </div>
+        <p class="text-xs text-slate-600 mb-4">Fully populated documents with verified Department of Civil Engineering student data, Pre-Qualifier matrices, and Criteria 4 calculations.</p>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+          
+          <div class="p-4 bg-slate-50 rounded-lg border flex flex-col justify-between">
+            <div>
+              <div class="flex items-center justify-between mb-1">
+                <span class="text-xs font-bold uppercase text-blue-700">Official Report</span>
+                <span class="badge badge-blue text-[10px]">.docx</span>
+              </div>
+              <div class="font-bold text-sm text-slate-800">Criterion-4 Completed Pre-Qualifier</div>
+              <div class="text-xs text-slate-500 mt-1">Full 102.07/120 Marks report with faculty in-charges, Table 4A/B/C, and all sub-criteria written up.</div>
+            </div>
+            <div class="mt-4 pt-3 border-t">
+              <a href="/download/criterion4-completed" class="block text-center py-2 bg-blue-900 hover:bg-blue-800 text-white text-xs font-bold rounded-md transition shadow-sm">
+                ⬇ Download Pre-Qualifier (.docx)
+              </a>
+            </div>
+          </div>
+
+          <div class="p-4 bg-slate-50 rounded-lg border flex flex-col justify-between">
+            <div>
+              <div class="flex items-center justify-between mb-1">
+                <span class="text-xs font-bold uppercase text-emerald-700">Pre-Filled Excel</span>
+                <span class="badge badge-green text-[10px]">.xlsx</span>
+              </div>
+              <div class="font-bold text-sm text-slate-800">P-4 Progression Completed Workbook</div>
+              <div class="text-xs text-slate-500 mt-1">Pre-filled with Batches 2020, 2021, 2022 graduation data, P-4.2.1 &amp; P-4.2.2 full student rosters.</div>
+            </div>
+            <div class="mt-4 pt-3 border-t">
+              <a href="/download/p4-completed" class="block text-center py-2 bg-emerald-700 hover:bg-emerald-600 text-white text-xs font-bold rounded-md transition shadow-sm">
+                ⬇ Download P-4 Completed (.xlsx)
+              </a>
+            </div>
+          </div>
+
+          <div class="p-4 bg-slate-50 rounded-lg border flex flex-col justify-between">
+            <div>
+              <div class="flex items-center justify-between mb-1">
+                <span class="text-xs font-bold uppercase text-purple-700">Pre-Filled Excel</span>
+                <span class="badge badge-purple text-[10px]">.xlsx</span>
+              </div>
+              <div class="font-bold text-sm text-slate-800">P-5 Division of Class Completed</div>
+              <div class="text-xs text-slate-500 mt-1">Complete 8-semester division of class matrix (Distinction, First, Second, Pass, Fail) with computed averages.</div>
+            </div>
+            <div class="mt-4 pt-3 border-t">
+              <a href="/download/p5-completed" class="block text-center py-2 bg-purple-700 hover:bg-purple-600 text-white text-xs font-bold rounded-md transition shadow-sm">
+                ⬇ Download P-5 Completed (.xlsx)
+              </a>
+            </div>
+          </div>
+
+          <div class="p-4 bg-slate-50 rounded-lg border flex flex-col justify-between md:col-span-2">
+            <div>
+              <div class="flex items-center justify-between mb-1">
+                <span class="text-xs font-bold uppercase text-blue-900">Master All-in-One</span>
+                <span class="badge badge-amber text-[10px]">Master .xlsx</span>
+              </div>
+              <div class="font-bold text-sm text-slate-800">NBA Civil Criterion 4, P4 &amp; P5 Master Workbook</div>
+              <div class="text-xs text-slate-500 mt-1">Combined multi-sheet workbook containing Criterion 4 Scorecard, Table 4A Admissions, P-4 Summary, P-5 Matrix, and all 154 Civil Students with all 8 semesters.</div>
+            </div>
+            <div class="mt-4 pt-3 border-t flex gap-2">
+              <a href="/download/master-excel" class="flex-1 text-center py-2 bg-slate-900 hover:bg-slate-800 text-white text-xs font-bold rounded-md transition shadow-sm">
+                📑 Download Master Workbook (.xlsx)
+              </a>
+              <a href="/download/student-data-json" class="text-center px-4 py-2 bg-slate-200 hover:bg-slate-300 text-slate-800 text-xs font-bold rounded-md transition">
+                💾 JSON Feed
+              </a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="nba-card">
+        <div class="sec-head"><span>NBA Criterion 4 Document Verification Checklist</span></div>
+        <div class="space-y-2 text-xs">
+          <div class="p-2.5 bg-emerald-50 text-emerald-900 rounded border border-emerald-200 flex items-center gap-2">
+            <span>✅</span> <strong>Table 4A &amp; 4B:</strong> Admission and migration details compiled across CAY to CAYm6.
+          </div>
+          <div class="p-2.5 bg-emerald-50 text-emerald-900 rounded border border-emerald-200 flex items-center gap-2">
+            <span>✅</span> <strong>Criterion 4.1:</strong> Enrolment ratio calculated (97.8% >= 90%, 20/20 Marks).
+          </div>
+          <div class="p-2.5 bg-emerald-50 text-emerald-900 rounded border border-emerald-200 flex items-center gap-2">
+            <span>✅</span> <strong>Criterion 4.2:</strong> Success rate evaluated for LYG, LYGm1, LYGm2 (80.07% Avg, 12.01/15 Marks).
+          </div>
+          <div class="p-2.5 bg-emerald-50 text-emerald-900 rounded border border-emerald-200 flex items-center gap-2">
+            <span>✅</span> <strong>Criteria 4.3–4.5:</strong> Academic performance indices calculated for 1st, 2nd, and 3rd year students.
+          </div>
+          <div class="p-2.5 bg-emerald-50 text-emerald-900 rounded border border-emerald-200 flex items-center gap-2">
+            <span>✅</span> <strong>Criterion 4.6:</strong> Placement &amp; higher studies index verified (93.71%, 28.11/30 Marks).
+          </div>
+          <div class="p-2.5 bg-emerald-50 text-emerald-900 rounded border border-emerald-200 flex items-center gap-2">
+            <span>✅</span> <strong>Criterion 4.7:</strong> ASCE, ICI, IGBC, IEI activities, NIRMAN newsletter &amp; magazine verified.
+          </div>
+          <div class="p-2.5 bg-emerald-50 text-emerald-900 rounded border border-emerald-200 flex items-center gap-2">
+            <span>✅</span> <strong>Pre-Qualifier P-4 &amp; P-5:</strong> Tables 4.1, 4.2, 4.3 and Table 5.1 compiled from Progression workbook.
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </main>
+
+  <!-- MODAL: Edit Sanctioned Intake & Batch Configurations -->
+  <div id="modal-intake-overlay">
+    <div id="modal-intake-box">
+      <div style="background:#1b365d" class="text-white px-5 py-3.5 rounded-t-xl flex items-center justify-between">
+        <div>
+          <span class="font-bold text-sm">Table 4A &amp; 4B Configurations — Sanctioned Intake &amp; Exits</span>
+          <div class="text-[11px] text-blue-200">Adjust Sanctioned Intake (N), Supernumerary quotas, and lateral/exits per cohort batch.</div>
+        </div>
+        <button onclick="closeIntakeModal()" class="text-slate-300 hover:text-white text-lg font-bold">✕</button>
+      </div>
+      <div id="modal-intake-body">
+        <form id="intake-form" onsubmit="saveIntakeSubmit(event)">
+          <div class="overflow-x-auto mb-4">
+            <table class="w-full text-xs whitespace-nowrap border-collapse">
+              <thead>
+                <tr class="bg-slate-100 text-slate-700">
+                  <th class="p-2 text-left">Batch (Cohort)</th>
+                  <th class="p-2 text-center">Sanctioned (N)</th>
+                  <th class="p-2 text-center">N1 (Regular)</th>
+                  <th class="p-2 text-center">N2 (Lateral)</th>
+                  <th class="p-2 text-center">N3 (Sep Div)</th>
+                  <th class="p-2 text-center">N4 (Supernum)</th>
+                  <th class="p-2 text-center">N5 (Trans In)</th>
+                  <th class="p-2 text-center">N6 (Exits)</th>
+                  <th class="p-2 text-center font-bold">Effective A*</th>
+                </tr>
+              </thead>
+              <tbody id="intake-form-tbody"></tbody>
+            </table>
+          </div>
+          <div class="p-3 bg-blue-50 border border-blue-200 rounded text-xs text-blue-900 mb-4">
+            💡 <strong>Note:</strong> N1 (Regular) and N2 (Lateral) are auto-pooled directly from your active <strong>Student Directory</strong> (154 Civil Engineering students). You can edit Sanctioned Intake (N), Supernumerary (N4), or Exits (N6) here. All changes save directly to <code>student_data.json</code>.
+          </div>
+          <div class="flex justify-end gap-2 pt-3 border-t">
+            <button type="button" onclick="closeIntakeModal()" class="px-4 py-2 bg-slate-200 text-slate-700 rounded text-xs font-semibold">Cancel</button>
+            <button type="submit" class="px-4 py-2 bg-blue-900 text-white rounded text-xs font-semibold hover:bg-blue-800">💾 Save Configurations</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <!-- MODAL: Add / Edit Civil Student -->
+  <div id="modal-overlay">
+    <div id="modal-box">
+      <div style="background:#1b365d" class="text-white px-5 py-3.5 rounded-t-xl flex items-center justify-between">
+        <span class="font-bold text-sm" id="modal-title">Civil Engineering Student Record</span>
+        <button onclick="closeStudentModal()" class="text-slate-300 hover:text-white text-lg font-bold">✕</button>
+      </div>
+      <div id="modal-body">
+        <form id="student-form" onsubmit="saveStudentSubmit(event)">
+          <input type="hidden" id="modal-student-id">
+
+          <div class="text-[11px] font-bold uppercase text-slate-400 mb-2">Student Particulars</div>
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-3 mb-4">
+            <div class="form-group">
+              <label>Full Student Name *</label>
+              <input type="text" id="f-name" required placeholder="e.g. ABHISHEK MISHRA">
+            </div>
+            <div class="form-group">
+              <label>Registration Number *</label>
+              <input type="text" id="f-regno" required placeholder="e.g. 2260101">
+            </div>
+            <div class="form-group">
+              <label>Batch *</label>
+              <select id="f-batch" required>
+                <option value="2026">2026 (CAY - 1st Year)</option>
+                <option value="2025">2025 (CAYm1 - 2nd Year)</option>
+                <option value="2024">2024 (CAYm2 - 3rd Year)</option>
+                <option value="2023">2023 (CAYm3 - 4th Year)</option>
+                <option value="2022">2022 (LYG - Graduated)</option>
+                <option value="2021">2021 (LYGm1 - Graduated)</option>
+                <option value="2020">2020 (LYGm2 - Graduated)</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label>Admission Category *</label>
+              <select id="f-category" required>
+                <option value="Regular">Regular Entry (1st Year)</option>
+                <option value="Lateral">Lateral Entry (2nd Year)</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label>Gender *</label>
+              <select id="f-gender" required>
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label>State / Domicile *</label>
+              <input type="text" id="f-domicile" required placeholder="e.g. Karnataka / Kerala">
+            </div>
+            <div class="form-group">
+              <label>Overall CGPA</label>
+              <input type="number" step="0.01" id="f-cgpa" placeholder="e.g. 8.25">
+            </div>
+            <div class="form-group">
+              <label>Backlog / Arrears Count</label>
+              <input type="number" id="f-backlogs" placeholder="0">
+            </div>
+          </div>
+
+          <!-- Section: Internship 1 -->
+          <div class="p-3 bg-amber-50/60 border border-amber-200 rounded-lg mb-4">
+            <div class="text-[11px] font-bold uppercase text-amber-800 mb-2 flex items-center justify-between">
+              <span>🏗️ Internship 1 (4th/5th Sem / Site &amp; Materials)</span>
+              <span id="f-intern1-file-badge"></span>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-3 mb-2">
+              <div class="form-group">
+                <label>Host Company / Organization</label>
+                <input type="text" id="f-intern1-company" placeholder="e.g. L&T Construction / BMRCL Metro">
+              </div>
+              <div class="form-group">
+                <label>Project Title / Domain</label>
+                <input type="text" id="f-intern1-title" placeholder="e.g. Structural QA/QC &amp; Bar Bending">
+              </div>
+            </div>
+            <div class="form-group">
+              <label>Certificate / Completion Report (PDF or Image)</label>
+              <input type="file" id="f-intern1-file-input" accept=".pdf,.doc,.docx,.jpg,.png" class="text-xs border rounded p-1 bg-white">
+              <input type="hidden" id="f-intern1-file-path">
+            </div>
+          </div>
+
+          <!-- Section: Internship 2 -->
+          <div class="p-3 bg-blue-50/60 border border-blue-200 rounded-lg mb-4">
+            <div class="text-[11px] font-bold uppercase text-blue-900 mb-2 flex items-center justify-between">
+              <span>🌉 Internship 2 (7th/8th Sem / Industrial Capstone)</span>
+              <span id="f-intern2-file-badge"></span>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-3 mb-2">
+              <div class="form-group">
+                <label>Host Company / Organization</label>
+                <input type="text" id="f-intern2-company" placeholder="e.g. Ramboll Engineering / Afcons">
+              </div>
+              <div class="form-group">
+                <label>Project Title / Domain</label>
+                <input type="text" id="f-intern2-title" placeholder="e.g. Finite Element Analysis &amp; BIM">
+              </div>
+            </div>
+            <div class="form-group">
+              <label>Certificate / Completion Report (PDF or Image)</label>
+              <input type="file" id="f-intern2-file-input" accept=".pdf,.doc,.docx,.jpg,.png" class="text-xs border rounded p-1 bg-white">
+              <input type="hidden" id="f-intern2-file-path">
+            </div>
+          </div>
+
+          <div class="text-[11px] font-bold uppercase text-slate-400 mb-2">Semester Progress &amp; Grades (Sem 1 to 8)</div>
+          <div class="sem-grid-row text-[11px] font-semibold text-slate-500 mb-1">
+            <span>Semester</span><span>Percentage (%)</span><span>Class / Result</span><span>Status</span>
+          </div>
+          <div id="modal-semesters-container"></div>
+
+          <!-- Section: Placement / Higher Studies -->
+          <div class="p-3 bg-emerald-50/60 border border-emerald-200 rounded-lg mt-4 mb-4">
+            <div class="text-[11px] font-bold uppercase text-emerald-900 mb-2 flex items-center justify-between">
+              <span>🎓 Placement, Higher Studies &amp; Career Progression</span>
+              <span id="f-pl-file-badge"></span>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-3 mb-2">
+              <div class="form-group">
+                <label>Career Status</label>
+                <select id="f-pl-status">
+                  <option value="Ongoing">Ongoing (Current Cohort)</option>
+                  <option value="Placed">Placed (Industry / Consulting)</option>
+                  <option value="Higher Studies">Higher Studies (M.Tech / MS)</option>
+                  <option value="Self-Employed">Entrepreneurship / Self-Employed</option>
+                  <option value="Discontinued">Discontinued</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label>Company / Institute</label>
+                <input type="text" id="f-pl-company" placeholder="e.g. L&T Construction / IIT Bombay">
+              </div>
+              <div class="form-group">
+                <label>Salary Package (LPA)</label>
+                <input type="number" step="0.1" id="f-pl-package" placeholder="0">
+              </div>
+            </div>
+            <div class="form-group">
+              <label>Offer Letter / Admission Letter (PDF or Image)</label>
+              <input type="file" id="f-pl-file-input" accept=".pdf,.doc,.docx,.jpg,.png" class="text-xs border rounded p-1 bg-white">
+              <input type="hidden" id="f-pl-file-path">
+            </div>
+          </div>
+
+          <div class="flex justify-end gap-2 pt-3 border-t">
+            <button type="button" onclick="closeStudentModal()" class="px-4 py-2 bg-slate-200 text-slate-700 rounded text-xs font-semibold">Cancel</button>
+            <button type="submit" class="px-4 py-2 bg-blue-900 text-white rounded text-xs font-semibold hover:bg-blue-800">💾 Save Student to JSON</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <!-- MODAL: Quick Document Upload for Student -->
+  <div id="modal-doc-upload-overlay">
+    <div id="modal-doc-upload-box" style="background:#fff; border-radius: 12px; width: 92%; max-width: 520px; box-shadow: 0 25px 50px -12px rgba(0,0,0,0.25);">
+      <div style="background:#1b365d" class="text-white px-5 py-3.5 rounded-t-xl flex items-center justify-between">
+        <div>
+          <span class="font-bold text-sm" id="upload-modal-title">Upload Progression Document</span>
+          <div class="text-[11px] text-blue-200" id="upload-modal-sub">Upload PDF certificate or offer letter</div>
+        </div>
+        <button onclick="closeUploadModal()" class="text-slate-300 hover:text-white text-lg font-bold">✕</button>
+      </div>
+      <div class="p-5">
+        <form id="upload-doc-form" onsubmit="submitDocUpload(event)">
+          <input type="hidden" id="upload-student-id">
+          <input type="hidden" id="upload-doc-type">
+          <div class="mb-4">
+            <label class="block text-xs font-semibold text-slate-700 mb-1">Target Folder Path:</label>
+            <div id="upload-target-path" class="p-2 bg-slate-100 rounded text-xs font-mono text-slate-700 break-all"></div>
+          </div>
+          <div class="mb-4">
+            <label class="block text-xs font-semibold text-slate-700 mb-1">Select Document (PDF, Image, DOCX) *</label>
+            <input type="file" id="upload-doc-input" required accept=".pdf,.doc,.docx,.jpg,.jpeg,.png" class="w-full text-xs border rounded p-2 bg-slate-50">
+          </div>
+          <div class="p-2.5 bg-blue-50 border border-blue-200 rounded text-xs text-blue-900 mb-4">
+            📁 Automatically saved in <code>documents/Batch_{batch}/{docType}/</code> and synced with local Downloads folder.
+          </div>
+          <div class="flex justify-end gap-2 pt-3 border-t">
+            <button type="button" onclick="closeUploadModal()" class="px-4 py-2 bg-slate-200 text-slate-700 rounded text-xs font-semibold">Cancel</button>
+            <button type="submit" id="upload-submit-btn" class="px-4 py-2 bg-blue-900 text-white rounded text-xs font-semibold hover:bg-blue-800">⬆️ Upload &amp; Link to Student</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <div id="toast"></div>
+
+  <!-- Main JavaScript Logic -->
+  <script>
+    let db = null;
+    let selectedBatch = 'All';
+    const CHARTS = {};
+
+    async function initApp() {
+      try {
+        const res = await fetch('student_data.json?t=' + Date.now());
+        db = await res.json();
+        renderAllViews();
+      } catch (err) {
+        showToast('⚠️ Error loading student_data.json', 'error');
+      }
+    }
+
+    function switchTab(tabId) {
+      document.querySelectorAll('.tab-view').forEach(v => v.classList.remove('active'));
+      document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+      const view = document.getElementById('view-' + tabId);
+      if (view) view.classList.add('active');
+      const btn = document.getElementById('tab-' + tabId);
+      if (btn) btn.classList.add('active');
+    }
+
+    function renderAllViews() {
+      if (!db) return;
+      renderOverviewCharts();
+      renderBatchFilterButtons();
+      renderStudentsTable();
+      renderP4Roster();
+      renderTable4A();
+      renderTable4B();
+      renderTable4C();
+    }
+
+    function renderTable4A() {
+      const batches = ['2026', '2025', '2024', '2023', '2022', '2021', '2020'];
+      const stats = batches.map(b => {
+        const cfg = db.batchConfig?.[b] || {};
+        const N = cfg.sanctionedIntake || 60;
+        const N1 = db.students.filter(s => s.batch === b && s.category === 'Regular').length;
+        const N2 = db.students.filter(s => s.batch === b && s.category === 'Lateral').length;
+        const N3 = cfg.separateDivision || 0;
+        const N4 = cfg.supernumerary || 0;
+        const total = N1 + N2 + N3 + N4;
+        const er = N > 0 ? ((N1 + N4) / N) : 1;
+        return { b, N, N1, N2, N3, N4, total, er };
+      });
+
+      const tbody = document.getElementById('table4a-dynamic-body');
+      if (!tbody) return;
+
+      tbody.innerHTML = `
+        <tr>
+          <td class="font-bold text-slate-800">Sanctioned Intake of Program (N)</td>
+          ${stats.map(s => `<td class="text-center font-bold text-blue-900">${s.N}</td>`).join('')}
+        </tr>
+        <tr>
+          <td>Total Admitted in 1st Year (N1)</td>
+          ${stats.map(s => `<td class="text-center font-semibold text-slate-700">${s.N1}</td>`).join('')}
+        </tr>
+        <tr>
+          <td>Admitted in 2nd Year (Lateral Entry) (N2)</td>
+          ${stats.map(s => `<td class="text-center ${s.N2 > 0 ? 'font-semibold text-amber-700' : 'text-slate-400'}">${s.N2}</td>`).join('')}
+        </tr>
+        <tr>
+          <td>Separate Division 2nd Year (N3)</td>
+          ${stats.map(s => `<td class="text-center text-slate-400">${s.N3}</td>`).join('')}
+        </tr>
+        <tr>
+          <td>Supernumerary Quotas (FN / PIO / Gulf) (N4)</td>
+          ${stats.map(s => `<td class="text-center text-slate-400">${s.N4}</td>`).join('')}
+        </tr>
+        <tr class="font-bold bg-slate-50 border-t">
+          <td>Total Admitted in Batch (N1 + N2 + N3 + N4)</td>
+          ${stats.map(s => `<td class="text-center text-slate-900 font-extrabold">${s.total}</td>`).join('')}
+        </tr>
+        <tr class="bg-blue-50/60 font-bold border-t-2 border-slate-300">
+          <td>Enrolment Ratio (ER = (N1 + N4) / N)</td>
+          ${stats.map(s => `<td class="text-center ${s.er >= 0.9 ? 'text-emerald-700' : 'text-amber-700'}">${s.er.toFixed(3)} (${(s.er * 100).toFixed(1)}%)</td>`).join('')}
+        </tr>
+      `;
+
+      // Also dynamically update Criterion 4.1 Enrolment Ratio Section
+      const cayBatches = [
+        { key: '2026', label: 'CAY (2026-27)' },
+        { key: '2025', label: 'CAYm1 (2025-26)' },
+        { key: '2024', label: 'CAYm2 (2024-25)' }
+      ];
+      const cayStats = cayBatches.map(item => {
+        const b = item.key;
+        const cfg = db.batchConfig?.[b] || {};
+        const N = cfg.sanctionedIntake || 60;
+        const N1 = db.students.filter(s => s.batch === b && s.category === 'Regular').length;
+        const N4 = cfg.supernumerary || 0;
+        const er = N > 0 ? ((N1 + N4) / N) : 1;
+        return { ...item, N, N1, N4, er };
+      });
+
+      const avgER = (cayStats.reduce((sum, s) => sum + s.er, 0) / cayStats.length);
+      const avgERPct = (avgER * 100).toFixed(1);
+      const marks = avgER >= 0.9 ? 20 : (avgER >= 0.8 ? 18 : (avgER >= 0.7 ? 16 : (avgER >= 0.6 ? 14 : (avgER * 20).toFixed(1))));
+
+      const kpisEl = document.getElementById('enrolment-kpis');
+      if (kpisEl) {
+        kpisEl.innerHTML = cayStats.map(s => `
+          <div class="p-3 bg-blue-50 rounded-lg border border-blue-200">
+            <div class="text-xs text-blue-700 uppercase font-semibold">${s.label}</div>
+            <div class="text-2xl font-bold text-blue-900 mt-1">${(s.er * 100).toFixed(1)}%</div>
+            <div class="text-xs text-slate-500">${s.N1} regular admitted vs ${s.N} sanctioned</div>
+          </div>
+        `).join('');
+      }
+
+      const enrTable = document.getElementById('table-enrolment-dynamic-body');
+      if (enrTable) {
+        enrTable.innerHTML = `
+          <tr><td>N = Sanctioned Intake in 1st Year</td>${cayStats.map(s => `<td class="text-center font-bold text-blue-900">${s.N}</td>`).join('')}</tr>
+          <tr><td>N1 = Admitted in 1st Year (Regular)</td>${cayStats.map(s => `<td class="text-center font-semibold text-slate-700">${s.N1}</td>`).join('')}</tr>
+          <tr><td>N4 = Supernumerary Quotas</td>${cayStats.map(s => `<td class="text-center text-slate-400">${s.N4}</td>`).join('')}</tr>
+          <tr class="font-bold bg-slate-50">
+            <td>Enrolment Ratio (ER = (N1+N4)/N)</td>
+            ${cayStats.map(s => `<td class="text-center ${s.er >= 0.9 ? 'text-emerald-700' : 'text-amber-700'}">${s.er.toFixed(3)} (${(s.er * 100).toFixed(1)}%)</td>`).join('')}
+          </tr>
+        `;
+      }
+
+      const calcBox = document.getElementById('enrolment-calc-box');
+      if (calcBox) {
+        calcBox.innerHTML = `
+          <strong>NBA Rule:</strong> Average ER = (${cayStats.map(s => s.er.toFixed(3)).join(' + ')}) / 3 = <strong>${avgER.toFixed(3)} (${avgERPct}%)</strong>.<br>
+          ${avgER >= 0.9 ? `Since Average ER is <strong>≥ 90%</strong>, the program is eligible for maximum marks: <strong>${marks}.00 / 20.00 Marks</strong>.` : `Assessment marks calculated based on Average ER: <strong>${marks} / 20.00 Marks</strong>.`}
+        `;
+      }
+
+      if (CHARTS['chartEnrolmentTrend']) {
+        CHARTS['chartEnrolmentTrend'].data.datasets[0].data = [cayStats[2].N, cayStats[1].N, cayStats[0].N];
+        CHARTS['chartEnrolmentTrend'].data.datasets[1].data = [cayStats[2].N1, cayStats[1].N1, cayStats[0].N1];
+        CHARTS['chartEnrolmentTrend'].update();
+      }
+    }
+
+    function renderTable4B() {
+      const batches = ['2022', '2021', '2020'];
+      const stats = batches.map(b => {
+        const cfg = db.batchConfig?.[b] || {};
+        const N1 = db.students.filter(s => s.batch === b && s.category === 'Regular').length;
+        const N2 = db.students.filter(s => s.batch === b && s.category === 'Lateral').length;
+        const N3 = cfg.separateDivision || 0;
+        const N4 = cfg.supernumerary || 0;
+        const total = N1 + N2 + N3 + N4;
+        const N5 = cfg.transferredIn || 0;
+        const N6 = cfg.exits !== undefined ? cfg.exits : 1;
+        const effective = total + N5 - N6;
+        return { b, total, N5, N6, effective };
+      });
+
+      const tbody = document.getElementById('table4b-dynamic-body');
+      if (!tbody) return;
+
+      tbody.innerHTML = `
+        <tr>
+          <td class="font-medium">Total Admitted in Batch (N1 + N2 + N3 + N4)</td>
+          ${stats.map(s => `<td class="text-center font-bold text-slate-800">${s.total}</td>`).join('')}
+        </tr>
+        <tr>
+          <td>Transferred In / Re-admitted (N5)</td>
+          ${stats.map(s => `<td class="text-center text-slate-500">${s.N5}</td>`).join('')}
+        </tr>
+        <tr>
+          <td>Transferred Out / Discontinued / Exits (N6)</td>
+          ${stats.map(s => `<td class="text-center text-red-600 font-semibold">${s.N6}</td>`).join('')}
+        </tr>
+        <tr class="bg-blue-50/70 font-bold border-t-2 border-slate-300">
+          <td>Effective Cohort Size (A* = Total + N5 - N6)</td>
+          ${stats.map(s => `<td class="text-center text-blue-950 font-extrabold text-sm">${s.effective}</td>`).join('')}
+        </tr>
+      `;
+    }
+
+    function renderTable4C() {
+      const batchLabels = [
+        { b: '2022', name: '2022-23 (LYG)' },
+        { b: '2021', name: '2021-22 (LYGm1)' },
+        { b: '2020', name: '2020-21 (LYGm2)' }
+      ];
+
+      const tbody = document.getElementById('table4c-dynamic-body');
+      if (!tbody) return;
+
+      tbody.innerHTML = batchLabels.map(item => {
+        const b = item.b;
+        const cfg = db.batchConfig?.[b] || {};
+        const N1 = db.students.filter(s => s.batch === b && s.category === 'Regular').length;
+        const N2 = db.students.filter(s => s.batch === b && s.category === 'Lateral').length;
+        const N3 = cfg.separateDivision || 0;
+        const N4 = cfg.supernumerary || 0;
+        const N5 = cfg.transferredIn || 0;
+        const N6 = cfg.exits !== undefined ? cfg.exits : 1;
+        const effectiveA = N1 + N2 + N3 + N4 + N5 - N6;
+
+        const withoutBacklog = db.students.filter(s => s.batch === b && s.gradStatus?.includes('No Backlog')).length;
+        const withBacklog = db.students.filter(s => s.batch === b && s.gradStatus?.includes('With Backlog')).length;
+        const totalGrad = withoutBacklog + withBacklog;
+        const sr = effectiveA > 0 ? ((totalGrad / effectiveA) * 100).toFixed(2) : '0.00';
+
+        return `
+          <tr>
+            <td class="font-bold text-slate-800">${item.name}</td>
+            <td class="text-center font-bold text-blue-900">${effectiveA}</td>
+            <td class="text-center font-bold text-emerald-700">${totalGrad}</td>
+            <td class="text-center font-extrabold text-blue-950">${sr}%</td>
+            <td class="text-center"><span class="badge ${parseFloat(sr) >= 60 ? 'badge-green' : 'badge-amber'}">${parseFloat(sr) >= 60 ? 'Compliant' : 'Review'}</span></td>
+          </tr>
+        `;
+      }).join('');
+    }
+
+    function openIntakeModal() {
+      const batches = [
+        { key: '2026', label: 'CAY (2026-27)' },
+        { key: '2025', label: 'CAYm1 (2025-26)' },
+        { key: '2024', label: 'CAYm2 (2024-25)' },
+        { key: '2023', label: 'CAYm3 (2023-24)' },
+        { key: '2022', label: 'CAYm4 / LYG (2022-23)' },
+        { key: '2021', label: 'CAYm5 / LYGm1 (2021-22)' },
+        { key: '2020', label: 'CAYm6 / LYGm2 (2020-21)' }
+      ];
+
+      const tbody = document.getElementById('intake-form-tbody');
+      tbody.innerHTML = batches.map(b => {
+        const cfg = db.batchConfig?.[b.key] || {};
+        const N = cfg.sanctionedIntake || 60;
+        const N1 = db.students.filter(s => s.batch === b.key && s.category === 'Regular').length;
+        const N2 = db.students.filter(s => s.batch === b.key && s.category === 'Lateral').length;
+        const N3 = cfg.separateDivision || 0;
+        const N4 = cfg.supernumerary || 0;
+        const N5 = cfg.transferredIn || 0;
+        const N6 = cfg.exits !== undefined ? cfg.exits : (['2020','2021','2022'].includes(b.key) ? 1 : 0);
+        const eff = N1 + N2 + N3 + N4 + N5 - N6;
+
+        return `
+          <tr class="border-b">
+            <td class="p-2 font-bold text-slate-800">${b.label}</td>
+            <td class="p-2 text-center">
+              <input type="number" id="cfg-n-${b.key}" value="${N}" class="w-16 text-center border rounded px-1.5 py-1 text-xs font-bold text-blue-900" oninput="recalcIntakeRow('${b.key}', ${N1}, ${N2})">
+            </td>
+            <td class="p-2 text-center font-semibold text-slate-700 bg-slate-50">${N1}</td>
+            <td class="p-2 text-center font-semibold text-amber-700 bg-slate-50">${N2}</td>
+            <td class="p-2 text-center">
+              <input type="number" id="cfg-n3-${b.key}" value="${N3}" class="w-14 text-center border rounded px-1.5 py-1 text-xs" oninput="recalcIntakeRow('${b.key}', ${N1}, ${N2})">
+            </td>
+            <td class="p-2 text-center">
+              <input type="number" id="cfg-n4-${b.key}" value="${N4}" class="w-14 text-center border rounded px-1.5 py-1 text-xs" oninput="recalcIntakeRow('${b.key}', ${N1}, ${N2})">
+            </td>
+            <td class="p-2 text-center">
+              <input type="number" id="cfg-n5-${b.key}" value="${N5}" class="w-14 text-center border rounded px-1.5 py-1 text-xs" oninput="recalcIntakeRow('${b.key}', ${N1}, ${N2})">
+            </td>
+            <td class="p-2 text-center">
+              <input type="number" id="cfg-n6-${b.key}" value="${N6}" class="w-14 text-center border rounded px-1.5 py-1 text-xs text-red-600 font-semibold" oninput="recalcIntakeRow('${b.key}', ${N1}, ${N2})">
+            </td>
+            <td class="p-2 text-center font-bold text-blue-950 bg-blue-50/50" id="cfg-eff-${b.key}">${eff}</td>
+          </tr>
+        `;
+      }).join('');
+
+      document.getElementById('modal-intake-overlay').classList.add('open');
+    }
+
+    function recalcIntakeRow(key, N1, N2) {
+      const N3 = parseInt(document.getElementById('cfg-n3-' + key)?.value) || 0;
+      const N4 = parseInt(document.getElementById('cfg-n4-' + key)?.value) || 0;
+      const N5 = parseInt(document.getElementById('cfg-n5-' + key)?.value) || 0;
+      const N6 = parseInt(document.getElementById('cfg-n6-' + key)?.value) || 0;
+      const eff = N1 + N2 + N3 + N4 + N5 - N6;
+      const effEl = document.getElementById('cfg-eff-' + key);
+      if (effEl) effEl.textContent = eff;
+    }
+
+    function closeIntakeModal() {
+      document.getElementById('modal-intake-overlay').classList.remove('open');
+    }
+
+    async function saveIntakeSubmit(e) {
+      e.preventDefault();
+      const batches = ['2026', '2025', '2024', '2023', '2022', '2021', '2020'];
+      batches.forEach(b => {
+        const N = parseInt(document.getElementById('cfg-n-' + b)?.value) || 60;
+        const N3 = parseInt(document.getElementById('cfg-n3-' + b)?.value) || 0;
+        const N4 = parseInt(document.getElementById('cfg-n4-' + b)?.value) || 0;
+        const N5 = parseInt(document.getElementById('cfg-n5-' + b)?.value) || 0;
+        const N6 = parseInt(document.getElementById('cfg-n6-' + b)?.value) || 0;
+        const N1 = db.students.filter(s => s.batch === b && s.category === 'Regular').length;
+        const N2 = db.students.filter(s => s.batch === b && s.category === 'Lateral').length;
+
+        db.batchConfig[b] = {
+          ...(db.batchConfig[b] || {}),
+          sanctionedIntake: N,
+          admittedRegular: N1,
+          admittedLateral: N2,
+          separateDivision: N3,
+          supernumerary: N4,
+          transferredIn: N5,
+          exits: N6,
+          effective: N1 + N2 + N3 + N4 + N5 - N6
+        };
+      });
+
+      try {
+        const resp = await fetch('/save-data', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify(db, null, 2)
+        });
+        if (!resp.ok) throw new Error('Save failed');
+        closeIntakeModal();
+        renderAllViews();
+        showToast('✅ Sanctioned intake & batch configurations saved to JSON!', 'success');
+      } catch (err) {
+        showToast('⚠️ Could not save batch configs to server.', 'error');
+      }
+    }
+
+    function renderOverviewCharts() {
+      // 1. Radar Chart of Criteria Scores
+      const radarLabels = ['4.1 Enrolment', '4.2 Success Rate', '4.3 1st Yr API', '4.4 2nd Yr API', '4.5 3rd Yr API', '4.6 Placement', '4.7 Activities'];
+      const maxScores = [20, 15, 10, 10, 10, 30, 25];
+      const claimedScores = [20.00, 12.01, 5.55, 6.19, 6.71, 28.11, 23.50];
+      const pctAttainment = claimedScores.map((s, i) => Math.round((s / maxScores[i]) * 100));
+
+      createChart('chartCriteriaRadar', 'radar', {
+        labels: radarLabels,
+        datasets: [{
+          label: '% Attainment',
+          data: pctAttainment,
+          backgroundColor: 'rgba(27, 54, 93, 0.25)',
+          borderColor: '#1b365d',
+          pointBackgroundColor: '#d97706',
+          pointBorderColor: '#ffffff'
+        }]
+      }, {
+        scales: {
+          r: { min: 0, max: 100, ticks: { stepSize: 20 } }
+        }
+      });
+
+      // 2. P5 Overview Line Chart
+      createChart('chartP5Overview', 'line', {
+        labels: ['Sem I', 'Sem II', 'Sem III', 'Sem IV', 'Sem V', 'Sem VI', 'Sem VII', 'Sem VIII'],
+        datasets: [{
+          label: 'Average Score %',
+          data: [63.76, 67.39, 70.38, 72.03, 62.32, 60.91, 70.60, 81.22],
+          borderColor: '#0284c7',
+          backgroundColor: 'rgba(2, 132, 199, 0.1)',
+          fill: true,
+          tension: 0.3
+        }]
+      }, {
+        scales: { y: { min: 50, max: 100 } }
+      });
+
+      // 3. Enrolment Trend Bar
+      createChart('chartEnrolmentTrend', 'bar', {
+        labels: ['CAYm2 (2024-25)', 'CAYm1 (2025-26)', 'CAY (2026-27)'],
+        datasets: [
+          { label: 'Sanctioned Intake', data: [60, 60, 60], backgroundColor: '#cbd5e1' },
+          { label: 'Admitted Students', data: [56, 69, 73], backgroundColor: '#1b365d' }
+        ]
+      });
+
+      // 4. Success Rate Breakdown Stacked Bar
+      createChart('chartSuccessBreakdown', 'bar', {
+        labels: ['Batch 2022 (LYG)', 'Batch 2021 (LYGm1)', 'Batch 2020 (LYGm2)'],
+        datasets: [
+          { label: 'Without Backlog', data: [7, 5, 10], backgroundColor: '#059669' },
+          { label: 'With Backlog', data: [12, 3, 14], backgroundColor: '#d97706' },
+          { label: 'Not Graduated / Left', data: [3, 5, 2], backgroundColor: '#ef4444' }
+        ]
+      }, {
+        scales: { x: { stacked: true }, y: { stacked: true } }
+      });
+
+      // 5. API Progression Line
+      createChart('chartApiProgression', 'line', {
+        labels: ['1st Year API (4.3)', '2nd Year API (4.4)', '3rd Year API (4.5)'],
+        datasets: [
+          { label: 'Average API Score (Out of 10)', data: [5.55, 6.19, 6.71], borderColor: '#059669', tension: 0.2, pointRadius: 5 }
+        ]
+      }, {
+        scales: { y: { min: 4, max: 8 } }
+      });
+
+      // 6. P5 Full Stacked Bar Chart
+      createChart('chartP5FullStacked', 'bar', {
+        labels: ['Sem I', 'Sem II', 'Sem III', 'Sem IV', 'Sem V', 'Sem VI', 'Sem VII', 'Sem VIII'],
+        datasets: [
+          { label: 'Distinction (FC-D)', data: [1, 2, 1, 3, 1, 1, 2, 14], backgroundColor: '#059669' },
+          { label: 'First Class (FC)',   data: [14, 18, 20, 18, 11, 9, 17, 9], backgroundColor: '#0284c7' },
+          { label: 'Second Class (SC)',  data: [9, 3, 0, 1, 1, 9, 0, 0], backgroundColor: '#d97706' },
+          { label: 'Pass (P)',           data: [0, 1, 0, 0, 0, 2, 0, 0], backgroundColor: '#64748b' },
+          { label: 'Failed (F)',         data: [0, 0, 3, 2, 10, 2, 4, 0], backgroundColor: '#ef4444' }
+        ]
+      }, {
+        scales: { x: { stacked: true }, y: { stacked: true } }
+      });
+    }
+
+    function renderBatchFilterButtons() {
+      const container = document.getElementById('batch-filter-container');
+      const batches = ['All', '2026', '2025', '2024', '2023', '2022', '2021', '2020'];
+      container.innerHTML = batches.map(b => `
+        <button onclick="setBatchFilter('${b}')"
+          class="px-2.5 py-1 rounded text-xs font-semibold border ${b === selectedBatch ? 'bg-blue-900 text-white border-transparent' : 'bg-white text-slate-600 border-slate-200 hover:bg-slate-50'}">
+          ${b === 'All' ? 'All Cohorts (154)' : 'Batch ' + b}
+        </button>
+      `).join('');
+    }
+
+    function setBatchFilter(b) {
+      selectedBatch = b;
+      renderBatchFilterButtons();
+      renderStudentsTable();
+    }
+
+    function renderStudentsTable() {
+      const query = (document.getElementById('student-search-input')?.value || '').toLowerCase();
+      const filtered = db.students.filter(s => {
+        const matchBatch = (selectedBatch === 'All' || s.batch === selectedBatch);
+        const matchQuery = !query || s.name.toLowerCase().includes(query) || s.regNo.toLowerCase().includes(query) || (s.domicile && s.domicile.toLowerCase().includes(query));
+        return matchBatch && matchQuery;
+      }).sort((a, b) => {
+        const batchA = parseInt(a.batch, 10) || 0;
+        const batchB = parseInt(b.batch, 10) || 0;
+        if (batchB !== batchA) {
+          return batchB - batchA; // Latest batch (2026, 2025, 2024...) first
+        }
+        return (a.regNo || '').localeCompare(b.regNo || '', undefined, { numeric: true });
+      });
+
+      const tbody = document.getElementById('civil-students-table-body');
+      tbody.innerHTML = filtered.map(s => {
+        const catBadge = s.category === 'Lateral' ? '<span class="badge badge-amber">Lateral</span>' : '<span class="badge badge-blue">Regular</span>';
+        const gradBadge = s.gradStatus?.includes('No Backlog') ? '<span class="badge badge-green">No Backlog</span>' :
+                          s.gradStatus?.includes('With Backlog') ? '<span class="badge badge-amber">With Backlog</span>' :
+                          s.gradStatus?.includes('Discontinued') ? '<span class="badge badge-red">Discontinued</span>' :
+                          `<span class="badge badge-gray">${s.gradStatus || 'Ongoing'}</span>`;
+        
+        const semCells = ['sem1','sem2','sem3','sem4','sem5','sem6','sem7','sem8'].map(sm => {
+          const sObj = s.semesters?.[sm];
+          if (!sObj || (sObj.sgpa === undefined && sObj.pct === undefined)) {
+            return '<td class="whitespace-nowrap px-2.5 py-2 text-center text-slate-300 text-xs">—</td>';
+          }
+          const sgpaVal = sObj.sgpa !== undefined && sObj.sgpa !== null ? sObj.sgpa : (sObj.pct ? round(sObj.pct / 9.5, 2) : '—');
+          const isFail = sObj.status === 'Fail' || sObj.class === 'Fail';
+          return `<td class="whitespace-nowrap px-2.5 py-2 text-center text-xs ${isFail ? 'bg-red-50 text-red-600 font-bold' : 'text-slate-700'}" title="${sm.toUpperCase()}: SGPA ${sgpaVal} (${sObj.pct || ''}%)">${sgpaVal}</td>`;
+        }).join('');
+
+        // Internship 1
+        const i1Company = s.internship1?.company || '—';
+        const i1File = s.internship1?.file ? 
+          `<a href="${s.internship1.file}" target="_blank" class="inline-flex items-center gap-1 text-[11px] font-bold text-amber-800 hover:text-amber-950 bg-amber-100/90 hover:bg-amber-200 border border-amber-300 px-1.5 py-0.5 rounded shadow-xs ml-1" title="View Uploaded Certificate">📄 View</a>` : 
+          `<button onclick="openUploadModal('${s.id}', 'Internship_1')" class="inline-flex items-center gap-1 text-[10px] font-semibold text-blue-700 hover:text-blue-900 bg-blue-50 hover:bg-blue-100 border border-blue-200 px-1.5 py-0.5 rounded ml-1" title="Upload Internship 1 Certificate">📤 Upload</button>`;
+
+        // Internship 2
+        const i2Company = s.internship2?.company || '—';
+        const i2File = s.internship2?.file ? 
+          `<a href="${s.internship2.file}" target="_blank" class="inline-flex items-center gap-1 text-[11px] font-bold text-blue-800 hover:text-blue-950 bg-blue-100/90 hover:bg-blue-200 border border-blue-300 px-1.5 py-0.5 rounded shadow-xs ml-1" title="View Uploaded Certificate">📄 View</a>` : 
+          `<button onclick="openUploadModal('${s.id}', 'Internship_2')" class="inline-flex items-center gap-1 text-[10px] font-semibold text-blue-700 hover:text-blue-900 bg-blue-50 hover:bg-blue-100 border border-blue-200 px-1.5 py-0.5 rounded ml-1" title="Upload Internship 2 Certificate">📤 Upload</button>`;
+
+        // Placement
+        const plStatus = s.placement?.status || 'Ongoing';
+        const plBadge = plStatus === 'Placed' ? '<span class="badge badge-green">Placed</span>' :
+                        plStatus === 'Higher Studies' ? '<span class="badge badge-purple">Higher Studies</span>' :
+                        plStatus === 'Discontinued' ? '<span class="badge badge-red">Discontinued</span>' :
+                        `<span class="badge badge-gray">${plStatus}</span>`;
+        const plDetail = s.placement?.company ? `<span class="text-slate-600 font-medium text-[11px] ml-1">(${s.placement.company})</span>` : '';
+        const plFile = s.placement?.file ? 
+          `<a href="${s.placement.file}" target="_blank" class="inline-flex items-center gap-1 text-[11px] font-bold text-emerald-800 hover:text-emerald-950 bg-emerald-100/90 hover:bg-emerald-200 border border-emerald-300 px-1.5 py-0.5 rounded shadow-xs ml-1" title="View Offer/Admission Letter">📄 Offer</a>` : 
+          `<button onclick="openUploadModal('${s.id}', 'Placement')" class="inline-flex items-center gap-1 text-[10px] font-semibold text-emerald-700 hover:text-emerald-900 bg-emerald-50 hover:bg-emerald-100 border border-emerald-200 px-1.5 py-0.5 rounded ml-1" title="Upload Placement Offer/Admission Letter">📤 Upload</button>`;
+
+        return `
+          <tr class="whitespace-nowrap hover:bg-slate-50/70 transition">
+            <td class="whitespace-nowrap px-3 py-2 text-center font-bold text-slate-700">${s.batch}</td>
+            <td class="whitespace-nowrap px-3 py-2 font-mono font-semibold text-blue-950">${s.regNo}</td>
+            <td class="whitespace-nowrap px-3 py-2 font-medium text-slate-900">${s.name}</td>
+            <td class="whitespace-nowrap px-3 py-2 text-center text-xs font-semibold">${s.gender === 'Male' ? 'M' : 'F'}</td>
+            <td class="whitespace-nowrap px-3 py-2 text-xs text-slate-600">${s.domicile || '—'}</td>
+            <td class="whitespace-nowrap px-3 py-2 text-center">${catBadge}</td>
+            <td class="whitespace-nowrap px-3 py-2 text-center">${gradBadge}</td>
+            <td class="whitespace-nowrap px-3 py-2 text-center font-bold ${s.cgpa >= 8.0 ? 'text-emerald-700' : s.cgpa >= 6.5 ? 'text-blue-800' : 'text-amber-700'}">${s.cgpa ? Number(s.cgpa).toFixed(2) : '—'}</td>
+            <td class="whitespace-nowrap px-3 py-2 text-center font-bold ${s.failCount > 0 ? 'text-red-600 bg-red-50/50' : 'text-slate-400'}">${s.failCount || 0}</td>
+            ${semCells}
+            <td class="whitespace-nowrap px-3 py-2 text-xs text-slate-700"><span class="font-medium" title="${s.internship1?.title || ''}">${i1Company}</span> ${i1File}</td>
+            <td class="whitespace-nowrap px-3 py-2 text-xs text-slate-700"><span class="font-medium" title="${s.internship2?.title || ''}">${i2Company}</span> ${i2File}</td>
+            <td class="whitespace-nowrap px-3 py-2 text-xs">${plBadge}${plDetail} ${plFile}</td>
+            <td class="whitespace-nowrap px-3 py-2 text-right">
+              <button onclick="openStudentModal('${s.id}')" class="px-2 py-0.5 bg-blue-50 text-blue-700 hover:bg-blue-100 rounded text-xs font-semibold mr-1">✏️ Edit</button>
+              <button onclick="deleteStudent('${s.id}')" class="px-2 py-0.5 bg-red-50 text-red-700 hover:bg-red-100 rounded text-xs font-semibold">🗑</button>
+            </td>
+          </tr>
+        `;
+      }).join('') || '<tr><td colspan="21" class="text-center py-6 text-slate-400">No student records found matching filters.</td></tr>';
+
+      document.getElementById('student-record-counter').innerHTML = `
+        <span>Showing <strong>${filtered.length}</strong> of <strong>${db.students.length}</strong> Civil Engineering Students</span>
+        <span class="text-slate-400">Department of Civil Engineering · CHRIST (Deemed to be University)</span>
+      `;
+    }
+
+    function renderP4Roster() {
+      const type = document.getElementById('p4-filter-type')?.value || 'all';
+      const batch = document.getElementById('p4-filter-batch')?.value || 'all';
+
+      const graduatedBatches = ['2020', '2021', '2022'];
+      const filtered = db.students.filter(s => {
+        if (!graduatedBatches.includes(s.batch)) return false;
+        if (batch !== 'all' && s.batch !== batch) return false;
+        if (type === 'without') return s.gradStatus?.includes('No Backlog');
+        if (type === 'with') return s.gradStatus?.includes('With Backlog');
+        return true;
+      });
+
+      const tbody = document.getElementById('p4-roster-body');
+      tbody.innerHTML = filtered.map(s => `
+        <tr class="whitespace-nowrap">
+          <td class="whitespace-nowrap font-mono text-xs font-bold text-blue-950">${s.regNo}</td>
+          <td class="whitespace-nowrap font-medium">${s.name}</td>
+          <td class="whitespace-nowrap text-center">${s.batch}</td>
+          <td class="whitespace-nowrap text-center">${s.gender}</td>
+          <td class="whitespace-nowrap">${s.domicile}</td>
+          <td class="whitespace-nowrap">${s.gradStatus?.includes('No Backlog') ? '<span class="badge badge-green">Completed Without Backlog</span>' : '<span class="badge badge-amber">Completed With Backlog</span>'}</td>
+          <td class="whitespace-nowrap font-semibold text-right">${s.cgpa ? Number(s.cgpa).toFixed(2) + ' CGPA' : '—'}</td>
+        </tr>
+      `).join('') || '<tr><td colspan="7" class="text-center py-4 text-slate-400">No records found.</td></tr>';
+    }
+
+    // Modal Operations
+    function openStudentModal(id = null) {
+      document.getElementById('student-form').reset();
+      document.getElementById('modal-student-id').value = id || '';
+      document.getElementById('modal-title').textContent = id ? 'Edit Civil Student Details' : 'Add New Civil Engineering Student';
+
+      let existing = null;
+      if (id) {
+        existing = db.students.find(s => s.id === id);
+        if (existing) {
+          document.getElementById('f-name').value = existing.name;
+          document.getElementById('f-regno').value = existing.regNo;
+          document.getElementById('f-batch').value = existing.batch;
+          document.getElementById('f-category').value = existing.category;
+          document.getElementById('f-gender').value = existing.gender;
+          document.getElementById('f-domicile').value = existing.domicile;
+          document.getElementById('f-cgpa').value = existing.cgpa !== undefined ? existing.cgpa : '';
+          document.getElementById('f-backlogs').value = existing.failCount !== undefined ? existing.failCount : 0;
+          
+          // Internship 1
+          document.getElementById('f-intern1-company').value = existing.internship1?.company || '';
+          document.getElementById('f-intern1-title').value = existing.internship1?.title || '';
+          document.getElementById('f-intern1-file-path').value = existing.internship1?.file || '';
+          document.getElementById('f-intern1-file-badge').innerHTML = existing.internship1?.file ? 
+            `<a href="${existing.internship1.file}" target="_blank" class="text-xs text-amber-700 underline font-semibold">📄 View Current File</a>` : '';
+          document.getElementById('f-intern1-file-input').value = '';
+
+          // Internship 2
+          document.getElementById('f-intern2-company').value = existing.internship2?.company || '';
+          document.getElementById('f-intern2-title').value = existing.internship2?.title || '';
+          document.getElementById('f-intern2-file-path').value = existing.internship2?.file || '';
+          document.getElementById('f-intern2-file-badge').innerHTML = existing.internship2?.file ? 
+            `<a href="${existing.internship2.file}" target="_blank" class="text-xs text-blue-700 underline font-semibold">📄 View Current File</a>` : '';
+          document.getElementById('f-intern2-file-input').value = '';
+
+          // Placement
+          document.getElementById('f-pl-status').value = existing.placement?.status || 'Ongoing';
+          document.getElementById('f-pl-company').value = existing.placement?.company || '';
+          document.getElementById('f-pl-package').value = existing.placement?.package || '';
+          document.getElementById('f-pl-file-path').value = existing.placement?.file || '';
+          document.getElementById('f-pl-file-badge').innerHTML = existing.placement?.file ? 
+            `<a href="${existing.placement.file}" target="_blank" class="text-xs text-emerald-700 underline font-semibold">📄 View Current File</a>` : '';
+          document.getElementById('f-pl-file-input').value = '';
+        }
+      } else {
+        document.getElementById('f-intern1-file-badge').innerHTML = '';
+        document.getElementById('f-intern2-file-badge').innerHTML = '';
+        document.getElementById('f-pl-file-badge').innerHTML = '';
+      }
+
+      // Populate Semesters
+      const sems = ['sem1','sem2','sem3','sem4','sem5','sem6','sem7','sem8'];
+      const semLabels = ['Sem 1', 'Sem 2', 'Sem 3', 'Sem 4', 'Sem 5', 'Sem 6', 'Sem 7', 'Sem 8'];
+      const container = document.getElementById('modal-semesters-container');
+      container.innerHTML = sems.map((sm, i) => {
+        const val = existing?.semesters?.[sm]?.pct || '';
+        const cls = existing?.semesters?.[sm]?.class || 'FC';
+        const st = existing?.semesters?.[sm]?.status || 'Pass';
+        return `
+          <div class="sem-grid-row">
+            <label class="text-xs font-semibold text-slate-600">${semLabels[i]}</label>
+            <input type="number" step="0.01" id="m-pct-${sm}" value="${val}" placeholder="Percentage %" class="border rounded px-2 py-1 text-xs">
+            <select id="m-cls-${sm}" class="border rounded px-2 py-1 text-xs">
+              <option value="FC-D" ${cls === 'FC-D' ? 'selected' : ''}>FC-D (Distinction)</option>
+              <option value="FC" ${cls === 'FC' ? 'selected' : ''}>FC (First Class)</option>
+              <option value="SC" ${cls === 'SC' ? 'selected' : ''}>SC (Second Class)</option>
+              <option value="P" ${cls === 'P' ? 'selected' : ''}>Pass Class</option>
+              <option value="Fail" ${cls === 'Fail' ? 'selected' : ''}>Fail</option>
+            </select>
+            <select id="m-st-${sm}" class="border rounded px-2 py-1 text-xs">
+              <option value="Pass" ${st === 'Pass' ? 'selected' : ''}>Pass</option>
+              <option value="Fail" ${st === 'Fail' ? 'selected' : ''}>Fail / Backlog</option>
+              <option value="—" ${st === '—' ? 'selected' : ''}>Not Appeared</option>
+            </select>
+          </div>
+        `;
+      }).join('');
+
+      document.getElementById('modal-overlay').classList.add('open');
+    }
+
+    function closeStudentModal() {
+      document.getElementById('modal-overlay').classList.remove('open');
+    }
+
+    function readFileAsBase64(file) {
+      return new Promise((resolve, reject) => {
+        const reader = new FileReader();
+        reader.onload = () => resolve(reader.result);
+        reader.onerror = error => reject(error);
+        reader.readAsDataURL(file);
+      });
+    }
+
+    async function saveStudentSubmit(e) {
+      e.preventDefault();
+      const id = document.getElementById('modal-student-id').value;
+      const regNo = document.getElementById('f-regno').value.trim();
+      const name = document.getElementById('f-name').value.trim();
+      const batch = document.getElementById('f-batch').value;
+      const category = document.getElementById('f-category').value;
+      const gender = document.getElementById('f-gender').value;
+      const domicile = document.getElementById('f-domicile').value.trim();
+      const manualCgpa = parseFloat(document.getElementById('f-cgpa').value);
+      const manualBacklogs = parseInt(document.getElementById('f-backlogs').value);
+
+      const intern1Company = document.getElementById('f-intern1-company').value.trim();
+      const intern1Title = document.getElementById('f-intern1-title').value.trim();
+      let intern1FilePath = document.getElementById('f-intern1-file-path').value;
+
+      const intern2Company = document.getElementById('f-intern2-company').value.trim();
+      const intern2Title = document.getElementById('f-intern2-title').value.trim();
+      let intern2FilePath = document.getElementById('f-intern2-file-path').value;
+
+      const plStatus = document.getElementById('f-pl-status').value;
+      const plCompany = document.getElementById('f-pl-company').value.trim();
+      const plPackage = parseFloat(document.getElementById('f-pl-package').value) || 0;
+      let plFilePath = document.getElementById('f-pl-file-path').value;
+
+      // Handle any newly selected files in student form
+      const intern1FileInput = document.getElementById('f-intern1-file-input');
+      if (intern1FileInput.files.length > 0) {
+        try {
+          const file = intern1FileInput.files[0];
+          const b64 = await readFileAsBase64(file);
+          const upRes = await fetch('/upload-document', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ batch, regNo, studentName: name, docType: 'Internship_1', fileName: file.name, fileBase64: b64 })
+          });
+          const upData = await upRes.json();
+          if (upData.filePath) intern1FilePath = upData.filePath;
+        } catch(err) { console.error('Internship 1 upload error:', err); }
+      }
+
+      const intern2FileInput = document.getElementById('f-intern2-file-input');
+      if (intern2FileInput.files.length > 0) {
+        try {
+          const file = intern2FileInput.files[0];
+          const b64 = await readFileAsBase64(file);
+          const upRes = await fetch('/upload-document', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ batch, regNo, studentName: name, docType: 'Internship_2', fileName: file.name, fileBase64: b64 })
+          });
+          const upData = await upRes.json();
+          if (upData.filePath) intern2FilePath = upData.filePath;
+        } catch(err) { console.error('Internship 2 upload error:', err); }
+      }
+
+      const plFileInput = document.getElementById('f-pl-file-input');
+      if (plFileInput.files.length > 0) {
+        try {
+          const file = plFileInput.files[0];
+          const b64 = await readFileAsBase64(file);
+          const upRes = await fetch('/upload-document', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ batch, regNo, studentName: name, docType: 'Placement', fileName: file.name, fileBase64: b64 })
+          });
+          const upData = await upRes.json();
+          if (upData.filePath) plFilePath = upData.filePath;
+        } catch(err) { console.error('Placement upload error:', err); }
+      }
+
+      const semesters = {};
+      let totalPcts = 0, countPcts = 0, failCount = 0;
+      ['sem1','sem2','sem3','sem4','sem5','sem6','sem7','sem8'].forEach(sm => {
+        const pctVal = parseFloat(document.getElementById('m-pct-' + sm)?.value);
+        const clsVal = document.getElementById('m-cls-' + sm)?.value;
+        const stVal = document.getElementById('m-st-' + sm)?.value;
+        if (!isNaN(pctVal) && pctVal > 0) {
+          semesters[sm] = { pct: pctVal, sgpa: round(pctVal / 9.5, 2), class: clsVal, status: stVal };
+          totalPcts += pctVal;
+          countPcts++;
+          if (stVal === 'Fail') failCount++;
+        } else {
+          semesters[sm] = null;
+        }
+      });
+
+      const actualBacklogs = !isNaN(manualBacklogs) ? manualBacklogs : failCount;
+      const cgpa = !isNaN(manualCgpa) ? manualCgpa : (countPcts > 0 ? round(totalPcts / (countPcts * 9.5), 2) : 7.2);
+      const gradStatus = actualBacklogs === 0 ? 'No Backlog' : 'With Backlog';
+
+      const studentObj = {
+        id: id || `CIVIL_${batch}_${regNo}`,
+        regNo,
+        name,
+        batch,
+        department: 'Civil Engineering',
+        gender,
+        domicile,
+        category,
+        cgpa,
+        internship: `${intern1Company || 'Site'} / ${intern2Company || 'Design'}`,
+        internship1: {
+          company: intern1Company,
+          title: intern1Title,
+          file: intern1FilePath
+        },
+        internship2: {
+          company: intern2Company,
+          title: intern2Title,
+          file: intern2FilePath
+        },
+        gradStatus,
+        failCount: actualBacklogs,
+        semesters,
+        placement: {
+          status: plStatus,
+          company: plCompany,
+          package: plPackage,
+          file: plFilePath
+        }
+      };
+
+      const existingIdx = db.students.findIndex(s => s.id === studentObj.id || s.regNo === regNo);
+      if (existingIdx >= 0) {
+        db.students[existingIdx] = studentObj;
+      } else {
+        db.students.unshift(studentObj);
+      }
+
+      // Persist to server.py
+      try {
+        const resp = await fetch('/save-data', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify(db, null, 2)
+        });
+        if (!resp.ok) throw new Error('Save failed');
+        closeStudentModal();
+        renderAllViews();
+        showToast('✅ Civil Student record saved to JSON!', 'success');
+      } catch (err) {
+        showToast('⚠️ Could not save to server. Check server.py', 'error');
+      }
+    }
+
+    // Quick Document Upload Handlers
+    function openUploadModal(studentId, docType) {
+      const s = db.students.find(st => st.id === studentId);
+      if (!s) return;
+      document.getElementById('upload-student-id').value = studentId;
+      document.getElementById('upload-doc-type').value = docType;
+      
+      const docLabel = docType === 'Internship_1' ? 'Internship 1 Certificate' :
+                       docType === 'Internship_2' ? 'Internship 2 Certificate' :
+                       'Placement Offer / Admission Letter';
+      
+      document.getElementById('upload-modal-title').textContent = `Upload ${docLabel}`;
+      document.getElementById('upload-modal-sub').textContent = `${s.name} (Reg No: ${s.regNo}, Batch: ${s.batch})`;
+      document.getElementById('upload-target-path').textContent = `documents/Batch_${s.batch}/${docType}/`;
+      document.getElementById('upload-doc-input').value = '';
+      document.getElementById('modal-doc-upload-overlay').classList.add('open');
+    }
+
+    function closeUploadModal() {
+      document.getElementById('modal-doc-upload-overlay').classList.remove('open');
+    }
+
+    async function submitDocUpload(e) {
+      e.preventDefault();
+      const studentId = document.getElementById('upload-student-id').value;
+      const docType = document.getElementById('upload-doc-type').value;
+      const fileInput = document.getElementById('upload-doc-input');
+      const s = db.students.find(st => st.id === studentId);
+      if (!s || !fileInput.files.length) return;
+
+      const file = fileInput.files[0];
+      const submitBtn = document.getElementById('upload-submit-btn');
+      const origText = submitBtn.textContent;
+      submitBtn.textContent = '⏳ Uploading...';
+      submitBtn.disabled = true;
+
+      try {
+        const base64Data = await readFileAsBase64(file);
+        const payload = {
+          batch: s.batch,
+          regNo: s.regNo,
+          studentName: s.name,
+          docType: docType,
+          fileName: file.name,
+          fileBase64: base64Data
+        };
+
+        const res = await fetch('/upload-document', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify(payload)
+        });
+        const uploadResult = await res.json();
+        if (uploadResult.status !== 'ok') throw new Error('Upload failed');
+
+        // Link to student in db
+        if (docType === 'Internship_1') {
+          s.internship1 = s.internship1 || { company: 'Industrial Training', title: 'Site Inspection' };
+          s.internship1.file = uploadResult.filePath;
+        } else if (docType === 'Internship_2') {
+          s.internship2 = s.internship2 || { company: 'Design Internship', title: 'Structural Analysis' };
+          s.internship2.file = uploadResult.filePath;
+        } else if (docType === 'Placement') {
+          s.placement = s.placement || { status: 'Placed', company: 'Industry', package: 5.0 };
+          s.placement.file = uploadResult.filePath;
+        }
+
+        // Save updated db
+        await fetch('/save-data', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify(db, null, 2)
+        });
+
+        closeUploadModal();
+        renderStudentsTable();
+        showToast(`✅ Uploaded to documents/Batch_${s.batch}/${docType}/ and linked to ${s.name}!`, 'success');
+      } catch (err) {
+        showToast('⚠️ Upload failed: ' + err.message, 'error');
+      } finally {
+        submitBtn.textContent = origText;
+        submitBtn.disabled = false;
+      }
+    }
+
+    async function deleteStudent(id) {
+      if (!confirm('Are you sure you want to delete this Civil Engineering student record?')) return;
+      db.students = db.students.filter(s => s.id !== id);
+      try {
+        await fetch('/save-data', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify(db, null, 2)
+        });
+        renderAllViews();
+        showToast('🗑 Student record deleted.', 'info');
+      } catch (err) {
+        showToast('⚠️ Delete failed.', 'error');
+      }
+    }
+
+    function downloadWordDoc() {
+      window.location.href = '/download-word';
+    }
+
+    function createChart(id, type, data, extraOptions = {}) {
+      if (CHARTS[id]) CHARTS[id].destroy();
+      const el = document.getElementById(id);
+      if (!el) return;
+      CHARTS[id] = new Chart(el, {
+        type,
+        data,
+        options: {
+          responsive: true,
+          maintainAspectRatio: false,
+          plugins: { legend: { position: 'top', labels: { boxWidth: 12, font: { size: 11 } } } },
+          ...extraOptions
+        }
+      });
+    }
+
+    function showToast(msg, type = 'info') {
+      const t = document.getElementById('toast');
+      t.textContent = msg;
+      t.style.background = type === 'success' ? '#059669' : type === 'error' ? '#b91c1c' : '#1b365d';
+      t.classList.add('show');
+      setTimeout(() => t.classList.remove('show'), 3500);
+    }
+
+    function round(num, dec) {
+      return Number(Math.round(num + 'e' + dec) + 'e-' + dec);
+    }
+
+    window.addEventListener('DOMContentLoaded', initApp);
+  </script>
+</body>
+</html>

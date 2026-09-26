@@ -1,0 +1,6 @@
+# NBA Criterion 4 & Student Progression Dashboard
+# Built with Python standard library (http.server)
+# Optional data processing tools:
+openpyxl>=3.1.0
+python-docx>=1.0.0
+reportlab>=4.0.0
