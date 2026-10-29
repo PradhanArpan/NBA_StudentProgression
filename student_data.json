@@ -1,2842 +1,2425 @@
 {
-  "program": {
-    "name": "B.Tech in Civil Engineering",
-    "department": "Department of Civil Engineering",
-    "institution": "CHRIST (Deemed to be University), Faculty of Engineering",
-    "accreditation": "NBA Tier-I Pre-Qualifier & SAR Cycle",
-    "criterion": "Criterion 4 — Students' Performance (120 Marks)",
-    "criterionInCharges": "Dr. Arpan Pradhan & Dr. Shibu K Mani",
-    "nbaCoordinator": "Dr. Thejas H K",
-    "hod": "Dr. Sujatha Unnikrishnan",
-    "assessmentPeriod": "CAY: 2026-27 | Assessment Years: 2024-25 & 2025-26 | Graduated Batches: 2020, 2021, 2022"
-  },
-  "criterionScores": {
-    "4.1": {
-      "name": "Enrolment Ratio",
-      "max": 20,
-      "claimed": 20.0,
-      "formula": "Average ER = 97.8% (>= 90%)"
-    },
-    "4.2": {
-      "name": "Success Rate in Stipulated Period",
-      "max": 15,
-      "claimed": 12.01,
-      "formula": "Average SR = 80.07% (1.5 * 80.07 / 10)"
-    },
-    "4.3": {
-      "name": "Academic Performance in 1st Year (API)",
-      "max": 10,
-      "claimed": 5.55,
-      "formula": "Average API = (5.90 + 5.41 + 5.34) / 3"
-    },
-    "4.4": {
-      "name": "Academic Performance in 2nd Year (API)",
-      "max": 10,
-      "claimed": 6.19,
-      "formula": "Average API = (5.69 + 6.47 + 6.40) / 3"
-    },
-    "4.5": {
-      "name": "Academic Performance in 3rd Year (API)",
-      "max": 10,
-      "claimed": 6.71,
-      "formula": "Average API = (7.11 + 6.35 + 6.66) / 3"
-    },
-    "4.6": {
-      "name": "Placement, Higher Studies & Entrepreneurship",
-      "max": 30,
-      "claimed": 28.11,
-      "formula": "Average P = 93.71% (0.3 * 93.71)"
-    },
-    "4.7": {
-      "name": "Professional Activities",
-      "max": 25,
-      "claimed": 23.5,
-      "formula": "ASCE, ICI, IGBC, IEI, NIRMAN, Publications"
-    },
-    "total": {
-      "max": 120,
-      "claimed": 102.07
-    }
-  },
-  "batchConfig": {
-    "2020": {
-      "sanctionedIntake": 60,
-      "admittedRegular": 21,
-      "admittedLateral": 4,
-      "exits": 1,
-      "effective": 24,
-      "graduated": 24,
-      "withoutBacklog": 10,
-      "withBacklog": 14,
-      "successRate": 92.31,
-      "status": "Graduated (LYGm2)",
-      "separateDivision": 0,
-      "supernumerary": 0,
-      "transferredIn": 0
-    },
-    "2021": {
-      "sanctionedIntake": 60,
-      "admittedRegular": 11,
-      "admittedLateral": 2,
-      "exits": 1,
-      "effective": 12,
-      "graduated": 8,
-      "withoutBacklog": 5,
-      "withBacklog": 3,
-      "successRate": 61.54,
-      "status": "Graduated (LYGm1)",
-      "separateDivision": 0,
-      "supernumerary": 0,
-      "transferredIn": 0
-    },
-    "2022": {
-      "sanctionedIntake": 60,
-      "admittedRegular": 21,
-      "admittedLateral": 0,
-      "exits": 1,
-      "effective": 20,
-      "graduated": 19,
-      "withoutBacklog": 7,
-      "withBacklog": 12,
-      "successRate": 86.36,
-      "status": "Graduated (LYG)",
-      "separateDivision": 0,
-      "supernumerary": 0,
-      "transferredIn": 0
-    },
-    "2023": {
-      "sanctionedIntake": 60,
-      "admittedRegular": 33,
-      "admittedLateral": 0,
-      "exits": 0,
-      "effective": 33,
-      "graduated": 0,
-      "withoutBacklog": 0,
-      "withBacklog": 0,
-      "successRate": null,
-      "status": "Current 3rd Year (CAYm3)",
-      "separateDivision": 0,
-      "supernumerary": 0,
-      "transferredIn": 0
-    },
-    "2024": {
-      "sanctionedIntake": 60,
-      "admittedRegular": 16,
-      "admittedLateral": 0,
-      "exits": 0,
-      "effective": 16,
-      "graduated": 0,
-      "withoutBacklog": 0,
-      "withBacklog": 0,
-      "successRate": null,
-      "status": "Current 2nd Year (CAYm2)",
-      "separateDivision": 0,
-      "supernumerary": 0,
-      "transferredIn": 0
-    },
-    "2025": {
-      "sanctionedIntake": 60,
-      "admittedRegular": 31,
-      "admittedLateral": 0,
-      "exits": 0,
-      "effective": 31,
-      "graduated": 0,
-      "withoutBacklog": 0,
-      "withBacklog": 0,
-      "successRate": null,
-      "status": "Current 1st Year (CAYm1)",
-      "separateDivision": 0,
-      "supernumerary": 0,
-      "transferredIn": 0
-    },
-    "2026": {
-      "sanctionedIntake": 60,
-      "admittedRegular": 15,
-      "admittedLateral": 0,
-      "exits": 0,
-      "effective": 15,
-      "graduated": 0,
-      "withoutBacklog": 0,
-      "withBacklog": 0,
-      "successRate": null,
-      "status": "Enrolled (CAY)",
-      "separateDivision": 0,
-      "supernumerary": 0,
-      "transferredIn": 0
-    }
-  },
-  "p4Data": {
-    "batches": [
-      "Batch of (2022-23 / LYG)",
-      "Batch of (2021-22 / LYGm1)",
-      "Batch of (2020-21 / LYGm2)"
-    ],
-    "appeared": [
-      19,
-      8,
-      24
-    ],
-    "withoutBacklog": [
-      7,
-      5,
-      10
-    ],
-    "withBacklog": [
-      12,
-      3,
-      14
-    ],
-    "totalGraduated": [
-      19,
-      8,
-      24
-    ],
-    "totalBatch": [
-      22,
-      13,
-      26
-    ]
-  },
-  "p5Data": {
-    "batch": "2019 - 2023 & 2020 - 2024",
-    "semesters": [
-      "Sem I",
-      "Sem II",
-      "Sem III",
-      "Sem IV",
-      "Sem V",
-      "Sem VI",
-      "Sem VII",
-      "Sem VIII"
-    ],
-    "distinction": [
-      1,
-      2,
-      1,
-      3,
-      1,
-      1,
-      2,
-      14
-    ],
-    "firstClass": [
-      14,
-      18,
-      20,
-      18,
-      11,
-      9,
-      17,
-      9
-    ],
-    "secondClass": [
-      9,
-      3,
-      0,
-      1,
-      1,
-      9,
-      0,
-      0
-    ],
-    "passClass": [
-      0,
-      1,
-      0,
-      0,
-      0,
-      2,
-      0,
-      0
-    ],
-    "failed": [
-      0,
-      0,
-      3,
-      2,
-      10,
-      2,
-      4,
-      0
-    ],
-    "avgPercentage": [
-      63.76,
-      67.39,
-      70.38,
-      72.03,
-      62.32,
-      60.91,
-      70.6,
-      81.22
-    ],
-    "yearAvg": [
-      65.58,
-      65.58,
-      71.2,
-      71.2,
-      61.62,
-      61.62,
-      75.91,
-      75.91
-    ]
-  },
-  "batchDocuments": {},
-  "batchResults": {},
-  "csvData": {
-    "2020_2024_entrepreneurs": [
-      {
-        "batch": "2020-2024",
-        "sl_no": "1",
-        "reg_no": "2060124",
-        "student_name": "DARREN SYNTENG UMWI",
-        "company": "Tribuild Co",
-        "role": "Partner"
-      },
-      {
-        "batch": "2020-2024",
-        "sl_no": "2",
-        "reg_no": "2061801",
-        "student_name": "SREENATH M S",
-        "company": "Vibis Ventures Pvt Ltd",
-        "role": "Partner"
-      }
-    ],
-    "2020_2024_graduating_students": [
-      {
-        "batch": "2020-2024",
-        "sl_no": "1",
-        "reg_no": "2060101",
-        "student_name": "AAKASH TOM JOSEPH"
-      },
-      {
-        "batch": "2020-2024",
-        "sl_no": "2",
-        "reg_no": "2060102",
-        "student_name": "ADITHYA ANIL KOZHIKANDATHIL"
-      },
-      {
-        "batch": "2020-2024",
-        "sl_no": "3",
-        "reg_no": "2060104",
-        "student_name": "AMAN DUNG DUNG"
-      },
-      {
-        "batch": "2020-2024",
-        "sl_no": "4",
-        "reg_no": "2060106",
-        "student_name": "SHERIN SAMUEL"
-      },
-      {
-        "batch": "2020-2024",
-        "sl_no": "5",
-        "reg_no": "2060108",
-        "student_name": "TOMS JOSE"
-      },
-      {
-        "batch": "2020-2024",
-        "sl_no": "6",
-        "reg_no": "2060109",
-        "student_name": "WANSHANSKHEM LYNGDOH NONGBRI"
-      },
-      {
-        "batch": "2020-2024",
-        "sl_no": "7",
-        "reg_no": "2060110",
-        "student_name": "ANAGHA REMAN"
-      },
-      {
-        "batch": "2020-2024",
-        "sl_no": "8",
-        "reg_no": "2060111",
-        "student_name": "RAHEE BHATTACHARYYA"
-      },
-      {
-        "batch": "2020-2024",
-        "sl_no": "9",
-        "reg_no": "2060112",
-        "student_name": "ANWIN V GEORGE"
-      },
-      {
-        "batch": "2020-2024",
-        "sl_no": "10",
-        "reg_no": "2060113",
-        "student_name": "SANDRA ROSE TETTIS"
-      },
-      {
-        "batch": "2020-2024",
-        "sl_no": "11",
-        "reg_no": "2060116",
-        "student_name": "MACHIREDDY BHARATH KUMAR REDDY"
-      },
-      {
-        "batch": "2020-2024",
-        "sl_no": "12",
-        "reg_no": "2060117",
-        "student_name": "G GUNVANTH"
-      },
-      {
-        "batch": "2020-2024",
-        "sl_no": "13",
-        "reg_no": "2060118",
-        "student_name": "GUTHA MOHITH NARASIMHA NAIDU"
-      },
-      {
-        "batch": "2020-2024",
-        "sl_no": "14",
-        "reg_no": "2060119",
-        "student_name": "ADITHYA SHANKER P"
-      },
-      {
-        "batch": "2020-2024",
-        "sl_no": "15",
-        "reg_no": "2060120",
-        "student_name": "NAVEEN PRASATH M"
-      },
-      {
-        "batch": "2020-2024",
-        "sl_no": "16",
-        "reg_no": "2060121",
-        "student_name": "K J YASHAS REDDY"
-      },
-      {
-        "batch": "2020-2024",
-        "sl_no": "17",
-        "reg_no": "2060122",
-        "student_name": "MOUNIKA KURMA"
-      },
-      {
-        "batch": "2020-2024",
-        "sl_no": "18",
-        "reg_no": "2060124",
-        "student_name": "DARREN SYNTENG UMWI"
-      },
-      {
-        "batch": "2020-2024",
-        "sl_no": "19",
-        "reg_no": "2060125",
-        "student_name": "RON NICHOLAS DSOUZA"
-      },
-      {
-        "batch": "2020-2024",
-        "sl_no": "20",
-        "reg_no": "2061801",
-        "student_name": "SREENATH M S"
-      },
-      {
-        "batch": "2020-2024",
-        "sl_no": "21",
-        "reg_no": "2061802",
-        "student_name": "RAKSHIT SHUBHAM"
-      },
-      {
-        "batch": "2020-2024",
-        "sl_no": "22",
-        "reg_no": "2061803",
-        "student_name": "TEENA SOJAN V V"
-      },
-      {
-        "batch": "2020-2024",
-        "sl_no": "23",
-        "reg_no": "2061804",
-        "student_name": "SIDDAVATAM NAVANEESWAR REDDY"
-      }
-    ],
-    "2020_2024_higher_studies": [
-      {
-        "batch": "2020-2024",
-        "sl_no": "1",
-        "reg_no": "2060102",
-        "student_name": "ADITHYA ANIL KOZHIKANDATHIL",
-        "university": "College of Engineering, Thiruvananthapuram",
-        "program": "M.Planning"
-      },
-      {
-        "batch": "2020-2024",
-        "sl_no": "2",
-        "reg_no": "2060104",
-        "student_name": "AMAN DUNG DUNG",
-        "university": "NICMAR (Pune)",
-        "program": "MBA"
-      },
-      {
-        "batch": "2020-2024",
-        "sl_no": "3",
-        "reg_no": "2060108",
-        "student_name": "TOMS JOSE",
-        "university": "New Delhi Institute of Management",
-        "program": "MBA"
-      },
-      {
-        "batch": "2020-2024",
-        "sl_no": "4",
-        "reg_no": "2060109",
-        "student_name": "WANSHANSKHEM LYNGDOH NONGBRI",
-        "university": "Amity University",
-        "program": "MBA"
-      },
-      {
-        "batch": "2020-2024",
-        "sl_no": "5",
-        "reg_no": "2060111",
-        "student_name": "RAHEE BHATTACHARYYA",
-        "university": "NICMAR (Pune)",
-        "program": "M.Tech"
-      },
-      {
-        "batch": "2020-2024",
-        "sl_no": "6",
-        "reg_no": "2060112",
-        "student_name": "ANWIN V GEORGE",
-        "university": "NICMAR (Pune)",
-        "program": "MBA"
-      },
-      {
-        "batch": "2020-2024",
-        "sl_no": "7",
-        "reg_no": "2060113",
-        "student_name": "SANDRA ROSE TETTIS",
-        "university": "NIT, Calicut",
-        "program": "M.Tech"
-      },
-      {
-        "batch": "2020-2024",
-        "sl_no": "8",
-        "reg_no": "2060117",
-        "student_name": "G GUNVANTH",
-        "university": "National Forensic Sciences University",
-        "program": "MBA"
-      },
-      {
-        "batch": "2020-2024",
-        "sl_no": "9",
-        "reg_no": "2060118",
-        "student_name": "GUTHA MOHITH NARASIMHA NAIDU",
-        "university": "NICMAR (Pune)",
-        "program": "MBA"
-      },
-      {
-        "batch": "2020-2024",
-        "sl_no": "10",
-        "reg_no": "2060121",
-        "student_name": "K J YASHAS REDDY",
-        "university": "NICMAR (Pune)",
-        "program": "MBA"
-      },
-      {
-        "batch": "2020-2024",
-        "sl_no": "11",
-        "reg_no": "2060122",
-        "student_name": "MOUNIKA KURMA",
-        "university": "NICMAR (Pune)",
-        "program": "MBA"
-      },
-      {
-        "batch": "2020-2024",
-        "sl_no": "12",
-        "reg_no": "2060125",
-        "student_name": "RON NICHOLAS DSOUZA",
-        "university": "Hamburg Technological University, Germany",
-        "program": "M.Sc"
-      }
-    ],
-    "2020_2024_placements": [
-      {
-        "batch": "2020-2024",
-        "sl_no": "1",
-        "reg_no": "2060101",
-        "student_name": "AAKASH TOM JOSEPH",
-        "company": "Sobha Limited",
-        "ctc_lpa": "3.0"
-      },
-      {
-        "batch": "2020-2024",
-        "sl_no": "2",
-        "reg_no": "2060110",
-        "student_name": "ANAGHA REMAN",
-        "company": "Manipal Health Enterprises Limited",
-        "ctc_lpa": "6.5"
-      },
-      {
-        "batch": "2020-2024",
-        "sl_no": "3",
-        "reg_no": "2060119",
-        "student_name": "ADITHYA SHANKER P",
-        "company": "Codilar",
-        "ctc_lpa": "3.0"
-      },
-      {
-        "batch": "2020-2024",
-        "sl_no": "4",
-        "reg_no": "2060120",
-        "student_name": "NAVEEN PRASATH M",
-        "company": "Sobha Limited",
-        "ctc_lpa": "3.0"
-      },
-      {
-        "batch": "2020-2024",
-        "sl_no": "5",
-        "reg_no": "2061803",
-        "student_name": "TEENA SOJAN V V",
-        "company": "Colliers International",
-        "ctc_lpa": "3.75"
-      },
-      {
-        "batch": "2020-2024",
-        "sl_no": "6",
-        "reg_no": "2061804",
-        "student_name": "SIDDAVATAM NAVANEESWAR REDDY",
-        "company": "Wurfel Kuche",
-        "ctc_lpa": "3.5"
-      }
-    ],
-    "2020_2024_statistics": [
-      {
-        "batch": "2020-2024",
-        "metric": "Total Graduating Students",
-        "value": "23"
-      },
-      {
-        "batch": "2020-2024",
-        "metric": "Placement",
-        "value": "6"
-      },
-      {
-        "batch": "2020-2024",
-        "metric": "Higher studies",
-        "value": "12"
-      },
-      {
-        "batch": "2020-2024",
-        "metric": "Entrepreneur",
-        "value": "2"
-      },
-      {
-        "batch": "2020-2024",
-        "metric": "Percentage Progression",
-        "value": "86.95 %"
-      }
-    ],
-    "2021_2025_entrepreneurs": [
-      {
-        "batch": "2021-2025",
-        "sl_no": "1",
-        "reg_no": "2161801",
-        "student_name": "MEET PARSANA",
-        "company": "Chitra Constructions",
-        "role": "Partner"
-      }
-    ],
-    "2021_2025_graduating_students": [
-      {
-        "batch": "2021-2025",
-        "sl_no": "1",
-        "reg_no": "2160104",
-        "student_name": "AMRIN FATHIMA"
-      },
-      {
-        "batch": "2021-2025",
-        "sl_no": "2",
-        "reg_no": "2160105",
-        "student_name": "JIYA SIJU"
-      },
-      {
-        "batch": "2021-2025",
-        "sl_no": "3",
-        "reg_no": "2160107",
-        "student_name": "MELVIN THOMAS"
-      },
-      {
-        "batch": "2021-2025",
-        "sl_no": "4",
-        "reg_no": "2160110",
-        "student_name": "MUHAMMED RISHAN"
-      },
-      {
-        "batch": "2021-2025",
-        "sl_no": "5",
-        "reg_no": "2160112",
-        "student_name": "JANGAM NIKHITHA JOSHNA"
-      },
-      {
-        "batch": "2021-2025",
-        "sl_no": "6",
-        "reg_no": "2160113",
-        "student_name": "JOEL KHARPYNGROPE"
-      },
-      {
-        "batch": "2021-2025",
-        "sl_no": "7",
-        "reg_no": "2161801",
-        "student_name": "MEET PARSANA"
-      },
-      {
-        "batch": "2021-2025",
-        "sl_no": "8",
-        "reg_no": "2161802",
-        "student_name": "PRANAY MOHAN"
-      }
-    ],
-    "2021_2025_higher_studies": [
-      {
-        "batch": "2021-2025",
-        "sl_no": "1",
-        "reg_no": "2160105",
-        "student_name": "JIYA SIJU",
-        "university": "CHRIST (Deemed to be University)",
-        "program": "M.Tech"
-      },
-      {
-        "batch": "2021-2025",
-        "sl_no": "2",
-        "reg_no": "2160110",
-        "student_name": "MUHAMMED RISHAN",
-        "university": "NICMAR (Hyderabad)",
-        "program": "MBA"
-      },
-      {
-        "batch": "2021-2025",
-        "sl_no": "3",
-        "reg_no": "2160113",
-        "student_name": "JOEL KHARPYNGROPE",
-        "university": "Don Bosco University, Assam",
-        "program": "MBA"
-      },
-      {
-        "batch": "2021-2025",
-        "sl_no": "4",
-        "reg_no": "2161802",
-        "student_name": "PRANAY MOHAN",
-        "university": "Heriott Watt, Dubai",
-        "program": "M.Sc"
-      }
-    ],
-    "2021_2025_placements": [
-      {
-        "batch": "2021-2025",
-        "sl_no": "1",
-        "reg_no": "2160104",
-        "student_name": "AMRIN FATHIMA",
-        "company": "Equilibrium - Clime Verse Pvt Ltd",
-        "ctc_lpa": "3.6"
-      },
-      {
-        "batch": "2021-2025",
-        "sl_no": "2",
-        "reg_no": "2160107",
-        "student_name": "MELVIN THOMAS",
-        "company": "Carbon Constructions Pvt Ltd",
-        "ctc_lpa": "3.6"
-      },
-      {
-        "batch": "2021-2025",
-        "sl_no": "3",
-        "reg_no": "2160112",
-        "student_name": "JANGAM NIKHITHA JOSHNA",
-        "company": "Colliers International",
-        "ctc_lpa": "3"
-      }
-    ],
-    "2021_2025_statistics": [
-      {
-        "batch": "2021-2025",
-        "metric": "Total Graduating Students",
-        "value": "8"
-      },
-      {
-        "batch": "2021-2025",
-        "metric": "Placement",
-        "value": "3"
-      },
-      {
-        "batch": "2021-2025",
-        "metric": "Higher studies",
-        "value": "4"
-      },
-      {
-        "batch": "2021-2025",
-        "metric": "Entrepreneur",
-        "value": "1"
-      },
-      {
-        "batch": "2021-2025",
-        "metric": "Percentage Progression",
-        "value": "100 %"
-      }
-    ],
-    "2022_2026_entrepreneurs": [
-      {
-        "batch": "2022-2026",
-        "sl_no": "1",
-        "reg_no": "2260130",
-        "student_name": "AKSHAY T S",
-        "company": "Tharayil Builders",
-        "role": "Partner"
-      }
-    ],
-    "2022_2026_graduating_students": [
-      {
-        "batch": "2022-2026",
-        "sl_no": "1",
-        "reg_no": "2260101",
-        "student_name": "ABHISHEK MISHRA"
-      },
-      {
-        "batch": "2022-2026",
-        "sl_no": "2",
-        "reg_no": "2260106",
-        "student_name": "MATRIKA GURUMAYUM"
-      },
-      {
-        "batch": "2022-2026",
-        "sl_no": "3",
-        "reg_no": "2260107",
-        "student_name": "MUHAMMED PUNATHIL"
-      },
-      {
-        "batch": "2022-2026",
-        "sl_no": "4",
-        "reg_no": "2260114",
-        "student_name": "ABHIRAM K P"
-      },
-      {
-        "batch": "2022-2026",
-        "sl_no": "5",
-        "reg_no": "2260117",
-        "student_name": "SANDIPAN THAPA"
-      },
-      {
-        "batch": "2022-2026",
-        "sl_no": "6",
-        "reg_no": "2260122",
-        "student_name": "KANGUJAM NELSON MANGANG"
-      },
-      {
-        "batch": "2022-2026",
-        "sl_no": "7",
-        "reg_no": "2260124",
-        "student_name": "DARSHAN R"
-      },
-      {
-        "batch": "2022-2026",
-        "sl_no": "8",
-        "reg_no": "2260126",
-        "student_name": "ADARSH D"
-      },
-      {
-        "batch": "2022-2026",
-        "sl_no": "9",
-        "reg_no": "2260127",
-        "student_name": "YASHAS P"
-      },
-      {
-        "batch": "2022-2026",
-        "sl_no": "10",
-        "reg_no": "2260128",
-        "student_name": "ALAVALA MANOJ"
-      },
-      {
-        "batch": "2022-2026",
-        "sl_no": "11",
-        "reg_no": "2260129",
-        "student_name": "PASUPULETI VYSHNAVI"
-      },
-      {
-        "batch": "2022-2026",
-        "sl_no": "12",
-        "reg_no": "2260130",
-        "student_name": "AKSHAY T S"
-      },
-      {
-        "batch": "2022-2026",
-        "sl_no": "13",
-        "reg_no": "2260131",
-        "student_name": "MANNURU JAYANTH NAIDU"
-      }
-    ],
-    "2022_2026_higher_studies": [
-      {
-        "batch": "2022-2026",
-        "sl_no": "1",
-        "reg_no": "2260107",
-        "student_name": "MUHAMMED PUNATHIL",
-        "university": "NICMAR (Pune)",
-        "program": "MBA"
-      },
-      {
-        "batch": "2022-2026",
-        "sl_no": "2",
-        "reg_no": "2260122",
-        "student_name": "KANGUJAM NELSON MANGANG",
-        "university": "IIT Roorkie",
-        "program": "M.Tech"
-      },
-      {
-        "batch": "2022-2026",
-        "sl_no": "3",
-        "reg_no": "2260124",
-        "student_name": "DARSHAN R",
-        "university": "CHRIST (Deemed to be University)",
-        "program": "M.Tech"
-      },
-      {
-        "batch": "2022-2026",
-        "sl_no": "4",
-        "reg_no": "2260126",
-        "student_name": "ADARSH D",
-        "university": "NICMAR (Hyderabad)",
-        "program": "MBA"
-      },
-      {
-        "batch": "2022-2026",
-        "sl_no": "5",
-        "reg_no": "2260127",
-        "student_name": "YASHAS P",
-        "university": "CHRIST (Deemed to be University)",
-        "program": "M.Tech"
-      },
-      {
-        "batch": "2022-2026",
-        "sl_no": "6",
-        "reg_no": "2260128",
-        "student_name": "ALAVALA MANOJ",
-        "university": "NICMAR (Hyderabad)",
-        "program": "MBA"
-      }
-    ],
-    "2022_2026_placements": [
-      {
-        "batch": "2022-2026",
-        "sl_no": "1",
-        "reg_no": "2260101",
-        "student_name": "ABHISHEK MISHRA",
-        "company": "LTI Mindtree",
-        "ctc_lpa": "4.05"
-      },
-      {
-        "batch": "2022-2026",
-        "sl_no": "2",
-        "reg_no": "2260106",
-        "student_name": "MATRIKA GURUMAYUM",
-        "company": "Manipal Health Enterprises Limited",
-        "ctc_lpa": "5.40"
-      },
-      {
-        "batch": "2022-2026",
-        "sl_no": "3",
-        "reg_no": "2260114",
-        "student_name": "ABHIRAM K P",
-        "company": "CRE Spacez",
-        "ctc_lpa": "2.71"
-      },
-      {
-        "batch": "2022-2026",
-        "sl_no": "4",
-        "reg_no": "2260129",
-        "student_name": "PASUPULETI VYSHNAVI",
-        "company": "Clear Water Dynamics",
-        "ctc_lpa": "3.00"
-      },
-      {
-        "batch": "2022-2026",
-        "sl_no": "5",
-        "reg_no": "2260131",
-        "student_name": "MANNURU JAYANTH NAIDU",
-        "company": "Ananda Homes",
-        "ctc_lpa": "2.40"
-      }
-    ],
-    "2022_2026_statistics": [
-      {
-        "batch": "2022-2026",
-        "metric": "Total Graduating Students",
-        "value": "13"
-      },
-      {
-        "batch": "2022-2026",
-        "metric": "Placement",
-        "value": "5"
-      },
-      {
-        "batch": "2022-2026",
-        "metric": "Higher studies",
-        "value": "6"
-      },
-      {
-        "batch": "2022-2026",
-        "metric": "Entrepreneur",
-        "value": "1"
-      },
-      {
-        "batch": "2022-2026",
-        "metric": "Percentage Progression",
-        "value": "92.31 %"
-      }
-    ],
-    "all_batches_student_outcomes": [
-      {
-        "batch": "2020-2024",
-        "reg_no": "2060101",
-        "student_name": "AAKASH TOM JOSEPH",
-        "outcome": "Placement",
-        "organisation": "Sobha Limited",
-        "program_or_role": "",
-        "ctc_lpa": "3.0",
-        "student_folder": "students/2020-2024/2060101_Aakash_Tom_Joseph"
-      },
-      {
-        "batch": "2020-2024",
-        "reg_no": "2060102",
-        "student_name": "ADITHYA ANIL KOZHIKANDATHIL",
-        "outcome": "Higher Studies",
-        "organisation": "College of Engineering, Thiruvananthapuram",
-        "program_or_role": "M.Planning",
-        "ctc_lpa": "",
-        "student_folder": "students/2020-2024/2060102_Adithya_Anil_Kozhikandathil"
-      },
-      {
-        "batch": "2020-2024",
-        "reg_no": "2060104",
-        "student_name": "AMAN DUNG DUNG",
-        "outcome": "Higher Studies",
-        "organisation": "NICMAR (Pune)",
-        "program_or_role": "MBA",
-        "ctc_lpa": "",
-        "student_folder": "students/2020-2024/2060104_Aman_Dung_Dung"
-      },
-      {
-        "batch": "2020-2024",
-        "reg_no": "2060106",
-        "student_name": "SHERIN SAMUEL",
-        "outcome": "Not Reported",
-        "organisation": "",
-        "program_or_role": "",
-        "ctc_lpa": "",
-        "student_folder": "students/2020-2024/2060106_Sherin_Samuel"
-      },
-      {
-        "batch": "2020-2024",
-        "reg_no": "2060108",
-        "student_name": "TOMS JOSE",
-        "outcome": "Higher Studies",
-        "organisation": "New Delhi Institute of Management",
-        "program_or_role": "MBA",
-        "ctc_lpa": "",
-        "student_folder": "students/2020-2024/2060108_Toms_Jose"
-      },
-      {
-        "batch": "2020-2024",
-        "reg_no": "2060109",
-        "student_name": "WANSHANSKHEM LYNGDOH NONGBRI",
-        "outcome": "Higher Studies",
-        "organisation": "Amity University",
-        "program_or_role": "MBA",
-        "ctc_lpa": "",
-        "student_folder": "students/2020-2024/2060109_Wanshanskhem_Lyngdoh_Nongbri"
-      },
-      {
-        "batch": "2020-2024",
-        "reg_no": "2060110",
-        "student_name": "ANAGHA REMAN",
-        "outcome": "Placement",
-        "organisation": "Manipal Health Enterprises Limited",
-        "program_or_role": "",
-        "ctc_lpa": "6.5",
-        "student_folder": "students/2020-2024/2060110_Anagha_Reman"
-      },
-      {
-        "batch": "2020-2024",
-        "reg_no": "2060111",
-        "student_name": "RAHEE BHATTACHARYYA",
-        "outcome": "Higher Studies",
-        "organisation": "NICMAR (Pune)",
-        "program_or_role": "M.Tech",
-        "ctc_lpa": "",
-        "student_folder": "students/2020-2024/2060111_Rahee_Bhattacharyya"
-      },
-      {
-        "batch": "2020-2024",
-        "reg_no": "2060112",
-        "student_name": "ANWIN V GEORGE",
-        "outcome": "Higher Studies",
-        "organisation": "NICMAR (Pune)",
-        "program_or_role": "MBA",
-        "ctc_lpa": "",
-        "student_folder": "students/2020-2024/2060112_Anwin_V_George"
-      },
-      {
-        "batch": "2020-2024",
-        "reg_no": "2060113",
-        "student_name": "SANDRA ROSE TETTIS",
-        "outcome": "Higher Studies",
-        "organisation": "NIT, Calicut",
-        "program_or_role": "M.Tech",
-        "ctc_lpa": "",
-        "student_folder": "students/2020-2024/2060113_Sandra_Rose_Tettis"
-      },
-      {
-        "batch": "2020-2024",
-        "reg_no": "2060116",
-        "student_name": "MACHIREDDY BHARATH KUMAR REDDY",
-        "outcome": "Not Reported",
-        "organisation": "",
-        "program_or_role": "",
-        "ctc_lpa": "",
-        "student_folder": "students/2020-2024/2060116_Machireddy_Bharath_Kumar_Reddy"
-      },
-      {
-        "batch": "2020-2024",
-        "reg_no": "2060117",
-        "student_name": "G GUNVANTH",
-        "outcome": "Higher Studies",
-        "organisation": "National Forensic Sciences University",
-        "program_or_role": "MBA",
-        "ctc_lpa": "",
-        "student_folder": "students/2020-2024/2060117_G_Gunvanth"
-      },
-      {
-        "batch": "2020-2024",
-        "reg_no": "2060118",
-        "student_name": "GUTHA MOHITH NARASIMHA NAIDU",
-        "outcome": "Higher Studies",
-        "organisation": "NICMAR (Pune)",
-        "program_or_role": "MBA",
-        "ctc_lpa": "",
-        "student_folder": "students/2020-2024/2060118_Gutha_Mohith_Narasimha_Naidu"
-      },
-      {
-        "batch": "2020-2024",
-        "reg_no": "2060119",
-        "student_name": "ADITHYA SHANKER P",
-        "outcome": "Placement",
-        "organisation": "Codilar",
-        "program_or_role": "",
-        "ctc_lpa": "3.0",
-        "student_folder": "students/2020-2024/2060119_Adithya_Shanker_P"
-      },
-      {
-        "batch": "2020-2024",
-        "reg_no": "2060120",
-        "student_name": "NAVEEN PRASATH M",
-        "outcome": "Placement",
-        "organisation": "Sobha Limited",
-        "program_or_role": "",
-        "ctc_lpa": "3.0",
-        "student_folder": "students/2020-2024/2060120_Naveen_Prasath_M"
-      },
-      {
-        "batch": "2020-2024",
-        "reg_no": "2060121",
-        "student_name": "K J YASHAS REDDY",
-        "outcome": "Higher Studies",
-        "organisation": "NICMAR (Pune)",
-        "program_or_role": "MBA",
-        "ctc_lpa": "",
-        "student_folder": "students/2020-2024/2060121_K_J_Yashas_Reddy"
-      },
-      {
-        "batch": "2020-2024",
-        "reg_no": "2060122",
-        "student_name": "MOUNIKA KURMA",
-        "outcome": "Higher Studies",
-        "organisation": "NICMAR (Pune)",
-        "program_or_role": "MBA",
-        "ctc_lpa": "",
-        "student_folder": "students/2020-2024/2060122_Mounika_Kurma"
-      },
-      {
-        "batch": "2020-2024",
-        "reg_no": "2060124",
-        "student_name": "DARREN SYNTENG UMWI",
-        "outcome": "Entrepreneur",
-        "organisation": "Tribuild Co",
-        "program_or_role": "Partner",
-        "ctc_lpa": "",
-        "student_folder": "students/2020-2024/2060124_Darren_Synteng_Umwi"
-      },
-      {
-        "batch": "2020-2024",
-        "reg_no": "2060125",
-        "student_name": "RON NICHOLAS DSOUZA",
-        "outcome": "Higher Studies",
-        "organisation": "Hamburg Technological University, Germany",
-        "program_or_role": "M.Sc",
-        "ctc_lpa": "",
-        "student_folder": "students/2020-2024/2060125_Ron_Nicholas_Dsouza"
-      },
-      {
-        "batch": "2020-2024",
-        "reg_no": "2061801",
-        "student_name": "SREENATH M S",
-        "outcome": "Entrepreneur",
-        "organisation": "Vibis Ventures Pvt Ltd",
-        "program_or_role": "Partner",
-        "ctc_lpa": "",
-        "student_folder": "students/2020-2024/2061801_Sreenath_M_S"
-      },
-      {
-        "batch": "2020-2024",
-        "reg_no": "2061802",
-        "student_name": "RAKSHIT SHUBHAM",
-        "outcome": "Not Reported",
-        "organisation": "",
-        "program_or_role": "",
-        "ctc_lpa": "",
-        "student_folder": "students/2020-2024/2061802_Rakshit_Shubham"
-      },
-      {
-        "batch": "2020-2024",
-        "reg_no": "2061803",
-        "student_name": "TEENA SOJAN V V",
-        "outcome": "Placement",
-        "organisation": "Colliers International",
-        "program_or_role": "",
-        "ctc_lpa": "3.75",
-        "student_folder": "students/2020-2024/2061803_Teena_Sojan_V_V"
-      },
-      {
-        "batch": "2020-2024",
-        "reg_no": "2061804",
-        "student_name": "SIDDAVATAM NAVANEESWAR REDDY",
-        "outcome": "Placement",
-        "organisation": "Wurfel Kuche",
-        "program_or_role": "",
-        "ctc_lpa": "3.5",
-        "student_folder": "students/2020-2024/2061804_Siddavatam_Navaneeswar_Reddy"
-      },
-      {
-        "batch": "2021-2025",
-        "reg_no": "2160104",
-        "student_name": "AMRIN FATHIMA",
-        "outcome": "Placement",
-        "organisation": "Equilibrium - Clime Verse Pvt Ltd",
-        "program_or_role": "",
-        "ctc_lpa": "3.6",
-        "student_folder": "students/2021-2025/2160104_Amrin_Fathima"
-      },
-      {
-        "batch": "2021-2025",
-        "reg_no": "2160105",
-        "student_name": "JIYA SIJU",
-        "outcome": "Higher Studies",
-        "organisation": "CHRIST (Deemed to be University)",
-        "program_or_role": "M.Tech",
-        "ctc_lpa": "",
-        "student_folder": "students/2021-2025/2160105_Jiya_Siju"
-      },
-      {
-        "batch": "2021-2025",
-        "reg_no": "2160107",
-        "student_name": "MELVIN THOMAS",
-        "outcome": "Placement",
-        "organisation": "Carbon Constructions Pvt Ltd",
-        "program_or_role": "",
-        "ctc_lpa": "3.6",
-        "student_folder": "students/2021-2025/2160107_Melvin_Thomas"
-      },
-      {
-        "batch": "2021-2025",
-        "reg_no": "2160110",
-        "student_name": "MUHAMMED RISHAN",
-        "outcome": "Higher Studies",
-        "organisation": "NICMAR (Hyderabad)",
-        "program_or_role": "MBA",
-        "ctc_lpa": "",
-        "student_folder": "students/2021-2025/2160110_Muhammed_Rishan"
-      },
-      {
-        "batch": "2021-2025",
-        "reg_no": "2160112",
-        "student_name": "JANGAM NIKHITHA JOSHNA",
-        "outcome": "Placement",
-        "organisation": "Colliers International",
-        "program_or_role": "",
-        "ctc_lpa": "3",
-        "student_folder": "students/2021-2025/2160112_Jangam_Nikhitha_Joshna"
-      },
-      {
-        "batch": "2021-2025",
-        "reg_no": "2160113",
-        "student_name": "JOEL KHARPYNGROPE",
-        "outcome": "Higher Studies",
-        "organisation": "Don Bosco University, Assam",
-        "program_or_role": "MBA",
-        "ctc_lpa": "",
-        "student_folder": "students/2021-2025/2160113_Joel_Kharpyngrope"
-      },
-      {
-        "batch": "2021-2025",
-        "reg_no": "2161801",
-        "student_name": "MEET PARSANA",
-        "outcome": "Entrepreneur",
-        "organisation": "Chitra Constructions",
-        "program_or_role": "Partner",
-        "ctc_lpa": "",
-        "student_folder": "students/2021-2025/2161801_Meet_Parsana"
-      },
-      {
-        "batch": "2021-2025",
-        "reg_no": "2161802",
-        "student_name": "PRANAY MOHAN",
-        "outcome": "Higher Studies",
-        "organisation": "Heriott Watt, Dubai",
-        "program_or_role": "M.Sc",
-        "ctc_lpa": "",
-        "student_folder": "students/2021-2025/2161802_Pranay_Mohan"
-      },
-      {
-        "batch": "2022-2026",
-        "reg_no": "2260101",
-        "student_name": "ABHISHEK MISHRA",
-        "outcome": "Placement",
-        "organisation": "LTI Mindtree",
-        "program_or_role": "",
-        "ctc_lpa": "4.05",
-        "student_folder": "students/2022-2026/2260101_Abhishek_Mishra"
-      },
-      {
-        "batch": "2022-2026",
-        "reg_no": "2260106",
-        "student_name": "MATRIKA GURUMAYUM",
-        "outcome": "Placement",
-        "organisation": "Manipal Health Enterprises Limited",
-        "program_or_role": "",
-        "ctc_lpa": "5.40",
-        "student_folder": "students/2022-2026/2260106_Matrika_Gurumayum"
-      },
-      {
-        "batch": "2022-2026",
-        "reg_no": "2260107",
-        "student_name": "MUHAMMED PUNATHIL",
-        "outcome": "Higher Studies",
-        "organisation": "NICMAR (Pune)",
-        "program_or_role": "MBA",
-        "ctc_lpa": "",
-        "student_folder": "students/2022-2026/2260107_Muhammed_Punathil"
-      },
-      {
-        "batch": "2022-2026",
-        "reg_no": "2260114",
-        "student_name": "ABHIRAM K P",
-        "outcome": "Placement",
-        "organisation": "CRE Spacez",
-        "program_or_role": "",
-        "ctc_lpa": "2.71",
-        "student_folder": "students/2022-2026/2260114_Abhiram_K_P"
-      },
-      {
-        "batch": "2022-2026",
-        "reg_no": "2260117",
-        "student_name": "SANDIPAN THAPA",
-        "outcome": "Not Reported",
-        "organisation": "",
-        "program_or_role": "",
-        "ctc_lpa": "",
-        "student_folder": "students/2022-2026/2260117_Sandipan_Thapa"
-      },
-      {
-        "batch": "2022-2026",
-        "reg_no": "2260122",
-        "student_name": "KANGUJAM NELSON MANGANG",
-        "outcome": "Higher Studies",
-        "organisation": "IIT Roorkie",
-        "program_or_role": "M.Tech",
-        "ctc_lpa": "",
-        "student_folder": "students/2022-2026/2260122_Kangujam_Nelson_Mangang"
-      },
-      {
-        "batch": "2022-2026",
-        "reg_no": "2260124",
-        "student_name": "DARSHAN R",
-        "outcome": "Higher Studies",
-        "organisation": "CHRIST (Deemed to be University)",
-        "program_or_role": "M.Tech",
-        "ctc_lpa": "",
-        "student_folder": "students/2022-2026/2260124_Darshan_R"
-      },
-      {
-        "batch": "2022-2026",
-        "reg_no": "2260126",
-        "student_name": "ADARSH D",
-        "outcome": "Higher Studies",
-        "organisation": "NICMAR (Hyderabad)",
-        "program_or_role": "MBA",
-        "ctc_lpa": "",
-        "student_folder": "students/2022-2026/2260126_Adarsh_D"
-      },
-      {
-        "batch": "2022-2026",
-        "reg_no": "2260127",
-        "student_name": "YASHAS P",
-        "outcome": "Higher Studies",
-        "organisation": "CHRIST (Deemed to be University)",
-        "program_or_role": "M.Tech",
-        "ctc_lpa": "",
-        "student_folder": "students/2022-2026/2260127_Yashas_P"
-      },
-      {
-        "batch": "2022-2026",
-        "reg_no": "2260128",
-        "student_name": "ALAVALA MANOJ",
-        "outcome": "Higher Studies",
-        "organisation": "NICMAR (Hyderabad)",
-        "program_or_role": "MBA",
-        "ctc_lpa": "",
-        "student_folder": "students/2022-2026/2260128_Alavala_Manoj"
-      },
-      {
-        "batch": "2022-2026",
-        "reg_no": "2260129",
-        "student_name": "PASUPULETI VYSHNAVI",
-        "outcome": "Placement",
-        "organisation": "Clear Water Dynamics",
-        "program_or_role": "",
-        "ctc_lpa": "3.00",
-        "student_folder": "students/2022-2026/2260129_Pasupuleti_Vyshnavi"
-      },
-      {
-        "batch": "2022-2026",
-        "reg_no": "2260130",
-        "student_name": "AKSHAY T S",
-        "outcome": "Entrepreneur",
-        "organisation": "Tharayil Builders",
-        "program_or_role": "Partner",
-        "ctc_lpa": "",
-        "student_folder": "students/2022-2026/2260130_Akshay_T_S"
-      },
-      {
-        "batch": "2022-2026",
-        "reg_no": "2260131",
-        "student_name": "MANNURU JAYANTH NAIDU",
-        "outcome": "Placement",
-        "organisation": "Ananda Homes",
-        "program_or_role": "",
-        "ctc_lpa": "2.40",
-        "student_folder": "students/2022-2026/2260131_Mannuru_Jayanth_Naidu"
-      }
-    ],
-    "all_batches_summary": [
-      {
-        "batch": "2020-2024",
-        "total_graduating": "23",
-        "placement": "6",
-        "higher_studies": "12",
-        "entrepreneur": "2",
-        "total_progressed": "20",
-        "progression_pct_computed": "86.96",
-        "progression_pct_as_stated": "86.95 %"
-      },
-      {
-        "batch": "2021-2025",
-        "total_graduating": "8",
-        "placement": "3",
-        "higher_studies": "4",
-        "entrepreneur": "1",
-        "total_progressed": "8",
-        "progression_pct_computed": "100.0",
-        "progression_pct_as_stated": "100 %"
-      },
-      {
-        "batch": "2022-2026",
-        "total_graduating": "13",
-        "placement": "5",
-        "higher_studies": "6",
-        "entrepreneur": "1",
-        "total_progressed": "12",
-        "progression_pct_computed": "92.31",
-        "progression_pct_as_stated": "92.31 %"
-      }
-    ],
-    "evidence_index": [
-      {
-        "batch": "2020-2024",
-        "reg_no": "2060101",
-        "student_name": "AAKASH TOM JOSEPH",
-        "outcome": "Placement",
-        "document_type": "offer_letter",
-        "expected_path": "students/2020-2024/2060101_Aakash_Tom_Joseph/evidence/offer_letter.pdf",
-        "status": "MISSING",
-        "found_file": ""
-      },
-      {
-        "batch": "2020-2024",
-        "reg_no": "2060101",
-        "student_name": "AAKASH TOM JOSEPH",
-        "outcome": "Placement",
-        "document_type": "appointment_or_joining_letter",
-        "expected_path": "students/2020-2024/2060101_Aakash_Tom_Joseph/evidence/appointment_or_joining_letter.pdf",
-        "status": "MISSING",
-        "found_file": ""
-      },
-      {
-        "batch": "2020-2024",
-        "reg_no": "2060102",
-        "student_name": "ADITHYA ANIL KOZHIKANDATHIL",
-        "outcome": "Higher Studies",
-        "document_type": "admission_letter",
-        "expected_path": "students/2020-2024/2060102_Adithya_Anil_Kozhikandathil/evidence/admission_letter.pdf",
-        "status": "MISSING",
-        "found_file": ""
-      },
-      {
-        "batch": "2020-2024",
-        "reg_no": "2060102",
-        "student_name": "ADITHYA ANIL KOZHIKANDATHIL",
-        "outcome": "Higher Studies",
-        "document_type": "fee_receipt_or_id_card",
-        "expected_path": "students/2020-2024/2060102_Adithya_Anil_Kozhikandathil/evidence/fee_receipt_or_id_card.pdf",
-        "status": "MISSING",
-        "found_file": ""
-      },
-      {
-        "batch": "2020-2024",
-        "reg_no": "2060104",
-        "student_name": "AMAN DUNG DUNG",
-        "outcome": "Higher Studies",
-        "document_type": "admission_letter",
-        "expected_path": "students/2020-2024/2060104_Aman_Dung_Dung/evidence/admission_letter.pdf",
-        "status": "MISSING",
-        "found_file": ""
-      },
-      {
-        "batch": "2020-2024",
-        "reg_no": "2060104",
-        "student_name": "AMAN DUNG DUNG",
-        "outcome": "Higher Studies",
-        "document_type": "fee_receipt_or_id_card",
-        "expected_path": "students/2020-2024/2060104_Aman_Dung_Dung/evidence/fee_receipt_or_id_card.pdf",
-        "status": "MISSING",
-        "found_file": ""
-      },
-      {
-        "batch": "2020-2024",
-        "reg_no": "2060106",
-        "student_name": "SHERIN SAMUEL",
-        "outcome": "Not Reported",
-        "document_type": "outcome_declaration_or_followup_note",
-        "expected_path": "students/2020-2024/2060106_Sherin_Samuel/evidence/outcome_declaration_or_followup_note.pdf",
-        "status": "MISSING",
-        "found_file": ""
-      },
-      {
-        "batch": "2020-2024",
-        "reg_no": "2060108",
-        "student_name": "TOMS JOSE",
-        "outcome": "Higher Studies",
-        "document_type": "admission_letter",
-        "expected_path": "students/2020-2024/2060108_Toms_Jose/evidence/admission_letter.pdf",
-        "status": "MISSING",
-        "found_file": ""
-      },
-      {
-        "batch": "2020-2024",
-        "reg_no": "2060108",
-        "student_name": "TOMS JOSE",
-        "outcome": "Higher Studies",
-        "document_type": "fee_receipt_or_id_card",
-        "expected_path": "students/2020-2024/2060108_Toms_Jose/evidence/fee_receipt_or_id_card.pdf",
-        "status": "MISSING",
-        "found_file": ""
-      },
-      {
-        "batch": "2020-2024",
-        "reg_no": "2060109",
-        "student_name": "WANSHANSKHEM LYNGDOH NONGBRI",
-        "outcome": "Higher Studies",
-        "document_type": "admission_letter",
-        "expected_path": "students/2020-2024/2060109_Wanshanskhem_Lyngdoh_Nongbri/evidence/admission_letter.pdf",
-        "status": "MISSING",
-        "found_file": ""
-      },
-      {
-        "batch": "2020-2024",
-        "reg_no": "2060109",
-        "student_name": "WANSHANSKHEM LYNGDOH NONGBRI",
-        "outcome": "Higher Studies",
-        "document_type": "fee_receipt_or_id_card",
-        "expected_path": "students/2020-2024/2060109_Wanshanskhem_Lyngdoh_Nongbri/evidence/fee_receipt_or_id_card.pdf",
-        "status": "MISSING",
-        "found_file": ""
-      },
-      {
-        "batch": "2020-2024",
-        "reg_no": "2060110",
-        "student_name": "ANAGHA REMAN",
-        "outcome": "Placement",
-        "document_type": "offer_letter",
-        "expected_path": "students/2020-2024/2060110_Anagha_Reman/evidence/offer_letter.pdf",
-        "status": "MISSING",
-        "found_file": ""
-      },
-      {
-        "batch": "2020-2024",
-        "reg_no": "2060110",
-        "student_name": "ANAGHA REMAN",
-        "outcome": "Placement",
-        "document_type": "appointment_or_joining_letter",
-        "expected_path": "students/2020-2024/2060110_Anagha_Reman/evidence/appointment_or_joining_letter.pdf",
-        "status": "MISSING",
-        "found_file": ""
-      },
-      {
-        "batch": "2020-2024",
-        "reg_no": "2060111",
-        "student_name": "RAHEE BHATTACHARYYA",
-        "outcome": "Higher Studies",
-        "document_type": "admission_letter",
-        "expected_path": "students/2020-2024/2060111_Rahee_Bhattacharyya/evidence/admission_letter.pdf",
-        "status": "MISSING",
-        "found_file": ""
-      },
-      {
-        "batch": "2020-2024",
-        "reg_no": "2060111",
-        "student_name": "RAHEE BHATTACHARYYA",
-        "outcome": "Higher Studies",
-        "document_type": "fee_receipt_or_id_card",
-        "expected_path": "students/2020-2024/2060111_Rahee_Bhattacharyya/evidence/fee_receipt_or_id_card.pdf",
-        "status": "MISSING",
-        "found_file": ""
-      },
-      {
-        "batch": "2020-2024",
-        "reg_no": "2060112",
-        "student_name": "ANWIN V GEORGE",
-        "outcome": "Higher Studies",
-        "document_type": "admission_letter",
-        "expected_path": "students/2020-2024/2060112_Anwin_V_George/evidence/admission_letter.pdf",
-        "status": "MISSING",
-        "found_file": ""
-      },
-      {
-        "batch": "2020-2024",
-        "reg_no": "2060112",
-        "student_name": "ANWIN V GEORGE",
-        "outcome": "Higher Studies",
-        "document_type": "fee_receipt_or_id_card",
-        "expected_path": "students/2020-2024/2060112_Anwin_V_George/evidence/fee_receipt_or_id_card.pdf",
-        "status": "MISSING",
-        "found_file": ""
-      },
-      {
-        "batch": "2020-2024",
-        "reg_no": "2060113",
-        "student_name": "SANDRA ROSE TETTIS",
-        "outcome": "Higher Studies",
-        "document_type": "admission_letter",
-        "expected_path": "students/2020-2024/2060113_Sandra_Rose_Tettis/evidence/admission_letter.pdf",
-        "status": "MISSING",
-        "found_file": ""
-      },
-      {
-        "batch": "2020-2024",
-        "reg_no": "2060113",
-        "student_name": "SANDRA ROSE TETTIS",
-        "outcome": "Higher Studies",
-        "document_type": "fee_receipt_or_id_card",
-        "expected_path": "students/2020-2024/2060113_Sandra_Rose_Tettis/evidence/fee_receipt_or_id_card.pdf",
-        "status": "MISSING",
-        "found_file": ""
-      },
-      {
-        "batch": "2020-2024",
-        "reg_no": "2060116",
-        "student_name": "MACHIREDDY BHARATH KUMAR REDDY",
-        "outcome": "Not Reported",
-        "document_type": "outcome_declaration_or_followup_note",
-        "expected_path": "students/2020-2024/2060116_Machireddy_Bharath_Kumar_Reddy/evidence/outcome_declaration_or_followup_note.pdf",
-        "status": "MISSING",
-        "found_file": ""
-      },
-      {
-        "batch": "2020-2024",
-        "reg_no": "2060117",
-        "student_name": "G GUNVANTH",
-        "outcome": "Higher Studies",
-        "document_type": "admission_letter",
-        "expected_path": "students/2020-2024/2060117_G_Gunvanth/evidence/admission_letter.pdf",
-        "status": "MISSING",
-        "found_file": ""
-      },
-      {
-        "batch": "2020-2024",
-        "reg_no": "2060117",
-        "student_name": "G GUNVANTH",
-        "outcome": "Higher Studies",
-        "document_type": "fee_receipt_or_id_card",
-        "expected_path": "students/2020-2024/2060117_G_Gunvanth/evidence/fee_receipt_or_id_card.pdf",
-        "status": "MISSING",
-        "found_file": ""
-      },
-      {
-        "batch": "2020-2024",
-        "reg_no": "2060118",
-        "student_name": "GUTHA MOHITH NARASIMHA NAIDU",
-        "outcome": "Higher Studies",
-        "document_type": "admission_letter",
-        "expected_path": "students/2020-2024/2060118_Gutha_Mohith_Narasimha_Naidu/evidence/admission_letter.pdf",
-        "status": "MISSING",
-        "found_file": ""
-      },
-      {
-        "batch": "2020-2024",
-        "reg_no": "2060118",
-        "student_name": "GUTHA MOHITH NARASIMHA NAIDU",
-        "outcome": "Higher Studies",
-        "document_type": "fee_receipt_or_id_card",
-        "expected_path": "students/2020-2024/2060118_Gutha_Mohith_Narasimha_Naidu/evidence/fee_receipt_or_id_card.pdf",
-        "status": "MISSING",
-        "found_file": ""
-      },
-      {
-        "batch": "2020-2024",
-        "reg_no": "2060119",
-        "student_name": "ADITHYA SHANKER P",
-        "outcome": "Placement",
-        "document_type": "offer_letter",
-        "expected_path": "students/2020-2024/2060119_Adithya_Shanker_P/evidence/offer_letter.pdf",
-        "status": "MISSING",
-        "found_file": ""
-      },
-      {
-        "batch": "2020-2024",
-        "reg_no": "2060119",
-        "student_name": "ADITHYA SHANKER P",
-        "outcome": "Placement",
-        "document_type": "appointment_or_joining_letter",
-        "expected_path": "students/2020-2024/2060119_Adithya_Shanker_P/evidence/appointment_or_joining_letter.pdf",
-        "status": "MISSING",
-        "found_file": ""
-      },
-      {
-        "batch": "2020-2024",
-        "reg_no": "2060120",
-        "student_name": "NAVEEN PRASATH M",
-        "outcome": "Placement",
-        "document_type": "offer_letter",
-        "expected_path": "students/2020-2024/2060120_Naveen_Prasath_M/evidence/offer_letter.pdf",
-        "status": "MISSING",
-        "found_file": ""
-      },
-      {
-        "batch": "2020-2024",
-        "reg_no": "2060120",
-        "student_name": "NAVEEN PRASATH M",
-        "outcome": "Placement",
-        "document_type": "appointment_or_joining_letter",
-        "expected_path": "students/2020-2024/2060120_Naveen_Prasath_M/evidence/appointment_or_joining_letter.pdf",
-        "status": "MISSING",
-        "found_file": ""
-      },
-      {
-        "batch": "2020-2024",
-        "reg_no": "2060121",
-        "student_name": "K J YASHAS REDDY",
-        "outcome": "Higher Studies",
-        "document_type": "admission_letter",
-        "expected_path": "students/2020-2024/2060121_K_J_Yashas_Reddy/evidence/admission_letter.pdf",
-        "status": "MISSING",
-        "found_file": ""
-      },
-      {
-        "batch": "2020-2024",
-        "reg_no": "2060121",
-        "student_name": "K J YASHAS REDDY",
-        "outcome": "Higher Studies",
-        "document_type": "fee_receipt_or_id_card",
-        "expected_path": "students/2020-2024/2060121_K_J_Yashas_Reddy/evidence/fee_receipt_or_id_card.pdf",
-        "status": "MISSING",
-        "found_file": ""
-      },
-      {
-        "batch": "2020-2024",
-        "reg_no": "2060122",
-        "student_name": "MOUNIKA KURMA",
-        "outcome": "Higher Studies",
-        "document_type": "admission_letter",
-        "expected_path": "students/2020-2024/2060122_Mounika_Kurma/evidence/admission_letter.pdf",
-        "status": "MISSING",
-        "found_file": ""
-      },
-      {
-        "batch": "2020-2024",
-        "reg_no": "2060122",
-        "student_name": "MOUNIKA KURMA",
-        "outcome": "Higher Studies",
-        "document_type": "fee_receipt_or_id_card",
-        "expected_path": "students/2020-2024/2060122_Mounika_Kurma/evidence/fee_receipt_or_id_card.pdf",
-        "status": "MISSING",
-        "found_file": ""
-      },
-      {
-        "batch": "2020-2024",
-        "reg_no": "2060124",
-        "student_name": "DARREN SYNTENG UMWI",
-        "outcome": "Entrepreneur",
-        "document_type": "company_registration_proof",
-        "expected_path": "students/2020-2024/2060124_Darren_Synteng_Umwi/evidence/company_registration_proof.pdf",
-        "status": "MISSING",
-        "found_file": ""
-      },
-      {
-        "batch": "2020-2024",
-        "reg_no": "2060124",
-        "student_name": "DARREN SYNTENG UMWI",
-        "outcome": "Entrepreneur",
-        "document_type": "partnership_or_role_proof",
-        "expected_path": "students/2020-2024/2060124_Darren_Synteng_Umwi/evidence/partnership_or_role_proof.pdf",
-        "status": "MISSING",
-        "found_file": ""
-      },
-      {
-        "batch": "2020-2024",
-        "reg_no": "2060125",
-        "student_name": "RON NICHOLAS DSOUZA",
-        "outcome": "Higher Studies",
-        "document_type": "admission_letter",
-        "expected_path": "students/2020-2024/2060125_Ron_Nicholas_Dsouza/evidence/admission_letter.pdf",
-        "status": "MISSING",
-        "found_file": ""
-      },
-      {
-        "batch": "2020-2024",
-        "reg_no": "2060125",
-        "student_name": "RON NICHOLAS DSOUZA",
-        "outcome": "Higher Studies",
-        "document_type": "fee_receipt_or_id_card",
-        "expected_path": "students/2020-2024/2060125_Ron_Nicholas_Dsouza/evidence/fee_receipt_or_id_card.pdf",
-        "status": "MISSING",
-        "found_file": ""
-      },
-      {
-        "batch": "2020-2024",
-        "reg_no": "2061801",
-        "student_name": "SREENATH M S",
-        "outcome": "Entrepreneur",
-        "document_type": "company_registration_proof",
-        "expected_path": "students/2020-2024/2061801_Sreenath_M_S/evidence/company_registration_proof.pdf",
-        "status": "MISSING",
-        "found_file": ""
-      },
-      {
-        "batch": "2020-2024",
-        "reg_no": "2061801",
-        "student_name": "SREENATH M S",
-        "outcome": "Entrepreneur",
-        "document_type": "partnership_or_role_proof",
-        "expected_path": "students/2020-2024/2061801_Sreenath_M_S/evidence/partnership_or_role_proof.pdf",
-        "status": "MISSING",
-        "found_file": ""
-      },
-      {
-        "batch": "2020-2024",
-        "reg_no": "2061802",
-        "student_name": "RAKSHIT SHUBHAM",
-        "outcome": "Not Reported",
-        "document_type": "outcome_declaration_or_followup_note",
-        "expected_path": "students/2020-2024/2061802_Rakshit_Shubham/evidence/outcome_declaration_or_followup_note.pdf",
-        "status": "MISSING",
-        "found_file": ""
-      },
-      {
-        "batch": "2020-2024",
-        "reg_no": "2061803",
-        "student_name": "TEENA SOJAN V V",
-        "outcome": "Placement",
-        "document_type": "offer_letter",
-        "expected_path": "students/2020-2024/2061803_Teena_Sojan_V_V/evidence/offer_letter.pdf",
-        "status": "MISSING",
-        "found_file": ""
-      },
-      {
-        "batch": "2020-2024",
-        "reg_no": "2061803",
-        "student_name": "TEENA SOJAN V V",
-        "outcome": "Placement",
-        "document_type": "appointment_or_joining_letter",
-        "expected_path": "students/2020-2024/2061803_Teena_Sojan_V_V/evidence/appointment_or_joining_letter.pdf",
-        "status": "MISSING",
-        "found_file": ""
-      },
-      {
-        "batch": "2020-2024",
-        "reg_no": "2061804",
-        "student_name": "SIDDAVATAM NAVANEESWAR REDDY",
-        "outcome": "Placement",
-        "document_type": "offer_letter",
-        "expected_path": "students/2020-2024/2061804_Siddavatam_Navaneeswar_Reddy/evidence/offer_letter.pdf",
-        "status": "MISSING",
-        "found_file": ""
-      },
-      {
-        "batch": "2020-2024",
-        "reg_no": "2061804",
-        "student_name": "SIDDAVATAM NAVANEESWAR REDDY",
-        "outcome": "Placement",
-        "document_type": "appointment_or_joining_letter",
-        "expected_path": "students/2020-2024/2061804_Siddavatam_Navaneeswar_Reddy/evidence/appointment_or_joining_letter.pdf",
-        "status": "MISSING",
-        "found_file": ""
-      },
-      {
-        "batch": "2021-2025",
-        "reg_no": "2160104",
-        "student_name": "AMRIN FATHIMA",
-        "outcome": "Placement",
-        "document_type": "offer_letter",
-        "expected_path": "students/2021-2025/2160104_Amrin_Fathima/evidence/offer_letter.pdf",
-        "status": "MISSING",
-        "found_file": ""
-      },
-      {
-        "batch": "2021-2025",
-        "reg_no": "2160104",
-        "student_name": "AMRIN FATHIMA",
-        "outcome": "Placement",
-        "document_type": "appointment_or_joining_letter",
-        "expected_path": "students/2021-2025/2160104_Amrin_Fathima/evidence/appointment_or_joining_letter.pdf",
-        "status": "MISSING",
-        "found_file": ""
-      },
-      {
-        "batch": "2021-2025",
-        "reg_no": "2160105",
-        "student_name": "JIYA SIJU",
-        "outcome": "Higher Studies",
-        "document_type": "admission_letter",
-        "expected_path": "students/2021-2025/2160105_Jiya_Siju/evidence/admission_letter.pdf",
-        "status": "MISSING",
-        "found_file": ""
-      },
-      {
-        "batch": "2021-2025",
-        "reg_no": "2160105",
-        "student_name": "JIYA SIJU",
-        "outcome": "Higher Studies",
-        "document_type": "fee_receipt_or_id_card",
-        "expected_path": "students/2021-2025/2160105_Jiya_Siju/evidence/fee_receipt_or_id_card.pdf",
-        "status": "MISSING",
-        "found_file": ""
-      },
-      {
-        "batch": "2021-2025",
-        "reg_no": "2160107",
-        "student_name": "MELVIN THOMAS",
-        "outcome": "Placement",
-        "document_type": "offer_letter",
-        "expected_path": "students/2021-2025/2160107_Melvin_Thomas/evidence/offer_letter.pdf",
-        "status": "MISSING",
-        "found_file": ""
-      },
-      {
-        "batch": "2021-2025",
-        "reg_no": "2160107",
-        "student_name": "MELVIN THOMAS",
-        "outcome": "Placement",
-        "document_type": "appointment_or_joining_letter",
-        "expected_path": "students/2021-2025/2160107_Melvin_Thomas/evidence/appointment_or_joining_letter.pdf",
-        "status": "MISSING",
-        "found_file": ""
-      },
-      {
-        "batch": "2021-2025",
-        "reg_no": "2160110",
-        "student_name": "MUHAMMED RISHAN",
-        "outcome": "Higher Studies",
-        "document_type": "admission_letter",
-        "expected_path": "students/2021-2025/2160110_Muhammed_Rishan/evidence/admission_letter.pdf",
-        "status": "MISSING",
-        "found_file": ""
-      },
-      {
-        "batch": "2021-2025",
-        "reg_no": "2160110",
-        "student_name": "MUHAMMED RISHAN",
-        "outcome": "Higher Studies",
-        "document_type": "fee_receipt_or_id_card",
-        "expected_path": "students/2021-2025/2160110_Muhammed_Rishan/evidence/fee_receipt_or_id_card.pdf",
-        "status": "MISSING",
-        "found_file": ""
-      },
-      {
-        "batch": "2021-2025",
-        "reg_no": "2160112",
-        "student_name": "JANGAM NIKHITHA JOSHNA",
-        "outcome": "Placement",
-        "document_type": "offer_letter",
-        "expected_path": "students/2021-2025/2160112_Jangam_Nikhitha_Joshna/evidence/offer_letter.pdf",
-        "status": "MISSING",
-        "found_file": ""
-      },
-      {
-        "batch": "2021-2025",
-        "reg_no": "2160112",
-        "student_name": "JANGAM NIKHITHA JOSHNA",
-        "outcome": "Placement",
-        "document_type": "appointment_or_joining_letter",
-        "expected_path": "students/2021-2025/2160112_Jangam_Nikhitha_Joshna/evidence/appointment_or_joining_letter.pdf",
-        "status": "MISSING",
-        "found_file": ""
-      },
-      {
-        "batch": "2021-2025",
-        "reg_no": "2160113",
-        "student_name": "JOEL KHARPYNGROPE",
-        "outcome": "Higher Studies",
-        "document_type": "admission_letter",
-        "expected_path": "students/2021-2025/2160113_Joel_Kharpyngrope/evidence/admission_letter.pdf",
-        "status": "MISSING",
-        "found_file": ""
-      },
-      {
-        "batch": "2021-2025",
-        "reg_no": "2160113",
-        "student_name": "JOEL KHARPYNGROPE",
-        "outcome": "Higher Studies",
-        "document_type": "fee_receipt_or_id_card",
-        "expected_path": "students/2021-2025/2160113_Joel_Kharpyngrope/evidence/fee_receipt_or_id_card.pdf",
-        "status": "MISSING",
-        "found_file": ""
-      },
-      {
-        "batch": "2021-2025",
-        "reg_no": "2161801",
-        "student_name": "MEET PARSANA",
-        "outcome": "Entrepreneur",
-        "document_type": "company_registration_proof",
-        "expected_path": "students/2021-2025/2161801_Meet_Parsana/evidence/company_registration_proof.pdf",
-        "status": "MISSING",
-        "found_file": ""
-      },
-      {
-        "batch": "2021-2025",
-        "reg_no": "2161801",
-        "student_name": "MEET PARSANA",
-        "outcome": "Entrepreneur",
-        "document_type": "partnership_or_role_proof",
-        "expected_path": "students/2021-2025/2161801_Meet_Parsana/evidence/partnership_or_role_proof.pdf",
-        "status": "MISSING",
-        "found_file": ""
-      },
-      {
-        "batch": "2021-2025",
-        "reg_no": "2161802",
-        "student_name": "PRANAY MOHAN",
-        "outcome": "Higher Studies",
-        "document_type": "admission_letter",
-        "expected_path": "students/2021-2025/2161802_Pranay_Mohan/evidence/admission_letter.pdf",
-        "status": "MISSING",
-        "found_file": ""
-      },
-      {
-        "batch": "2021-2025",
-        "reg_no": "2161802",
-        "student_name": "PRANAY MOHAN",
-        "outcome": "Higher Studies",
-        "document_type": "fee_receipt_or_id_card",
-        "expected_path": "students/2021-2025/2161802_Pranay_Mohan/evidence/fee_receipt_or_id_card.pdf",
-        "status": "MISSING",
-        "found_file": ""
-      },
-      {
-        "batch": "2022-2026",
-        "reg_no": "2260101",
-        "student_name": "ABHISHEK MISHRA",
-        "outcome": "Placement",
-        "document_type": "offer_letter",
-        "expected_path": "students/2022-2026/2260101_Abhishek_Mishra/evidence/offer_letter.pdf",
-        "status": "MISSING",
-        "found_file": ""
-      },
-      {
-        "batch": "2022-2026",
-        "reg_no": "2260101",
-        "student_name": "ABHISHEK MISHRA",
-        "outcome": "Placement",
-        "document_type": "appointment_or_joining_letter",
-        "expected_path": "students/2022-2026/2260101_Abhishek_Mishra/evidence/appointment_or_joining_letter.pdf",
-        "status": "MISSING",
-        "found_file": ""
-      },
-      {
-        "batch": "2022-2026",
-        "reg_no": "2260106",
-        "student_name": "MATRIKA GURUMAYUM",
-        "outcome": "Placement",
-        "document_type": "offer_letter",
-        "expected_path": "students/2022-2026/2260106_Matrika_Gurumayum/evidence/offer_letter.pdf",
-        "status": "MISSING",
-        "found_file": ""
-      },
-      {
-        "batch": "2022-2026",
-        "reg_no": "2260106",
-        "student_name": "MATRIKA GURUMAYUM",
-        "outcome": "Placement",
-        "document_type": "appointment_or_joining_letter",
-        "expected_path": "students/2022-2026/2260106_Matrika_Gurumayum/evidence/appointment_or_joining_letter.pdf",
-        "status": "MISSING",
-        "found_file": ""
-      },
-      {
-        "batch": "2022-2026",
-        "reg_no": "2260107",
-        "student_name": "MUHAMMED PUNATHIL",
-        "outcome": "Higher Studies",
-        "document_type": "admission_letter",
-        "expected_path": "students/2022-2026/2260107_Muhammed_Punathil/evidence/admission_letter.pdf",
-        "status": "MISSING",
-        "found_file": ""
-      },
-      {
-        "batch": "2022-2026",
-        "reg_no": "2260107",
-        "student_name": "MUHAMMED PUNATHIL",
-        "outcome": "Higher Studies",
-        "document_type": "fee_receipt_or_id_card",
-        "expected_path": "students/2022-2026/2260107_Muhammed_Punathil/evidence/fee_receipt_or_id_card.pdf",
-        "status": "MISSING",
-        "found_file": ""
-      },
-      {
-        "batch": "2022-2026",
-        "reg_no": "2260114",
-        "student_name": "ABHIRAM K P",
-        "outcome": "Placement",
-        "document_type": "offer_letter",
-        "expected_path": "students/2022-2026/2260114_Abhiram_K_P/evidence/offer_letter.pdf",
-        "status": "MISSING",
-        "found_file": ""
-      },
-      {
-        "batch": "2022-2026",
-        "reg_no": "2260114",
-        "student_name": "ABHIRAM K P",
-        "outcome": "Placement",
-        "document_type": "appointment_or_joining_letter",
-        "expected_path": "students/2022-2026/2260114_Abhiram_K_P/evidence/appointment_or_joining_letter.pdf",
-        "status": "MISSING",
-        "found_file": ""
-      },
-      {
-        "batch": "2022-2026",
-        "reg_no": "2260117",
-        "student_name": "SANDIPAN THAPA",
-        "outcome": "Not Reported",
-        "document_type": "outcome_declaration_or_followup_note",
-        "expected_path": "students/2022-2026/2260117_Sandipan_Thapa/evidence/outcome_declaration_or_followup_note.pdf",
-        "status": "MISSING",
-        "found_file": ""
-      },
-      {
-        "batch": "2022-2026",
-        "reg_no": "2260122",
-        "student_name": "KANGUJAM NELSON MANGANG",
-        "outcome": "Higher Studies",
-        "document_type": "admission_letter",
-        "expected_path": "students/2022-2026/2260122_Kangujam_Nelson_Mangang/evidence/admission_letter.pdf",
-        "status": "MISSING",
-        "found_file": ""
-      },
-      {
-        "batch": "2022-2026",
-        "reg_no": "2260122",
-        "student_name": "KANGUJAM NELSON MANGANG",
-        "outcome": "Higher Studies",
-        "document_type": "fee_receipt_or_id_card",
-        "expected_path": "students/2022-2026/2260122_Kangujam_Nelson_Mangang/evidence/fee_receipt_or_id_card.pdf",
-        "status": "MISSING",
-        "found_file": ""
-      },
-      {
-        "batch": "2022-2026",
-        "reg_no": "2260124",
-        "student_name": "DARSHAN R",
-        "outcome": "Higher Studies",
-        "document_type": "admission_letter",
-        "expected_path": "students/2022-2026/2260124_Darshan_R/evidence/admission_letter.pdf",
-        "status": "MISSING",
-        "found_file": ""
-      },
-      {
-        "batch": "2022-2026",
-        "reg_no": "2260124",
-        "student_name": "DARSHAN R",
-        "outcome": "Higher Studies",
-        "document_type": "fee_receipt_or_id_card",
-        "expected_path": "students/2022-2026/2260124_Darshan_R/evidence/fee_receipt_or_id_card.pdf",
-        "status": "MISSING",
-        "found_file": ""
-      },
-      {
-        "batch": "2022-2026",
-        "reg_no": "2260126",
-        "student_name": "ADARSH D",
-        "outcome": "Higher Studies",
-        "document_type": "admission_letter",
-        "expected_path": "students/2022-2026/2260126_Adarsh_D/evidence/admission_letter.pdf",
-        "status": "MISSING",
-        "found_file": ""
-      },
-      {
-        "batch": "2022-2026",
-        "reg_no": "2260126",
-        "student_name": "ADARSH D",
-        "outcome": "Higher Studies",
-        "document_type": "fee_receipt_or_id_card",
-        "expected_path": "students/2022-2026/2260126_Adarsh_D/evidence/fee_receipt_or_id_card.pdf",
-        "status": "MISSING",
-        "found_file": ""
-      },
-      {
-        "batch": "2022-2026",
-        "reg_no": "2260127",
-        "student_name": "YASHAS P",
-        "outcome": "Higher Studies",
-        "document_type": "admission_letter",
-        "expected_path": "students/2022-2026/2260127_Yashas_P/evidence/admission_letter.pdf",
-        "status": "MISSING",
-        "found_file": ""
-      },
-      {
-        "batch": "2022-2026",
-        "reg_no": "2260127",
-        "student_name": "YASHAS P",
-        "outcome": "Higher Studies",
-        "document_type": "fee_receipt_or_id_card",
-        "expected_path": "students/2022-2026/2260127_Yashas_P/evidence/fee_receipt_or_id_card.pdf",
-        "status": "MISSING",
-        "found_file": ""
-      },
-      {
-        "batch": "2022-2026",
-        "reg_no": "2260128",
-        "student_name": "ALAVALA MANOJ",
-        "outcome": "Higher Studies",
-        "document_type": "admission_letter",
-        "expected_path": "students/2022-2026/2260128_Alavala_Manoj/evidence/admission_letter.pdf",
-        "status": "MISSING",
-        "found_file": ""
-      },
-      {
-        "batch": "2022-2026",
-        "reg_no": "2260128",
-        "student_name": "ALAVALA MANOJ",
-        "outcome": "Higher Studies",
-        "document_type": "fee_receipt_or_id_card",
-        "expected_path": "students/2022-2026/2260128_Alavala_Manoj/evidence/fee_receipt_or_id_card.pdf",
-        "status": "MISSING",
-        "found_file": ""
-      },
-      {
-        "batch": "2022-2026",
-        "reg_no": "2260129",
-        "student_name": "PASUPULETI VYSHNAVI",
-        "outcome": "Placement",
-        "document_type": "offer_letter",
-        "expected_path": "students/2022-2026/2260129_Pasupuleti_Vyshnavi/evidence/offer_letter.pdf",
-        "status": "MISSING",
-        "found_file": ""
-      },
-      {
-        "batch": "2022-2026",
-        "reg_no": "2260129",
-        "student_name": "PASUPULETI VYSHNAVI",
-        "outcome": "Placement",
-        "document_type": "appointment_or_joining_letter",
-        "expected_path": "students/2022-2026/2260129_Pasupuleti_Vyshnavi/evidence/appointment_or_joining_letter.pdf",
-        "status": "MISSING",
-        "found_file": ""
-      },
-      {
-        "batch": "2022-2026",
-        "reg_no": "2260130",
-        "student_name": "AKSHAY T S",
-        "outcome": "Entrepreneur",
-        "document_type": "company_registration_proof",
-        "expected_path": "students/2022-2026/2260130_Akshay_T_S/evidence/company_registration_proof.pdf",
-        "status": "MISSING",
-        "found_file": ""
-      },
-      {
-        "batch": "2022-2026",
-        "reg_no": "2260130",
-        "student_name": "AKSHAY T S",
-        "outcome": "Entrepreneur",
-        "document_type": "partnership_or_role_proof",
-        "expected_path": "students/2022-2026/2260130_Akshay_T_S/evidence/partnership_or_role_proof.pdf",
-        "status": "MISSING",
-        "found_file": ""
-      },
-      {
-        "batch": "2022-2026",
-        "reg_no": "2260131",
-        "student_name": "MANNURU JAYANTH NAIDU",
-        "outcome": "Placement",
-        "document_type": "offer_letter",
-        "expected_path": "students/2022-2026/2260131_Mannuru_Jayanth_Naidu/evidence/offer_letter.pdf",
-        "status": "MISSING",
-        "found_file": ""
-      },
-      {
-        "batch": "2022-2026",
-        "reg_no": "2260131",
-        "student_name": "MANNURU JAYANTH NAIDU",
-        "outcome": "Placement",
-        "document_type": "appointment_or_joining_letter",
-        "expected_path": "students/2022-2026/2260131_Mannuru_Jayanth_Naidu/evidence/appointment_or_joining_letter.pdf",
-        "status": "MISSING",
-        "found_file": ""
-      }
-    ]
-  },
   "students": [
     {
-      "studentId": "2060101",
-      "name": "AAKASH TOM JOSEPH",
-      "batch": "2020-2024",
-      "graduationStatus": "Graduated",
-      "placement": {
-        "company": "Sobha Limited",
-        "ctcLPA": "3.0"
-      },
-      "higherStudies": null,
-      "entrepreneur": null,
-      "subjects": []
-    },
-    {
-      "studentId": "2060102",
-      "name": "ADITHYA ANIL KOZHIKANDATHIL",
-      "batch": "2020-2024",
-      "graduationStatus": "Graduated",
+      "reg_no": "2660001",
+      "student_name": "ALVIN A",
+      "class": "1BTCI F",
+      "batch": "2026-27",
+      "graduation": null,
       "placement": null,
-      "higherStudies": {
-        "university": "College of Engineering, Thiruvananthapuram",
-        "program": "M.Planning"
-      },
-      "entrepreneur": null,
-      "subjects": []
+      "higher_studies": null
     },
     {
-      "studentId": "2060104",
-      "name": "AMAN DUNG DUNG",
-      "batch": "2020-2024",
-      "graduationStatus": "Graduated",
+      "reg_no": "2660002",
+      "student_name": "GAURI NANDANA",
+      "class": "1BTCI F",
+      "batch": "2026-27",
+      "graduation": null,
       "placement": null,
-      "higherStudies": {
-        "university": "NICMAR (Pune)",
-        "program": "MBA"
-      },
-      "entrepreneur": null,
-      "subjects": []
+      "higher_studies": null
     },
     {
-      "studentId": "2060106",
-      "name": "SHERIN SAMUEL",
-      "batch": "2020-2024",
-      "graduationStatus": "Graduated",
+      "reg_no": "2660003",
+      "student_name": "JOEL ANISH",
+      "class": "1BTCI F",
+      "batch": "2026-27",
+      "graduation": null,
       "placement": null,
-      "higherStudies": null,
-      "entrepreneur": null,
-      "subjects": []
+      "higher_studies": null
     },
     {
-      "studentId": "2060108",
-      "name": "TOMS JOSE",
-      "batch": "2020-2024",
-      "graduationStatus": "Graduated",
+      "reg_no": "2660004",
+      "student_name": "JOHN SMITH P",
+      "class": "1BTCI F",
+      "batch": "2026-27",
+      "graduation": null,
       "placement": null,
-      "higherStudies": {
-        "university": "New Delhi Institute of Management",
-        "program": "MBA"
-      },
-      "entrepreneur": null,
-      "subjects": []
+      "higher_studies": null
     },
     {
-      "studentId": "2060109",
-      "name": "WANSHANSKHEM LYNGDOH NONGBRI",
-      "batch": "2020-2024",
-      "graduationStatus": "Graduated",
+      "reg_no": "2660005",
+      "student_name": "JONAH M GEORGE",
+      "class": "1BTCI F",
+      "batch": "2026-27",
+      "graduation": null,
       "placement": null,
-      "higherStudies": {
-        "university": "Amity University",
-        "program": "MBA"
-      },
-      "entrepreneur": null,
-      "subjects": []
+      "higher_studies": null
     },
     {
-      "studentId": "2060110",
-      "name": "ANAGHA REMAN",
-      "batch": "2020-2024",
-      "graduationStatus": "Graduated",
-      "placement": {
-        "company": "Manipal Health Enterprises Limited",
-        "ctcLPA": "6.5"
-      },
-      "higherStudies": null,
-      "entrepreneur": null,
-      "subjects": []
-    },
-    {
-      "studentId": "2060111",
-      "name": "RAHEE BHATTACHARYYA",
-      "batch": "2020-2024",
-      "graduationStatus": "Graduated",
+      "reg_no": "2660006",
+      "student_name": "NITHIK M",
+      "class": "1BTCI F",
+      "batch": "2026-27",
+      "graduation": null,
       "placement": null,
-      "higherStudies": {
-        "university": "NICMAR (Pune)",
-        "program": "M.Tech"
-      },
-      "entrepreneur": null,
-      "subjects": []
+      "higher_studies": null
     },
     {
-      "studentId": "2060112",
-      "name": "ANWIN V GEORGE",
-      "batch": "2020-2024",
-      "graduationStatus": "Graduated",
+      "reg_no": "2660007",
+      "student_name": "SOLOMON SHYJU",
+      "class": "1BTCI F",
+      "batch": "2026-27",
+      "graduation": null,
       "placement": null,
-      "higherStudies": {
-        "university": "NICMAR (Pune)",
-        "program": "MBA"
-      },
-      "entrepreneur": null,
-      "subjects": []
+      "higher_studies": null
     },
     {
-      "studentId": "2060113",
-      "name": "SANDRA ROSE TETTIS",
-      "batch": "2020-2024",
-      "graduationStatus": "Graduated",
+      "reg_no": "2660008",
+      "student_name": "V GURU PRASATH",
+      "class": "1BTCI F",
+      "batch": "2026-27",
+      "graduation": null,
       "placement": null,
-      "higherStudies": {
-        "university": "NIT, Calicut",
-        "program": "M.Tech"
-      },
-      "entrepreneur": null,
-      "subjects": []
+      "higher_studies": null
     },
     {
-      "studentId": "2060116",
-      "name": "MACHIREDDY BHARATH KUMAR REDDY",
-      "batch": "2020-2024",
-      "graduationStatus": "Graduated",
+      "reg_no": "2660009",
+      "student_name": "ANSHA NOUREEN RASHEED K",
+      "class": "1BTCI F",
+      "batch": "2026-27",
+      "graduation": null,
       "placement": null,
-      "higherStudies": null,
-      "entrepreneur": null,
-      "subjects": []
+      "higher_studies": null
     },
     {
-      "studentId": "2060117",
-      "name": "G GUNVANTH",
-      "batch": "2020-2024",
-      "graduationStatus": "Graduated",
+      "reg_no": "2660010",
+      "student_name": "SREEDEVI P S",
+      "class": "1BTCI F",
+      "batch": "2026-27",
+      "graduation": null,
       "placement": null,
-      "higherStudies": {
-        "university": "National Forensic Sciences University",
-        "program": "MBA"
-      },
-      "entrepreneur": null,
-      "subjects": []
+      "higher_studies": null
     },
     {
-      "studentId": "2060118",
-      "name": "GUTHA MOHITH NARASIMHA NAIDU",
-      "batch": "2020-2024",
-      "graduationStatus": "Graduated",
+      "reg_no": "2660011",
+      "student_name": "RAKESH P",
+      "class": "1BTCI F",
+      "batch": "2026-27",
+      "graduation": null,
       "placement": null,
-      "higherStudies": {
-        "university": "NICMAR (Pune)",
-        "program": "MBA"
-      },
-      "entrepreneur": null,
-      "subjects": []
+      "higher_studies": null
     },
     {
-      "studentId": "2060119",
-      "name": "ADITHYA SHANKER P",
-      "batch": "2020-2024",
-      "graduationStatus": "Graduated",
-      "placement": {
-        "company": "Codilar",
-        "ctcLPA": "3.0"
-      },
-      "higherStudies": null,
-      "entrepreneur": null,
-      "subjects": []
-    },
-    {
-      "studentId": "2060120",
-      "name": "NAVEEN PRASATH M",
-      "batch": "2020-2024",
-      "graduationStatus": "Graduated",
-      "placement": {
-        "company": "Sobha Limited",
-        "ctcLPA": "3.0"
-      },
-      "higherStudies": null,
-      "entrepreneur": null,
-      "subjects": []
-    },
-    {
-      "studentId": "2060121",
-      "name": "K J YASHAS REDDY",
-      "batch": "2020-2024",
-      "graduationStatus": "Graduated",
+      "reg_no": "2660012",
+      "student_name": "PALAGIRI JESSICA MUKERJI",
+      "class": "1BTCI F",
+      "batch": "2026-27",
+      "graduation": null,
       "placement": null,
-      "higherStudies": {
-        "university": "NICMAR (Pune)",
-        "program": "MBA"
-      },
-      "entrepreneur": null,
-      "subjects": []
+      "higher_studies": null
     },
     {
-      "studentId": "2060122",
-      "name": "MOUNIKA KURMA",
-      "batch": "2020-2024",
-      "graduationStatus": "Graduated",
+      "reg_no": "2660013",
+      "student_name": "MANOJ C T",
+      "class": "1BTCI F",
+      "batch": "2026-27",
+      "graduation": null,
       "placement": null,
-      "higherStudies": {
-        "university": "NICMAR (Pune)",
-        "program": "MBA"
-      },
-      "entrepreneur": null,
-      "subjects": []
+      "higher_studies": null
     },
     {
-      "studentId": "2060124",
-      "name": "DARREN SYNTENG UMWI",
-      "batch": "2020-2024",
-      "graduationStatus": "Graduated",
+      "reg_no": "2660014",
+      "student_name": "ONYANGO BLESSED AMOR",
+      "class": "1BTCI F",
+      "batch": "2026-27",
+      "graduation": null,
       "placement": null,
-      "higherStudies": null,
-      "entrepreneur": null,
-      "subjects": []
+      "higher_studies": null
     },
     {
-      "studentId": "2060125",
-      "name": "RON NICHOLAS DSOUZA",
-      "batch": "2020-2024",
-      "graduationStatus": "Graduated",
+      "reg_no": "2560001",
+      "student_name": "ALONZA C SEBASTIN",
+      "class": "3BTCI",
+      "batch": "2026-27",
+      "graduation": null,
       "placement": null,
-      "higherStudies": {
-        "university": "Hamburg Technological University, Germany",
-        "program": "M.Sc"
-      },
-      "entrepreneur": null,
-      "subjects": []
+      "higher_studies": null
     },
     {
-      "studentId": "2061801",
-      "name": "SREENATH M S",
-      "batch": "2020-2024",
-      "graduationStatus": "Graduated",
+      "reg_no": "2560002",
+      "student_name": "ARUN TP",
+      "class": "3BTCI",
+      "batch": "2026-27",
+      "graduation": null,
       "placement": null,
-      "higherStudies": null,
-      "entrepreneur": null,
-      "subjects": []
+      "higher_studies": null
     },
     {
-      "studentId": "2061802",
-      "name": "RAKSHIT SHUBHAM",
-      "batch": "2020-2024",
-      "graduationStatus": "Graduated",
+      "reg_no": "2560003",
+      "student_name": "JOSEPH GEORGE",
+      "class": "3BTCI",
+      "batch": "2026-27",
+      "graduation": null,
       "placement": null,
-      "higherStudies": null,
-      "entrepreneur": null,
-      "subjects": []
+      "higher_studies": null
     },
     {
-      "studentId": "2061803",
-      "name": "TEENA SOJAN V V",
-      "batch": "2020-2024",
-      "graduationStatus": "Graduated",
-      "placement": {
-        "company": "Colliers International",
-        "ctcLPA": "3.75"
-      },
-      "higherStudies": null,
-      "entrepreneur": null,
-      "subjects": []
-    },
-    {
-      "studentId": "2061804",
-      "name": "SIDDAVATAM NAVANEESWAR REDDY",
-      "batch": "2020-2024",
-      "graduationStatus": "Graduated",
-      "placement": {
-        "company": "Wurfel Kuche",
-        "ctcLPA": "3.5"
-      },
-      "higherStudies": null,
-      "entrepreneur": null,
-      "subjects": []
-    },
-    {
-      "studentId": "2160104",
-      "name": "AMRIN FATHIMA",
-      "batch": "2021-2025",
-      "graduationStatus": "Graduated",
-      "placement": {
-        "company": "Equilibrium - Clime Verse Pvt Ltd",
-        "ctcLPA": "3.6"
-      },
-      "higherStudies": null,
-      "entrepreneur": null,
-      "subjects": []
-    },
-    {
-      "studentId": "2160105",
-      "name": "JIYA SIJU",
-      "batch": "2021-2025",
-      "graduationStatus": "Graduated",
+      "reg_no": "2560004",
+      "student_name": "CHOULAM SANJAY KUMAR",
+      "class": "3BTCI",
+      "batch": "2026-27",
+      "graduation": null,
       "placement": null,
-      "higherStudies": {
-        "university": "CHRIST (Deemed to be University)",
-        "program": "M.Tech"
-      },
-      "entrepreneur": null,
-      "subjects": []
+      "higher_studies": null
     },
     {
-      "studentId": "2160107",
-      "name": "MELVIN THOMAS",
-      "batch": "2021-2025",
-      "graduationStatus": "Graduated",
-      "placement": {
-        "company": "Carbon Constructions Pvt Ltd",
-        "ctcLPA": "3.6"
-      },
-      "higherStudies": null,
-      "entrepreneur": null,
-      "subjects": []
-    },
-    {
-      "studentId": "2160110",
-      "name": "MUHAMMED RISHAN",
-      "batch": "2021-2025",
-      "graduationStatus": "Graduated",
+      "reg_no": "2560005",
+      "student_name": "DEON BINOY",
+      "class": "3BTCI",
+      "batch": "2026-27",
+      "graduation": null,
       "placement": null,
-      "higherStudies": {
-        "university": "NICMAR (Hyderabad)",
-        "program": "MBA"
-      },
-      "entrepreneur": null,
-      "subjects": []
+      "higher_studies": null
     },
     {
-      "studentId": "2160112",
-      "name": "JANGAM NIKHITHA JOSHNA",
-      "batch": "2021-2025",
-      "graduationStatus": "Graduated",
-      "placement": {
-        "company": "Colliers International",
-        "ctcLPA": "3"
-      },
-      "higherStudies": null,
-      "entrepreneur": null,
-      "subjects": []
-    },
-    {
-      "studentId": "2160113",
-      "name": "JOEL KHARPYNGROPE",
-      "batch": "2021-2025",
-      "graduationStatus": "Graduated",
+      "reg_no": "2560006",
+      "student_name": "V LALRUATFELA",
+      "class": "3BTCI",
+      "batch": "2026-27",
+      "graduation": null,
       "placement": null,
-      "higherStudies": {
-        "university": "Don Bosco University, Assam",
-        "program": "MBA"
-      },
-      "entrepreneur": null,
-      "subjects": []
+      "higher_studies": null
     },
     {
-      "studentId": "2161801",
-      "name": "MEET PARSANA",
-      "batch": "2021-2025",
-      "graduationStatus": "Graduated",
+      "reg_no": "2560007",
+      "student_name": "RUPIN SINGH CHOUDHARY",
+      "class": "3BTCI",
+      "batch": "2026-27",
+      "graduation": null,
       "placement": null,
-      "higherStudies": null,
-      "entrepreneur": null,
-      "subjects": []
+      "higher_studies": null
     },
     {
-      "studentId": "2161802",
-      "name": "PRANAY MOHAN",
-      "batch": "2021-2025",
-      "graduationStatus": "Graduated",
+      "reg_no": "2560009",
+      "student_name": "SURAJ BAPI BHUNIA",
+      "class": "3BTCI",
+      "batch": "2026-27",
+      "graduation": null,
       "placement": null,
-      "higherStudies": {
-        "university": "Heriott Watt, Dubai",
-        "program": "M.Sc"
-      },
-      "entrepreneur": null,
-      "subjects": []
+      "higher_studies": null
     },
     {
-      "studentId": "2260101",
-      "name": "ABHISHEK MISHRA",
-      "batch": "2022-2026",
-      "graduationStatus": "Graduated",
-      "placement": {
-        "company": "LTI Mindtree",
-        "ctcLPA": "4.05"
-      },
-      "higherStudies": null,
-      "entrepreneur": null,
-      "subjects": []
-    },
-    {
-      "studentId": "2260106",
-      "name": "MATRIKA GURUMAYUM",
-      "batch": "2022-2026",
-      "graduationStatus": "Graduated",
-      "placement": {
-        "company": "Manipal Health Enterprises Limited",
-        "ctcLPA": "5.40"
-      },
-      "higherStudies": null,
-      "entrepreneur": null,
-      "subjects": []
-    },
-    {
-      "studentId": "2260107",
-      "name": "MUHAMMED PUNATHIL",
-      "batch": "2022-2026",
-      "graduationStatus": "Graduated",
+      "reg_no": "2560010",
+      "student_name": "JAIAKASH R",
+      "class": "3BTCI",
+      "batch": "2026-27",
+      "graduation": null,
       "placement": null,
-      "higherStudies": {
-        "university": "NICMAR (Pune)",
-        "program": "MBA"
-      },
-      "entrepreneur": null,
-      "subjects": []
+      "higher_studies": null
     },
     {
-      "studentId": "2260114",
-      "name": "ABHIRAM K P",
-      "batch": "2022-2026",
-      "graduationStatus": "Graduated",
-      "placement": {
-        "company": "CRE Spacez",
-        "ctcLPA": "2.71"
-      },
-      "higherStudies": null,
-      "entrepreneur": null,
-      "subjects": []
-    },
-    {
-      "studentId": "2260117",
-      "name": "SANDIPAN THAPA",
-      "batch": "2022-2026",
-      "graduationStatus": "Graduated",
+      "reg_no": "2560011",
+      "student_name": "GOWTHAM S",
+      "class": "3BTCI",
+      "batch": "2026-27",
+      "graduation": null,
       "placement": null,
-      "higherStudies": null,
-      "entrepreneur": null,
-      "subjects": []
+      "higher_studies": null
     },
     {
-      "studentId": "2260122",
-      "name": "KANGUJAM NELSON MANGANG",
-      "batch": "2022-2026",
-      "graduationStatus": "Graduated",
+      "reg_no": "2560013",
+      "student_name": "MICHELLE STEPHEN",
+      "class": "3BTCI",
+      "batch": "2026-27",
+      "graduation": null,
       "placement": null,
-      "higherStudies": {
-        "university": "IIT Roorkie",
-        "program": "M.Tech"
-      },
-      "entrepreneur": null,
-      "subjects": []
+      "higher_studies": null
     },
     {
-      "studentId": "2260124",
-      "name": "DARSHAN R",
-      "batch": "2022-2026",
-      "graduationStatus": "Graduated",
+      "reg_no": "2560014",
+      "student_name": "NELLIE NINGTHOUJAM",
+      "class": "3BTCI",
+      "batch": "2026-27",
+      "graduation": null,
       "placement": null,
-      "higherStudies": {
-        "university": "CHRIST (Deemed to be University)",
-        "program": "M.Tech"
-      },
-      "entrepreneur": null,
-      "subjects": []
+      "higher_studies": null
     },
     {
-      "studentId": "2260126",
-      "name": "ADARSH D",
-      "batch": "2022-2026",
-      "graduationStatus": "Graduated",
+      "reg_no": "2560015",
+      "student_name": "VEDANT SHARMA",
+      "class": "3BTCI",
+      "batch": "2026-27",
+      "graduation": null,
       "placement": null,
-      "higherStudies": {
-        "university": "NICMAR (Hyderabad)",
-        "program": "MBA"
-      },
-      "entrepreneur": null,
-      "subjects": []
+      "higher_studies": null
     },
     {
-      "studentId": "2260127",
-      "name": "YASHAS P",
-      "batch": "2022-2026",
-      "graduationStatus": "Graduated",
+      "reg_no": "2560016",
+      "student_name": "PRASHANTH KUMAR S",
+      "class": "3BTCI",
+      "batch": "2026-27",
+      "graduation": null,
       "placement": null,
-      "higherStudies": {
-        "university": "CHRIST (Deemed to be University)",
-        "program": "M.Tech"
-      },
-      "entrepreneur": null,
-      "subjects": []
+      "higher_studies": null
     },
     {
-      "studentId": "2260128",
-      "name": "ALAVALA MANOJ",
-      "batch": "2022-2026",
-      "graduationStatus": "Graduated",
+      "reg_no": "2560017",
+      "student_name": "NIDHA KHALEEL AHAMMED",
+      "class": "3BTCI",
+      "batch": "2026-27",
+      "graduation": null,
       "placement": null,
-      "higherStudies": {
-        "university": "NICMAR (Hyderabad)",
-        "program": "MBA"
-      },
-      "entrepreneur": null,
-      "subjects": []
+      "higher_studies": null
     },
     {
-      "studentId": "2260129",
-      "name": "PASUPULETI VYSHNAVI",
-      "batch": "2022-2026",
-      "graduationStatus": "Graduated",
-      "placement": {
-        "company": "Clear Water Dynamics",
-        "ctcLPA": "3.00"
-      },
-      "higherStudies": null,
-      "entrepreneur": null,
-      "subjects": []
-    },
-    {
-      "studentId": "2260130",
-      "name": "AKSHAY T S",
-      "batch": "2022-2026",
-      "graduationStatus": "Graduated",
+      "reg_no": "2560018",
+      "student_name": "PRAJWAL M",
+      "class": "3BTCI",
+      "batch": "2026-27",
+      "graduation": null,
       "placement": null,
-      "higherStudies": null,
-      "entrepreneur": null,
-      "subjects": []
+      "higher_studies": null
     },
     {
-      "studentId": "2260131",
-      "name": "MANNURU JAYANTH NAIDU",
-      "batch": "2022-2026",
-      "graduationStatus": "Graduated",
-      "placement": {
-        "company": "Ananda Homes",
-        "ctcLPA": "2.40"
-      },
-      "higherStudies": null,
-      "entrepreneur": null,
-      "subjects": []
+      "reg_no": "2560020",
+      "student_name": "LALITH S",
+      "class": "3BTCI",
+      "batch": "2026-27",
+      "graduation": null,
+      "placement": null,
+      "higher_studies": null
+    },
+    {
+      "reg_no": "2560021",
+      "student_name": "KISHOR S",
+      "class": "3BTCI",
+      "batch": "2026-27",
+      "graduation": null,
+      "placement": null,
+      "higher_studies": null
+    },
+    {
+      "reg_no": "2560022",
+      "student_name": "RITHUVARSNI A",
+      "class": "3BTCI",
+      "batch": "2026-27",
+      "graduation": null,
+      "placement": null,
+      "higher_studies": null
+    },
+    {
+      "reg_no": "2560023",
+      "student_name": "HUVEZO KHAMO",
+      "class": "3BTCI",
+      "batch": "2026-27",
+      "graduation": null,
+      "placement": null,
+      "higher_studies": null
+    },
+    {
+      "reg_no": "2560024",
+      "student_name": "BARATH K",
+      "class": "3BTCI",
+      "batch": "2026-27",
+      "graduation": null,
+      "placement": null,
+      "higher_studies": null
+    },
+    {
+      "reg_no": "2560025",
+      "student_name": "PRAKRUTHI V YADAV",
+      "class": "3BTCI",
+      "batch": "2026-27",
+      "graduation": null,
+      "placement": null,
+      "higher_studies": null
+    },
+    {
+      "reg_no": "2560026",
+      "student_name": "VAIBHAV K T",
+      "class": "3BTCI",
+      "batch": "2026-27",
+      "graduation": null,
+      "placement": null,
+      "higher_studies": null
+    },
+    {
+      "reg_no": "2560027",
+      "student_name": "CHRISWEL TOM NAVIN",
+      "class": "3BTCI",
+      "batch": "2026-27",
+      "graduation": null,
+      "placement": null,
+      "higher_studies": null
+    },
+    {
+      "reg_no": "2560028",
+      "student_name": "ANTON JOSEPH STALIN",
+      "class": "3BTCI",
+      "batch": "2026-27",
+      "graduation": null,
+      "placement": null,
+      "higher_studies": null
+    },
+    {
+      "reg_no": "2562013",
+      "student_name": "ASWIN T S",
+      "class": "3BTCI",
+      "batch": "2026-27",
+      "graduation": null,
+      "placement": null,
+      "higher_studies": null
+    },
+    {
+      "reg_no": "2562032",
+      "student_name": "JOSBY JAMES",
+      "class": "3BTCI",
+      "batch": "2026-27",
+      "graduation": null,
+      "placement": null,
+      "higher_studies": null
+    },
+    {
+      "reg_no": "2562361",
+      "student_name": "VEERESH",
+      "class": "3BTCI",
+      "batch": "2026-27",
+      "graduation": null,
+      "placement": null,
+      "higher_studies": null
+    },
+    {
+      "reg_no": "2563415",
+      "student_name": "REPALA KOUSHIK",
+      "class": "3BTCI",
+      "batch": "2026-27",
+      "graduation": null,
+      "placement": null,
+      "higher_studies": null
+    },
+    {
+      "reg_no": "2563421",
+      "student_name": "SINCHANA G PRASAD",
+      "class": "3BTCI",
+      "batch": "2026-27",
+      "graduation": null,
+      "placement": null,
+      "higher_studies": null
+    },
+    {
+      "reg_no": "2460103",
+      "student_name": "NAOKHOMBA KHANGEMBAM",
+      "class": "5BTCI",
+      "batch": "2026-27",
+      "graduation": null,
+      "placement": null,
+      "higher_studies": null
+    },
+    {
+      "reg_no": "2460105",
+      "student_name": "SANDEEP R",
+      "class": "5BTCI",
+      "batch": "2026-27",
+      "graduation": null,
+      "placement": null,
+      "higher_studies": null
+    },
+    {
+      "reg_no": "2460106",
+      "student_name": "SAUD KHAN",
+      "class": "5BTCI",
+      "batch": "2026-27",
+      "graduation": null,
+      "placement": null,
+      "higher_studies": null
+    },
+    {
+      "reg_no": "2460108",
+      "student_name": "DANIEL LUNGOUCHUON HAOKIP",
+      "class": "5BTCI",
+      "batch": "2026-27",
+      "graduation": null,
+      "placement": null,
+      "higher_studies": null
+    },
+    {
+      "reg_no": "2460109",
+      "student_name": "JISS JAMES",
+      "class": "5BTCI",
+      "batch": "2026-27",
+      "graduation": null,
+      "placement": null,
+      "higher_studies": null
+    },
+    {
+      "reg_no": "2460110",
+      "student_name": "THARANAA S J",
+      "class": "5BTCI",
+      "batch": "2026-27",
+      "graduation": null,
+      "placement": null,
+      "higher_studies": null
+    },
+    {
+      "reg_no": "2460111",
+      "student_name": "DEEBADHARSHAN S",
+      "class": "5BTCI",
+      "batch": "2026-27",
+      "graduation": null,
+      "placement": null,
+      "higher_studies": null
+    },
+    {
+      "reg_no": "2460113",
+      "student_name": "SHARON MATHEW",
+      "class": "5BTCI",
+      "batch": "2026-27",
+      "graduation": null,
+      "placement": null,
+      "higher_studies": null
+    },
+    {
+      "reg_no": "2360105",
+      "student_name": "AKSHAY GIRISH",
+      "class": "7BTCI",
+      "batch": "2026-27",
+      "graduation": null,
+      "placement": null,
+      "higher_studies": null
+    },
+    {
+      "reg_no": "2360106",
+      "student_name": "AMANDEEP",
+      "class": "7BTCI",
+      "batch": "2026-27",
+      "graduation": null,
+      "placement": null,
+      "higher_studies": null
+    },
+    {
+      "reg_no": "2360109",
+      "student_name": "HRIDAY AGRAWAL",
+      "class": "7BTCI",
+      "batch": "2026-27",
+      "graduation": null,
+      "placement": null,
+      "higher_studies": null
+    },
+    {
+      "reg_no": "2360110",
+      "student_name": "KARTHIK V SAJI",
+      "class": "7BTCI",
+      "batch": "2026-27",
+      "graduation": null,
+      "placement": null,
+      "higher_studies": null
+    },
+    {
+      "reg_no": "2360111",
+      "student_name": "KAYI PERTIN",
+      "class": "7BTCI",
+      "batch": "2026-27",
+      "graduation": null,
+      "placement": null,
+      "higher_studies": null
+    },
+    {
+      "reg_no": "2360112",
+      "student_name": "KOTTAIYAN M",
+      "class": "7BTCI",
+      "batch": "2026-27",
+      "graduation": null,
+      "placement": null,
+      "higher_studies": null
+    },
+    {
+      "reg_no": "2360113",
+      "student_name": "MALAVIKA MANOJ",
+      "class": "7BTCI",
+      "batch": "2026-27",
+      "graduation": null,
+      "placement": null,
+      "higher_studies": null
+    },
+    {
+      "reg_no": "2360116",
+      "student_name": "PRIYASHA WADEKAR",
+      "class": "7BTCI",
+      "batch": "2026-27",
+      "graduation": null,
+      "placement": null,
+      "higher_studies": null
+    },
+    {
+      "reg_no": "2360117",
+      "student_name": "RIBI  S",
+      "class": "7BTCI",
+      "batch": "2026-27",
+      "graduation": null,
+      "placement": null,
+      "higher_studies": null
+    },
+    {
+      "reg_no": "2360118",
+      "student_name": "RISHABH ARAVIND DESAI",
+      "class": "7BTCI",
+      "batch": "2026-27",
+      "graduation": null,
+      "placement": null,
+      "higher_studies": null
+    },
+    {
+      "reg_no": "2360119",
+      "student_name": "SANIA VALERIE FERNANDES",
+      "class": "7BTCI",
+      "batch": "2026-27",
+      "graduation": null,
+      "placement": null,
+      "higher_studies": null
+    },
+    {
+      "reg_no": "2360121",
+      "student_name": "MUHAMMAD MUBIN ABDULLA",
+      "class": "7BTCI",
+      "batch": "2026-27",
+      "graduation": null,
+      "placement": null,
+      "higher_studies": null
+    },
+    {
+      "reg_no": "2360122",
+      "student_name": "DOVEI MICHAEL",
+      "class": "7BTCI",
+      "batch": "2026-27",
+      "graduation": null,
+      "placement": null,
+      "higher_studies": null
+    },
+    {
+      "reg_no": "2360126",
+      "student_name": "ANNA ROSE SHAJU",
+      "class": "7BTCI",
+      "batch": "2026-27",
+      "graduation": null,
+      "placement": null,
+      "higher_studies": null
+    },
+    {
+      "reg_no": "2360128",
+      "student_name": "LAKSHMI K DEEPAK",
+      "class": "7BTCI",
+      "batch": "2026-27",
+      "graduation": null,
+      "placement": null,
+      "higher_studies": null
+    },
+    {
+      "reg_no": "2360129",
+      "student_name": "NELIL JOHN",
+      "class": "7BTCI",
+      "batch": "2026-27",
+      "graduation": null,
+      "placement": null,
+      "higher_studies": null
+    },
+    {
+      "reg_no": "2360132",
+      "student_name": "AARAN KOLLAKKARAN JOHNSON",
+      "class": "7BTCI",
+      "batch": "2026-27",
+      "graduation": null,
+      "placement": null,
+      "higher_studies": null
+    },
+    {
+      "reg_no": "2360134",
+      "student_name": "JOSHUA CEDRIC",
+      "class": "7BTCI",
+      "batch": "2026-27",
+      "graduation": null,
+      "placement": null,
+      "higher_studies": null
+    },
+    {
+      "reg_no": "2360135",
+      "student_name": "YOHAN ABRAHAM A B",
+      "class": "7BTCI",
+      "batch": "2026-27",
+      "graduation": null,
+      "placement": null,
+      "higher_studies": null
+    },
+    {
+      "reg_no": "2362371",
+      "student_name": "SUGAM SUBEDI",
+      "class": "7BTCI",
+      "batch": "2026-27",
+      "graduation": null,
+      "placement": null,
+      "higher_studies": null
+    },
+    {
+      "reg_no": "2560001",
+      "student_name": "ALONZA C SEBASTIN",
+      "class": "1BTCI",
+      "batch": "2025-26",
+      "graduation": null,
+      "placement": null,
+      "higher_studies": null
+    },
+    {
+      "reg_no": "2560002",
+      "student_name": "ARUN TP",
+      "class": "1BTCI",
+      "batch": "2025-26",
+      "graduation": null,
+      "placement": null,
+      "higher_studies": null
+    },
+    {
+      "reg_no": "2560003",
+      "student_name": "JOSEPH GEORGE",
+      "class": "1BTCI",
+      "batch": "2025-26",
+      "graduation": null,
+      "placement": null,
+      "higher_studies": null
+    },
+    {
+      "reg_no": "2560004",
+      "student_name": "CHOULAM SANJAY KUMAR",
+      "class": "1BTCI",
+      "batch": "2025-26",
+      "graduation": null,
+      "placement": null,
+      "higher_studies": null
+    },
+    {
+      "reg_no": "2560013",
+      "student_name": "MICHELLE STEPHEN",
+      "class": "1BTCI",
+      "batch": "2025-26",
+      "graduation": null,
+      "placement": null,
+      "higher_studies": null
+    },
+    {
+      "reg_no": "2560005",
+      "student_name": "DEON BINOY",
+      "class": "1BTCI",
+      "batch": "2025-26",
+      "graduation": null,
+      "placement": null,
+      "higher_studies": null
+    },
+    {
+      "reg_no": "2560014",
+      "student_name": "NELLIE NINGTHOUJAM",
+      "class": "1BTCI",
+      "batch": "2025-26",
+      "graduation": null,
+      "placement": null,
+      "higher_studies": null
+    },
+    {
+      "reg_no": "2560006",
+      "student_name": "V LALRUATFELA",
+      "class": "1BTCI",
+      "batch": "2025-26",
+      "graduation": null,
+      "placement": null,
+      "higher_studies": null
+    },
+    {
+      "reg_no": "2560008",
+      "student_name": "VIJETH L",
+      "class": "1BTCI",
+      "batch": "2025-26",
+      "graduation": null,
+      "placement": null,
+      "higher_studies": null
+    },
+    {
+      "reg_no": "2560009",
+      "student_name": "SURAJ BAPI BHUNIA",
+      "class": "1BTCI",
+      "batch": "2025-26",
+      "graduation": null,
+      "placement": null,
+      "higher_studies": null
+    },
+    {
+      "reg_no": "2560007",
+      "student_name": "RUPIN SINGH CHOUDHARY",
+      "class": "1BTCI",
+      "batch": "2025-26",
+      "graduation": null,
+      "placement": null,
+      "higher_studies": null
+    },
+    {
+      "reg_no": "2560010",
+      "student_name": "JAIAKASH R",
+      "class": "1BTCI",
+      "batch": "2025-26",
+      "graduation": null,
+      "placement": null,
+      "higher_studies": null
+    },
+    {
+      "reg_no": "2560011",
+      "student_name": "GOWTHAM S",
+      "class": "1BTCI",
+      "batch": "2025-26",
+      "graduation": null,
+      "placement": null,
+      "higher_studies": null
+    },
+    {
+      "reg_no": "2560016",
+      "student_name": "PRASHANTH KUMAR S",
+      "class": "1BTCI",
+      "batch": "2025-26",
+      "graduation": null,
+      "placement": null,
+      "higher_studies": null
+    },
+    {
+      "reg_no": "2560017",
+      "student_name": "NIDHA KHALEEL AHAMMED",
+      "class": "1BTCI",
+      "batch": "2025-26",
+      "graduation": null,
+      "placement": null,
+      "higher_studies": null
+    },
+    {
+      "reg_no": "2560015",
+      "student_name": "VEDANT SHARMA",
+      "class": "1BTCI",
+      "batch": "2025-26",
+      "graduation": null,
+      "placement": null,
+      "higher_studies": null
+    },
+    {
+      "reg_no": "2560018",
+      "student_name": "PRAJWAL M",
+      "class": "1BTCI",
+      "batch": "2025-26",
+      "graduation": null,
+      "placement": null,
+      "higher_studies": null
+    },
+    {
+      "reg_no": "2560020",
+      "student_name": "LALITH S",
+      "class": "1BTCI",
+      "batch": "2025-26",
+      "graduation": null,
+      "placement": null,
+      "higher_studies": null
+    },
+    {
+      "reg_no": "2560024",
+      "student_name": "BARATH K",
+      "class": "1BTCI",
+      "batch": "2025-26",
+      "graduation": null,
+      "placement": null,
+      "higher_studies": null
+    },
+    {
+      "reg_no": "2560021",
+      "student_name": "KISHOR S",
+      "class": "1BTCI",
+      "batch": "2025-26",
+      "graduation": null,
+      "placement": null,
+      "higher_studies": null
+    },
+    {
+      "reg_no": "2560023",
+      "student_name": "HUVEZO KHAMO",
+      "class": "1BTCI",
+      "batch": "2025-26",
+      "graduation": null,
+      "placement": null,
+      "higher_studies": null
+    },
+    {
+      "reg_no": "2560022",
+      "student_name": "RITHUVARSNI A",
+      "class": "1BTCI",
+      "batch": "2025-26",
+      "graduation": null,
+      "placement": null,
+      "higher_studies": null
+    },
+    {
+      "reg_no": "2560025",
+      "student_name": "PRAKRUTHI V YADAV",
+      "class": "1BTCI",
+      "batch": "2025-26",
+      "graduation": null,
+      "placement": null,
+      "higher_studies": null
+    },
+    {
+      "reg_no": "2460101",
+      "student_name": "GEORGE J MATHEW",
+      "class": "3BTCI",
+      "batch": "2025-26",
+      "graduation": null,
+      "placement": null,
+      "higher_studies": null
+    },
+    {
+      "reg_no": "2460103",
+      "student_name": "NAOKHOMBA",
+      "class": "3BTCI",
+      "batch": "2025-26",
+      "graduation": null,
+      "placement": null,
+      "higher_studies": null
+    },
+    {
+      "reg_no": "2460105",
+      "student_name": "SANDEEP R",
+      "class": "3BTCI",
+      "batch": "2025-26",
+      "graduation": null,
+      "placement": null,
+      "higher_studies": null
+    },
+    {
+      "reg_no": "2460106",
+      "student_name": "SAUD KHAN",
+      "class": "3BTCI",
+      "batch": "2025-26",
+      "graduation": null,
+      "placement": null,
+      "higher_studies": null
+    },
+    {
+      "reg_no": "2460107",
+      "student_name": "SOBHIRALA VENKATA  SIRI",
+      "class": "3BTCI",
+      "batch": "2025-26",
+      "graduation": null,
+      "placement": null,
+      "higher_studies": null
+    },
+    {
+      "reg_no": "2460108",
+      "student_name": "DANIEL  HAOKIP",
+      "class": "3BTCI",
+      "batch": "2025-26",
+      "graduation": null,
+      "placement": null,
+      "higher_studies": null
+    },
+    {
+      "reg_no": "2460109",
+      "student_name": "JISS JAMES",
+      "class": "3BTCI",
+      "batch": "2025-26",
+      "graduation": null,
+      "placement": null,
+      "higher_studies": null
+    },
+    {
+      "reg_no": "2460110",
+      "student_name": "THARANAA S J",
+      "class": "3BTCI",
+      "batch": "2025-26",
+      "graduation": null,
+      "placement": null,
+      "higher_studies": null
+    },
+    {
+      "reg_no": "2460111",
+      "student_name": "DEEBADHARSHAN S",
+      "class": "3BTCI",
+      "batch": "2025-26",
+      "graduation": null,
+      "placement": null,
+      "higher_studies": null
+    },
+    {
+      "reg_no": "2460112",
+      "student_name": "SHIYAVUL IRFAN S",
+      "class": "3BTCI",
+      "batch": "2025-26",
+      "graduation": null,
+      "placement": null,
+      "higher_studies": null
+    },
+    {
+      "reg_no": "2460423",
+      "student_name": "PRATYAKSH SHARMA",
+      "class": "3BTCI",
+      "batch": "2025-26",
+      "graduation": null,
+      "placement": null,
+      "higher_studies": null
+    },
+    {
+      "reg_no": "2461222",
+      "student_name": "ALOKIT TOPPO",
+      "class": "3BTCI",
+      "batch": "2025-26",
+      "graduation": null,
+      "placement": null,
+      "higher_studies": null
+    },
+    {
+      "reg_no": "2360105",
+      "student_name": "AKSHAY GIRISH",
+      "class": "5BTCI",
+      "batch": "2025-26",
+      "graduation": null,
+      "placement": null,
+      "higher_studies": null
+    },
+    {
+      "reg_no": "2360106",
+      "student_name": "AMANDEEP",
+      "class": "5BTCI",
+      "batch": "2025-26",
+      "graduation": null,
+      "placement": null,
+      "higher_studies": null
+    },
+    {
+      "reg_no": "2360109",
+      "student_name": "HRIDAY AGRAWAL",
+      "class": "5BTCI",
+      "batch": "2025-26",
+      "graduation": null,
+      "placement": null,
+      "higher_studies": null
+    },
+    {
+      "reg_no": "2360110",
+      "student_name": "KARTHIK V SAJI",
+      "class": "5BTCI",
+      "batch": "2025-26",
+      "graduation": null,
+      "placement": null,
+      "higher_studies": null
+    },
+    {
+      "reg_no": "2360111",
+      "student_name": "KAYI PERTIN",
+      "class": "5BTCI",
+      "batch": "2025-26",
+      "graduation": null,
+      "placement": null,
+      "higher_studies": null
+    },
+    {
+      "reg_no": "2360112",
+      "student_name": "KOTTAIYAN M",
+      "class": "5BTCI",
+      "batch": "2025-26",
+      "graduation": null,
+      "placement": null,
+      "higher_studies": null
+    },
+    {
+      "reg_no": "2360113",
+      "student_name": "MALAVIKA MANOJ",
+      "class": "5BTCI",
+      "batch": "2025-26",
+      "graduation": null,
+      "placement": null,
+      "higher_studies": null
+    },
+    {
+      "reg_no": "2360116",
+      "student_name": "PRIYASHA WADEKAR",
+      "class": "5BTCI",
+      "batch": "2025-26",
+      "graduation": null,
+      "placement": null,
+      "higher_studies": null
+    },
+    {
+      "reg_no": "2360117",
+      "student_name": "RIBI  S",
+      "class": "5BTCI",
+      "batch": "2025-26",
+      "graduation": null,
+      "placement": null,
+      "higher_studies": null
+    },
+    {
+      "reg_no": "2360118",
+      "student_name": "RISHABH ARAVIND DESAI",
+      "class": "5BTCI",
+      "batch": "2025-26",
+      "graduation": null,
+      "placement": null,
+      "higher_studies": null
+    },
+    {
+      "reg_no": "2360119",
+      "student_name": "SANIA VALERIE FERNANDES",
+      "class": "5BTCI",
+      "batch": "2025-26",
+      "graduation": null,
+      "placement": null,
+      "higher_studies": null
+    },
+    {
+      "reg_no": "2360121",
+      "student_name": "MUHAMMAD MUBIN ABDULLA",
+      "class": "5BTCI",
+      "batch": "2025-26",
+      "graduation": null,
+      "placement": null,
+      "higher_studies": null
+    },
+    {
+      "reg_no": "2360122",
+      "student_name": "DOVEI MICHAEL",
+      "class": "5BTCI",
+      "batch": "2025-26",
+      "graduation": null,
+      "placement": null,
+      "higher_studies": null
+    },
+    {
+      "reg_no": "2360126",
+      "student_name": "ANNA ROSE SHAJU",
+      "class": "5BTCI",
+      "batch": "2025-26",
+      "graduation": null,
+      "placement": null,
+      "higher_studies": null
+    },
+    {
+      "reg_no": "2360128",
+      "student_name": "LAKSHMI K DEEPAK",
+      "class": "5BTCI",
+      "batch": "2025-26",
+      "graduation": null,
+      "placement": null,
+      "higher_studies": null
+    },
+    {
+      "reg_no": "2360129",
+      "student_name": "NELIL JOHN",
+      "class": "5BTCI",
+      "batch": "2025-26",
+      "graduation": null,
+      "placement": null,
+      "higher_studies": null
+    },
+    {
+      "reg_no": "2360130",
+      "student_name": "BULLE KURUBA REDDY JAYAVARDHAN",
+      "class": "5BTCI",
+      "batch": "2025-26",
+      "graduation": null,
+      "placement": null,
+      "higher_studies": null
+    },
+    {
+      "reg_no": "2360132",
+      "student_name": "AARAN KOLLAKKARAN JOHNSON",
+      "class": "5BTCI",
+      "batch": "2025-26",
+      "graduation": null,
+      "placement": null,
+      "higher_studies": null
+    },
+    {
+      "reg_no": "2660133",
+      "student_name": "MOHAMMED IBRAHIM K MEKRI",
+      "class": "5BTCI",
+      "batch": "2025-26",
+      "graduation": null,
+      "placement": null,
+      "higher_studies": null
+    },
+    {
+      "reg_no": "2362371",
+      "student_name": "SUGAM SUBEDI",
+      "class": "5BTCI",
+      "batch": "2025-26",
+      "graduation": null,
+      "placement": null,
+      "higher_studies": null
+    },
+    {
+      "reg_no": "2260101",
+      "student_name": "ABHISHEK MISHRA",
+      "class": "7BTCI",
+      "batch": "2025-26",
+      "graduation": null,
+      "placement": null,
+      "higher_studies": null
+    },
+    {
+      "reg_no": "2260106",
+      "student_name": "MATRIKA GURUMAYUM",
+      "class": "7BTCI",
+      "batch": "2025-26",
+      "graduation": null,
+      "placement": null,
+      "higher_studies": null
+    },
+    {
+      "reg_no": "2260107",
+      "student_name": "MUHAMMED PUNATHIL",
+      "class": "7BTCI",
+      "batch": "2025-26",
+      "graduation": null,
+      "placement": null,
+      "higher_studies": null
+    },
+    {
+      "reg_no": "2260114",
+      "student_name": "ABHIRAM K P",
+      "class": "7BTCI",
+      "batch": "2025-26",
+      "graduation": null,
+      "placement": null,
+      "higher_studies": null
+    },
+    {
+      "reg_no": "2260117",
+      "student_name": "SANDIPAN THAPA",
+      "class": "7BTCI",
+      "batch": "2025-26",
+      "graduation": null,
+      "placement": null,
+      "higher_studies": null
+    },
+    {
+      "reg_no": "2260122",
+      "student_name": "KANGUJAM NELSON MANGANG",
+      "class": "7BTCI",
+      "batch": "2025-26",
+      "graduation": null,
+      "placement": null,
+      "higher_studies": null
+    },
+    {
+      "reg_no": "2260124",
+      "student_name": "DARSHAN R",
+      "class": "7BTCI",
+      "batch": "2025-26",
+      "graduation": null,
+      "placement": null,
+      "higher_studies": null
+    },
+    {
+      "reg_no": "2260126",
+      "student_name": "ADARSH D",
+      "class": "7BTCI",
+      "batch": "2025-26",
+      "graduation": null,
+      "placement": null,
+      "higher_studies": null
+    },
+    {
+      "reg_no": "2260127",
+      "student_name": "YASHAS P",
+      "class": "7BTCI",
+      "batch": "2025-26",
+      "graduation": null,
+      "placement": null,
+      "higher_studies": null
+    },
+    {
+      "reg_no": "2260128",
+      "student_name": "ALAVALA MANOJ",
+      "class": "7BTCI",
+      "batch": "2025-26",
+      "graduation": null,
+      "placement": null,
+      "higher_studies": null
+    },
+    {
+      "reg_no": "2260129",
+      "student_name": "PASUPULETI VYSHNAVI",
+      "class": "7BTCI",
+      "batch": "2025-26",
+      "graduation": null,
+      "placement": null,
+      "higher_studies": null
+    },
+    {
+      "reg_no": "2260130",
+      "student_name": "AKSHAY T S",
+      "class": "7BTCI",
+      "batch": "2025-26",
+      "graduation": null,
+      "placement": null,
+      "higher_studies": null
+    },
+    {
+      "reg_no": "2260131",
+      "student_name": "MANNURU JAYANTH NAIDU",
+      "class": "7BTCI",
+      "batch": "2025-26",
+      "graduation": null,
+      "placement": null,
+      "higher_studies": null
+    },
+    {
+      "reg_no": "2460113",
+      "student_name": "SHARON MATHEW",
+      "class": "1BTCI",
+      "batch": "2024-25",
+      "graduation": null,
+      "placement": null,
+      "higher_studies": null
+    },
+    {
+      "reg_no": "2460102",
+      "student_name": "N KAVIN",
+      "class": "1BTCI",
+      "batch": "2024-25",
+      "graduation": null,
+      "placement": null,
+      "higher_studies": null
+    },
+    {
+      "reg_no": "2460105",
+      "student_name": "SANDEEP R",
+      "class": "1BTCI",
+      "batch": "2024-25",
+      "graduation": null,
+      "placement": null,
+      "higher_studies": null
+    },
+    {
+      "reg_no": "2460106",
+      "student_name": "SAUD KHAN",
+      "class": "1BTCI",
+      "batch": "2024-25",
+      "graduation": null,
+      "placement": null,
+      "higher_studies": null
+    },
+    {
+      "reg_no": "2461034",
+      "student_name": "VARSHA M",
+      "class": "1BTCI",
+      "batch": "2024-25",
+      "graduation": null,
+      "placement": null,
+      "higher_studies": null
+    },
+    {
+      "reg_no": "2460101",
+      "student_name": "GEORGE J MATHEW",
+      "class": "1BTCI",
+      "batch": "2024-25",
+      "graduation": null,
+      "placement": null,
+      "higher_studies": null
+    },
+    {
+      "reg_no": "2460104",
+      "student_name": "PARSH OSWAL",
+      "class": "1BTCI",
+      "batch": "2024-25",
+      "graduation": null,
+      "placement": null,
+      "higher_studies": null
+    },
+    {
+      "reg_no": "2460103",
+      "student_name": "NAOKHOMBA KHANGEMBAM",
+      "class": "1BTCI",
+      "batch": "2024-25",
+      "graduation": null,
+      "placement": null,
+      "higher_studies": null
+    },
+    {
+      "reg_no": "2460108",
+      "student_name": "DANIEL LUNGOUCHUON HAOKIP",
+      "class": "1BTCI",
+      "batch": "2024-25",
+      "graduation": null,
+      "placement": null,
+      "higher_studies": null
+    },
+    {
+      "reg_no": "2460109",
+      "student_name": "JISS JAMES",
+      "class": "1BTCI",
+      "batch": "2024-25",
+      "graduation": null,
+      "placement": null,
+      "higher_studies": null
+    },
+    {
+      "reg_no": "2360101",
+      "student_name": "AADITH D",
+      "class": "3BTCI",
+      "batch": "2024-25",
+      "graduation": null,
+      "placement": null,
+      "higher_studies": null
+    },
+    {
+      "reg_no": "2360105",
+      "student_name": "AKSHAY GIRISH",
+      "class": "3BTCI",
+      "batch": "2024-25",
+      "graduation": null,
+      "placement": null,
+      "higher_studies": null
+    },
+    {
+      "reg_no": "2360106",
+      "student_name": "AMANDEEP",
+      "class": "3BTCI",
+      "batch": "2024-25",
+      "graduation": null,
+      "placement": null,
+      "higher_studies": null
+    },
+    {
+      "reg_no": "2360107",
+      "student_name": "DEEP TOPPO",
+      "class": "3BTCI",
+      "batch": "2024-25",
+      "graduation": null,
+      "placement": null,
+      "higher_studies": null
+    },
+    {
+      "reg_no": "2360108",
+      "student_name": "DON T GEORGE",
+      "class": "3BTCI",
+      "batch": "2024-25",
+      "graduation": null,
+      "placement": null,
+      "higher_studies": null
+    },
+    {
+      "reg_no": "2360109",
+      "student_name": "HRIDAY AGRAWAL",
+      "class": "3BTCI",
+      "batch": "2024-25",
+      "graduation": null,
+      "placement": null,
+      "higher_studies": null
+    },
+    {
+      "reg_no": "2360110",
+      "student_name": "KARTHIK V SAJI",
+      "class": "3BTCI",
+      "batch": "2024-25",
+      "graduation": null,
+      "placement": null,
+      "higher_studies": null
+    },
+    {
+      "reg_no": "2360111",
+      "student_name": "KAYI PERTIN",
+      "class": "3BTCI",
+      "batch": "2024-25",
+      "graduation": null,
+      "placement": null,
+      "higher_studies": null
+    },
+    {
+      "reg_no": "2360112",
+      "student_name": "KOTTAIYAN M",
+      "class": "3BTCI",
+      "batch": "2024-25",
+      "graduation": null,
+      "placement": null,
+      "higher_studies": null
+    },
+    {
+      "reg_no": "2360113",
+      "student_name": "MALAVIKA MANOJ",
+      "class": "3BTCI",
+      "batch": "2024-25",
+      "graduation": null,
+      "placement": null,
+      "higher_studies": null
+    },
+    {
+      "reg_no": "2360116",
+      "student_name": "PRIYASHA WADEKAR",
+      "class": "3BTCI",
+      "batch": "2024-25",
+      "graduation": null,
+      "placement": null,
+      "higher_studies": null
+    },
+    {
+      "reg_no": "2360117",
+      "student_name": "RIBI  S",
+      "class": "3BTCI",
+      "batch": "2024-25",
+      "graduation": null,
+      "placement": null,
+      "higher_studies": null
+    },
+    {
+      "reg_no": "2360118",
+      "student_name": "RISHABH ARAVIND DESAI",
+      "class": "3BTCI",
+      "batch": "2024-25",
+      "graduation": null,
+      "placement": null,
+      "higher_studies": null
+    },
+    {
+      "reg_no": "2360119",
+      "student_name": "SANIA VALERIE FERNANDES",
+      "class": "3BTCI",
+      "batch": "2024-25",
+      "graduation": null,
+      "placement": null,
+      "higher_studies": null
+    },
+    {
+      "reg_no": "2360121",
+      "student_name": "MUHAMMAD MUBIN ABDULLA",
+      "class": "3BTCI",
+      "batch": "2024-25",
+      "graduation": null,
+      "placement": null,
+      "higher_studies": null
+    },
+    {
+      "reg_no": "2360122",
+      "student_name": "DOVEI MICHAEL",
+      "class": "3BTCI",
+      "batch": "2024-25",
+      "graduation": null,
+      "placement": null,
+      "higher_studies": null
+    },
+    {
+      "reg_no": "2360123",
+      "student_name": "SUDHANSHU LAMA",
+      "class": "3BTCI",
+      "batch": "2024-25",
+      "graduation": null,
+      "placement": null,
+      "higher_studies": null
+    },
+    {
+      "reg_no": "2360126",
+      "student_name": "ANNA ROSE SHAJU",
+      "class": "3BTCI",
+      "batch": "2024-25",
+      "graduation": null,
+      "placement": null,
+      "higher_studies": null
+    },
+    {
+      "reg_no": "2360127",
+      "student_name": "YAMMALA DINESH VARMA",
+      "class": "3BTCI",
+      "batch": "2024-25",
+      "graduation": null,
+      "placement": null,
+      "higher_studies": null
+    },
+    {
+      "reg_no": "2360128",
+      "student_name": "LAKSHMI K DEEPAK",
+      "class": "3BTCI",
+      "batch": "2024-25",
+      "graduation": null,
+      "placement": null,
+      "higher_studies": null
+    },
+    {
+      "reg_no": "2360129",
+      "student_name": "NELIL JOHN",
+      "class": "3BTCI",
+      "batch": "2024-25",
+      "graduation": null,
+      "placement": null,
+      "higher_studies": null
+    },
+    {
+      "reg_no": "2360130",
+      "student_name": "BULLE KURUBA REDDY JAYAVARDHAN",
+      "class": "3BTCI",
+      "batch": "2024-25",
+      "graduation": null,
+      "placement": null,
+      "higher_studies": null
+    },
+    {
+      "reg_no": "2360131",
+      "student_name": "DURAI ADITYA R",
+      "class": "3BTCI",
+      "batch": "2024-25",
+      "graduation": null,
+      "placement": null,
+      "higher_studies": null
+    },
+    {
+      "reg_no": "2362371",
+      "student_name": "SUGAM SUBEDI",
+      "class": "3BTCI",
+      "batch": "2024-25",
+      "graduation": null,
+      "placement": null,
+      "higher_studies": null
+    },
+    {
+      "reg_no": "2260101",
+      "student_name": "ABHISHEK MISHRA",
+      "class": "5BTCI",
+      "batch": "2024-25",
+      "graduation": null,
+      "placement": null,
+      "higher_studies": null
+    },
+    {
+      "reg_no": "2260106",
+      "student_name": "MATRIKA GURUMAYUM",
+      "class": "5BTCI",
+      "batch": "2024-25",
+      "graduation": null,
+      "placement": null,
+      "higher_studies": null
+    },
+    {
+      "reg_no": "2260107",
+      "student_name": "MUHAMMED PUNATHIL",
+      "class": "5BTCI",
+      "batch": "2024-25",
+      "graduation": null,
+      "placement": null,
+      "higher_studies": null
+    },
+    {
+      "reg_no": "2260114",
+      "student_name": "ABHIRAM K P",
+      "class": "5BTCI",
+      "batch": "2024-25",
+      "graduation": null,
+      "placement": null,
+      "higher_studies": null
+    },
+    {
+      "reg_no": "2260117",
+      "student_name": "SANDIPAN THAPA",
+      "class": "5BTCI",
+      "batch": "2024-25",
+      "graduation": null,
+      "placement": null,
+      "higher_studies": null
+    },
+    {
+      "reg_no": "2260122",
+      "student_name": "KANGUJAM NELSON MANGANG",
+      "class": "5BTCI",
+      "batch": "2024-25",
+      "graduation": null,
+      "placement": null,
+      "higher_studies": null
+    },
+    {
+      "reg_no": "2260124",
+      "student_name": "DARSHAN R",
+      "class": "5BTCI",
+      "batch": "2024-25",
+      "graduation": null,
+      "placement": null,
+      "higher_studies": null
+    },
+    {
+      "reg_no": "2260126",
+      "student_name": "ADARSH D",
+      "class": "5BTCI",
+      "batch": "2024-25",
+      "graduation": null,
+      "placement": null,
+      "higher_studies": null
+    },
+    {
+      "reg_no": "2260127",
+      "student_name": "YASHAS P",
+      "class": "5BTCI",
+      "batch": "2024-25",
+      "graduation": null,
+      "placement": null,
+      "higher_studies": null
+    },
+    {
+      "reg_no": "2260128",
+      "student_name": "ALAVALA MANOJ",
+      "class": "5BTCI",
+      "batch": "2024-25",
+      "graduation": null,
+      "placement": null,
+      "higher_studies": null
+    },
+    {
+      "reg_no": "2260129",
+      "student_name": "PASUPULETI VYSHNAVI",
+      "class": "5BTCI",
+      "batch": "2024-25",
+      "graduation": null,
+      "placement": null,
+      "higher_studies": null
+    },
+    {
+      "reg_no": "2260130",
+      "student_name": "AKSHAY T S",
+      "class": "5BTCI",
+      "batch": "2024-25",
+      "graduation": null,
+      "placement": null,
+      "higher_studies": null
+    },
+    {
+      "reg_no": "2260131",
+      "student_name": "MANNURU JAYANTH NAIDU",
+      "class": "5BTCI",
+      "batch": "2024-25",
+      "graduation": null,
+      "placement": null,
+      "higher_studies": null
+    },
+    {
+      "reg_no": "2160104",
+      "student_name": "AMRIN FATHIMA",
+      "class": "7BTCI",
+      "batch": "2024-25",
+      "graduation": null,
+      "placement": null,
+      "higher_studies": null
+    },
+    {
+      "reg_no": "2160105",
+      "student_name": "JIYA SIJU",
+      "class": "7BTCI",
+      "batch": "2024-25",
+      "graduation": null,
+      "placement": null,
+      "higher_studies": null
+    },
+    {
+      "reg_no": "2160107",
+      "student_name": "MELVIN THOMAS",
+      "class": "7BTCI",
+      "batch": "2024-25",
+      "graduation": null,
+      "placement": null,
+      "higher_studies": null
+    },
+    {
+      "reg_no": "2160110",
+      "student_name": "MUHAMMED RISHAN",
+      "class": "7BTCI",
+      "batch": "2024-25",
+      "graduation": null,
+      "placement": null,
+      "higher_studies": null
+    },
+    {
+      "reg_no": "2160112",
+      "student_name": "JANGAM NIKHITHA JOSHNA",
+      "class": "7BTCI",
+      "batch": "2024-25",
+      "graduation": null,
+      "placement": null,
+      "higher_studies": null
+    },
+    {
+      "reg_no": "2160113",
+      "student_name": "JOEL KHARPYNGROPE",
+      "class": "7BTCI",
+      "batch": "2024-25",
+      "graduation": null,
+      "placement": null,
+      "higher_studies": null
+    },
+    {
+      "reg_no": "2161801",
+      "student_name": "MEET PARSANA",
+      "class": "7BTCI",
+      "batch": "2024-25",
+      "graduation": null,
+      "placement": null,
+      "higher_studies": null
+    },
+    {
+      "reg_no": "2161802",
+      "student_name": "PRANAY MOHAN",
+      "class": "7BTCI",
+      "batch": "2024-25",
+      "graduation": null,
+      "placement": null,
+      "higher_studies": null
+    },
+    {
+      "reg_no": "233103815",
+      "student_name": "DON T GEORGE",
+      "class": "1BTCI",
+      "batch": "2023-24",
+      "graduation": null,
+      "placement": null,
+      "higher_studies": null
+    },
+    {
+      "reg_no": "233108434",
+      "student_name": "SUDHANSHU LAMA",
+      "class": "1BTCI",
+      "batch": "2023-24",
+      "graduation": null,
+      "placement": null,
+      "higher_studies": null
+    },
+    {
+      "reg_no": "223105259",
+      "student_name": "MOHAMMED IBRAHIM K MEHKRI",
+      "class": "1BTCI",
+      "batch": "2023-24",
+      "graduation": null,
+      "placement": null,
+      "higher_studies": null
+    },
+    {
+      "reg_no": "233104728",
+      "student_name": "DEEP TOPPO",
+      "class": "1BTCI",
+      "batch": "2023-24",
+      "graduation": null,
+      "placement": null,
+      "higher_studies": null
+    },
+    {
+      "reg_no": "223100036",
+      "student_name": "YAMMALA DINESH VARMA",
+      "class": "1BTCI",
+      "batch": "2023-24",
+      "graduation": null,
+      "placement": null,
+      "higher_studies": null
+    },
+    {
+      "reg_no": "223100309",
+      "student_name": "DURAI ADITYA R",
+      "class": "1BTCI",
+      "batch": "2023-24",
+      "graduation": null,
+      "placement": null,
+      "higher_studies": null
+    },
+    {
+      "reg_no": "233105087",
+      "student_name": "AADITH D",
+      "class": "1BTCI",
+      "batch": "2023-24",
+      "graduation": null,
+      "placement": null,
+      "higher_studies": null
+    },
+    {
+      "reg_no": "233108234",
+      "student_name": "AKSHAY GIRISH",
+      "class": "1BTCI",
+      "batch": "2023-24",
+      "graduation": null,
+      "placement": null,
+      "higher_studies": null
+    },
+    {
+      "reg_no": "233107712",
+      "student_name": "AMANDEEP",
+      "class": "1BTCI",
+      "batch": "2023-24",
+      "graduation": null,
+      "placement": null,
+      "higher_studies": null
+    },
+    {
+      "reg_no": "233103125",
+      "student_name": "HRIDAY AGRAWAL",
+      "class": "1BTCI",
+      "batch": "2023-24",
+      "graduation": null,
+      "placement": null,
+      "higher_studies": null
+    },
+    {
+      "reg_no": "233103077",
+      "student_name": "KARTHIK V SAJI",
+      "class": "1BTCI",
+      "batch": "2023-24",
+      "graduation": null,
+      "placement": null,
+      "higher_studies": null
+    },
+    {
+      "reg_no": "233106968",
+      "student_name": "KAYI PERTIN",
+      "class": "1BTCI",
+      "batch": "2023-24",
+      "graduation": null,
+      "placement": null,
+      "higher_studies": null
+    },
+    {
+      "reg_no": "233107204",
+      "student_name": "KOTTAIYAN M",
+      "class": "1BTCI",
+      "batch": "2023-24",
+      "graduation": null,
+      "placement": null,
+      "higher_studies": null
+    },
+    {
+      "reg_no": "233106763",
+      "student_name": "MALAVIKA MANOJ",
+      "class": "1BTCI",
+      "batch": "2023-24",
+      "graduation": null,
+      "placement": null,
+      "higher_studies": null
+    },
+    {
+      "reg_no": "233104516",
+      "student_name": "PRIYASHA WADEKAR",
+      "class": "1BTCI",
+      "batch": "2023-24",
+      "graduation": null,
+      "placement": null,
+      "higher_studies": null
+    },
+    {
+      "reg_no": "233102956",
+      "student_name": "RIBI S",
+      "class": "1BTCI",
+      "batch": "2023-24",
+      "graduation": null,
+      "placement": null,
+      "higher_studies": null
+    },
+    {
+      "reg_no": "233104982",
+      "student_name": "RISHABH ARAVIND DESAI",
+      "class": "1BTCI",
+      "batch": "2023-24",
+      "graduation": null,
+      "placement": null,
+      "higher_studies": null
+    },
+    {
+      "reg_no": "233104631",
+      "student_name": "SANIA VALERIE FERNANDES",
+      "class": "1BTCI",
+      "batch": "2023-24",
+      "graduation": null,
+      "placement": null,
+      "higher_studies": null
+    },
+    {
+      "reg_no": "233108392",
+      "student_name": "MUHAMMAD MUBIN ABDULLA",
+      "class": "1BTCI",
+      "batch": "2023-24",
+      "graduation": null,
+      "placement": null,
+      "higher_studies": null
+    },
+    {
+      "reg_no": "233108450",
+      "student_name": "DOVEI MICHAEL",
+      "class": "1BTCI",
+      "batch": "2023-24",
+      "graduation": null,
+      "placement": null,
+      "higher_studies": null
+    },
+    {
+      "reg_no": "223104788",
+      "student_name": "AARAN KOLLAKKARAN JOHNSON",
+      "class": "1BTCI",
+      "batch": "2023-24",
+      "graduation": null,
+      "placement": null,
+      "higher_studies": null
+    },
+    {
+      "reg_no": "223102914",
+      "student_name": "JOSHUA CEDRIC",
+      "class": "1BTCI",
+      "batch": "2023-24",
+      "graduation": null,
+      "placement": null,
+      "higher_studies": null
+    },
+    {
+      "reg_no": "223101248",
+      "student_name": "YOHAN ABRAHAM A B",
+      "class": "1BTCI",
+      "batch": "2023-24",
+      "graduation": null,
+      "placement": null,
+      "higher_studies": null
+    },
+    {
+      "reg_no": "233104571",
+      "student_name": "SUGAM SUBEDI",
+      "class": "1BTCI",
+      "batch": "2023-24",
+      "graduation": null,
+      "placement": null,
+      "higher_studies": null
+    },
+    {
+      "reg_no": "2260101",
+      "student_name": "ABHISHEK MISHRA",
+      "class": "3BTCI",
+      "batch": "2023-24",
+      "graduation": null,
+      "placement": null,
+      "higher_studies": null
+    },
+    {
+      "reg_no": "2260104",
+      "student_name": "JOSHUA CEDRIC",
+      "class": "3BTCI",
+      "batch": "2023-24",
+      "graduation": null,
+      "placement": null,
+      "higher_studies": null
+    },
+    {
+      "reg_no": "2260106",
+      "student_name": "MATRIKA GURUMAYUM",
+      "class": "3BTCI",
+      "batch": "2023-24",
+      "graduation": null,
+      "placement": null,
+      "higher_studies": null
+    },
+    {
+      "reg_no": "2260107",
+      "student_name": "MUHAMMED PUNATHIL",
+      "class": "3BTCI",
+      "batch": "2023-24",
+      "graduation": null,
+      "placement": null,
+      "higher_studies": null
+    },
+    {
+      "reg_no": "2260110",
+      "student_name": "SHARON MATHEW",
+      "class": "3BTCI",
+      "batch": "2023-24",
+      "graduation": null,
+      "placement": null,
+      "higher_studies": null
+    },
+    {
+      "reg_no": "2260112",
+      "student_name": "YOHAN ABRAHAM A B",
+      "class": "3BTCI",
+      "batch": "2023-24",
+      "graduation": null,
+      "placement": null,
+      "higher_studies": null
+    },
+    {
+      "reg_no": "2260113",
+      "student_name": "AARAN KOLLAKKARAN JOHNSON",
+      "class": "3BTCI",
+      "batch": "2023-24",
+      "graduation": null,
+      "placement": null,
+      "higher_studies": null
+    },
+    {
+      "reg_no": "2260114",
+      "student_name": "ABHIRAM K P",
+      "class": "3BTCI",
+      "batch": "2023-24",
+      "graduation": null,
+      "placement": null,
+      "higher_studies": null
+    },
+    {
+      "reg_no": "2260117",
+      "student_name": "SANDIPAN THAPA",
+      "class": "3BTCI",
+      "batch": "2023-24",
+      "graduation": null,
+      "placement": null,
+      "higher_studies": null
+    },
+    {
+      "reg_no": "2260119",
+      "student_name": "DIRAN M",
+      "class": "3BTCI",
+      "batch": "2023-24",
+      "graduation": null,
+      "placement": null,
+      "higher_studies": null
+    },
+    {
+      "reg_no": "2260122",
+      "student_name": "KANGUJAM NELSON MANGANG",
+      "class": "3BTCI",
+      "batch": "2023-24",
+      "graduation": null,
+      "placement": null,
+      "higher_studies": null
+    },
+    {
+      "reg_no": "2260123",
+      "student_name": "MOHAMMED IBRAHIM K MEHKRI",
+      "class": "3BTCI",
+      "batch": "2023-24",
+      "graduation": null,
+      "placement": null,
+      "higher_studies": null
+    },
+    {
+      "reg_no": "2260124",
+      "student_name": "DARSHAN R",
+      "class": "3BTCI",
+      "batch": "2023-24",
+      "graduation": null,
+      "placement": null,
+      "higher_studies": null
+    },
+    {
+      "reg_no": "2260126",
+      "student_name": "ADARSH D",
+      "class": "3BTCI",
+      "batch": "2023-24",
+      "graduation": null,
+      "placement": null,
+      "higher_studies": null
+    },
+    {
+      "reg_no": "2260127",
+      "student_name": "YASHAS P",
+      "class": "3BTCI",
+      "batch": "2023-24",
+      "graduation": null,
+      "placement": null,
+      "higher_studies": null
+    },
+    {
+      "reg_no": "2260128",
+      "student_name": "ALAVALA MANOJ",
+      "class": "3BTCI",
+      "batch": "2023-24",
+      "graduation": null,
+      "placement": null,
+      "higher_studies": null
+    },
+    {
+      "reg_no": "2260129",
+      "student_name": "PASUPULETI VYSHNAVI",
+      "class": "3BTCI",
+      "batch": "2023-24",
+      "graduation": null,
+      "placement": null,
+      "higher_studies": null
+    },
+    {
+      "reg_no": "2260130",
+      "student_name": "AKSHAY T S",
+      "class": "3BTCI",
+      "batch": "2023-24",
+      "graduation": null,
+      "placement": null,
+      "higher_studies": null
+    },
+    {
+      "reg_no": "2260131",
+      "student_name": "M.JAYANTH NAIDU",
+      "class": "3BTCI",
+      "batch": "2023-24",
+      "graduation": null,
+      "placement": null,
+      "higher_studies": null
+    },
+    {
+      "reg_no": "2160104",
+      "student_name": "AMRIN FATHIMA",
+      "class": "5BTCI",
+      "batch": "2023-24",
+      "graduation": null,
+      "placement": null,
+      "higher_studies": null
+    },
+    {
+      "reg_no": "2160105",
+      "student_name": "JIYA SIJU",
+      "class": "5BTCI",
+      "batch": "2023-24",
+      "graduation": null,
+      "placement": null,
+      "higher_studies": null
+    },
+    {
+      "reg_no": "2160107",
+      "student_name": "MELVIN THOMAS",
+      "class": "5BTCI",
+      "batch": "2023-24",
+      "graduation": null,
+      "placement": null,
+      "higher_studies": null
+    },
+    {
+      "reg_no": "2160110",
+      "student_name": "MUHAMMED RISHAN",
+      "class": "5BTCI",
+      "batch": "2023-24",
+      "graduation": null,
+      "placement": null,
+      "higher_studies": null
+    },
+    {
+      "reg_no": "2160112",
+      "student_name": "JANGAM NIKHITHA JOSHNA",
+      "class": "5BTCI",
+      "batch": "2023-24",
+      "graduation": null,
+      "placement": null,
+      "higher_studies": null
+    },
+    {
+      "reg_no": "2160113",
+      "student_name": "JOEL KHARPYNGROPE",
+      "class": "5BTCI",
+      "batch": "2023-24",
+      "graduation": null,
+      "placement": null,
+      "higher_studies": null
+    },
+    {
+      "reg_no": "2161801",
+      "student_name": "MEET PARSANA",
+      "class": "5BTCI",
+      "batch": "2023-24",
+      "graduation": null,
+      "placement": null,
+      "higher_studies": null
+    },
+    {
+      "reg_no": "2161802",
+      "student_name": "PRANAY MOHAN",
+      "class": "5BTCI",
+      "batch": "2023-24",
+      "graduation": null,
+      "placement": null,
+      "higher_studies": null
+    },
+    {
+      "reg_no": "2060101",
+      "student_name": "AAKASH TOM JOSEPH",
+      "class": "7BTCI",
+      "batch": "2023-24",
+      "graduation": null,
+      "placement": null,
+      "higher_studies": null
+    },
+    {
+      "reg_no": "2060102",
+      "student_name": "ADITHYA ANIL KOZHIKANDATHIL",
+      "class": "7BTCI",
+      "batch": "2023-24",
+      "graduation": null,
+      "placement": null,
+      "higher_studies": null
+    },
+    {
+      "reg_no": "2060104",
+      "student_name": "AMAN DUNG DUNG",
+      "class": "7BTCI",
+      "batch": "2023-24",
+      "graduation": null,
+      "placement": null,
+      "higher_studies": null
+    },
+    {
+      "reg_no": "2060106",
+      "student_name": "SHERIN SAMUEL",
+      "class": "7BTCI",
+      "batch": "2023-24",
+      "graduation": null,
+      "placement": null,
+      "higher_studies": null
+    },
+    {
+      "reg_no": "2060108",
+      "student_name": "TOMS JOSE",
+      "class": "7BTCI",
+      "batch": "2023-24",
+      "graduation": null,
+      "placement": null,
+      "higher_studies": null
+    },
+    {
+      "reg_no": "2060109",
+      "student_name": "WANSHANSKHEM LYNGDOH NONGBRI",
+      "class": "7BTCI",
+      "batch": "2023-24",
+      "graduation": null,
+      "placement": null,
+      "higher_studies": null
+    },
+    {
+      "reg_no": "2060110",
+      "student_name": "ANAGHA REMAN",
+      "class": "7BTCI",
+      "batch": "2023-24",
+      "graduation": null,
+      "placement": null,
+      "higher_studies": null
+    },
+    {
+      "reg_no": "2060111",
+      "student_name": "RAHEE BHATTACHARYYA",
+      "class": "7BTCI",
+      "batch": "2023-24",
+      "graduation": null,
+      "placement": null,
+      "higher_studies": null
+    },
+    {
+      "reg_no": "2060112",
+      "student_name": "ANWIN V GEORGE",
+      "class": "7BTCI",
+      "batch": "2023-24",
+      "graduation": null,
+      "placement": null,
+      "higher_studies": null
+    },
+    {
+      "reg_no": "2060113",
+      "student_name": "SANDRA ROSE TETTIS",
+      "class": "7BTCI",
+      "batch": "2023-24",
+      "graduation": null,
+      "placement": null,
+      "higher_studies": null
+    },
+    {
+      "reg_no": "2060116",
+      "student_name": "MACHIREDDY BHARATH KUMAR REDDY",
+      "class": "7BTCI",
+      "batch": "2023-24",
+      "graduation": null,
+      "placement": null,
+      "higher_studies": null
+    },
+    {
+      "reg_no": "2060117",
+      "student_name": "G GUNVANTH",
+      "class": "7BTCI",
+      "batch": "2023-24",
+      "graduation": null,
+      "placement": null,
+      "higher_studies": null
+    },
+    {
+      "reg_no": "2060118",
+      "student_name": "GUTHA MOHITH NARASIMHA NAIDU",
+      "class": "7BTCI",
+      "batch": "2023-24",
+      "graduation": null,
+      "placement": null,
+      "higher_studies": null
+    },
+    {
+      "reg_no": "2060119",
+      "student_name": "ADITHYA SHANKER P",
+      "class": "7BTCI",
+      "batch": "2023-24",
+      "graduation": null,
+      "placement": null,
+      "higher_studies": null
+    },
+    {
+      "reg_no": "2060120",
+      "student_name": "NAVEEN PRASATH M",
+      "class": "7BTCI",
+      "batch": "2023-24",
+      "graduation": null,
+      "placement": null,
+      "higher_studies": null
+    },
+    {
+      "reg_no": "2060121",
+      "student_name": "K J YASHAS REDDY",
+      "class": "7BTCI",
+      "batch": "2023-24",
+      "graduation": null,
+      "placement": null,
+      "higher_studies": null
+    },
+    {
+      "reg_no": "2060122",
+      "student_name": "MOUNIKA KURMA",
+      "class": "7BTCI",
+      "batch": "2023-24",
+      "graduation": null,
+      "placement": null,
+      "higher_studies": null
+    },
+    {
+      "reg_no": "2060124",
+      "student_name": "DARREN SYNTENG UMWI",
+      "class": "7BTCI",
+      "batch": "2023-24",
+      "graduation": null,
+      "placement": null,
+      "higher_studies": null
+    },
+    {
+      "reg_no": "2060125",
+      "student_name": "RON NICHOLAS  DSOUZA",
+      "class": "7BTCI",
+      "batch": "2023-24",
+      "graduation": null,
+      "placement": null,
+      "higher_studies": null
+    },
+    {
+      "reg_no": "2061801",
+      "student_name": "SREENATH M S",
+      "class": "7BTCI",
+      "batch": "2023-24",
+      "graduation": null,
+      "placement": null,
+      "higher_studies": null
+    },
+    {
+      "reg_no": "2061802",
+      "student_name": "RAKSHIT SHUBHAM",
+      "class": "7BTCI",
+      "batch": "2023-24",
+      "graduation": null,
+      "placement": null,
+      "higher_studies": null
+    },
+    {
+      "reg_no": "2061803",
+      "student_name": "TEENA SOJAN V V",
+      "class": "7BTCI",
+      "batch": "2023-24",
+      "graduation": null,
+      "placement": null,
+      "higher_studies": null
+    },
+    {
+      "reg_no": "2061804",
+      "student_name": "SIDDAVATAM NAVANEESWAR REDDY",
+      "class": "7BTCI",
+      "batch": "2023-24",
+      "graduation": null,
+      "placement": null,
+      "higher_studies": null
     }
   ]
 }
