@@ -3166,11 +3166,11 @@
       "batch": "2023",
       "department": "Civil Engineering",
       "gender": "Male",
-      "domicile": "Kerala",
+      "domicile": "Outside Karnataka",
       "category": "Regular",
       "cgpa": 6.93,
       "gradStatus": "With Backlog",
-      "failCount": 1,
+      "failCount": 3,
       "semesters": {
         "sem1": {
           "pct": 71.45,
@@ -3240,6 +3240,31 @@
         "company": null,
         "title": null,
         "file": null
+      },
+      "email": "akshay.girish@btech.christuniversity.in",
+      "phone": "9846605821",
+      "verificationStatus": "Form Submitted (Awaiting Media ZIP for Marks & Certificate OCR)",
+      "submittedFiles": {
+        "marksheets": {
+          "sem1": "printMarksCardForBtech-12_5_59.pdf",
+          "sem2": "printMarksCardForBtech (1)-12_6_19.pdf",
+          "sem2_supp": "printSuppMarksCardForBtech-12_6_27.pdf",
+          "sem3": "printMarksCardForBtech (2)-12_6_39.pdf",
+          "sem4": "printMarksCardForBtech (3)-12_6_59.pdf",
+          "sem5": "printMarksCardForBtech (4)-12_7_18.pdf",
+          "sem5_supp": "printSuppMarksCardForBtech (1)-12_7_26.pdf",
+          "sem6": "printMarksCardForBtech (5)-12_7_48.pdf"
+        },
+        "internship1": "Internship_25-12_8_7.pdf",
+        "internship2": "Internship_26-12_8_14.pdf",
+        "backlogs": {
+          "sem1": "no",
+          "sem2": "yes",
+          "sem3": "no",
+          "sem4": "no",
+          "sem5": "yes",
+          "sem6": "yes"
+        }
       }
     },
     {
@@ -3249,7 +3274,7 @@
       "batch": "2023",
       "department": "Civil Engineering",
       "gender": "Male",
-      "domicile": "Rajasthan",
+      "domicile": "Karnataka",
       "category": "Regular",
       "cgpa": 6.98,
       "gradStatus": "No Backlog",
@@ -3323,6 +3348,29 @@
         "company": null,
         "title": null,
         "file": null
+      },
+      "email": "amandeep.p@btech.christuniversity.in",
+      "phone": "6376863225",
+      "verificationStatus": "Form Submitted (Awaiting Media ZIP for Marks & Certificate OCR)",
+      "submittedFiles": {
+        "marksheets": {
+          "sem1": "Sem 1-11_25_47.pdf",
+          "sem2": "Sem 2-11_25_59.pdf",
+          "sem3": "Sem 3-11_26_5.pdf",
+          "sem4": "Sem 4-11_26_12.pdf",
+          "sem5": "Sem 5-11_26_19.pdf",
+          "sem6": "Sem 6-11_26_26.pdf"
+        },
+        "internship1": null,
+        "internship2": "Summer Internship 2026-11_27_18.pdf",
+        "backlogs": {
+          "sem1": "no",
+          "sem2": "no",
+          "sem3": "no",
+          "sem4": "no",
+          "sem5": "no",
+          "sem6": "no"
+        }
       }
     },
     {
@@ -3830,7 +3878,7 @@
       "batch": "2023",
       "department": "Civil Engineering",
       "gender": "Female",
-      "domicile": "UAE",
+      "domicile": "Outside Karnataka",
       "category": "Regular",
       "cgpa": 9.01,
       "gradStatus": "No Backlog",
@@ -3904,6 +3952,29 @@
         "company": null,
         "title": null,
         "file": null
+      },
+      "email": "malavika.manoj@btech.christuniversity.in",
+      "phone": "9605096092",
+      "verificationStatus": "Form Submitted (Awaiting Media ZIP for Marks & Certificate OCR)",
+      "submittedFiles": {
+        "marksheets": {
+          "sem1": "1stsem_marks-14_46_11.pdf",
+          "sem2": "2ndsem_marks-14_46_22.pdf",
+          "sem3": "3rdsem_marks-14_46_29.pdf",
+          "sem4": "4thsem_marks-14_46_38.pdf",
+          "sem5": "5th-14_47_3.pdf",
+          "sem6": "6th-14_47_13.pdf"
+        },
+        "internship1": "AL SHANDAGHA-14_49_48.pdf",
+        "internship2": "G1-7237923TCR-CORP-14_49_55.pdf",
+        "backlogs": {
+          "sem1": "no",
+          "sem2": "no",
+          "sem3": "no",
+          "sem4": "no",
+          "sem5": "no",
+          "sem6": "no"
+        }
       }
     },
     {
@@ -4073,6 +4144,28 @@
         "company": null,
         "title": null,
         "file": null
+      },
+      "email": "priyasha.wadekar@btech.christuniversity.in",
+      "verificationStatus": "Form Submitted (Awaiting Media ZIP for Marks & Certificate OCR)",
+      "submittedFiles": {
+        "marksheets": {
+          "sem1": "Screenshot 2026-11-02 121305-12_22_17.pdf",
+          "sem2": "Screenshot 2026-11-02 121332-12_22_22.pdf",
+          "sem3": "Screenshot 2026-11-02 121357-12_22_27.pdf",
+          "sem4": "Screenshot 2026-11-02 121418-12_21_35.pdf",
+          "sem5": "Screenshot 2026-11-02 121445-12_21_43.pdf",
+          "sem6": "Screenshot 2026-11-02 121505-12_21_49.pdf"
+        },
+        "internship1": "internship certificate-12_32_6.pdf",
+        "internship2": "INTERNSHIP COMPLETION CERTIFICATE_Priyasha-12_11_24.pdf",
+        "backlogs": {
+          "sem1": "no",
+          "sem2": "no",
+          "sem3": "no",
+          "sem4": "no",
+          "sem5": "no",
+          "sem6": "no"
+        }
       }
     },
     {
@@ -4248,7 +4341,7 @@
       "batch": "2023",
       "department": "Civil Engineering",
       "gender": "Female",
-      "domicile": "Goa",
+      "domicile": "Outside Karnataka",
       "category": "Regular",
       "cgpa": 6.6,
       "gradStatus": "With Backlog",
@@ -4322,6 +4415,30 @@
         "company": null,
         "title": null,
         "file": null
+      },
+      "email": "sania.valerie@btech.christuniversity.in",
+      "phone": "9175056048",
+      "verificationStatus": "Form Submitted (Awaiting Media ZIP for Marks & Certificate OCR)",
+      "submittedFiles": {
+        "marksheets": {
+          "sem1": "Sem 1-10_23_34.pdf",
+          "sem2": "Sem 2-10_23_43.pdf",
+          "sem2_supp": "Sem 2 Sups-10_46_50.pdf",
+          "sem3": "Sem 3-10_28_5.pdf",
+          "sem4": "Sem 4-10_28_10.pdf",
+          "sem5": "Sem 5-10_28_16.pdf",
+          "sem6": "Sem 6-10_28_26.pdf"
+        },
+        "internship1": "Sania Certificate-10_39_53.pdf",
+        "internship2": "certi-10_38_57.pdf",
+        "backlogs": {
+          "sem1": "no",
+          "sem2": "yes (cleared via supplementary)",
+          "sem3": "no",
+          "sem4": "no",
+          "sem5": "no",
+          "sem6": "no"
+        }
       }
     },
     {
