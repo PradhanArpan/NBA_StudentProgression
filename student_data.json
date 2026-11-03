@@ -11,58 +11,41 @@
     "assessmentPeriod": "CAY: 2026-27 | Assessment Years: 2024-25 & 2025-26 | Graduated Batches: 2020, 2021, 2022"
   },
   "criterionScores": {
-    "4.1": {
+    "c41": {
       "name": "Enrolment Ratio",
-      "max": 20,
-      "claimed": 20.0,
-      "formula": "Average ER = 97.8% (>= 90%)"
+      "max": 20.0,
+      "claimed": 6.78
     },
-    "4.2": {
-      "name": "Success Rate in Stipulated Period",
-      "max": 15,
-      "claimed": 12.01,
-      "formula": "Average SR = 80.07% (1.5 * 80.07 / 10)"
+    "c42": {
+      "name": "Success Rate",
+      "max": 15.0,
+      "claimed": 15.0
     },
-    "4.3": {
-      "name": "Academic Performance in 1st Year (API)",
-      "max": 10,
-      "claimed": 5.55,
-      "formula": "Average API = (5.90 + 5.41 + 5.34) / 3"
+    "c43": {
+      "name": "1st Year Academic Performance",
+      "max": 10.0,
+      "claimed": 6.31
     },
-    "4.4": {
-      "name": "Academic Performance in 2nd Year (API)",
-      "max": 10,
-      "claimed": 6.19,
-      "formula": "Average API = (5.69 + 6.47 + 6.40) / 3"
+    "c44": {
+      "name": "2nd Year Academic Performance",
+      "max": 10.0,
+      "claimed": 6.8
     },
-    "4.5": {
-      "name": "Academic Performance in 3rd Year (API)",
-      "max": 10,
-      "claimed": 6.71,
-      "formula": "Average API = (7.11 + 6.35 + 6.66) / 3"
+    "c45": {
+      "name": "3rd Year Academic Performance",
+      "max": 10.0,
+      "claimed": 7.42
     },
-    "4.6": {
-      "name": "Placement, Higher Studies & Entrepreneurship",
-      "max": 30,
-      "claimed": 28.11,
-      "formula": "Average P = 93.71% (0.3 * 93.71)"
-    },
-    "4.7": {
-      "name": "Professional Activities",
-      "max": 25,
-      "claimed": 23.5,
-      "formula": "ASCE, ICI, IGBC, IEI, NIRMAN, Publications"
-    },
-    "total": {
-      "max": 120,
-      "claimed": 102.07
+    "c46": {
+      "name": "Placement, Higher Studies & Entrep.",
+      "max": 30.0,
+      "claimed": 30.0
     },
     "activities": {
       "name": "Professional Activities & Student Bodies",
       "max": 25.0,
       "claimed": 0.0,
-      "status": "Pending Verification (No Proof on File)",
-      "note": "Per NBA auditor guidelines, no hypothetical marks claimed without verified event reports and documentary proof."
+      "status": "Pending Verification (No Proof on File)"
     }
   },
   "batchConfig": {

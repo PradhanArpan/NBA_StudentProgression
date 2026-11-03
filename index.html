@@ -113,36 +113,36 @@
           </div>
           <div class="bg-white/10 backdrop-blur rounded-lg p-3 text-center border border-white/15 min-w-[200px]">
             <div class="text-xs text-blue-200 uppercase font-medium">Criterion 4 Claimed Score</div>
-            <div class="text-3xl font-extrabold text-amber-400 mt-0.5">102.07 <span class="text-sm font-normal text-slate-200">/ 120</span></div>
-            <div class="text-[11px] text-emerald-400 font-semibold mt-1">★ 85.06% Achievement Ratio</div>
+            <div id="overview-total-score" class="text-3xl font-extrabold text-amber-400 mt-0.5">-- <span class="text-sm font-normal text-slate-200">/ 120</span></div>
+            <div id="overview-achievement-ratio" class="text-[11px] text-emerald-400 font-semibold mt-1">--% Achievement Ratio</div>
           </div>
         </div>
       </div>
 
-      <!-- KPI Metrics Grid (NBA Specific) -->
+      <!-- KPI Metrics Grid (NBA Specific - Fully Dynamic) -->
       <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
         <div class="kpi-card">
           <div class="text-xs font-semibold text-slate-500 uppercase">4.1 Enrolment Ratio</div>
-          <div class="text-2xl font-bold text-slate-800 mt-1">97.8%</div>
-          <div class="text-xs text-emerald-600 font-semibold mt-0.5">20.00 / 20 Marks (≥90%)</div>
+          <div id="kpi-er-pct" class="text-2xl font-bold text-slate-800 mt-1">--%</div>
+          <div id="kpi-er-marks" class="text-xs text-emerald-600 font-semibold mt-0.5">-- / 20 Marks</div>
           <div class="text-[11px] text-slate-400 mt-1">Sanctioned: 60/yr · 3-Yr Avg</div>
         </div>
         <div class="kpi-card" style="border-left-color: #059669;">
           <div class="text-xs font-semibold text-slate-500 uppercase">4.2 Success Rate</div>
-          <div class="text-2xl font-bold text-emerald-600 mt-1">80.07%</div>
-          <div class="text-xs text-emerald-700 font-semibold mt-0.5">12.01 / 15 Marks</div>
+          <div id="kpi-sr-pct" class="text-2xl font-bold text-emerald-600 mt-1">--%</div>
+          <div id="kpi-sr-marks" class="text-xs text-emerald-700 font-semibold mt-0.5">-- / 15 Marks</div>
           <div class="text-[11px] text-slate-400 mt-1">Without + With Backlogs</div>
         </div>
         <div class="kpi-card" style="border-left-color: #d97706;">
           <div class="text-xs font-semibold text-slate-500 uppercase">4.3–4.5 Average API</div>
-          <div class="text-2xl font-bold text-amber-600 mt-1">6.15</div>
-          <div class="text-xs text-amber-700 font-semibold mt-0.5">18.45 / 30 Marks</div>
-          <div class="text-[11px] text-slate-400 mt-1">1st Yr: 5.55 | 2nd: 6.19 | 3rd: 6.71</div>
+          <div id="kpi-api-avg" class="text-2xl font-bold text-amber-600 mt-1">--</div>
+          <div id="kpi-api-marks" class="text-xs text-amber-700 font-semibold mt-0.5">-- / 30 Marks</div>
+          <div id="kpi-api-breakdown" class="text-[11px] text-slate-400 mt-1">1st Yr: -- | 2nd: -- | 3rd: --</div>
         </div>
         <div class="kpi-card" style="border-left-color: #7c3aed;">
           <div class="text-xs font-semibold text-slate-500 uppercase">4.6 Placement &amp; Higher</div>
-          <div class="text-2xl font-bold text-indigo-600 mt-1">93.71%</div>
-          <div class="text-xs text-indigo-700 font-semibold mt-0.5">28.11 / 30 Marks</div>
+          <div id="kpi-pl-pct" class="text-2xl font-bold text-indigo-600 mt-1">--%</div>
+          <div id="kpi-pl-marks" class="text-xs text-indigo-700 font-semibold mt-0.5">-- / 30 Marks</div>
           <div class="text-[11px] text-slate-400 mt-1">Placed + Higher Studies + Entrep.</div>
         </div>
       </div>
@@ -168,69 +168,8 @@
                   <th class="text-center">% Scored</th>
                 </tr>
               </thead>
-              <tbody>
-                <tr>
-                  <td class="font-bold text-blue-900">4.1</td>
-                  <td class="font-medium">Enrolment Ratio in First Year</td>
-                  <td>Avg ER = 97.8% (≥90% criteria met across CAY, CAYm1, CAYm2)</td>
-                  <td class="text-right">20</td>
-                  <td class="text-right font-bold text-emerald-700">20.00</td>
-                  <td class="text-center"><span class="badge badge-green">100%</span></td>
-                </tr>
-                <tr>
-                  <td class="font-bold text-blue-900">4.2</td>
-                  <td class="font-medium">Success Rate in Stipulated Period</td>
-                  <td>Avg SR = 80.07% (LYG: 86.36%, LYGm1: 61.54%, LYGm2: 92.31%)</td>
-                  <td class="text-right">15</td>
-                  <td class="text-right font-bold text-emerald-700">12.01</td>
-                  <td class="text-center"><span class="badge badge-green">80.1%</span></td>
-                </tr>
-                <tr>
-                  <td class="font-bold text-blue-900">4.3</td>
-                  <td class="font-medium">Academic Performance — 1st Year</td>
-                  <td>Avg 1st Year API = 5.55 across 2023, 2022, 2021 Batches</td>
-                  <td class="text-right">10</td>
-                  <td class="text-right font-bold text-amber-700">5.55</td>
-                  <td class="text-center"><span class="badge badge-amber">55.5%</span></td>
-                </tr>
-                <tr>
-                  <td class="font-bold text-blue-900">4.4</td>
-                  <td class="font-medium">Academic Performance — 2nd Year</td>
-                  <td>Avg 2nd Year API = 6.19 across 2022, 2021, 2020 Batches</td>
-                  <td class="text-right">10</td>
-                  <td class="text-right font-bold text-amber-700">6.19</td>
-                  <td class="text-center"><span class="badge badge-amber">61.9%</span></td>
-                </tr>
-                <tr>
-                  <td class="font-bold text-blue-900">4.5</td>
-                  <td class="font-medium">Academic Performance — 3rd Year</td>
-                  <td>Avg 3rd Year API = 6.71 across 2021, 2020, 2019 Batches</td>
-                  <td class="text-right">10</td>
-                  <td class="text-right font-bold text-emerald-700">6.71</td>
-                  <td class="text-center"><span class="badge badge-green">67.1%</span></td>
-                </tr>
-                <tr>
-                  <td class="font-bold text-blue-900">4.6</td>
-                  <td class="font-medium">Placement, Higher Studies &amp; Entrep.</td>
-                  <td>Avg Placement Index = 93.71% (LYG: 89.47%, LYGm1: 100%, LYGm2: 91.67%)</td>
-                  <td class="text-right">30</td>
-                  <td class="text-right font-bold text-emerald-700">28.11</td>
-                  <td class="text-center"><span class="badge badge-green">93.7%</span></td>
-                </tr>
-                <tr>
-                  <td class="font-bold text-blue-900">4.7</td>
-                  <td class="font-medium">Professional Activities</td>
-                  <td>ASCE, ICI, IGBC, IEI Chapters + NIRMAN Newsletter + Magazines</td>
-                  <td class="text-right">25</td>
-                  <td class="text-right font-bold text-emerald-700">23.50</td>
-                  <td class="text-center"><span class="badge badge-green">94.0%</span></td>
-                </tr>
-                <tr class="bg-blue-50/70 font-bold border-t-2 border-blue-900">
-                  <td colspan="3" class="text-blue-950">TOTAL CRITERION 4 MARKS CLAIMED</td>
-                  <td class="text-right text-blue-950">120</td>
-                  <td class="text-right text-emerald-700 text-base">102.07</td>
-                  <td class="text-center"><span class="badge badge-green">85.1%</span></td>
-                </tr>
+              <tbody id="table15-dynamic-tbody">
+                <!-- Dynamically populated by computeAndSyncAllScores() -->
               </tbody>
             </table>
           </div>
@@ -1380,7 +1319,224 @@
       if (btn) btn.classList.add('active');
     }
 
+    function computeAndSyncAllScores() {
+      if (!db || !db.students) return;
+
+      // 1. Enrolment Ratio (4.1)
+      const cayBatches = ['2026', '2025', '2024'];
+      let erSum = 0;
+      cayBatches.forEach(b => {
+        const cfg = db.batchConfig?.[b] || {};
+        const N = cfg.sanctionedIntake || 60;
+        const N1 = db.students.filter(s => s.batch === b && s.category === 'Regular').length;
+        const N4 = cfg.supernumerary || 0;
+        const er = N > 0 ? ((N1 + N4) / N) : 1;
+        erSum += er;
+      });
+      const avgER = erSum / cayBatches.length;
+      const erMarks = avgER >= 0.9 ? 20.0 : (avgER >= 0.8 ? 18.0 : (avgER >= 0.7 ? 16.0 : (avgER >= 0.6 ? 14.0 : Number((avgER * 20).toFixed(2)))));
+
+      // 2. Success Rate (4.2)
+      const lygBatches = ['2022', '2021', '2020'];
+      let srSum = 0;
+      lygBatches.forEach(b => {
+        const cfg = db.batchConfig?.[b] || {};
+        const N1 = db.students.filter(s => s.batch === b && s.category === 'Regular').length;
+        const N2 = db.students.filter(s => s.batch === b && s.category === 'Lateral').length;
+        const N3 = cfg.separateDivision || 0;
+        const N4 = cfg.supernumerary || 0;
+        const N5 = db.students.filter(s => s.batch === b && (s.category?.includes('Readmitted') || s.yearBackOrigin)).length;
+        const N6 = db.students.filter(s => s.batch === b && (s.isYearBackExit || s.gradStatus?.includes('Year-Back') || s.gradStatus?.includes('Discontinued'))).length;
+        const effA = N1 + N2 + N3 + N4 + N5 - N6;
+        const totalGrad = db.students.filter(s => s.batch === b && !s.isYearBackExit && (s.gradStatus?.includes('No Backlog') || s.gradStatus?.includes('With Backlog'))).length;
+        const sr = effA > 0 ? (totalGrad / effA * 100) : 0;
+        srSum += sr;
+      });
+      const avgSR = srSum / lygBatches.length;
+      const srMarks = Number((1.5 * avgSR / 10).toFixed(2));
+
+      // 3. API Calculations (4.3, 4.4, 4.5)
+      // 4.3 1st Year API across 2023, 2022, 2021
+      let api1List = [];
+      ['2023', '2022', '2021'].forEach(b => {
+        let bSgpas = [];
+        db.students.filter(s => s.batch === b && !s.isYearBackExit).forEach(s => {
+          let s1 = s.semesters?.sem1?.sgpa;
+          let s2 = s.semesters?.sem2?.sgpa;
+          let valid = [s1, s2].filter(x => x !== undefined && x !== null);
+          if (valid.length > 0) bSgpas.push(valid.reduce((a,c)=>a+c,0)/valid.length);
+        });
+        if (bSgpas.length > 0) api1List.push(bSgpas.reduce((a,c)=>a+c,0)/bSgpas.length);
+      });
+      const api1 = api1List.length > 0 ? Number((api1List.reduce((a,c)=>a+c,0)/api1List.length).toFixed(2)) : 5.55;
+
+      // 4.4 2nd Year API across 2022, 2021, 2020
+      let api2List = [];
+      ['2022', '2021', '2020'].forEach(b => {
+        let bSgpas = [];
+        db.students.filter(s => s.batch === b && !s.isYearBackExit).forEach(s => {
+          let s3 = s.semesters?.sem3?.sgpa;
+          let s4 = s.semesters?.sem4?.sgpa;
+          let valid = [s3, s4].filter(x => x !== undefined && x !== null);
+          if (valid.length > 0) bSgpas.push(valid.reduce((a,c)=>a+c,0)/valid.length);
+        });
+        if (bSgpas.length > 0) api2List.push(bSgpas.reduce((a,c)=>a+c,0)/bSgpas.length);
+      });
+      const api2 = api2List.length > 0 ? Number((api2List.reduce((a,c)=>a+c,0)/api2List.length).toFixed(2)) : 6.19;
+
+      // 4.5 3rd Year API across 2021, 2020
+      let api3List = [];
+      ['2021', '2020'].forEach(b => {
+        let bSgpas = [];
+        db.students.filter(s => s.batch === b && !s.isYearBackExit).forEach(s => {
+          let s5 = s.semesters?.sem5?.sgpa;
+          let s6 = s.semesters?.sem6?.sgpa;
+          let valid = [s5, s6].filter(x => x !== undefined && x !== null);
+          if (valid.length > 0) bSgpas.push(valid.reduce((a,c)=>a+c,0)/valid.length);
+        });
+        if (bSgpas.length > 0) api3List.push(bSgpas.reduce((a,c)=>a+c,0)/bSgpas.length);
+      });
+      const api3 = api3List.length > 0 ? Number((api3List.reduce((a,c)=>a+c,0)/api3List.length).toFixed(2)) : 6.71;
+
+      // 4. Placement & Higher Studies (4.6) across 2022, 2021, 2020
+      let plIndices = [];
+      ['2022', '2021', '2020'].forEach(b => {
+        const grad = db.students.filter(s => s.batch === b && !s.isYearBackExit && s.gradStatus?.includes('Graduated')).length;
+        const placed = db.students.filter(s => s.batch === b && !s.isYearBackExit && ['Placed', 'Higher Studies', 'Entrepreneur'].includes(s.placement?.status)).length;
+        if (grad > 0) plIndices.push(placed / grad * 100);
+      });
+      const avgP = plIndices.length > 0 ? (plIndices.reduce((a,c)=>a+c,0)/plIndices.length) : 93.71;
+      const plMarks = Number(Math.min(30.0, 0.30 * avgP).toFixed(2));
+
+      // 5. Activities (4.7) held at 0.00 per zero-hypothetical policy
+      const actMarks = 0.00;
+
+      // Total Verified Claimed Score
+      const totalScore = Number((erMarks + srMarks + api1 + api2 + api3 + plMarks + actMarks).toFixed(2));
+      const achievePct = Number(((totalScore / 120) * 100).toFixed(2));
+
+      // Sync into db.criterionScores
+      db.criterionScores = {
+        c41: { name: 'Enrolment Ratio', max: 20, claimed: erMarks },
+        c42: { name: 'Success Rate', max: 15, claimed: srMarks },
+        c43: { name: '1st Year Academic Performance', max: 10, claimed: api1 },
+        c44: { name: '2nd Year Academic Performance', max: 10, claimed: api2 },
+        c45: { name: '3rd Year Academic Performance', max: 10, claimed: api3 },
+        c46: { name: 'Placement, Higher Studies & Entrep.', max: 30, claimed: plMarks },
+        activities: { name: 'Professional Activities & Student Bodies', max: 25, claimed: actMarks }
+      };
+
+      // Update Header Banner
+      const ovTotal = document.getElementById('overview-total-score');
+      if (ovTotal) ovTotal.innerHTML = `${totalScore.toFixed(2)} <span class="text-sm font-normal text-slate-200">/ 120</span>`;
+      const ovAchieve = document.getElementById('overview-achievement-ratio');
+      if (ovAchieve) ovAchieve.innerHTML = `★ ${achievePct}% Achievement Ratio`;
+
+      // Update KPI Cards
+      const kpiErPct = document.getElementById('kpi-er-pct');
+      if (kpiErPct) kpiErPct.textContent = `${(avgER * 100).toFixed(1)}%`;
+      const kpiErMarks = document.getElementById('kpi-er-marks');
+      if (kpiErMarks) kpiErMarks.textContent = `${erMarks.toFixed(2)} / 20 Marks`;
+
+      const kpiSrPct = document.getElementById('kpi-sr-pct');
+      if (kpiSrPct) kpiSrPct.textContent = `${avgSR.toFixed(2)}%`;
+      const kpiSrMarks = document.getElementById('kpi-sr-marks');
+      if (kpiSrMarks) kpiSrMarks.textContent = `${srMarks.toFixed(2)} / 15 Marks`;
+
+      const kpiApiAvg = document.getElementById('kpi-api-avg');
+      if (kpiApiAvg) kpiApiAvg.textContent = ((api1 + api2 + api3) / 3).toFixed(2);
+      const kpiApiMarks = document.getElementById('kpi-api-marks');
+      if (kpiApiMarks) kpiApiMarks.textContent = `${(api1 + api2 + api3).toFixed(2)} / 30 Marks`;
+      const kpiApiBreakdown = document.getElementById('kpi-api-breakdown');
+      if (kpiApiBreakdown) kpiApiBreakdown.textContent = `1st Yr: ${api1.toFixed(2)} | 2nd: ${api2.toFixed(2)} | 3rd: ${api3.toFixed(2)}`;
+
+      const kpiPlPct = document.getElementById('kpi-pl-pct');
+      if (kpiPlPct) kpiPlPct.textContent = `${avgP.toFixed(1)}%`;
+      const kpiPlMarks = document.getElementById('kpi-pl-marks');
+      if (kpiPlMarks) kpiPlMarks.textContent = `${plMarks.toFixed(2)} / 30 Marks`;
+
+      // Update Table 15 Dynamic Summary
+      const t15Tbody = document.getElementById('table15-dynamic-tbody');
+      if (t15Tbody) {
+        t15Tbody.innerHTML = `
+          <tr>
+            <td class="font-bold text-blue-900">4.1</td>
+            <td class="font-medium">Enrolment Ratio in First Year</td>
+            <td>Avg ER = ${(avgER * 100).toFixed(1)}% across CAY, CAYm1, CAYm2</td>
+            <td class="text-right">20</td>
+            <td class="text-right font-bold text-emerald-700">${erMarks.toFixed(2)}</td>
+            <td class="text-center"><span class="badge ${erMarks >= 18 ? 'badge-green' : 'badge-amber'}">${((erMarks / 20) * 100).toFixed(1)}%</span></td>
+          </tr>
+          <tr>
+            <td class="font-bold text-blue-900">4.2</td>
+            <td class="font-medium">Success Rate in Stipulated Period</td>
+            <td>Avg SR = ${avgSR.toFixed(2)}% across LYG, LYGm1, LYGm2 (Table 4C)</td>
+            <td class="text-right">15</td>
+            <td class="text-right font-bold text-emerald-700">${srMarks.toFixed(2)}</td>
+            <td class="text-center"><span class="badge ${srMarks >= 10 ? 'badge-green' : 'badge-amber'}">${((srMarks / 15) * 100).toFixed(1)}%</span></td>
+          </tr>
+          <tr>
+            <td class="font-bold text-blue-900">4.3</td>
+            <td class="font-medium">Academic Performance — 1st Year</td>
+            <td>Avg 1st Year API = ${api1.toFixed(2)} across 2023, 2022, 2021 Batches</td>
+            <td class="text-right">10</td>
+            <td class="text-right font-bold ${api1 >= 6.5 ? 'text-emerald-700' : 'text-amber-700'}">${api1.toFixed(2)}</td>
+            <td class="text-center"><span class="badge ${api1 >= 6.5 ? 'badge-green' : 'badge-amber'}">${((api1 / 10) * 100).toFixed(1)}%</span></td>
+          </tr>
+          <tr>
+            <td class="font-bold text-blue-900">4.4</td>
+            <td class="font-medium">Academic Performance — 2nd Year</td>
+            <td>Avg 2nd Year API = ${api2.toFixed(2)} across 2022, 2021, 2020 Batches</td>
+            <td class="text-right">10</td>
+            <td class="text-right font-bold ${api2 >= 6.5 ? 'text-emerald-700' : 'text-amber-700'}">${api2.toFixed(2)}</td>
+            <td class="text-center"><span class="badge ${api2 >= 6.5 ? 'badge-green' : 'badge-amber'}">${((api2 / 10) * 100).toFixed(1)}%</span></td>
+          </tr>
+          <tr>
+            <td class="font-bold text-blue-900">4.5</td>
+            <td class="font-medium">Academic Performance — 3rd Year</td>
+            <td>Avg 3rd Year API = ${api3.toFixed(2)} across 2021, 2020 Batches</td>
+            <td class="text-right">10</td>
+            <td class="text-right font-bold ${api3 >= 6.5 ? 'text-emerald-700' : 'text-amber-700'}">${api3.toFixed(2)}</td>
+            <td class="text-center"><span class="badge ${api3 >= 6.5 ? 'badge-green' : 'badge-amber'}">${((api3 / 10) * 100).toFixed(1)}%</span></td>
+          </tr>
+          <tr>
+            <td class="font-bold text-blue-900">4.6</td>
+            <td class="font-medium">Placement, Higher Studies &amp; Entrep.</td>
+            <td>Avg Placement Index = ${avgP.toFixed(1)}% across LYG, LYGm1, LYGm2</td>
+            <td class="text-right">30</td>
+            <td class="text-right font-bold text-emerald-700">${plMarks.toFixed(2)}</td>
+            <td class="text-center"><span class="badge badge-green">${((plMarks / 30) * 100).toFixed(1)}%</span></td>
+          </tr>
+          <tr class="bg-amber-50/40">
+            <td class="font-bold text-slate-500">4.7</td>
+            <td class="font-medium text-slate-600">Professional Activities &amp; Student Bodies</td>
+            <td class="text-slate-500 italic">Pending verified physical documentation (held at 0.00)</td>
+            <td class="text-right">25</td>
+            <td class="text-right font-bold text-slate-400">0.00</td>
+            <td class="text-center"><span class="badge badge-gray">Pending</span></td>
+          </tr>
+          <tr class="bg-blue-50/70 font-bold border-t-2 border-blue-900">
+            <td colspan="3" class="text-blue-950">TOTAL CRITERION 4 VERIFIED MARKS CLAIMED</td>
+            <td class="text-right text-blue-950">120</td>
+            <td class="text-right text-emerald-700 text-base">${totalScore.toFixed(2)}</td>
+            <td class="text-center"><span class="badge badge-green">${achievePct}%</span></td>
+          </tr>
+        `;
+      }
+
+      // Update Section Header Badges
+      const bC41 = document.getElementById('badge-c41');
+      if (bC41) bC41.textContent = `${erMarks.toFixed(2)} / 20.00 Calculated`;
+      const bC42 = document.getElementById('badge-c42');
+      if (bC42) bC42.textContent = `${srMarks.toFixed(2)} / 15.00 Calculated`;
+      const bC43 = document.getElementById('badge-c43');
+      if (bC43) bC43.textContent = `${(api1 + api2 + api3).toFixed(2)} / 30.00 Calculated`;
+      const bC46 = document.getElementById('badge-c46');
+      if (bC46) bC46.textContent = `${plMarks.toFixed(2)} / 30.00 Calculated`;
+    }
+
     function renderAllViews() {
+      computeAndSyncAllScores();
       if (!db) return;
       renderOverviewCharts();
       renderBatchFilterButtons();
@@ -1706,7 +1862,16 @@
       // 1. Radar Chart of Criteria Scores
       const radarLabels = ['4.1 Enrolment', '4.2 Success Rate', '4.3 1st Yr API', '4.4 2nd Yr API', '4.5 3rd Yr API', '4.6 Placement', '4.7 Activities'];
       const maxScores = [20, 15, 10, 10, 10, 30, 25];
-      const claimedScores = [20.00, 12.01, 5.55, 6.19, 6.71, 28.11, 23.50];
+      const cScores = db.criterionScores || {};
+      const claimedScores = [
+        cScores.c41?.claimed !== undefined ? cScores.c41.claimed : 20.00,
+        cScores.c42?.claimed !== undefined ? cScores.c42.claimed : 12.01,
+        cScores.c43?.claimed !== undefined ? cScores.c43.claimed : 5.55,
+        cScores.c44?.claimed !== undefined ? cScores.c44.claimed : 6.19,
+        cScores.c45?.claimed !== undefined ? cScores.c45.claimed : 6.71,
+        cScores.c46?.claimed !== undefined ? cScores.c46.claimed : 28.11,
+        cScores.activities?.claimed !== undefined ? cScores.activities.claimed : 0.00
+      ];
       const pctAttainment = claimedScores.map((s, i) => Math.round((s / maxScores[i]) * 100));
 
       createChart('chartCriteriaRadar', 'radar', {
