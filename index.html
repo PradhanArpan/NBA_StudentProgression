@@ -85,7 +85,7 @@
       <button onclick="switchTab('successrate')"   id="tab-successrate"   class="tab-btn px-3 py-1.5 rounded-md text-xs font-medium">4.2 Success Rate (15M)</button>
       <button onclick="switchTab('api')"           id="tab-api"           class="tab-btn px-3 py-1.5 rounded-md text-xs font-medium">4.3–4.5 API (30M)</button>
       <button onclick="switchTab('placement')"     id="tab-placement"     class="tab-btn px-3 py-1.5 rounded-md text-xs font-medium">4.6 Placement (30M)</button>
-      <button onclick="switchTab('activities')"    id="tab-activities"    class="tab-btn px-3 py-1.5 rounded-md text-xs font-medium">4.7 Activities (25M)</button>
+      <button onclick="switchTab('activities')" id="tab-activities" class="tab-btn px-3 py-1.5 rounded-md text-xs font-medium">4.7 Activities (Pending Proof)</button>
       <button onclick="switchTab('p4progression')" id="tab-p4progression" class="tab-btn px-3 py-1.5 rounded-md text-xs font-medium">📊 P-4 Student Progression</button>
       <button onclick="switchTab('p5analysis')"    id="tab-p5analysis"    class="tab-btn px-3 py-1.5 rounded-md text-xs font-medium">📈 P-5 Result Classification</button>
       <button onclick="switchTab('students')"      id="tab-students"      class="tab-btn px-3 py-1.5 rounded-md text-xs font-medium">Student Directory</button>
@@ -408,7 +408,7 @@
       <div class="nba-card">
         <div class="sec-head">
           <span>4.1 Enrolment Ratio Evaluation (20 Marks)</span>
-          <span class="badge badge-green">Full 20.00 / 20 Claimed</span>
+          <span id="badge-c41" class="badge badge-green">Calculating...</span>
         </div>
         <div id="enrolment-kpis" class="grid grid-cols-1 md:grid-cols-3 gap-4 mb-5"></div>
 
@@ -640,10 +640,23 @@
          7. 4.7 PROFESSIONAL ACTIVITIES (25 MARKS)
          ===================================================================== -->
     <div id="view-activities" class="tab-view space-y-6">
+      <!-- NBA Compliance Notice for Activities -->
+      <div class="bg-amber-50 border-l-4 border-amber-500 p-4 rounded-r-lg shadow-2xs">
+        <div class="flex items-start gap-3">
+          <span class="text-xl">⚠️</span>
+          <div>
+            <h4 class="text-sm font-bold text-amber-900">Zero Hypothetical Data Policy — Verification Pending</h4>
+            <p class="text-xs text-amber-800 mt-0.5 leading-relaxed">
+              In accordance with NBA evaluation guidelines, <strong>no hypothetical marks are claimed</strong> for Student Professional Chapters (ASCE, ICI, IGBC, IEI) or Department Magazines without uploaded event circulars, attendee lists, and faculty coordinator endorsements. Claim score for Criterion 4.7 is held at <strong>0.00 / 25</strong> until physical records are attached.
+            </p>
+          </div>
+        </div>
+      </div>
+
       <div class="nba-card">
         <div class="sec-head">
           <span>4.7 Professional Activities &amp; Student Bodies (25 Marks)</span>
-          <span class="badge badge-green">23.50 / 25 Claimed</span>
+          <span id="badge-c47" class="badge badge-gray bg-slate-200 text-slate-700 border border-slate-300 font-bold">0.00 / 25 (Pending Verification)</span>
         </div>
         <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-4">
           <div>
@@ -897,7 +910,8 @@
           </div>
         </div>
 
-        <div class="overflow-x-auto">
+        <div class="overflow-x-auto">
+
           <table class="w-full whitespace-nowrap">
             <thead>
               <tr class="whitespace-nowrap">
@@ -1443,7 +1457,12 @@
 
       const avgER = (cayStats.reduce((sum, s) => sum + s.er, 0) / cayStats.length);
       const avgERPct = (avgER * 100).toFixed(1);
-      const marks = avgER >= 0.9 ? 20 : (avgER >= 0.8 ? 18 : (avgER >= 0.7 ? 16 : (avgER >= 0.6 ? 14 : (avgER * 20).toFixed(1))));
+      const marks = avgER >= 0.9 ? 20 : (avgER >= 0.8 ? 18 : (avgER >= 0.7 ? 16 : (avgER >= 0.6 ? 14 : Number((avgER * 20).toFixed(1)))));
+      const badgeC41 = document.getElementById('badge-c41');
+      if (badgeC41) {
+        badgeC41.textContent = `${marks} / 20.00 Calculated`;
+        badgeC41.className = marks >= 18 ? 'badge badge-green' : marks >= 14 ? 'badge badge-amber' : 'badge badge-red';
+      }
 
       const kpisEl = document.getElementById('enrolment-kpis');
       if (kpisEl) {
@@ -1532,6 +1551,9 @@
       const tbody = document.getElementById('table4c-dynamic-body');
       if (!tbody) return;
 
+      let totalSR = 0;
+      let countSR = 0;
+
       tbody.innerHTML = batchLabels.map(item => {
         const b = item.b;
         const cfg = db.batchConfig?.[b] || {};
@@ -1539,25 +1561,40 @@
         const N2 = db.students.filter(s => s.batch === b && s.category === 'Lateral').length;
         const N3 = cfg.separateDivision || 0;
         const N4 = cfg.supernumerary || 0;
-        const N5 = cfg.transferredIn || 0;
-        const N6 = cfg.exits !== undefined ? cfg.exits : 1;
+        // Dynamic N5 (transferred in / rejoined from senior batches)
+        const N5 = db.students.filter(s => s.batch === b && (s.category?.includes('Readmitted') || s.yearBackOrigin)).length;
+        // Dynamic N6 (year-back exits / detained / discontinued)
+        const N6 = db.students.filter(s => s.batch === b && (s.isYearBackExit || s.gradStatus?.includes('Year-Back') || s.gradStatus?.includes('Discontinued'))).length;
+        
         const effectiveA = N1 + N2 + N3 + N4 + N5 - N6;
 
-        const withoutBacklog = db.students.filter(s => s.batch === b && s.gradStatus?.includes('No Backlog')).length;
-        const withBacklog = db.students.filter(s => s.batch === b && s.gradStatus?.includes('With Backlog')).length;
+        const withoutBacklog = db.students.filter(s => s.batch === b && !s.isYearBackExit && s.gradStatus?.includes('No Backlog')).length;
+        const withBacklog = db.students.filter(s => s.batch === b && !s.isYearBackExit && s.gradStatus?.includes('With Backlog')).length;
         const totalGrad = withoutBacklog + withBacklog;
-        const sr = effectiveA > 0 ? ((totalGrad / effectiveA) * 100).toFixed(2) : '0.00';
+        const srVal = effectiveA > 0 ? ((totalGrad / effectiveA) * 100) : 0;
+        const sr = srVal.toFixed(2);
+        
+        totalSR += srVal;
+        countSR++;
 
         return `
           <tr>
             <td class="font-bold text-slate-800">${item.name}</td>
-            <td class="text-center font-bold text-blue-900">${effectiveA}</td>
+            <td class="text-center font-bold text-blue-900">${effectiveA} <span class="text-[10px] text-slate-400 font-normal">(-${N6} exit, +${N5} rejoin)</span></td>
             <td class="text-center font-bold text-emerald-700">${totalGrad}</td>
             <td class="text-center font-extrabold text-blue-950">${sr}%</td>
             <td class="text-center"><span class="badge ${parseFloat(sr) >= 60 ? 'badge-green' : 'badge-amber'}">${parseFloat(sr) >= 60 ? 'Compliant' : 'Review'}</span></td>
           </tr>
         `;
       }).join('');
+
+      const avgSR = countSR > 0 ? (totalSR / countSR) : 0;
+      const srMarks = (1.5 * avgSR / 10).toFixed(2);
+      const badgeC42 = document.getElementById('badge-c42');
+      if (badgeC42) {
+        badgeC42.textContent = `${srMarks} / 40.00 Calculated`;
+        badgeC42.className = parseFloat(srMarks) >= 20 ? 'badge badge-green' : 'badge badge-amber';
+      }
     }
 
     function openIntakeModal() {
@@ -1783,11 +1820,24 @@
 
       const tbody = document.getElementById('civil-students-table-body');
       tbody.innerHTML = filtered.map(s => {
-        const catBadge = s.category === 'Lateral' ? '<span class="badge badge-amber">Lateral</span>' : '<span class="badge badge-blue">Regular</span>';
-        const gradBadge = s.gradStatus?.includes('No Backlog') ? '<span class="badge badge-green">No Backlog</span>' :
-                          s.gradStatus?.includes('With Backlog') ? '<span class="badge badge-amber">With Backlog</span>' :
-                          s.gradStatus?.includes('Discontinued') ? '<span class="badge badge-red">Discontinued</span>' :
-                          `<span class="badge badge-gray">${s.gradStatus || 'Ongoing'}</span>`;
+        let catBadge = '<span class="badge badge-blue">Regular</span>';
+        if (s.category === 'Lateral') {
+          catBadge = '<span class="badge badge-amber font-semibold">Lateral Entry</span>';
+        } else if (s.category?.includes('Readmitted') || s.yearBackOrigin) {
+          catBadge = `<span class="badge bg-purple-100 text-purple-900 border border-purple-300 font-bold" title="Readmitted after Year-Back from Batch ${s.yearBackOrigin?.batch || ''} (ex-${s.yearBackOrigin?.regNo || ''})">🔄 Readmitted (ex-${s.yearBackOrigin?.regNo || ''})</span>`;
+        }
+
+        let gradBadge = '<span class="badge badge-gray">Ongoing</span>';
+        if (s.isYearBackExit) {
+          gradBadge = `<span class="badge bg-amber-100 text-amber-950 border border-amber-400 font-bold" title="Detained / Year-Back: Moved to Batch ${s.yearBackTransferredTo?.batch || ''} with new Reg No. ${s.yearBackTransferredTo?.regNo || ''}">⚠️ Year-Back ➔ ${s.yearBackTransferredTo?.batch || ''} (${s.yearBackTransferredTo?.regNo || ''})</span>`;
+        } else if (s.gradStatus?.includes('No Backlog')) {
+          gradBadge = '<span class="badge badge-green font-semibold">No Backlog</span>';
+        } else if (s.gradStatus?.includes('With Backlog')) {
+          gradBadge = '<span class="badge badge-amber font-semibold">With Backlog</span>';
+        } else if (s.gradStatus?.includes('Discontinued')) {
+          gradBadge = '<span class="badge badge-red font-semibold">Discontinued</span>';
+        }
+        
         
         const semCells = ['sem1','sem2','sem3','sem4','sem5','sem6','sem7','sem8'].map(sm => {
           const sObj = s.semesters?.[sm];

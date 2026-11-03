@@ -56,6 +56,13 @@
     "total": {
       "max": 120,
       "claimed": 102.07
+    },
+    "activities": {
+      "name": "Professional Activities & Student Bodies",
+      "max": 25.0,
+      "claimed": 0.0,
+      "status": "Pending Verification (No Proof on File)",
+      "note": "Per NBA auditor guidelines, no hypothetical marks claimed without verified event reports and documentary proof."
     }
   },
   "batchConfig": {
@@ -6387,31 +6394,55 @@
       "department": "Civil Engineering",
       "gender": "Male",
       "domicile": "Karnataka",
-      "category": "Regular",
-      "cgpa": null,
+      "category": "Readmitted (Year-Back)",
+      "cgpa": 4.81,
       "gradStatus": "Enrolled (No Exam Records)",
       "failCount": 0,
       "semesters": {
         "sem1": {
-          "pct": null,
-          "sgpa": null,
-          "class": "",
-          "status": "—",
-          "sources": {}
+          "pct": 48.0,
+          "sgpa": 5.05,
+          "class": "Fail",
+          "status": "Fail",
+          "sources": {
+            "historical": {
+              "pct": 48.0,
+              "sgpa": 5.05,
+              "class": "Fail",
+              "status": "Fail",
+              "citation": "Department Academic Records (Pre-existing Master)"
+            }
+          }
         },
         "sem2": {
-          "pct": null,
-          "sgpa": null,
-          "class": "",
-          "status": "—",
-          "sources": {}
+          "pct": 43.27,
+          "sgpa": 4.55,
+          "class": "Fail",
+          "status": "Fail",
+          "sources": {
+            "historical": {
+              "pct": 43.27,
+              "sgpa": 4.55,
+              "class": "Fail",
+              "status": "Fail",
+              "citation": "Department Academic Records (Pre-existing Master)"
+            }
+          }
         },
         "sem3": {
-          "pct": null,
-          "sgpa": null,
-          "class": "",
-          "status": "—",
-          "sources": {}
+          "pct": 45.82,
+          "sgpa": 4.82,
+          "class": "Fail",
+          "status": "Fail",
+          "sources": {
+            "historical": {
+              "pct": 45.82,
+              "sgpa": 4.82,
+              "class": "Fail",
+              "status": "Fail",
+              "citation": "Department Academic Records (Pre-existing Master)"
+            }
+          }
         },
         "sem4": {
           "pct": null,
@@ -6468,6 +6499,10 @@
         "company": null,
         "title": null,
         "file": null
+      },
+      "yearBackOrigin": {
+        "regNo": "2260110",
+        "batch": "2022"
       }
     },
     {
@@ -11228,38 +11263,70 @@
       "department": "Civil Engineering",
       "gender": "Male",
       "domicile": "Karnataka",
-      "category": "Regular",
-      "cgpa": null,
+      "category": "Readmitted (Year-Back)",
+      "cgpa": 5.98,
       "gradStatus": "Discontinued / Transferred",
       "failCount": 0,
       "semesters": {
         "sem1": {
-          "pct": null,
-          "sgpa": null,
-          "class": "",
-          "status": "—",
-          "sources": {}
+          "pct": 56.18,
+          "sgpa": 5.91,
+          "class": "Fail",
+          "status": "Fail",
+          "sources": {
+            "historical": {
+              "pct": 56.18,
+              "sgpa": 5.91,
+              "class": "Fail",
+              "status": "Fail",
+              "citation": "Department Academic Records (Pre-existing Master)"
+            }
+          }
         },
         "sem2": {
-          "pct": null,
-          "sgpa": null,
-          "class": "",
-          "status": "—",
-          "sources": {}
+          "pct": 59.0,
+          "sgpa": 6.21,
+          "class": "SC",
+          "status": "Pass",
+          "sources": {
+            "historical": {
+              "pct": 59.0,
+              "sgpa": 6.21,
+              "class": "SC",
+              "status": "Pass",
+              "citation": "Department Academic Records (Pre-existing Master)"
+            }
+          }
         },
         "sem3": {
-          "pct": null,
-          "sgpa": null,
-          "class": "",
-          "status": "—",
-          "sources": {}
+          "pct": 56.91,
+          "sgpa": 5.99,
+          "class": "SC",
+          "status": "Pass",
+          "sources": {
+            "historical": {
+              "pct": 56.91,
+              "sgpa": 5.99,
+              "class": "SC",
+              "status": "Pass",
+              "citation": "Department Academic Records (Pre-existing Master)"
+            }
+          }
         },
         "sem4": {
-          "pct": null,
-          "sgpa": null,
-          "class": "",
-          "status": "—",
-          "sources": {}
+          "pct": 55.11,
+          "sgpa": 5.8,
+          "class": "SC",
+          "status": "Pass",
+          "sources": {
+            "historical": {
+              "pct": 55.11,
+              "sgpa": 5.8,
+              "class": "SC",
+              "status": "Pass",
+              "citation": "Department Academic Records (Pre-existing Master)"
+            }
+          }
         },
         "sem5": {
           "pct": null,
@@ -11309,6 +11376,10 @@
         "company": null,
         "title": null,
         "file": null
+      },
+      "yearBackOrigin": {
+        "regNo": "2260113",
+        "batch": "2022"
       }
     },
     {
@@ -11319,38 +11390,70 @@
       "department": "Civil Engineering",
       "gender": "Male",
       "domicile": "Karnataka",
-      "category": "Regular",
-      "cgpa": null,
+      "category": "Readmitted (Year-Back)",
+      "cgpa": 5.96,
       "gradStatus": "Discontinued / Transferred",
       "failCount": 0,
       "semesters": {
         "sem1": {
-          "pct": null,
-          "sgpa": null,
-          "class": "",
-          "status": "—",
-          "sources": {}
+          "pct": 59.17,
+          "sgpa": 6.23,
+          "class": "SC",
+          "status": "Pass",
+          "sources": {
+            "historical": {
+              "pct": 59.17,
+              "sgpa": 6.23,
+              "class": "SC",
+              "status": "Pass",
+              "citation": "Department Academic Records (Pre-existing Master)"
+            }
+          }
         },
         "sem2": {
-          "pct": null,
-          "sgpa": null,
-          "class": "",
-          "status": "—",
-          "sources": {}
+          "pct": 61.45,
+          "sgpa": 6.47,
+          "class": "FC",
+          "status": "Pass",
+          "sources": {
+            "historical": {
+              "pct": 61.45,
+              "sgpa": 6.47,
+              "class": "FC",
+              "status": "Pass",
+              "citation": "Department Academic Records (Pre-existing Master)"
+            }
+          }
         },
         "sem3": {
-          "pct": null,
-          "sgpa": null,
-          "class": "",
-          "status": "—",
-          "sources": {}
+          "pct": 60.73,
+          "sgpa": 6.39,
+          "class": "FC",
+          "status": "Pass",
+          "sources": {
+            "historical": {
+              "pct": 60.73,
+              "sgpa": 6.39,
+              "class": "FC",
+              "status": "Pass",
+              "citation": "Department Academic Records (Pre-existing Master)"
+            }
+          }
         },
         "sem4": {
-          "pct": null,
-          "sgpa": null,
-          "class": "",
-          "status": "—",
-          "sources": {}
+          "pct": 45.11,
+          "sgpa": 4.75,
+          "class": "Fail",
+          "status": "Fail",
+          "sources": {
+            "historical": {
+              "pct": 45.11,
+              "sgpa": 4.75,
+              "class": "Fail",
+              "status": "Fail",
+              "citation": "Department Academic Records (Pre-existing Master)"
+            }
+          }
         },
         "sem5": {
           "pct": null,
@@ -11400,6 +11503,10 @@
         "company": null,
         "title": null,
         "file": null
+      },
+      "yearBackOrigin": {
+        "regNo": "2260104",
+        "batch": "2022"
       }
     },
     {
@@ -11410,38 +11517,70 @@
       "department": "Civil Engineering",
       "gender": "Male",
       "domicile": "Karnataka",
-      "category": "Regular",
-      "cgpa": null,
+      "category": "Readmitted (Year-Back)",
+      "cgpa": 4.98,
       "gradStatus": "Discontinued / Transferred",
       "failCount": 0,
       "semesters": {
         "sem1": {
-          "pct": null,
-          "sgpa": null,
-          "class": "",
-          "status": "—",
-          "sources": {}
+          "pct": 53.5,
+          "sgpa": 5.63,
+          "class": "Fail",
+          "status": "Fail",
+          "sources": {
+            "historical": {
+              "pct": 53.5,
+              "sgpa": 5.63,
+              "class": "Fail",
+              "status": "Fail",
+              "citation": "Department Academic Records (Pre-existing Master)"
+            }
+          }
         },
         "sem2": {
-          "pct": null,
-          "sgpa": null,
-          "class": "",
-          "status": "—",
-          "sources": {}
+          "pct": 45.09,
+          "sgpa": 4.75,
+          "class": "Fail",
+          "status": "Fail",
+          "sources": {
+            "historical": {
+              "pct": 45.09,
+              "sgpa": 4.75,
+              "class": "Fail",
+              "status": "Fail",
+              "citation": "Department Academic Records (Pre-existing Master)"
+            }
+          }
         },
         "sem3": {
-          "pct": null,
-          "sgpa": null,
-          "class": "",
-          "status": "—",
-          "sources": {}
+          "pct": 46.73,
+          "sgpa": 4.92,
+          "class": "Fail",
+          "status": "Fail",
+          "sources": {
+            "historical": {
+              "pct": 46.73,
+              "sgpa": 4.92,
+              "class": "Fail",
+              "status": "Fail",
+              "citation": "Department Academic Records (Pre-existing Master)"
+            }
+          }
         },
         "sem4": {
-          "pct": null,
-          "sgpa": null,
-          "class": "",
-          "status": "—",
-          "sources": {}
+          "pct": 44.0,
+          "sgpa": 4.63,
+          "class": "Fail",
+          "status": "Fail",
+          "sources": {
+            "historical": {
+              "pct": 44.0,
+              "sgpa": 4.63,
+              "class": "Fail",
+              "status": "Fail",
+              "citation": "Department Academic Records (Pre-existing Master)"
+            }
+          }
         },
         "sem5": {
           "pct": null,
@@ -11491,6 +11630,10 @@
         "company": null,
         "title": null,
         "file": null
+      },
+      "yearBackOrigin": {
+        "regNo": "2260112",
+        "batch": "2022"
       }
     },
     {
@@ -11867,7 +12010,7 @@
       "domicile": "Tamilnadu",
       "category": "Regular",
       "cgpa": 5.96,
-      "gradStatus": "Discontinued / Transferred",
+      "gradStatus": "Year-Back (Moved to Batch 2023 as 2360134)",
       "failCount": 1,
       "semesters": {
         "sem1": {
@@ -11978,6 +12121,11 @@
         "company": null,
         "title": null,
         "file": null
+      },
+      "isYearBackExit": true,
+      "yearBackTransferredTo": {
+        "regNo": "2360134",
+        "batch": "2023"
       }
     },
     {
@@ -12388,7 +12536,7 @@
       "domicile": "Kerala",
       "category": "Regular",
       "cgpa": 4.81,
-      "gradStatus": "Discontinued / Transferred",
+      "gradStatus": "Year-Back (Moved to Batch 2024 as 2460113)",
       "failCount": 1,
       "semesters": {
         "sem1": {
@@ -12491,6 +12639,11 @@
         "company": null,
         "title": null,
         "file": null
+      },
+      "isYearBackExit": true,
+      "yearBackTransferredTo": {
+        "regNo": "2460113",
+        "batch": "2024"
       }
     },
     {
@@ -12503,7 +12656,7 @@
       "domicile": "Kerala",
       "category": "Regular",
       "cgpa": 4.98,
-      "gradStatus": "Discontinued / Transferred",
+      "gradStatus": "Year-Back (Moved to Batch 2023 as 2360135)",
       "failCount": 1,
       "semesters": {
         "sem1": {
@@ -12614,6 +12767,11 @@
         "company": null,
         "title": null,
         "file": null
+      },
+      "isYearBackExit": true,
+      "yearBackTransferredTo": {
+        "regNo": "2360135",
+        "batch": "2023"
       }
     },
     {
@@ -12626,7 +12784,7 @@
       "domicile": "Kerala",
       "category": "Regular",
       "cgpa": 5.98,
-      "gradStatus": "Discontinued / Transferred",
+      "gradStatus": "Year-Back (Moved to Batch 2023 as 2360132)",
       "failCount": 1,
       "semesters": {
         "sem1": {
@@ -12737,6 +12895,11 @@
         "company": null,
         "title": null,
         "file": null
+      },
+      "isYearBackExit": true,
+      "yearBackTransferredTo": {
+        "regNo": "2360132",
+        "batch": "2023"
       }
     },
     {
@@ -14538,7 +14701,7 @@
       "department": "Civil Engineering",
       "gender": "Male",
       "domicile": "Kerala",
-      "category": "Regular",
+      "category": "Readmitted (Year-Back)",
       "cgpa": 3.99,
       "gradStatus": "Discontinued / Transferred",
       "failCount": 1,
@@ -14643,6 +14806,10 @@
         "company": null,
         "title": null,
         "file": null
+      },
+      "yearBackOrigin": {
+        "regNo": "2160103",
+        "batch": "2021"
       }
     },
     {
@@ -14655,7 +14822,7 @@
       "domicile": "Kerala",
       "category": "Regular",
       "cgpa": 3.99,
-      "gradStatus": "Discontinued / Transferred",
+      "gradStatus": "Year-Back (Moved to Batch 2022 as 2260132)",
       "failCount": 1,
       "semesters": {
         "sem1": {
@@ -14758,6 +14925,11 @@
         "company": null,
         "title": null,
         "file": null
+      },
+      "isYearBackExit": true,
+      "yearBackTransferredTo": {
+        "regNo": "2260132",
+        "batch": "2022"
       }
     },
     {
@@ -14769,8 +14941,8 @@
       "gender": "Female",
       "domicile": "Kerala",
       "category": "Regular",
-      "cgpa": 7.88,
-      "gradStatus": "Discontinued / Transferred",
+      "cgpa": 9.04,
+      "gradStatus": "Graduated (With Backlog)",
       "failCount": 0,
       "semesters": {
         "sem1": {
@@ -14779,12 +14951,13 @@
           "class": "FC-D",
           "status": "Pass",
           "sources": {
-            "historical": {
+            "ese_cia_repository": {
+              "citation": "ESE & CIA marks repository (2021_Sem_1.xls.xls)",
+              "file_name": "2021_Sem_1.xls.xls",
+              "total_marks": "425/550",
               "pct": 77.27,
-              "sgpa": 8.13,
-              "class": "FC-D",
-              "status": "Pass",
-              "citation": "Department Academic Records (Pre-existing Master)"
+              "sgpa_10pt": 8.13,
+              "status": "Pass"
             }
           }
         },
@@ -14794,27 +14967,29 @@
           "class": "FC-D",
           "status": "Pass",
           "sources": {
-            "historical": {
+            "ese_cia_repository": {
+              "citation": "ESE & CIA marks repository (2021_Sem_2.xls.xls)",
+              "file_name": "2021_Sem_2.xls.xls",
+              "total_marks": "456/600",
               "pct": 76.0,
-              "sgpa": 8.0,
-              "class": "FC-D",
-              "status": "Pass",
-              "citation": "Department Academic Records (Pre-existing Master)"
+              "sgpa_10pt": 8.0,
+              "status": "Pass"
             }
           }
         },
         "sem3": {
-          "pct": 75.27,
-          "sgpa": 7.92,
-          "class": "FC-D",
-          "status": "Pass",
+          "pct": 69.0,
+          "sgpa": 7.26,
+          "class": "Fail",
+          "status": "Fail",
           "sources": {
-            "historical": {
-              "pct": 75.27,
-              "sgpa": 7.92,
-              "class": "FC-D",
-              "status": "Pass",
-              "citation": "Department Academic Records (Pre-existing Master)"
+            "ese_cia_repository": {
+              "citation": "ESE & CIA marks repository (2021_Sem_3.xls.xls)",
+              "file_name": "2021_Sem_3.xls.xls",
+              "total_marks": "414/600",
+              "pct": 69.0,
+              "sgpa_10pt": 7.26,
+              "status": "Fail"
             }
           }
         },
@@ -14824,58 +14999,79 @@
           "class": "FC",
           "status": "Pass",
           "sources": {
-            "historical": {
+            "ese_cia_repository": {
+              "citation": "ESE & CIA marks repository (2021_Sem_4.xls.xls)",
+              "file_name": "2021_Sem_4.xls.xls",
+              "total_marks": "335/450",
               "pct": 74.44,
-              "sgpa": 7.84,
-              "class": "FC",
-              "status": "Pass",
-              "citation": "Department Academic Records (Pre-existing Master)"
+              "sgpa_10pt": 7.84,
+              "status": "Pass"
             }
           }
         },
         "sem5": {
-          "pct": 73.5,
-          "sgpa": 7.74,
-          "class": "FC",
+          "pct": 80.18,
+          "sgpa": 8.44,
+          "class": "FC-D",
           "status": "Pass",
           "sources": {
-            "historical": {
-              "pct": 73.5,
-              "sgpa": 7.74,
-              "class": "FC",
-              "status": "Pass",
-              "citation": "Department Academic Records (Pre-existing Master)"
+            "ese_cia_repository": {
+              "citation": "ESE & CIA marks repository (2021_Sem_5.xls.xls)",
+              "file_name": "2021_Sem_5.xls.xls",
+              "total_marks": "441/550",
+              "pct": 80.18,
+              "sgpa_10pt": 8.44,
+              "status": "Pass"
             }
           }
         },
         "sem6": {
-          "pct": 72.83,
-          "sgpa": 7.67,
-          "class": "FC",
+          "pct": 76.4,
+          "sgpa": 8.04,
+          "class": "FC-D",
           "status": "Pass",
           "sources": {
-            "historical": {
-              "pct": 72.83,
-              "sgpa": 7.67,
-              "class": "FC",
-              "status": "Pass",
-              "citation": "Department Academic Records (Pre-existing Master)"
+            "ese_cia_repository": {
+              "citation": "ESE & CIA marks repository (2021_Sem_6.xls.xls)",
+              "file_name": "2021_Sem_6.xls.xls",
+              "total_marks": "382/500",
+              "pct": 76.4,
+              "sgpa_10pt": 8.04,
+              "status": "Pass"
             }
           }
         },
         "sem7": {
-          "pct": null,
-          "sgpa": null,
-          "class": "",
-          "status": "—",
-          "sources": {}
+          "pct": 83.09,
+          "sgpa": 8.75,
+          "class": "FC-D",
+          "status": "Pass",
+          "sources": {
+            "ese_cia_repository": {
+              "citation": "ESE & CIA marks repository (2021_Sem_7.xls.xls)",
+              "file_name": "2021_Sem_7.xls.xls",
+              "total_marks": "457/550",
+              "pct": 83.09,
+              "sgpa_10pt": 8.75,
+              "status": "Pass"
+            }
+          }
         },
         "sem8": {
-          "pct": null,
-          "sgpa": null,
-          "class": "",
-          "status": "—",
-          "sources": {}
+          "pct": 150.5,
+          "sgpa": 15.84,
+          "class": "FC-D",
+          "status": "Pass",
+          "sources": {
+            "ese_cia_repository": {
+              "citation": "ESE & CIA marks repository (2021_Sem_8.xls.xls)",
+              "file_name": "2021_Sem_8.xls.xls",
+              "total_marks": "301/200",
+              "pct": 150.5,
+              "sgpa_10pt": 15.84,
+              "status": "Pass"
+            }
+          }
         }
       },
       "placement": {
@@ -14908,8 +15104,8 @@
       "gender": "Female",
       "domicile": "Kerala",
       "category": "Regular",
-      "cgpa": 6.59,
-      "gradStatus": "Discontinued / Transferred",
+      "cgpa": 7.88,
+      "gradStatus": "Graduated (With Backlog)",
       "failCount": 1,
       "semesters": {
         "sem1": {
@@ -14918,12 +15114,13 @@
           "class": "SC",
           "status": "Pass",
           "sources": {
-            "historical": {
+            "ese_cia_repository": {
+              "citation": "ESE & CIA marks repository (2021_Sem_1.xls.xls)",
+              "file_name": "2021_Sem_1.xls.xls",
+              "total_marks": "324/550",
               "pct": 58.91,
-              "sgpa": 6.2,
-              "class": "SC",
-              "status": "Pass",
-              "citation": "Department Academic Records (Pre-existing Master)"
+              "sgpa_10pt": 6.2,
+              "status": "Pass"
             }
           }
         },
@@ -14933,27 +15130,29 @@
           "class": "SC",
           "status": "Pass",
           "sources": {
-            "historical": {
+            "ese_cia_repository": {
+              "citation": "ESE & CIA marks repository (2021_Sem_2.xls.xls)",
+              "file_name": "2021_Sem_2.xls.xls",
+              "total_marks": "349/600",
               "pct": 58.17,
-              "sgpa": 6.12,
-              "class": "SC",
-              "status": "Pass",
-              "citation": "Department Academic Records (Pre-existing Master)"
+              "sgpa_10pt": 6.12,
+              "status": "Pass"
             }
           }
         },
         "sem3": {
-          "pct": 59.27,
-          "sgpa": 6.24,
-          "class": "SC",
-          "status": "Pass",
+          "pct": 54.33,
+          "sgpa": 5.72,
+          "class": "Fail",
+          "status": "Fail",
           "sources": {
-            "historical": {
-              "pct": 59.27,
-              "sgpa": 6.24,
-              "class": "SC",
-              "status": "Pass",
-              "citation": "Department Academic Records (Pre-existing Master)"
+            "ese_cia_repository": {
+              "citation": "ESE & CIA marks repository (2021_Sem_3.xls.xls)",
+              "file_name": "2021_Sem_3.xls.xls",
+              "total_marks": "326/600",
+              "pct": 54.33,
+              "sgpa_10pt": 5.72,
+              "status": "Fail"
             }
           }
         },
@@ -14963,58 +15162,79 @@
           "class": "FC",
           "status": "Pass",
           "sources": {
-            "historical": {
+            "ese_cia_repository": {
+              "citation": "ESE & CIA marks repository (2021_Sem_4.xls.xls)",
+              "file_name": "2021_Sem_4.xls.xls",
+              "total_marks": "318/450",
               "pct": 70.67,
-              "sgpa": 7.44,
-              "class": "FC",
-              "status": "Pass",
-              "citation": "Department Academic Records (Pre-existing Master)"
+              "sgpa_10pt": 7.44,
+              "status": "Pass"
             }
           }
         },
         "sem5": {
-          "pct": 59.67,
-          "sgpa": 6.28,
-          "class": "Fail",
-          "status": "Fail",
+          "pct": 65.09,
+          "sgpa": 6.85,
+          "class": "FC",
+          "status": "Pass",
           "sources": {
-            "historical": {
-              "pct": 59.67,
-              "sgpa": 6.28,
-              "class": "Fail",
-              "status": "Fail",
-              "citation": "Department Academic Records (Pre-existing Master)"
+            "ese_cia_repository": {
+              "citation": "ESE & CIA marks repository (2021_Sem_5.xls.xls)",
+              "file_name": "2021_Sem_5.xls.xls",
+              "total_marks": "358/550",
+              "pct": 65.09,
+              "sgpa_10pt": 6.85,
+              "status": "Pass"
             }
           }
         },
         "sem6": {
-          "pct": 69.0,
-          "sgpa": 7.26,
+          "pct": 68.2,
+          "sgpa": 7.18,
           "class": "FC",
           "status": "Pass",
           "sources": {
-            "historical": {
-              "pct": 69.0,
-              "sgpa": 7.26,
-              "class": "FC",
-              "status": "Pass",
-              "citation": "Department Academic Records (Pre-existing Master)"
+            "ese_cia_repository": {
+              "citation": "ESE & CIA marks repository (2021_Sem_6.xls.xls)",
+              "file_name": "2021_Sem_6.xls.xls",
+              "total_marks": "341/500",
+              "pct": 68.2,
+              "sgpa_10pt": 7.18,
+              "status": "Pass"
             }
           }
         },
         "sem7": {
-          "pct": null,
-          "sgpa": null,
-          "class": "",
-          "status": "—",
-          "sources": {}
+          "pct": 73.45,
+          "sgpa": 7.73,
+          "class": "FC",
+          "status": "Pass",
+          "sources": {
+            "ese_cia_repository": {
+              "citation": "ESE & CIA marks repository (2021_Sem_7.xls.xls)",
+              "file_name": "2021_Sem_7.xls.xls",
+              "total_marks": "404/550",
+              "pct": 73.45,
+              "sgpa_10pt": 7.73,
+              "status": "Pass"
+            }
+          }
         },
         "sem8": {
-          "pct": null,
-          "sgpa": null,
-          "class": "",
-          "status": "—",
-          "sources": {}
+          "pct": 150.5,
+          "sgpa": 15.84,
+          "class": "FC-D",
+          "status": "Pass",
+          "sources": {
+            "ese_cia_repository": {
+              "citation": "ESE & CIA marks repository (2021_Sem_8.xls.xls)",
+              "file_name": "2021_Sem_8.xls.xls",
+              "total_marks": "301/200",
+              "pct": 150.5,
+              "sgpa_10pt": 15.84,
+              "status": "Pass"
+            }
+          }
         }
       },
       "placement": {
@@ -15162,8 +15382,8 @@
       "gender": "Male",
       "domicile": "Kerala",
       "category": "Regular",
-      "cgpa": 6.9,
-      "gradStatus": "Discontinued / Transferred",
+      "cgpa": 8.33,
+      "gradStatus": "Graduated (With Backlog)",
       "failCount": 0,
       "semesters": {
         "sem1": {
@@ -15172,12 +15392,13 @@
           "class": "SC",
           "status": "Pass",
           "sources": {
-            "historical": {
+            "ese_cia_repository": {
+              "citation": "ESE & CIA marks repository (2021_Sem_1.xls.xls)",
+              "file_name": "2021_Sem_1.xls.xls",
+              "total_marks": "327/550",
               "pct": 59.45,
-              "sgpa": 6.26,
-              "class": "SC",
-              "status": "Pass",
-              "citation": "Department Academic Records (Pre-existing Master)"
+              "sgpa_10pt": 6.26,
+              "status": "Pass"
             }
           }
         },
@@ -15187,27 +15408,29 @@
           "class": "FC",
           "status": "Pass",
           "sources": {
-            "historical": {
+            "ese_cia_repository": {
+              "citation": "ESE & CIA marks repository (2021_Sem_2.xls.xls)",
+              "file_name": "2021_Sem_2.xls.xls",
+              "total_marks": "384/600",
               "pct": 64.0,
-              "sgpa": 6.74,
-              "class": "FC",
-              "status": "Pass",
-              "citation": "Department Academic Records (Pre-existing Master)"
+              "sgpa_10pt": 6.74,
+              "status": "Pass"
             }
           }
         },
         "sem3": {
-          "pct": 61.45,
-          "sgpa": 6.47,
-          "class": "FC",
-          "status": "Pass",
+          "pct": 56.33,
+          "sgpa": 5.93,
+          "class": "Fail",
+          "status": "Fail",
           "sources": {
-            "historical": {
-              "pct": 61.45,
-              "sgpa": 6.47,
-              "class": "FC",
-              "status": "Pass",
-              "citation": "Department Academic Records (Pre-existing Master)"
+            "ese_cia_repository": {
+              "citation": "ESE & CIA marks repository (2021_Sem_3.xls.xls)",
+              "file_name": "2021_Sem_3.xls.xls",
+              "total_marks": "338/600",
+              "pct": 56.33,
+              "sgpa_10pt": 5.93,
+              "status": "Fail"
             }
           }
         },
@@ -15217,58 +15440,79 @@
           "class": "FC",
           "status": "Pass",
           "sources": {
-            "historical": {
+            "ese_cia_repository": {
+              "citation": "ESE & CIA marks repository (2021_Sem_4.xls.xls)",
+              "file_name": "2021_Sem_4.xls.xls",
+              "total_marks": "332/450",
               "pct": 73.78,
-              "sgpa": 7.77,
-              "class": "FC",
-              "status": "Pass",
-              "citation": "Department Academic Records (Pre-existing Master)"
+              "sgpa_10pt": 7.77,
+              "status": "Pass"
             }
           }
         },
         "sem5": {
-          "pct": 63.67,
-          "sgpa": 6.7,
+          "pct": 69.45,
+          "sgpa": 7.31,
           "class": "FC",
           "status": "Pass",
           "sources": {
-            "historical": {
-              "pct": 63.67,
-              "sgpa": 6.7,
-              "class": "FC",
-              "status": "Pass",
-              "citation": "Department Academic Records (Pre-existing Master)"
+            "ese_cia_repository": {
+              "citation": "ESE & CIA marks repository (2021_Sem_5.xls.xls)",
+              "file_name": "2021_Sem_5.xls.xls",
+              "total_marks": "382/550",
+              "pct": 69.45,
+              "sgpa_10pt": 7.31,
+              "status": "Pass"
             }
           }
         },
         "sem6": {
-          "pct": 70.67,
-          "sgpa": 7.44,
+          "pct": 73.6,
+          "sgpa": 7.75,
           "class": "FC",
           "status": "Pass",
           "sources": {
-            "historical": {
-              "pct": 70.67,
-              "sgpa": 7.44,
-              "class": "FC",
-              "status": "Pass",
-              "citation": "Department Academic Records (Pre-existing Master)"
+            "ese_cia_repository": {
+              "citation": "ESE & CIA marks repository (2021_Sem_6.xls.xls)",
+              "file_name": "2021_Sem_6.xls.xls",
+              "total_marks": "368/500",
+              "pct": 73.6,
+              "sgpa_10pt": 7.75,
+              "status": "Pass"
             }
           }
         },
         "sem7": {
-          "pct": null,
-          "sgpa": null,
-          "class": "",
-          "status": "—",
-          "sources": {}
+          "pct": 84.18,
+          "sgpa": 8.86,
+          "class": "FC-D",
+          "status": "Pass",
+          "sources": {
+            "ese_cia_repository": {
+              "citation": "ESE & CIA marks repository (2021_Sem_7.xls.xls)",
+              "file_name": "2021_Sem_7.xls.xls",
+              "total_marks": "463/550",
+              "pct": 84.18,
+              "sgpa_10pt": 8.86,
+              "status": "Pass"
+            }
+          }
         },
         "sem8": {
-          "pct": null,
-          "sgpa": null,
-          "class": "",
-          "status": "—",
-          "sources": {}
+          "pct": 152.5,
+          "sgpa": 16.05,
+          "class": "FC-D",
+          "status": "Pass",
+          "sources": {
+            "ese_cia_repository": {
+              "citation": "ESE & CIA marks repository (2021_Sem_8.xls.xls)",
+              "file_name": "2021_Sem_8.xls.xls",
+              "total_marks": "305/200",
+              "pct": 152.5,
+              "sgpa_10pt": 16.05,
+              "status": "Pass"
+            }
+          }
         }
       },
       "placement": {
@@ -15507,8 +15751,8 @@
       "gender": "Male",
       "domicile": "Kerala",
       "category": "Regular",
-      "cgpa": 6.83,
-      "gradStatus": "Discontinued / Transferred",
+      "cgpa": 8.33,
+      "gradStatus": "Graduated (With Backlog)",
       "failCount": 0,
       "semesters": {
         "sem1": {
@@ -15517,12 +15761,13 @@
           "class": "SC",
           "status": "Pass",
           "sources": {
-            "historical": {
+            "ese_cia_repository": {
+              "citation": "ESE & CIA marks repository (2021_Sem_1.xls.xls)",
+              "file_name": "2021_Sem_1.xls.xls",
+              "total_marks": "320/550",
               "pct": 58.18,
-              "sgpa": 6.12,
-              "class": "SC",
-              "status": "Pass",
-              "citation": "Department Academic Records (Pre-existing Master)"
+              "sgpa_10pt": 6.12,
+              "status": "Pass"
             }
           }
         },
@@ -15532,27 +15777,29 @@
           "class": "SC",
           "status": "Pass",
           "sources": {
-            "historical": {
+            "ese_cia_repository": {
+              "citation": "ESE & CIA marks repository (2021_Sem_2.xls.xls)",
+              "file_name": "2021_Sem_2.xls.xls",
+              "total_marks": "351/600",
               "pct": 58.5,
-              "sgpa": 6.16,
-              "class": "SC",
-              "status": "Pass",
-              "citation": "Department Academic Records (Pre-existing Master)"
+              "sgpa_10pt": 6.16,
+              "status": "Pass"
             }
           }
         },
         "sem3": {
-          "pct": 59.64,
-          "sgpa": 6.28,
-          "class": "SC",
-          "status": "Pass",
+          "pct": 54.67,
+          "sgpa": 5.75,
+          "class": "Fail",
+          "status": "Fail",
           "sources": {
-            "historical": {
-              "pct": 59.64,
-              "sgpa": 6.28,
-              "class": "SC",
-              "status": "Pass",
-              "citation": "Department Academic Records (Pre-existing Master)"
+            "ese_cia_repository": {
+              "citation": "ESE & CIA marks repository (2021_Sem_3.xls.xls)",
+              "file_name": "2021_Sem_3.xls.xls",
+              "total_marks": "328/600",
+              "pct": 54.67,
+              "sgpa_10pt": 5.75,
+              "status": "Fail"
             }
           }
         },
@@ -15562,58 +15809,79 @@
           "class": "FC",
           "status": "Pass",
           "sources": {
-            "historical": {
+            "ese_cia_repository": {
+              "citation": "ESE & CIA marks repository (2021_Sem_4.xls.xls)",
+              "file_name": "2021_Sem_4.xls.xls",
+              "total_marks": "327/450",
               "pct": 72.67,
-              "sgpa": 7.65,
-              "class": "FC",
-              "status": "Pass",
-              "citation": "Department Academic Records (Pre-existing Master)"
+              "sgpa_10pt": 7.65,
+              "status": "Pass"
             }
           }
         },
         "sem5": {
-          "pct": 70.17,
-          "sgpa": 7.39,
-          "class": "FC",
+          "pct": 76.55,
+          "sgpa": 8.06,
+          "class": "FC-D",
           "status": "Pass",
           "sources": {
-            "historical": {
-              "pct": 70.17,
-              "sgpa": 7.39,
-              "class": "FC",
-              "status": "Pass",
-              "citation": "Department Academic Records (Pre-existing Master)"
+            "ese_cia_repository": {
+              "citation": "ESE & CIA marks repository (2021_Sem_5.xls.xls)",
+              "file_name": "2021_Sem_5.xls.xls",
+              "total_marks": "421/550",
+              "pct": 76.55,
+              "sgpa_10pt": 8.06,
+              "status": "Pass"
             }
           }
         },
         "sem6": {
-          "pct": 70.0,
-          "sgpa": 7.37,
-          "class": "FC",
+          "pct": 75.8,
+          "sgpa": 7.98,
+          "class": "FC-D",
           "status": "Pass",
           "sources": {
-            "historical": {
-              "pct": 70.0,
-              "sgpa": 7.37,
-              "class": "FC",
-              "status": "Pass",
-              "citation": "Department Academic Records (Pre-existing Master)"
+            "ese_cia_repository": {
+              "citation": "ESE & CIA marks repository (2021_Sem_6.xls.xls)",
+              "file_name": "2021_Sem_6.xls.xls",
+              "total_marks": "379/500",
+              "pct": 75.8,
+              "sgpa_10pt": 7.98,
+              "status": "Pass"
             }
           }
         },
         "sem7": {
-          "pct": null,
-          "sgpa": null,
-          "class": "",
-          "status": "—",
-          "sources": {}
+          "pct": 81.45,
+          "sgpa": 8.57,
+          "class": "FC-D",
+          "status": "Pass",
+          "sources": {
+            "ese_cia_repository": {
+              "citation": "ESE & CIA marks repository (2021_Sem_7.xls.xls)",
+              "file_name": "2021_Sem_7.xls.xls",
+              "total_marks": "448/550",
+              "pct": 81.45,
+              "sgpa_10pt": 8.57,
+              "status": "Pass"
+            }
+          }
         },
         "sem8": {
-          "pct": null,
-          "sgpa": null,
-          "class": "",
-          "status": "—",
-          "sources": {}
+          "pct": 155.5,
+          "sgpa": 16.37,
+          "class": "FC-D",
+          "status": "Pass",
+          "sources": {
+            "ese_cia_repository": {
+              "citation": "ESE & CIA marks repository (2021_Sem_8.xls.xls)",
+              "file_name": "2021_Sem_8.xls.xls",
+              "total_marks": "311/200",
+              "pct": 155.5,
+              "sgpa_10pt": 16.37,
+              "status": "Pass"
+            }
+          }
         }
       },
       "placement": {
@@ -15646,8 +15914,8 @@
       "gender": "Female",
       "domicile": "Telangana",
       "category": "Regular",
-      "cgpa": 7.6,
-      "gradStatus": "Discontinued / Transferred",
+      "cgpa": 9.01,
+      "gradStatus": "Graduated (With Backlog)",
       "failCount": 0,
       "semesters": {
         "sem1": {
@@ -15656,12 +15924,13 @@
           "class": "SC",
           "status": "Pass",
           "sources": {
-            "historical": {
+            "ese_cia_repository": {
+              "citation": "ESE & CIA marks repository (2021_Sem_1.xls.xls)",
+              "file_name": "2021_Sem_1.xls.xls",
+              "total_marks": "351/600",
               "pct": 58.5,
-              "sgpa": 6.16,
-              "class": "SC",
-              "status": "Pass",
-              "citation": "Department Academic Records (Pre-existing Master)"
+              "sgpa_10pt": 6.16,
+              "status": "Pass"
             }
           }
         },
@@ -15671,27 +15940,29 @@
           "class": "SC",
           "status": "Pass",
           "sources": {
-            "historical": {
+            "ese_cia_repository": {
+              "citation": "ESE & CIA marks repository (2021_Sem_2.xls.xls)",
+              "file_name": "2021_Sem_2.xls.xls",
+              "total_marks": "312/550",
               "pct": 56.73,
-              "sgpa": 5.97,
-              "class": "SC",
-              "status": "Pass",
-              "citation": "Department Academic Records (Pre-existing Master)"
+              "sgpa_10pt": 5.97,
+              "status": "Pass"
             }
           }
         },
         "sem3": {
-          "pct": 69.45,
-          "sgpa": 7.31,
-          "class": "FC",
-          "status": "Pass",
+          "pct": 63.67,
+          "sgpa": 6.7,
+          "class": "Fail",
+          "status": "Fail",
           "sources": {
-            "historical": {
-              "pct": 69.45,
-              "sgpa": 7.31,
-              "class": "FC",
-              "status": "Pass",
-              "citation": "Department Academic Records (Pre-existing Master)"
+            "ese_cia_repository": {
+              "citation": "ESE & CIA marks repository (2021_Sem_3.xls.xls)",
+              "file_name": "2021_Sem_3.xls.xls",
+              "total_marks": "382/600",
+              "pct": 63.67,
+              "sgpa_10pt": 6.7,
+              "status": "Fail"
             }
           }
         },
@@ -15701,58 +15972,79 @@
           "class": "FC-D",
           "status": "Pass",
           "sources": {
-            "historical": {
+            "ese_cia_repository": {
+              "citation": "ESE & CIA marks repository (2021_Sem_4.xls.xls)",
+              "file_name": "2021_Sem_4.xls.xls",
+              "total_marks": "380/450",
               "pct": 84.44,
-              "sgpa": 8.89,
-              "class": "FC-D",
-              "status": "Pass",
-              "citation": "Department Academic Records (Pre-existing Master)"
+              "sgpa_10pt": 8.89,
+              "status": "Pass"
             }
           }
         },
         "sem5": {
-          "pct": 81.5,
-          "sgpa": 8.58,
+          "pct": 88.91,
+          "sgpa": 9.36,
           "class": "FC-D",
           "status": "Pass",
           "sources": {
-            "historical": {
-              "pct": 81.5,
-              "sgpa": 8.58,
-              "class": "FC-D",
-              "status": "Pass",
-              "citation": "Department Academic Records (Pre-existing Master)"
+            "ese_cia_repository": {
+              "citation": "ESE & CIA marks repository (2021_Sem_5.xls.xls)",
+              "file_name": "2021_Sem_5.xls.xls",
+              "total_marks": "489/550",
+              "pct": 88.91,
+              "sgpa_10pt": 9.36,
+              "status": "Pass"
             }
           }
         },
         "sem6": {
-          "pct": 82.33,
-          "sgpa": 8.67,
+          "pct": 82.8,
+          "sgpa": 8.72,
           "class": "FC-D",
           "status": "Pass",
           "sources": {
-            "historical": {
-              "pct": 82.33,
-              "sgpa": 8.67,
-              "class": "FC-D",
-              "status": "Pass",
-              "citation": "Department Academic Records (Pre-existing Master)"
+            "ese_cia_repository": {
+              "citation": "ESE & CIA marks repository (2021_Sem_6.xls.xls)",
+              "file_name": "2021_Sem_6.xls.xls",
+              "total_marks": "414/500",
+              "pct": 82.8,
+              "sgpa_10pt": 8.72,
+              "status": "Pass"
             }
           }
         },
         "sem7": {
-          "pct": null,
-          "sgpa": null,
-          "class": "",
-          "status": "—",
-          "sources": {}
+          "pct": 89.64,
+          "sgpa": 9.44,
+          "class": "FC-D",
+          "status": "Pass",
+          "sources": {
+            "ese_cia_repository": {
+              "citation": "ESE & CIA marks repository (2021_Sem_7.xls.xls)",
+              "file_name": "2021_Sem_7.xls.xls",
+              "total_marks": "493/550",
+              "pct": 89.64,
+              "sgpa_10pt": 9.44,
+              "status": "Pass"
+            }
+          }
         },
         "sem8": {
-          "pct": null,
-          "sgpa": null,
-          "class": "",
-          "status": "—",
-          "sources": {}
+          "pct": 160.0,
+          "sgpa": 16.84,
+          "class": "FC-D",
+          "status": "Pass",
+          "sources": {
+            "ese_cia_repository": {
+              "citation": "ESE & CIA marks repository (2021_Sem_8.xls.xls)",
+              "file_name": "2021_Sem_8.xls.xls",
+              "total_marks": "320/200",
+              "pct": 160.0,
+              "sgpa_10pt": 16.84,
+              "status": "Pass"
+            }
+          }
         }
       },
       "placement": {
@@ -16023,8 +16315,8 @@
       "gender": "Male",
       "domicile": "Gujarat",
       "category": "Lateral",
-      "cgpa": 6.95,
-      "gradStatus": "Discontinued / Transferred",
+      "cgpa": 8.48,
+      "gradStatus": "Graduated (No Backlog)",
       "failCount": 0,
       "semesters": {
         "sem1": {
@@ -16033,12 +16325,13 @@
           "class": "FC",
           "status": "Pass",
           "sources": {
-            "historical": {
+            "ese_cia_repository": {
+              "citation": "ESE & CIA marks repository (2021_Sem_1.xls.xls)",
+              "file_name": "2021_Sem_1.xls.xls",
+              "total_marks": "361/550",
               "pct": 65.64,
-              "sgpa": 6.91,
-              "class": "FC",
-              "status": "Pass",
-              "citation": "Department Academic Records (Pre-existing Master)"
+              "sgpa_10pt": 6.91,
+              "status": "Pass"
             }
           }
         },
@@ -16048,27 +16341,29 @@
           "class": "FC",
           "status": "Pass",
           "sources": {
-            "historical": {
+            "ese_cia_repository": {
+              "citation": "ESE & CIA marks repository (2021_Sem_2.xls.xls)",
+              "file_name": "2021_Sem_2.xls.xls",
+              "total_marks": "363/600",
               "pct": 60.5,
-              "sgpa": 6.37,
-              "class": "FC",
-              "status": "Pass",
-              "citation": "Department Academic Records (Pre-existing Master)"
+              "sgpa_10pt": 6.37,
+              "status": "Pass"
             }
           }
         },
         "sem3": {
-          "pct": 65.82,
-          "sgpa": 6.93,
+          "pct": 60.33,
+          "sgpa": 6.35,
           "class": "FC",
           "status": "Pass",
           "sources": {
-            "historical": {
-              "pct": 65.82,
-              "sgpa": 6.93,
-              "class": "FC",
-              "status": "Pass",
-              "citation": "Department Academic Records (Pre-existing Master)"
+            "ese_cia_repository": {
+              "citation": "ESE & CIA marks repository (2021_Sem_3.xls.xls)",
+              "file_name": "2021_Sem_3.xls.xls",
+              "total_marks": "362/600",
+              "pct": 60.33,
+              "sgpa_10pt": 6.35,
+              "status": "Pass"
             }
           }
         },
@@ -16078,58 +16373,79 @@
           "class": "FC",
           "status": "Pass",
           "sources": {
-            "historical": {
+            "ese_cia_repository": {
+              "citation": "ESE & CIA marks repository (2021_Sem_4.xls.xls)",
+              "file_name": "2021_Sem_4.xls.xls",
+              "total_marks": "322/450",
               "pct": 71.56,
-              "sgpa": 7.53,
-              "class": "FC",
-              "status": "Pass",
-              "citation": "Department Academic Records (Pre-existing Master)"
+              "sgpa_10pt": 7.53,
+              "status": "Pass"
             }
           }
         },
         "sem5": {
-          "pct": 62.5,
-          "sgpa": 6.58,
+          "pct": 68.18,
+          "sgpa": 7.18,
           "class": "FC",
           "status": "Pass",
           "sources": {
-            "historical": {
-              "pct": 62.5,
-              "sgpa": 6.58,
-              "class": "FC",
-              "status": "Pass",
-              "citation": "Department Academic Records (Pre-existing Master)"
+            "ese_cia_repository": {
+              "citation": "ESE & CIA marks repository (2021_Sem_5.xls.xls)",
+              "file_name": "2021_Sem_5.xls.xls",
+              "total_marks": "375/550",
+              "pct": 68.18,
+              "sgpa_10pt": 7.18,
+              "status": "Pass"
             }
           }
         },
         "sem6": {
-          "pct": 70.17,
-          "sgpa": 7.39,
+          "pct": 72.2,
+          "sgpa": 7.6,
           "class": "FC",
           "status": "Pass",
           "sources": {
-            "historical": {
-              "pct": 70.17,
-              "sgpa": 7.39,
-              "class": "FC",
-              "status": "Pass",
-              "citation": "Department Academic Records (Pre-existing Master)"
+            "ese_cia_repository": {
+              "citation": "ESE & CIA marks repository (2021_Sem_6.xls.xls)",
+              "file_name": "2021_Sem_6.xls.xls",
+              "total_marks": "361/500",
+              "pct": 72.2,
+              "sgpa_10pt": 7.6,
+              "status": "Pass"
             }
           }
         },
         "sem7": {
-          "pct": null,
-          "sgpa": null,
-          "class": "",
-          "status": "—",
-          "sources": {}
+          "pct": 87.09,
+          "sgpa": 9.17,
+          "class": "FC-D",
+          "status": "Pass",
+          "sources": {
+            "ese_cia_repository": {
+              "citation": "ESE & CIA marks repository (2021_Sem_7.xls.xls)",
+              "file_name": "2021_Sem_7.xls.xls",
+              "total_marks": "479/550",
+              "pct": 87.09,
+              "sgpa_10pt": 9.17,
+              "status": "Pass"
+            }
+          }
         },
         "sem8": {
-          "pct": null,
-          "sgpa": null,
-          "class": "",
-          "status": "—",
-          "sources": {}
+          "pct": 159.0,
+          "sgpa": 16.74,
+          "class": "FC-D",
+          "status": "Pass",
+          "sources": {
+            "ese_cia_repository": {
+              "citation": "ESE & CIA marks repository (2021_Sem_8.xls.xls)",
+              "file_name": "2021_Sem_8.xls.xls",
+              "total_marks": "318/200",
+              "pct": 159.0,
+              "sgpa_10pt": 16.74,
+              "status": "Pass"
+            }
+          }
         }
       },
       "placement": {
@@ -16162,8 +16478,8 @@
       "gender": "Male",
       "domicile": "Tamilnadu",
       "category": "Lateral",
-      "cgpa": 7.13,
-      "gradStatus": "Discontinued / Transferred",
+      "cgpa": 8.01,
+      "gradStatus": "Graduated (With Backlog)",
       "failCount": 1,
       "semesters": {
         "sem1": {
@@ -16172,12 +16488,13 @@
           "class": "FC",
           "status": "Pass",
           "sources": {
-            "historical": {
+            "ese_cia_repository": {
+              "citation": "ESE & CIA marks repository (2021_Sem_1.xls.xls)",
+              "file_name": "2021_Sem_1.xls.xls",
+              "total_marks": "398/550",
               "pct": 72.36,
-              "sgpa": 7.62,
-              "class": "FC",
-              "status": "Pass",
-              "citation": "Department Academic Records (Pre-existing Master)"
+              "sgpa_10pt": 7.62,
+              "status": "Pass"
             }
           }
         },
@@ -16187,27 +16504,29 @@
           "class": "FC",
           "status": "Pass",
           "sources": {
-            "historical": {
+            "ese_cia_repository": {
+              "citation": "ESE & CIA marks repository (2021_Sem_2.xls.xls)",
+              "file_name": "2021_Sem_2.xls.xls",
+              "total_marks": "410/600",
               "pct": 68.33,
-              "sgpa": 7.19,
-              "class": "FC",
-              "status": "Pass",
-              "citation": "Department Academic Records (Pre-existing Master)"
+              "sgpa_10pt": 7.19,
+              "status": "Pass"
             }
           }
         },
         "sem3": {
-          "pct": 74.36,
-          "sgpa": 7.83,
-          "class": "FC",
-          "status": "Pass",
+          "pct": 68.17,
+          "sgpa": 7.18,
+          "class": "Fail",
+          "status": "Fail",
           "sources": {
-            "historical": {
-              "pct": 74.36,
-              "sgpa": 7.83,
-              "class": "FC",
-              "status": "Pass",
-              "citation": "Department Academic Records (Pre-existing Master)"
+            "ese_cia_repository": {
+              "citation": "ESE & CIA marks repository (2021_Sem_3.xls.xls)",
+              "file_name": "2021_Sem_3.xls.xls",
+              "total_marks": "409/600",
+              "pct": 68.17,
+              "sgpa_10pt": 7.18,
+              "status": "Fail"
             }
           }
         },
@@ -16217,58 +16536,79 @@
           "class": "FC",
           "status": "Pass",
           "sources": {
-            "historical": {
+            "ese_cia_repository": {
+              "citation": "ESE & CIA marks repository (2021_Sem_4.xls.xls)",
+              "file_name": "2021_Sem_4.xls.xls",
+              "total_marks": "321/450",
               "pct": 71.33,
-              "sgpa": 7.51,
-              "class": "FC",
-              "status": "Pass",
-              "citation": "Department Academic Records (Pre-existing Master)"
+              "sgpa_10pt": 7.51,
+              "status": "Pass"
             }
           }
         },
         "sem5": {
-          "pct": 71.33,
-          "sgpa": 7.51,
-          "class": "Fail",
-          "status": "Fail",
+          "pct": 60.55,
+          "sgpa": 6.37,
+          "class": "FC",
+          "status": "Pass",
           "sources": {
-            "historical": {
-              "pct": 71.33,
-              "sgpa": 7.51,
-              "class": "Fail",
-              "status": "Fail",
-              "citation": "Department Academic Records (Pre-existing Master)"
+            "ese_cia_repository": {
+              "citation": "ESE & CIA marks repository (2021_Sem_5.xls.xls)",
+              "file_name": "2021_Sem_5.xls.xls",
+              "total_marks": "333/550",
+              "pct": 60.55,
+              "sgpa_10pt": 6.37,
+              "status": "Pass"
             }
           }
         },
         "sem6": {
-          "pct": 48.5,
-          "sgpa": 5.11,
-          "class": "Fail",
-          "status": "Fail",
+          "pct": 51.87,
+          "sgpa": 5.46,
+          "class": "SC",
+          "status": "Pass",
           "sources": {
-            "historical": {
-              "pct": 48.5,
-              "sgpa": 5.11,
-              "class": "Fail",
-              "status": "Fail",
-              "citation": "Department Academic Records (Pre-existing Master)"
+            "ese_cia_repository": {
+              "citation": "ESE & CIA marks repository (2021_Sem_6.xls.xls)",
+              "file_name": "2021_Sem_6.xls.xls",
+              "total_marks": "389/750",
+              "pct": 51.87,
+              "sgpa_10pt": 5.46,
+              "status": "Pass"
             }
           }
         },
         "sem7": {
-          "pct": null,
-          "sgpa": null,
-          "class": "",
-          "status": "—",
-          "sources": {}
+          "pct": 71.45,
+          "sgpa": 7.52,
+          "class": "FC",
+          "status": "Pass",
+          "sources": {
+            "ese_cia_repository": {
+              "citation": "ESE & CIA marks repository (2021_Sem_7.xls.xls)",
+              "file_name": "2021_Sem_7.xls.xls",
+              "total_marks": "393/550",
+              "pct": 71.45,
+              "sgpa_10pt": 7.52,
+              "status": "Pass"
+            }
+          }
         },
         "sem8": {
-          "pct": null,
-          "sgpa": null,
-          "class": "",
-          "status": "—",
-          "sources": {}
+          "pct": 145.0,
+          "sgpa": 15.26,
+          "class": "FC-D",
+          "status": "Pass",
+          "sources": {
+            "ese_cia_repository": {
+              "citation": "ESE & CIA marks repository (2021_Sem_8.xls.xls)",
+              "file_name": "2021_Sem_8.xls.xls",
+              "total_marks": "290/200",
+              "pct": 145.0,
+              "sgpa_10pt": 15.26,
+              "status": "Pass"
+            }
+          }
         }
       },
       "placement": {
@@ -16301,65 +16641,137 @@
       "gender": "Male",
       "domicile": "Kerala",
       "category": "Regular",
-      "cgpa": null,
-      "gradStatus": "Discontinued / Transferred",
+      "cgpa": 8.06,
+      "gradStatus": "Graduated (With Backlog)",
       "failCount": 0,
       "semesters": {
         "sem1": {
-          "pct": null,
-          "sgpa": null,
-          "class": "",
-          "status": "—",
-          "sources": {}
+          "pct": 78.67,
+          "sgpa": 8.28,
+          "class": "FC-D",
+          "status": "Pass",
+          "sources": {
+            "ese_cia_repository": {
+              "citation": "ESE & CIA marks repository (2020_Sem_1.xls.xls)",
+              "file_name": "2020_Sem_1.xls.xls",
+              "total_marks": "472/600",
+              "pct": 78.67,
+              "sgpa_10pt": 8.28,
+              "status": "Pass"
+            }
+          }
         },
         "sem2": {
-          "pct": null,
-          "sgpa": null,
-          "class": "",
-          "status": "—",
-          "sources": {}
+          "pct": 77.64,
+          "sgpa": 8.17,
+          "class": "FC-D",
+          "status": "Pass",
+          "sources": {
+            "ese_cia_repository": {
+              "citation": "ESE & CIA marks repository (2020_Sem_2.xls.xls)",
+              "file_name": "2020_Sem_2.xls.xls",
+              "total_marks": "427/550",
+              "pct": 77.64,
+              "sgpa_10pt": 8.17,
+              "status": "Pass"
+            }
+          }
         },
         "sem3": {
-          "pct": null,
-          "sgpa": null,
-          "class": "",
-          "status": "—",
-          "sources": {}
+          "pct": 57.69,
+          "sgpa": 6.07,
+          "class": "Fail",
+          "status": "Fail",
+          "sources": {
+            "ese_cia_repository": {
+              "citation": "ESE & CIA marks repository (2020_Sem_3.xls.xls)",
+              "file_name": "2020_Sem_3.xls.xls",
+              "total_marks": "375/650",
+              "pct": 57.69,
+              "sgpa_10pt": 6.07,
+              "status": "Fail"
+            }
+          }
         },
         "sem4": {
-          "pct": null,
-          "sgpa": null,
-          "class": "",
-          "status": "—",
-          "sources": {}
+          "pct": 64.0,
+          "sgpa": 6.74,
+          "class": "FC",
+          "status": "Pass",
+          "sources": {
+            "ese_cia_repository": {
+              "citation": "ESE & CIA marks repository (2020_Sem_4.xls.xls)",
+              "file_name": "2020_Sem_4.xls.xls",
+              "total_marks": "288/450",
+              "pct": 64.0,
+              "sgpa_10pt": 6.74,
+              "status": "Pass"
+            }
+          }
         },
         "sem5": {
-          "pct": null,
-          "sgpa": null,
-          "class": "",
-          "status": "—",
-          "sources": {}
+          "pct": 68.73,
+          "sgpa": 7.23,
+          "class": "FC",
+          "status": "Pass",
+          "sources": {
+            "ese_cia_repository": {
+              "citation": "ESE & CIA marks repository (2020_Sem_5.xls.xls)",
+              "file_name": "2020_Sem_5.xls.xls",
+              "total_marks": "378/550",
+              "pct": 68.73,
+              "sgpa_10pt": 7.23,
+              "status": "Pass"
+            }
+          }
         },
         "sem6": {
-          "pct": null,
-          "sgpa": null,
-          "class": "",
-          "status": "—",
-          "sources": {}
+          "pct": 61.2,
+          "sgpa": 6.44,
+          "class": "FC",
+          "status": "Pass",
+          "sources": {
+            "ese_cia_repository": {
+              "citation": "ESE & CIA marks repository (2020_Sem_6.xls.xls)",
+              "file_name": "2020_Sem_6.xls.xls",
+              "total_marks": "306/500",
+              "pct": 61.2,
+              "sgpa_10pt": 6.44,
+              "status": "Pass"
+            }
+          }
         },
         "sem7": {
-          "pct": null,
-          "sgpa": null,
-          "class": "",
-          "status": "—",
-          "sources": {}
+          "pct": 71.64,
+          "sgpa": 7.54,
+          "class": "FC",
+          "status": "Pass",
+          "sources": {
+            "ese_cia_repository": {
+              "citation": "ESE & CIA marks repository (2020_Sem_7.xls.xls)",
+              "file_name": "2020_Sem_7.xls.xls",
+              "total_marks": "394/550",
+              "pct": 71.64,
+              "sgpa_10pt": 7.54,
+              "status": "Pass"
+            }
+          }
         },
         "sem8": {
-          "pct": null,
-          "sgpa": null,
-          "class": "",
-          "status": "—",
-          "sources": {}
+          "pct": 133.0,
+          "sgpa": 14.0,
+          "class": "FC-D",
+          "status": "Pass",
+          "sources": {
+            "ese_cia_repository": {
+              "citation": "ESE & CIA marks repository (2020_Sem_8.xls.xls)",
+              "file_name": "2020_Sem_8.xls.xls",
+              "total_marks": "266/200",
+              "pct": 133.0,
+              "sgpa_10pt": 14.0,
+              "status": "Pass"
+            }
+          }
         }
       },
       "placement": {
@@ -16392,65 +16804,137 @@
       "gender": "Male",
       "domicile": "Kerala",
       "category": "Regular",
-      "cgpa": null,
-      "gradStatus": "Discontinued / Transferred",
+      "cgpa": 8.2,
+      "gradStatus": "Graduated (With Backlog)",
       "failCount": 0,
       "semesters": {
         "sem1": {
-          "pct": null,
-          "sgpa": null,
-          "class": "",
-          "status": "—",
-          "sources": {}
+          "pct": 79.17,
+          "sgpa": 8.33,
+          "class": "FC-D",
+          "status": "Pass",
+          "sources": {
+            "ese_cia_repository": {
+              "citation": "ESE & CIA marks repository (2020_Sem_1.xls.xls)",
+              "file_name": "2020_Sem_1.xls.xls",
+              "total_marks": "475/600",
+              "pct": 79.17,
+              "sgpa_10pt": 8.33,
+              "status": "Pass"
+            }
+          }
         },
         "sem2": {
-          "pct": null,
-          "sgpa": null,
-          "class": "",
-          "status": "—",
-          "sources": {}
+          "pct": 78.36,
+          "sgpa": 8.25,
+          "class": "FC-D",
+          "status": "Pass",
+          "sources": {
+            "ese_cia_repository": {
+              "citation": "ESE & CIA marks repository (2020_Sem_2.xls.xls)",
+              "file_name": "2020_Sem_2.xls.xls",
+              "total_marks": "431/550",
+              "pct": 78.36,
+              "sgpa_10pt": 8.25,
+              "status": "Pass"
+            }
+          }
         },
         "sem3": {
-          "pct": null,
-          "sgpa": null,
-          "class": "",
-          "status": "—",
-          "sources": {}
+          "pct": 54.15,
+          "sgpa": 5.7,
+          "class": "Fail",
+          "status": "Fail",
+          "sources": {
+            "ese_cia_repository": {
+              "citation": "ESE & CIA marks repository (2020_Sem_3.xls.xls)",
+              "file_name": "2020_Sem_3.xls.xls",
+              "total_marks": "352/650",
+              "pct": 54.15,
+              "sgpa_10pt": 5.7,
+              "status": "Fail"
+            }
+          }
         },
         "sem4": {
-          "pct": null,
-          "sgpa": null,
-          "class": "",
-          "status": "—",
-          "sources": {}
+          "pct": 66.44,
+          "sgpa": 6.99,
+          "class": "FC",
+          "status": "Pass",
+          "sources": {
+            "ese_cia_repository": {
+              "citation": "ESE & CIA marks repository (2020_Sem_4.xls.xls)",
+              "file_name": "2020_Sem_4.xls.xls",
+              "total_marks": "299/450",
+              "pct": 66.44,
+              "sgpa_10pt": 6.99,
+              "status": "Pass"
+            }
+          }
         },
         "sem5": {
-          "pct": null,
-          "sgpa": null,
-          "class": "",
-          "status": "—",
-          "sources": {}
+          "pct": 68.91,
+          "sgpa": 7.25,
+          "class": "FC",
+          "status": "Pass",
+          "sources": {
+            "ese_cia_repository": {
+              "citation": "ESE & CIA marks repository (2020_Sem_5.xls.xls)",
+              "file_name": "2020_Sem_5.xls.xls",
+              "total_marks": "379/550",
+              "pct": 68.91,
+              "sgpa_10pt": 7.25,
+              "status": "Pass"
+            }
+          }
         },
         "sem6": {
-          "pct": null,
-          "sgpa": null,
-          "class": "",
-          "status": "—",
-          "sources": {}
+          "pct": 63.0,
+          "sgpa": 6.63,
+          "class": "FC",
+          "status": "Pass",
+          "sources": {
+            "ese_cia_repository": {
+              "citation": "ESE & CIA marks repository (2020_Sem_6.xls.xls)",
+              "file_name": "2020_Sem_6.xls.xls",
+              "total_marks": "315/500",
+              "pct": 63.0,
+              "sgpa_10pt": 6.63,
+              "status": "Pass"
+            }
+          }
         },
         "sem7": {
-          "pct": null,
-          "sgpa": null,
-          "class": "",
-          "status": "—",
-          "sources": {}
+          "pct": 69.09,
+          "sgpa": 7.27,
+          "class": "FC",
+          "status": "Pass",
+          "sources": {
+            "ese_cia_repository": {
+              "citation": "ESE & CIA marks repository (2020_Sem_7.xls.xls)",
+              "file_name": "2020_Sem_7.xls.xls",
+              "total_marks": "380/550",
+              "pct": 69.09,
+              "sgpa_10pt": 7.27,
+              "status": "Pass"
+            }
+          }
         },
         "sem8": {
-          "pct": null,
-          "sgpa": null,
-          "class": "",
-          "status": "—",
-          "sources": {}
+          "pct": 144.0,
+          "sgpa": 15.16,
+          "class": "FC-D",
+          "status": "Pass",
+          "sources": {
+            "ese_cia_repository": {
+              "citation": "ESE & CIA marks repository (2020_Sem_8.xls.xls)",
+              "file_name": "2020_Sem_8.xls.xls",
+              "total_marks": "288/200",
+              "pct": 144.0,
+              "sgpa_10pt": 15.16,
+              "status": "Pass"
+            }
+          }
         }
       },
       "placement": {
@@ -16483,65 +16967,137 @@
       "gender": "Male",
       "domicile": "Jharkhand",
       "category": "Regular",
-      "cgpa": null,
-      "gradStatus": "Discontinued / Transferred",
+      "cgpa": 9.15,
+      "gradStatus": "Graduated (With Backlog)",
       "failCount": 0,
       "semesters": {
         "sem1": {
-          "pct": null,
-          "sgpa": null,
-          "class": "",
-          "status": "—",
-          "sources": {}
+          "pct": 82.33,
+          "sgpa": 8.67,
+          "class": "FC-D",
+          "status": "Pass",
+          "sources": {
+            "ese_cia_repository": {
+              "citation": "ESE & CIA marks repository (2020_Sem_1.xls.xls)",
+              "file_name": "2020_Sem_1.xls.xls",
+              "total_marks": "494/600",
+              "pct": 82.33,
+              "sgpa_10pt": 8.67,
+              "status": "Pass"
+            }
+          }
         },
         "sem2": {
-          "pct": null,
-          "sgpa": null,
-          "class": "",
-          "status": "—",
-          "sources": {}
+          "pct": 81.45,
+          "sgpa": 8.57,
+          "class": "FC-D",
+          "status": "Pass",
+          "sources": {
+            "ese_cia_repository": {
+              "citation": "ESE & CIA marks repository (2020_Sem_2.xls.xls)",
+              "file_name": "2020_Sem_2.xls.xls",
+              "total_marks": "448/550",
+              "pct": 81.45,
+              "sgpa_10pt": 8.57,
+              "status": "Pass"
+            }
+          }
         },
         "sem3": {
-          "pct": null,
-          "sgpa": null,
-          "class": "",
-          "status": "—",
-          "sources": {}
+          "pct": 61.23,
+          "sgpa": 6.45,
+          "class": "Fail",
+          "status": "Fail",
+          "sources": {
+            "ese_cia_repository": {
+              "citation": "ESE & CIA marks repository (2020_Sem_3.xls.xls)",
+              "file_name": "2020_Sem_3.xls.xls",
+              "total_marks": "398/650",
+              "pct": 61.23,
+              "sgpa_10pt": 6.45,
+              "status": "Fail"
+            }
+          }
         },
         "sem4": {
-          "pct": null,
-          "sgpa": null,
-          "class": "",
-          "status": "—",
-          "sources": {}
+          "pct": 74.22,
+          "sgpa": 7.81,
+          "class": "FC",
+          "status": "Pass",
+          "sources": {
+            "ese_cia_repository": {
+              "citation": "ESE & CIA marks repository (2020_Sem_4.xls.xls)",
+              "file_name": "2020_Sem_4.xls.xls",
+              "total_marks": "334/450",
+              "pct": 74.22,
+              "sgpa_10pt": 7.81,
+              "status": "Pass"
+            }
+          }
         },
         "sem5": {
-          "pct": null,
-          "sgpa": null,
-          "class": "",
-          "status": "—",
-          "sources": {}
+          "pct": 85.09,
+          "sgpa": 8.96,
+          "class": "FC-D",
+          "status": "Pass",
+          "sources": {
+            "ese_cia_repository": {
+              "citation": "ESE & CIA marks repository (2020_Sem_5.xls.xls)",
+              "file_name": "2020_Sem_5.xls.xls",
+              "total_marks": "468/550",
+              "pct": 85.09,
+              "sgpa_10pt": 8.96,
+              "status": "Pass"
+            }
+          }
         },
         "sem6": {
-          "pct": null,
-          "sgpa": null,
-          "class": "",
-          "status": "—",
-          "sources": {}
+          "pct": 81.2,
+          "sgpa": 8.55,
+          "class": "FC-D",
+          "status": "Pass",
+          "sources": {
+            "ese_cia_repository": {
+              "citation": "ESE & CIA marks repository (2020_Sem_6.xls.xls)",
+              "file_name": "2020_Sem_6.xls.xls",
+              "total_marks": "406/500",
+              "pct": 81.2,
+              "sgpa_10pt": 8.55,
+              "status": "Pass"
+            }
+          }
         },
         "sem7": {
-          "pct": null,
-          "sgpa": null,
-          "class": "",
-          "status": "—",
-          "sources": {}
+          "pct": 82.91,
+          "sgpa": 8.73,
+          "class": "FC-D",
+          "status": "Pass",
+          "sources": {
+            "ese_cia_repository": {
+              "citation": "ESE & CIA marks repository (2020_Sem_7.xls.xls)",
+              "file_name": "2020_Sem_7.xls.xls",
+              "total_marks": "456/550",
+              "pct": 82.91,
+              "sgpa_10pt": 8.73,
+              "status": "Pass"
+            }
+          }
         },
         "sem8": {
-          "pct": null,
-          "sgpa": null,
-          "class": "",
-          "status": "—",
-          "sources": {}
+          "pct": 147.0,
+          "sgpa": 15.47,
+          "class": "FC-D",
+          "status": "Pass",
+          "sources": {
+            "ese_cia_repository": {
+              "citation": "ESE & CIA marks repository (2020_Sem_8.xls.xls)",
+              "file_name": "2020_Sem_8.xls.xls",
+              "total_marks": "294/200",
+              "pct": 147.0,
+              "sgpa_10pt": 15.47,
+              "status": "Pass"
+            }
+          }
         }
       },
       "placement": {
@@ -16665,65 +17221,137 @@
       "gender": "Male",
       "domicile": "UAE",
       "category": "Regular",
-      "cgpa": null,
-      "gradStatus": "Discontinued / Transferred",
+      "cgpa": 7.5,
+      "gradStatus": "Graduated (With Backlog)",
       "failCount": 0,
       "semesters": {
         "sem1": {
-          "pct": null,
-          "sgpa": null,
-          "class": "",
-          "status": "—",
-          "sources": {}
+          "pct": 64.18,
+          "sgpa": 6.76,
+          "class": "FC",
+          "status": "Pass",
+          "sources": {
+            "ese_cia_repository": {
+              "citation": "ESE & CIA marks repository (2020_Sem_1.xls.xls)",
+              "file_name": "2020_Sem_1.xls.xls",
+              "total_marks": "353/550",
+              "pct": 64.18,
+              "sgpa_10pt": 6.76,
+              "status": "Pass"
+            }
+          }
         },
         "sem2": {
-          "pct": null,
-          "sgpa": null,
-          "class": "",
-          "status": "—",
-          "sources": {}
+          "pct": 73.5,
+          "sgpa": 7.74,
+          "class": "FC",
+          "status": "Pass",
+          "sources": {
+            "ese_cia_repository": {
+              "citation": "ESE & CIA marks repository (2020_Sem_2.xls.xls)",
+              "file_name": "2020_Sem_2.xls.xls",
+              "total_marks": "441/600",
+              "pct": 73.5,
+              "sgpa_10pt": 7.74,
+              "status": "Pass"
+            }
+          }
         },
         "sem3": {
-          "pct": null,
-          "sgpa": null,
-          "class": "",
-          "status": "—",
-          "sources": {}
+          "pct": 57.69,
+          "sgpa": 6.07,
+          "class": "Fail",
+          "status": "Fail",
+          "sources": {
+            "ese_cia_repository": {
+              "citation": "ESE & CIA marks repository (2020_Sem_3.xls.xls)",
+              "file_name": "2020_Sem_3.xls.xls",
+              "total_marks": "375/650",
+              "pct": 57.69,
+              "sgpa_10pt": 6.07,
+              "status": "Fail"
+            }
+          }
         },
         "sem4": {
-          "pct": null,
-          "sgpa": null,
-          "class": "",
-          "status": "—",
-          "sources": {}
+          "pct": 63.33,
+          "sgpa": 6.67,
+          "class": "FC",
+          "status": "Pass",
+          "sources": {
+            "ese_cia_repository": {
+              "citation": "ESE & CIA marks repository (2020_Sem_4.xls.xls)",
+              "file_name": "2020_Sem_4.xls.xls",
+              "total_marks": "285/450",
+              "pct": 63.33,
+              "sgpa_10pt": 6.67,
+              "status": "Pass"
+            }
+          }
         },
         "sem5": {
-          "pct": null,
-          "sgpa": null,
-          "class": "",
-          "status": "—",
-          "sources": {}
+          "pct": 60.0,
+          "sgpa": 6.32,
+          "class": "FC",
+          "status": "Pass",
+          "sources": {
+            "ese_cia_repository": {
+              "citation": "ESE & CIA marks repository (2020_Sem_5.xls.xls)",
+              "file_name": "2020_Sem_5.xls.xls",
+              "total_marks": "330/550",
+              "pct": 60.0,
+              "sgpa_10pt": 6.32,
+              "status": "Pass"
+            }
+          }
         },
         "sem6": {
-          "pct": null,
-          "sgpa": null,
-          "class": "",
-          "status": "—",
-          "sources": {}
+          "pct": 55.2,
+          "sgpa": 5.81,
+          "class": "SC",
+          "status": "Pass",
+          "sources": {
+            "ese_cia_repository": {
+              "citation": "ESE & CIA marks repository (2020_Sem_6.xls.xls)",
+              "file_name": "2020_Sem_6.xls.xls",
+              "total_marks": "276/500",
+              "pct": 55.2,
+              "sgpa_10pt": 5.81,
+              "status": "Pass"
+            }
+          }
         },
         "sem7": {
-          "pct": null,
-          "sgpa": null,
-          "class": "",
-          "status": "—",
-          "sources": {}
+          "pct": 63.09,
+          "sgpa": 6.64,
+          "class": "FC",
+          "status": "Pass",
+          "sources": {
+            "ese_cia_repository": {
+              "citation": "ESE & CIA marks repository (2020_Sem_7.xls.xls)",
+              "file_name": "2020_Sem_7.xls.xls",
+              "total_marks": "347/550",
+              "pct": 63.09,
+              "sgpa_10pt": 6.64,
+              "status": "Pass"
+            }
+          }
         },
         "sem8": {
-          "pct": null,
-          "sgpa": null,
-          "class": "",
-          "status": "—",
-          "sources": {}
+          "pct": 132.5,
+          "sgpa": 13.95,
+          "class": "FC-D",
+          "status": "Pass",
+          "sources": {
+            "ese_cia_repository": {
+              "citation": "ESE & CIA marks repository (2020_Sem_8.xls.xls)",
+              "file_name": "2020_Sem_8.xls.xls",
+              "total_marks": "265/200",
+              "pct": 132.5,
+              "sgpa_10pt": 13.95,
+              "status": "Pass"
+            }
+          }
         }
       },
       "placement": {
@@ -16756,65 +17384,137 @@
       "gender": "Male",
       "domicile": "New Delhi",
       "category": "Regular",
-      "cgpa": null,
-      "gradStatus": "Discontinued / Transferred",
+      "cgpa": 8.7,
+      "gradStatus": "Graduated (With Backlog)",
       "failCount": 0,
       "semesters": {
         "sem1": {
-          "pct": null,
-          "sgpa": null,
-          "class": "",
-          "status": "—",
-          "sources": {}
+          "pct": 78.91,
+          "sgpa": 8.31,
+          "class": "FC-D",
+          "status": "Pass",
+          "sources": {
+            "ese_cia_repository": {
+              "citation": "ESE & CIA marks repository (2020_Sem_1.xls.xls)",
+              "file_name": "2020_Sem_1.xls.xls",
+              "total_marks": "434/550",
+              "pct": 78.91,
+              "sgpa_10pt": 8.31,
+              "status": "Pass"
+            }
+          }
         },
         "sem2": {
-          "pct": null,
-          "sgpa": null,
-          "class": "",
-          "status": "—",
-          "sources": {}
+          "pct": 82.5,
+          "sgpa": 8.68,
+          "class": "FC-D",
+          "status": "Pass",
+          "sources": {
+            "ese_cia_repository": {
+              "citation": "ESE & CIA marks repository (2020_Sem_2.xls.xls)",
+              "file_name": "2020_Sem_2.xls.xls",
+              "total_marks": "495/600",
+              "pct": 82.5,
+              "sgpa_10pt": 8.68,
+              "status": "Pass"
+            }
+          }
         },
         "sem3": {
-          "pct": null,
-          "sgpa": null,
-          "class": "",
-          "status": "—",
-          "sources": {}
+          "pct": 63.08,
+          "sgpa": 6.64,
+          "class": "Fail",
+          "status": "Fail",
+          "sources": {
+            "ese_cia_repository": {
+              "citation": "ESE & CIA marks repository (2020_Sem_3.xls.xls)",
+              "file_name": "2020_Sem_3.xls.xls",
+              "total_marks": "410/650",
+              "pct": 63.08,
+              "sgpa_10pt": 6.64,
+              "status": "Fail"
+            }
+          }
         },
         "sem4": {
-          "pct": null,
-          "sgpa": null,
-          "class": "",
-          "status": "—",
-          "sources": {}
+          "pct": 74.0,
+          "sgpa": 7.79,
+          "class": "FC",
+          "status": "Pass",
+          "sources": {
+            "ese_cia_repository": {
+              "citation": "ESE & CIA marks repository (2020_Sem_4.xls.xls)",
+              "file_name": "2020_Sem_4.xls.xls",
+              "total_marks": "333/450",
+              "pct": 74.0,
+              "sgpa_10pt": 7.79,
+              "status": "Pass"
+            }
+          }
         },
         "sem5": {
-          "pct": null,
-          "sgpa": null,
-          "class": "",
-          "status": "—",
-          "sources": {}
+          "pct": 77.64,
+          "sgpa": 8.17,
+          "class": "FC-D",
+          "status": "Pass",
+          "sources": {
+            "ese_cia_repository": {
+              "citation": "ESE & CIA marks repository (2020_Sem_5.xls.xls)",
+              "file_name": "2020_Sem_5.xls.xls",
+              "total_marks": "427/550",
+              "pct": 77.64,
+              "sgpa_10pt": 8.17,
+              "status": "Pass"
+            }
+          }
         },
         "sem6": {
-          "pct": null,
-          "sgpa": null,
-          "class": "",
-          "status": "—",
-          "sources": {}
+          "pct": 70.6,
+          "sgpa": 7.43,
+          "class": "FC",
+          "status": "Pass",
+          "sources": {
+            "ese_cia_repository": {
+              "citation": "ESE & CIA marks repository (2020_Sem_6.xls.xls)",
+              "file_name": "2020_Sem_6.xls.xls",
+              "total_marks": "353/500",
+              "pct": 70.6,
+              "sgpa_10pt": 7.43,
+              "status": "Pass"
+            }
+          }
         },
         "sem7": {
-          "pct": null,
-          "sgpa": null,
-          "class": "",
-          "status": "—",
-          "sources": {}
+          "pct": 79.64,
+          "sgpa": 8.38,
+          "class": "FC-D",
+          "status": "Pass",
+          "sources": {
+            "ese_cia_repository": {
+              "citation": "ESE & CIA marks repository (2020_Sem_7.xls.xls)",
+              "file_name": "2020_Sem_7.xls.xls",
+              "total_marks": "438/550",
+              "pct": 79.64,
+              "sgpa_10pt": 8.38,
+              "status": "Pass"
+            }
+          }
         },
         "sem8": {
-          "pct": null,
-          "sgpa": null,
-          "class": "",
-          "status": "—",
-          "sources": {}
+          "pct": 134.5,
+          "sgpa": 14.16,
+          "class": "FC-D",
+          "status": "Pass",
+          "sources": {
+            "ese_cia_repository": {
+              "citation": "ESE & CIA marks repository (2020_Sem_8.xls.xls)",
+              "file_name": "2020_Sem_8.xls.xls",
+              "total_marks": "269/200",
+              "pct": 134.5,
+              "sgpa_10pt": 14.16,
+              "status": "Pass"
+            }
+          }
         }
       },
       "placement": {
@@ -16847,65 +17547,137 @@
       "gender": "Male",
       "domicile": "Meghalaya",
       "category": "Regular",
-      "cgpa": null,
-      "gradStatus": "Discontinued / Transferred",
+      "cgpa": 8.66,
+      "gradStatus": "Graduated (With Backlog)",
       "failCount": 0,
       "semesters": {
         "sem1": {
-          "pct": null,
-          "sgpa": null,
-          "class": "",
-          "status": "—",
-          "sources": {}
+          "pct": 74.36,
+          "sgpa": 7.83,
+          "class": "FC",
+          "status": "Pass",
+          "sources": {
+            "ese_cia_repository": {
+              "citation": "ESE & CIA marks repository (2020_Sem_1.xls.xls)",
+              "file_name": "2020_Sem_1.xls.xls",
+              "total_marks": "409/550",
+              "pct": 74.36,
+              "sgpa_10pt": 7.83,
+              "status": "Pass"
+            }
+          }
         },
         "sem2": {
-          "pct": null,
-          "sgpa": null,
-          "class": "",
-          "status": "—",
-          "sources": {}
+          "pct": 72.0,
+          "sgpa": 7.58,
+          "class": "FC",
+          "status": "Pass",
+          "sources": {
+            "ese_cia_repository": {
+              "citation": "ESE & CIA marks repository (2020_Sem_2.xls.xls)",
+              "file_name": "2020_Sem_2.xls.xls",
+              "total_marks": "432/600",
+              "pct": 72.0,
+              "sgpa_10pt": 7.58,
+              "status": "Pass"
+            }
+          }
         },
         "sem3": {
-          "pct": null,
-          "sgpa": null,
-          "class": "",
-          "status": "—",
-          "sources": {}
+          "pct": 51.08,
+          "sgpa": 5.38,
+          "class": "Fail",
+          "status": "Fail",
+          "sources": {
+            "ese_cia_repository": {
+              "citation": "ESE & CIA marks repository (2020_Sem_3.xls.xls)",
+              "file_name": "2020_Sem_3.xls.xls",
+              "total_marks": "332/650",
+              "pct": 51.08,
+              "sgpa_10pt": 5.38,
+              "status": "Fail"
+            }
+          }
         },
         "sem4": {
-          "pct": null,
-          "sgpa": null,
-          "class": "",
-          "status": "—",
-          "sources": {}
+          "pct": 69.11,
+          "sgpa": 7.27,
+          "class": "FC",
+          "status": "Pass",
+          "sources": {
+            "ese_cia_repository": {
+              "citation": "ESE & CIA marks repository (2020_Sem_4.xls.xls)",
+              "file_name": "2020_Sem_4.xls.xls",
+              "total_marks": "311/450",
+              "pct": 69.11,
+              "sgpa_10pt": 7.27,
+              "status": "Pass"
+            }
+          }
         },
         "sem5": {
-          "pct": null,
-          "sgpa": null,
-          "class": "",
-          "status": "—",
-          "sources": {}
+          "pct": 83.82,
+          "sgpa": 8.82,
+          "class": "FC-D",
+          "status": "Pass",
+          "sources": {
+            "ese_cia_repository": {
+              "citation": "ESE & CIA marks repository (2020_Sem_5.xls.xls)",
+              "file_name": "2020_Sem_5.xls.xls",
+              "total_marks": "461/550",
+              "pct": 83.82,
+              "sgpa_10pt": 8.82,
+              "status": "Pass"
+            }
+          }
         },
         "sem6": {
-          "pct": null,
-          "sgpa": null,
-          "class": "",
-          "status": "—",
-          "sources": {}
+          "pct": 73.0,
+          "sgpa": 7.68,
+          "class": "FC",
+          "status": "Pass",
+          "sources": {
+            "ese_cia_repository": {
+              "citation": "ESE & CIA marks repository (2020_Sem_6.xls.xls)",
+              "file_name": "2020_Sem_6.xls.xls",
+              "total_marks": "365/500",
+              "pct": 73.0,
+              "sgpa_10pt": 7.68,
+              "status": "Pass"
+            }
+          }
         },
         "sem7": {
-          "pct": null,
-          "sgpa": null,
-          "class": "",
-          "status": "—",
-          "sources": {}
+          "pct": 86.73,
+          "sgpa": 9.13,
+          "class": "FC-D",
+          "status": "Pass",
+          "sources": {
+            "ese_cia_repository": {
+              "citation": "ESE & CIA marks repository (2020_Sem_7.xls.xls)",
+              "file_name": "2020_Sem_7.xls.xls",
+              "total_marks": "477/550",
+              "pct": 86.73,
+              "sgpa_10pt": 9.13,
+              "status": "Pass"
+            }
+          }
         },
         "sem8": {
-          "pct": null,
-          "sgpa": null,
-          "class": "",
-          "status": "—",
-          "sources": {}
+          "pct": 148.0,
+          "sgpa": 15.58,
+          "class": "FC-D",
+          "status": "Pass",
+          "sources": {
+            "ese_cia_repository": {
+              "citation": "ESE & CIA marks repository (2020_Sem_8.xls.xls)",
+              "file_name": "2020_Sem_8.xls.xls",
+              "total_marks": "296/200",
+              "pct": 148.0,
+              "sgpa_10pt": 15.58,
+              "status": "Pass"
+            }
+          }
         }
       },
       "placement": {
@@ -16938,65 +17710,137 @@
       "gender": "Female",
       "domicile": "Kerala",
       "category": "Regular",
-      "cgpa": null,
-      "gradStatus": "Discontinued / Transferred",
+      "cgpa": 9.76,
+      "gradStatus": "Graduated (With Backlog)",
       "failCount": 0,
       "semesters": {
         "sem1": {
-          "pct": null,
-          "sgpa": null,
-          "class": "",
-          "status": "—",
-          "sources": {}
+          "pct": 83.67,
+          "sgpa": 8.81,
+          "class": "FC-D",
+          "status": "Pass",
+          "sources": {
+            "ese_cia_repository": {
+              "citation": "ESE & CIA marks repository (2020_Sem_1.xls.xls)",
+              "file_name": "2020_Sem_1.xls.xls",
+              "total_marks": "502/600",
+              "pct": 83.67,
+              "sgpa_10pt": 8.81,
+              "status": "Pass"
+            }
+          }
         },
         "sem2": {
-          "pct": null,
-          "sgpa": null,
-          "class": "",
-          "status": "—",
-          "sources": {}
+          "pct": 87.64,
+          "sgpa": 9.23,
+          "class": "FC-D",
+          "status": "Pass",
+          "sources": {
+            "ese_cia_repository": {
+              "citation": "ESE & CIA marks repository (2020_Sem_2.xls.xls)",
+              "file_name": "2020_Sem_2.xls.xls",
+              "total_marks": "482/550",
+              "pct": 87.64,
+              "sgpa_10pt": 9.23,
+              "status": "Pass"
+            }
+          }
         },
         "sem3": {
-          "pct": null,
-          "sgpa": null,
-          "class": "",
-          "status": "—",
-          "sources": {}
+          "pct": 69.85,
+          "sgpa": 7.35,
+          "class": "Fail",
+          "status": "Fail",
+          "sources": {
+            "ese_cia_repository": {
+              "citation": "ESE & CIA marks repository (2020_Sem_3.xls.xls)",
+              "file_name": "2020_Sem_3.xls.xls",
+              "total_marks": "454/650",
+              "pct": 69.85,
+              "sgpa_10pt": 7.35,
+              "status": "Fail"
+            }
+          }
         },
         "sem4": {
-          "pct": null,
-          "sgpa": null,
-          "class": "",
-          "status": "—",
-          "sources": {}
+          "pct": 77.56,
+          "sgpa": 8.16,
+          "class": "FC-D",
+          "status": "Pass",
+          "sources": {
+            "ese_cia_repository": {
+              "citation": "ESE & CIA marks repository (2020_Sem_4.xls.xls)",
+              "file_name": "2020_Sem_4.xls.xls",
+              "total_marks": "349/450",
+              "pct": 77.56,
+              "sgpa_10pt": 8.16,
+              "status": "Pass"
+            }
+          }
         },
         "sem5": {
-          "pct": null,
-          "sgpa": null,
-          "class": "",
-          "status": "—",
-          "sources": {}
+          "pct": 94.73,
+          "sgpa": 9.97,
+          "class": "FC-D",
+          "status": "Pass",
+          "sources": {
+            "ese_cia_repository": {
+              "citation": "ESE & CIA marks repository (2020_Sem_5.xls.xls)",
+              "file_name": "2020_Sem_5.xls.xls",
+              "total_marks": "521/550",
+              "pct": 94.73,
+              "sgpa_10pt": 9.97,
+              "status": "Pass"
+            }
+          }
         },
         "sem6": {
-          "pct": null,
-          "sgpa": null,
-          "class": "",
-          "status": "—",
-          "sources": {}
+          "pct": 82.4,
+          "sgpa": 8.67,
+          "class": "FC-D",
+          "status": "Pass",
+          "sources": {
+            "ese_cia_repository": {
+              "citation": "ESE & CIA marks repository (2020_Sem_6.xls.xls)",
+              "file_name": "2020_Sem_6.xls.xls",
+              "total_marks": "412/500",
+              "pct": 82.4,
+              "sgpa_10pt": 8.67,
+              "status": "Pass"
+            }
+          }
         },
         "sem7": {
-          "pct": null,
-          "sgpa": null,
-          "class": "",
-          "status": "—",
-          "sources": {}
+          "pct": 88.73,
+          "sgpa": 9.34,
+          "class": "FC-D",
+          "status": "Pass",
+          "sources": {
+            "ese_cia_repository": {
+              "citation": "ESE & CIA marks repository (2020_Sem_7.xls.xls)",
+              "file_name": "2020_Sem_7.xls.xls",
+              "total_marks": "488/550",
+              "pct": 88.73,
+              "sgpa_10pt": 9.34,
+              "status": "Pass"
+            }
+          }
         },
         "sem8": {
-          "pct": null,
-          "sgpa": null,
-          "class": "",
-          "status": "—",
-          "sources": {}
+          "pct": 157.5,
+          "sgpa": 16.58,
+          "class": "FC-D",
+          "status": "Pass",
+          "sources": {
+            "ese_cia_repository": {
+              "citation": "ESE & CIA marks repository (2020_Sem_8.xls.xls)",
+              "file_name": "2020_Sem_8.xls.xls",
+              "total_marks": "315/200",
+              "pct": 157.5,
+              "sgpa_10pt": 16.58,
+              "status": "Pass"
+            }
+          }
         }
       },
       "placement": {
@@ -17029,65 +17873,137 @@
       "gender": "Female",
       "domicile": "West Bengal",
       "category": "Regular",
-      "cgpa": null,
-      "gradStatus": "Discontinued / Transferred",
+      "cgpa": 8.94,
+      "gradStatus": "Graduated (With Backlog)",
       "failCount": 0,
       "semesters": {
         "sem1": {
-          "pct": null,
-          "sgpa": null,
-          "class": "",
-          "status": "—",
-          "sources": {}
+          "pct": 74.0,
+          "sgpa": 7.79,
+          "class": "FC",
+          "status": "Pass",
+          "sources": {
+            "ese_cia_repository": {
+              "citation": "ESE & CIA marks repository (2020_Sem_1.xls.xls)",
+              "file_name": "2020_Sem_1.xls.xls",
+              "total_marks": "407/550",
+              "pct": 74.0,
+              "sgpa_10pt": 7.79,
+              "status": "Pass"
+            }
+          }
         },
         "sem2": {
-          "pct": null,
-          "sgpa": null,
-          "class": "",
-          "status": "—",
-          "sources": {}
+          "pct": 73.17,
+          "sgpa": 7.7,
+          "class": "FC",
+          "status": "Pass",
+          "sources": {
+            "ese_cia_repository": {
+              "citation": "ESE & CIA marks repository (2020_Sem_2.xls.xls)",
+              "file_name": "2020_Sem_2.xls.xls",
+              "total_marks": "439/600",
+              "pct": 73.17,
+              "sgpa_10pt": 7.7,
+              "status": "Pass"
+            }
+          }
         },
         "sem3": {
-          "pct": null,
-          "sgpa": null,
-          "class": "",
-          "status": "—",
-          "sources": {}
+          "pct": 58.31,
+          "sgpa": 6.14,
+          "class": "Fail",
+          "status": "Fail",
+          "sources": {
+            "ese_cia_repository": {
+              "citation": "ESE & CIA marks repository (2020_Sem_3.xls.xls)",
+              "file_name": "2020_Sem_3.xls.xls",
+              "total_marks": "379/650",
+              "pct": 58.31,
+              "sgpa_10pt": 6.14,
+              "status": "Fail"
+            }
+          }
         },
         "sem4": {
-          "pct": null,
-          "sgpa": null,
-          "class": "",
-          "status": "—",
-          "sources": {}
+          "pct": 78.0,
+          "sgpa": 8.21,
+          "class": "FC-D",
+          "status": "Pass",
+          "sources": {
+            "ese_cia_repository": {
+              "citation": "ESE & CIA marks repository (2020_Sem_4.xls.xls)",
+              "file_name": "2020_Sem_4.xls.xls",
+              "total_marks": "351/450",
+              "pct": 78.0,
+              "sgpa_10pt": 8.21,
+              "status": "Pass"
+            }
+          }
         },
         "sem5": {
-          "pct": null,
-          "sgpa": null,
-          "class": "",
-          "status": "—",
-          "sources": {}
+          "pct": 81.09,
+          "sgpa": 8.54,
+          "class": "FC-D",
+          "status": "Pass",
+          "sources": {
+            "ese_cia_repository": {
+              "citation": "ESE & CIA marks repository (2020_Sem_5.xls.xls)",
+              "file_name": "2020_Sem_5.xls.xls",
+              "total_marks": "446/550",
+              "pct": 81.09,
+              "sgpa_10pt": 8.54,
+              "status": "Pass"
+            }
+          }
         },
         "sem6": {
-          "pct": null,
-          "sgpa": null,
-          "class": "",
-          "status": "—",
-          "sources": {}
+          "pct": 80.2,
+          "sgpa": 8.44,
+          "class": "FC-D",
+          "status": "Pass",
+          "sources": {
+            "ese_cia_repository": {
+              "citation": "ESE & CIA marks repository (2020_Sem_6.xls.xls)",
+              "file_name": "2020_Sem_6.xls.xls",
+              "total_marks": "401/500",
+              "pct": 80.2,
+              "sgpa_10pt": 8.44,
+              "status": "Pass"
+            }
+          }
         },
         "sem7": {
-          "pct": null,
-          "sgpa": null,
-          "class": "",
-          "status": "—",
-          "sources": {}
+          "pct": 87.82,
+          "sgpa": 9.24,
+          "class": "FC-D",
+          "status": "Pass",
+          "sources": {
+            "ese_cia_repository": {
+              "citation": "ESE & CIA marks repository (2020_Sem_7.xls.xls)",
+              "file_name": "2020_Sem_7.xls.xls",
+              "total_marks": "483/550",
+              "pct": 87.82,
+              "sgpa_10pt": 9.24,
+              "status": "Pass"
+            }
+          }
         },
         "sem8": {
-          "pct": null,
-          "sgpa": null,
-          "class": "",
-          "status": "—",
-          "sources": {}
+          "pct": 147.0,
+          "sgpa": 15.47,
+          "class": "FC-D",
+          "status": "Pass",
+          "sources": {
+            "ese_cia_repository": {
+              "citation": "ESE & CIA marks repository (2020_Sem_8.xls.xls)",
+              "file_name": "2020_Sem_8.xls.xls",
+              "total_marks": "294/200",
+              "pct": 147.0,
+              "sgpa_10pt": 15.47,
+              "status": "Pass"
+            }
+          }
         }
       },
       "placement": {
@@ -17120,65 +18036,137 @@
       "gender": "Male",
       "domicile": "Kerala",
       "category": "Regular",
-      "cgpa": null,
-      "gradStatus": "Discontinued / Transferred",
+      "cgpa": 8.18,
+      "gradStatus": "Graduated (With Backlog)",
       "failCount": 0,
       "semesters": {
         "sem1": {
-          "pct": null,
-          "sgpa": null,
-          "class": "",
-          "status": "—",
-          "sources": {}
+          "pct": 74.18,
+          "sgpa": 7.81,
+          "class": "FC",
+          "status": "Pass",
+          "sources": {
+            "ese_cia_repository": {
+              "citation": "ESE & CIA marks repository (2020_Sem_1.xls.xls)",
+              "file_name": "2020_Sem_1.xls.xls",
+              "total_marks": "408/550",
+              "pct": 74.18,
+              "sgpa_10pt": 7.81,
+              "status": "Pass"
+            }
+          }
         },
         "sem2": {
-          "pct": null,
-          "sgpa": null,
-          "class": "",
-          "status": "—",
-          "sources": {}
+          "pct": 73.0,
+          "sgpa": 7.68,
+          "class": "FC",
+          "status": "Pass",
+          "sources": {
+            "ese_cia_repository": {
+              "citation": "ESE & CIA marks repository (2020_Sem_2.xls.xls)",
+              "file_name": "2020_Sem_2.xls.xls",
+              "total_marks": "438/600",
+              "pct": 73.0,
+              "sgpa_10pt": 7.68,
+              "status": "Pass"
+            }
+          }
         },
         "sem3": {
-          "pct": null,
-          "sgpa": null,
-          "class": "",
-          "status": "—",
-          "sources": {}
+          "pct": 55.69,
+          "sgpa": 5.86,
+          "class": "Fail",
+          "status": "Fail",
+          "sources": {
+            "ese_cia_repository": {
+              "citation": "ESE & CIA marks repository (2020_Sem_3.xls.xls)",
+              "file_name": "2020_Sem_3.xls.xls",
+              "total_marks": "362/650",
+              "pct": 55.69,
+              "sgpa_10pt": 5.86,
+              "status": "Fail"
+            }
+          }
         },
         "sem4": {
-          "pct": null,
-          "sgpa": null,
-          "class": "",
-          "status": "—",
-          "sources": {}
+          "pct": 66.89,
+          "sgpa": 7.04,
+          "class": "FC",
+          "status": "Pass",
+          "sources": {
+            "ese_cia_repository": {
+              "citation": "ESE & CIA marks repository (2020_Sem_4.xls.xls)",
+              "file_name": "2020_Sem_4.xls.xls",
+              "total_marks": "301/450",
+              "pct": 66.89,
+              "sgpa_10pt": 7.04,
+              "status": "Pass"
+            }
+          }
         },
         "sem5": {
-          "pct": null,
-          "sgpa": null,
-          "class": "",
-          "status": "—",
-          "sources": {}
+          "pct": 77.27,
+          "sgpa": 8.13,
+          "class": "FC-D",
+          "status": "Pass",
+          "sources": {
+            "ese_cia_repository": {
+              "citation": "ESE & CIA marks repository (2020_Sem_5.xls.xls)",
+              "file_name": "2020_Sem_5.xls.xls",
+              "total_marks": "425/550",
+              "pct": 77.27,
+              "sgpa_10pt": 8.13,
+              "status": "Pass"
+            }
+          }
         },
         "sem6": {
-          "pct": null,
-          "sgpa": null,
-          "class": "",
-          "status": "—",
-          "sources": {}
+          "pct": 65.0,
+          "sgpa": 6.84,
+          "class": "FC",
+          "status": "Pass",
+          "sources": {
+            "ese_cia_repository": {
+              "citation": "ESE & CIA marks repository (2020_Sem_6.xls.xls)",
+              "file_name": "2020_Sem_6.xls.xls",
+              "total_marks": "325/500",
+              "pct": 65.0,
+              "sgpa_10pt": 6.84,
+              "status": "Pass"
+            }
+          }
         },
         "sem7": {
-          "pct": null,
-          "sgpa": null,
-          "class": "",
-          "status": "—",
-          "sources": {}
+          "pct": 70.36,
+          "sgpa": 7.41,
+          "class": "FC",
+          "status": "Pass",
+          "sources": {
+            "ese_cia_repository": {
+              "citation": "ESE & CIA marks repository (2020_Sem_7.xls.xls)",
+              "file_name": "2020_Sem_7.xls.xls",
+              "total_marks": "387/550",
+              "pct": 70.36,
+              "sgpa_10pt": 7.41,
+              "status": "Pass"
+            }
+          }
         },
         "sem8": {
-          "pct": null,
-          "sgpa": null,
-          "class": "",
-          "status": "—",
-          "sources": {}
+          "pct": 139.0,
+          "sgpa": 14.63,
+          "class": "FC-D",
+          "status": "Pass",
+          "sources": {
+            "ese_cia_repository": {
+              "citation": "ESE & CIA marks repository (2020_Sem_8.xls.xls)",
+              "file_name": "2020_Sem_8.xls.xls",
+              "total_marks": "278/200",
+              "pct": 139.0,
+              "sgpa_10pt": 14.63,
+              "status": "Pass"
+            }
+          }
         }
       },
       "placement": {
@@ -17211,65 +18199,137 @@
       "gender": "Female",
       "domicile": "Kerala",
       "category": "Regular",
-      "cgpa": null,
-      "gradStatus": "Discontinued / Transferred",
+      "cgpa": 7.53,
+      "gradStatus": "Graduated (With Backlog)",
       "failCount": 0,
       "semesters": {
         "sem1": {
-          "pct": null,
-          "sgpa": null,
-          "class": "",
-          "status": "—",
-          "sources": {}
+          "pct": 74.91,
+          "sgpa": 7.89,
+          "class": "FC",
+          "status": "Pass",
+          "sources": {
+            "ese_cia_repository": {
+              "citation": "ESE & CIA marks repository (2020_Sem_1.xls.xls)",
+              "file_name": "2020_Sem_1.xls.xls",
+              "total_marks": "412/550",
+              "pct": 74.91,
+              "sgpa_10pt": 7.89,
+              "status": "Pass"
+            }
+          }
         },
         "sem2": {
-          "pct": null,
-          "sgpa": null,
-          "class": "",
-          "status": "—",
-          "sources": {}
+          "pct": 75.33,
+          "sgpa": 7.93,
+          "class": "FC-D",
+          "status": "Pass",
+          "sources": {
+            "ese_cia_repository": {
+              "citation": "ESE & CIA marks repository (2020_Sem_2.xls.xls)",
+              "file_name": "2020_Sem_2.xls.xls",
+              "total_marks": "452/600",
+              "pct": 75.33,
+              "sgpa_10pt": 7.93,
+              "status": "Pass"
+            }
+          }
         },
         "sem3": {
-          "pct": null,
-          "sgpa": null,
-          "class": "",
-          "status": "—",
-          "sources": {}
+          "pct": 52.46,
+          "sgpa": 5.52,
+          "class": "Fail",
+          "status": "Fail",
+          "sources": {
+            "ese_cia_repository": {
+              "citation": "ESE & CIA marks repository (2020_Sem_3.xls.xls)",
+              "file_name": "2020_Sem_3.xls.xls",
+              "total_marks": "341/650",
+              "pct": 52.46,
+              "sgpa_10pt": 5.52,
+              "status": "Fail"
+            }
+          }
         },
         "sem4": {
-          "pct": null,
-          "sgpa": null,
-          "class": "",
-          "status": "—",
-          "sources": {}
+          "pct": 58.67,
+          "sgpa": 6.18,
+          "class": "SC",
+          "status": "Pass",
+          "sources": {
+            "ese_cia_repository": {
+              "citation": "ESE & CIA marks repository (2020_Sem_4.xls.xls)",
+              "file_name": "2020_Sem_4.xls.xls",
+              "total_marks": "264/450",
+              "pct": 58.67,
+              "sgpa_10pt": 6.18,
+              "status": "Pass"
+            }
+          }
         },
         "sem5": {
-          "pct": null,
-          "sgpa": null,
-          "class": "",
-          "status": "—",
-          "sources": {}
+          "pct": 63.27,
+          "sgpa": 6.66,
+          "class": "FC",
+          "status": "Pass",
+          "sources": {
+            "ese_cia_repository": {
+              "citation": "ESE & CIA marks repository (2020_Sem_5.xls.xls)",
+              "file_name": "2020_Sem_5.xls.xls",
+              "total_marks": "348/550",
+              "pct": 63.27,
+              "sgpa_10pt": 6.66,
+              "status": "Pass"
+            }
+          }
         },
         "sem6": {
-          "pct": null,
-          "sgpa": null,
-          "class": "",
-          "status": "—",
-          "sources": {}
+          "pct": 54.2,
+          "sgpa": 5.71,
+          "class": "SC",
+          "status": "Pass",
+          "sources": {
+            "ese_cia_repository": {
+              "citation": "ESE & CIA marks repository (2020_Sem_6.xls.xls)",
+              "file_name": "2020_Sem_6.xls.xls",
+              "total_marks": "271/500",
+              "pct": 54.2,
+              "sgpa_10pt": 5.71,
+              "status": "Pass"
+            }
+          }
         },
         "sem7": {
-          "pct": null,
-          "sgpa": null,
-          "class": "",
-          "status": "—",
-          "sources": {}
+          "pct": 62.0,
+          "sgpa": 6.53,
+          "class": "FC",
+          "status": "Pass",
+          "sources": {
+            "ese_cia_repository": {
+              "citation": "ESE & CIA marks repository (2020_Sem_7.xls.xls)",
+              "file_name": "2020_Sem_7.xls.xls",
+              "total_marks": "341/550",
+              "pct": 62.0,
+              "sgpa_10pt": 6.53,
+              "status": "Pass"
+            }
+          }
         },
         "sem8": {
-          "pct": null,
-          "sgpa": null,
-          "class": "",
-          "status": "—",
-          "sources": {}
+          "pct": 131.0,
+          "sgpa": 13.79,
+          "class": "FC-D",
+          "status": "Pass",
+          "sources": {
+            "ese_cia_repository": {
+              "citation": "ESE & CIA marks repository (2020_Sem_8.xls.xls)",
+              "file_name": "2020_Sem_8.xls.xls",
+              "total_marks": "262/200",
+              "pct": 131.0,
+              "sgpa_10pt": 13.79,
+              "status": "Pass"
+            }
+          }
         }
       },
       "placement": {
@@ -17302,65 +18362,137 @@
       "gender": "Male",
       "domicile": "Andhra Pradesh",
       "category": "Regular",
-      "cgpa": null,
-      "gradStatus": "Discontinued / Transferred",
+      "cgpa": 6.58,
+      "gradStatus": "Graduated (With Backlog)",
       "failCount": 0,
       "semesters": {
         "sem1": {
-          "pct": null,
-          "sgpa": null,
-          "class": "",
-          "status": "—",
-          "sources": {}
+          "pct": 57.27,
+          "sgpa": 6.03,
+          "class": "SC",
+          "status": "Pass",
+          "sources": {
+            "ese_cia_repository": {
+              "citation": "ESE & CIA marks repository (2020_Sem_1.xls.xls)",
+              "file_name": "2020_Sem_1.xls.xls",
+              "total_marks": "315/550",
+              "pct": 57.27,
+              "sgpa_10pt": 6.03,
+              "status": "Pass"
+            }
+          }
         },
         "sem2": {
-          "pct": null,
-          "sgpa": null,
-          "class": "",
-          "status": "—",
-          "sources": {}
+          "pct": 67.33,
+          "sgpa": 7.09,
+          "class": "FC",
+          "status": "Pass",
+          "sources": {
+            "ese_cia_repository": {
+              "citation": "ESE & CIA marks repository (2020_Sem_2.xls.xls)",
+              "file_name": "2020_Sem_2.xls.xls",
+              "total_marks": "404/600",
+              "pct": 67.33,
+              "sgpa_10pt": 7.09,
+              "status": "Pass"
+            }
+          }
         },
         "sem3": {
-          "pct": null,
-          "sgpa": null,
-          "class": "",
-          "status": "—",
-          "sources": {}
+          "pct": 45.38,
+          "sgpa": 4.78,
+          "class": "Fail",
+          "status": "Fail",
+          "sources": {
+            "ese_cia_repository": {
+              "citation": "ESE & CIA marks repository (2020_Sem_3.xls.xls)",
+              "file_name": "2020_Sem_3.xls.xls",
+              "total_marks": "295/650",
+              "pct": 45.38,
+              "sgpa_10pt": 4.78,
+              "status": "Fail"
+            }
+          }
         },
         "sem4": {
-          "pct": null,
-          "sgpa": null,
-          "class": "",
-          "status": "—",
-          "sources": {}
+          "pct": 48.67,
+          "sgpa": 5.12,
+          "class": "PC",
+          "status": "Pass",
+          "sources": {
+            "ese_cia_repository": {
+              "citation": "ESE & CIA marks repository (2020_Sem_4.xls.xls)",
+              "file_name": "2020_Sem_4.xls.xls",
+              "total_marks": "219/450",
+              "pct": 48.67,
+              "sgpa_10pt": 5.12,
+              "status": "Pass"
+            }
+          }
         },
         "sem5": {
-          "pct": null,
-          "sgpa": null,
-          "class": "",
-          "status": "—",
-          "sources": {}
+          "pct": 57.82,
+          "sgpa": 6.09,
+          "class": "SC",
+          "status": "Pass",
+          "sources": {
+            "ese_cia_repository": {
+              "citation": "ESE & CIA marks repository (2020_Sem_5.xls.xls)",
+              "file_name": "2020_Sem_5.xls.xls",
+              "total_marks": "318/550",
+              "pct": 57.82,
+              "sgpa_10pt": 6.09,
+              "status": "Pass"
+            }
+          }
         },
         "sem6": {
-          "pct": null,
-          "sgpa": null,
-          "class": "",
-          "status": "—",
-          "sources": {}
+          "pct": 54.8,
+          "sgpa": 5.77,
+          "class": "SC",
+          "status": "Pass",
+          "sources": {
+            "ese_cia_repository": {
+              "citation": "ESE & CIA marks repository (2020_Sem_6.xls.xls)",
+              "file_name": "2020_Sem_6.xls.xls",
+              "total_marks": "274/500",
+              "pct": 54.8,
+              "sgpa_10pt": 5.77,
+              "status": "Pass"
+            }
+          }
         },
         "sem7": {
-          "pct": null,
-          "sgpa": null,
-          "class": "",
-          "status": "—",
-          "sources": {}
+          "pct": 59.82,
+          "sgpa": 6.3,
+          "class": "SC",
+          "status": "Pass",
+          "sources": {
+            "ese_cia_repository": {
+              "citation": "ESE & CIA marks repository (2020_Sem_7.xls.xls)",
+              "file_name": "2020_Sem_7.xls.xls",
+              "total_marks": "329/550",
+              "pct": 59.82,
+              "sgpa_10pt": 6.3,
+              "status": "Pass"
+            }
+          }
         },
         "sem8": {
-          "pct": null,
-          "sgpa": null,
-          "class": "",
-          "status": "—",
-          "sources": {}
+          "pct": 108.5,
+          "sgpa": 11.42,
+          "class": "FC-D",
+          "status": "Pass",
+          "sources": {
+            "ese_cia_repository": {
+              "citation": "ESE & CIA marks repository (2020_Sem_8.xls.xls)",
+              "file_name": "2020_Sem_8.xls.xls",
+              "total_marks": "217/200",
+              "pct": 108.5,
+              "sgpa_10pt": 11.42,
+              "status": "Pass"
+            }
+          }
         }
       },
       "placement": {
@@ -17393,65 +18525,137 @@
       "gender": "Male",
       "domicile": "Andhra Pradesh",
       "category": "Regular",
-      "cgpa": null,
-      "gradStatus": "Discontinued / Transferred",
+      "cgpa": 7.57,
+      "gradStatus": "Graduated (With Backlog)",
       "failCount": 0,
       "semesters": {
         "sem1": {
-          "pct": null,
-          "sgpa": null,
-          "class": "",
-          "status": "—",
-          "sources": {}
+          "pct": 74.36,
+          "sgpa": 7.83,
+          "class": "FC",
+          "status": "Pass",
+          "sources": {
+            "ese_cia_repository": {
+              "citation": "ESE & CIA marks repository (2020_Sem_1.xls.xls)",
+              "file_name": "2020_Sem_1.xls.xls",
+              "total_marks": "409/550",
+              "pct": 74.36,
+              "sgpa_10pt": 7.83,
+              "status": "Pass"
+            }
+          }
         },
         "sem2": {
-          "pct": null,
-          "sgpa": null,
-          "class": "",
-          "status": "—",
-          "sources": {}
+          "pct": 71.5,
+          "sgpa": 7.53,
+          "class": "FC",
+          "status": "Pass",
+          "sources": {
+            "ese_cia_repository": {
+              "citation": "ESE & CIA marks repository (2020_Sem_2.xls.xls)",
+              "file_name": "2020_Sem_2.xls.xls",
+              "total_marks": "429/600",
+              "pct": 71.5,
+              "sgpa_10pt": 7.53,
+              "status": "Pass"
+            }
+          }
         },
         "sem3": {
-          "pct": null,
-          "sgpa": null,
-          "class": "",
-          "status": "—",
-          "sources": {}
+          "pct": 53.38,
+          "sgpa": 5.62,
+          "class": "Fail",
+          "status": "Fail",
+          "sources": {
+            "ese_cia_repository": {
+              "citation": "ESE & CIA marks repository (2020_Sem_3.xls.xls)",
+              "file_name": "2020_Sem_3.xls.xls",
+              "total_marks": "347/650",
+              "pct": 53.38,
+              "sgpa_10pt": 5.62,
+              "status": "Fail"
+            }
+          }
         },
         "sem4": {
-          "pct": null,
-          "sgpa": null,
-          "class": "",
-          "status": "—",
-          "sources": {}
+          "pct": 57.33,
+          "sgpa": 6.03,
+          "class": "SC",
+          "status": "Pass",
+          "sources": {
+            "ese_cia_repository": {
+              "citation": "ESE & CIA marks repository (2020_Sem_4.xls.xls)",
+              "file_name": "2020_Sem_4.xls.xls",
+              "total_marks": "258/450",
+              "pct": 57.33,
+              "sgpa_10pt": 6.03,
+              "status": "Pass"
+            }
+          }
         },
         "sem5": {
-          "pct": null,
-          "sgpa": null,
-          "class": "",
-          "status": "—",
-          "sources": {}
+          "pct": 61.45,
+          "sgpa": 6.47,
+          "class": "FC",
+          "status": "Pass",
+          "sources": {
+            "ese_cia_repository": {
+              "citation": "ESE & CIA marks repository (2020_Sem_5.xls.xls)",
+              "file_name": "2020_Sem_5.xls.xls",
+              "total_marks": "338/550",
+              "pct": 61.45,
+              "sgpa_10pt": 6.47,
+              "status": "Pass"
+            }
+          }
         },
         "sem6": {
-          "pct": null,
-          "sgpa": null,
-          "class": "",
-          "status": "—",
-          "sources": {}
+          "pct": 58.0,
+          "sgpa": 6.11,
+          "class": "SC",
+          "status": "Pass",
+          "sources": {
+            "ese_cia_repository": {
+              "citation": "ESE & CIA marks repository (2020_Sem_6.xls.xls)",
+              "file_name": "2020_Sem_6.xls.xls",
+              "total_marks": "290/500",
+              "pct": 58.0,
+              "sgpa_10pt": 6.11,
+              "status": "Pass"
+            }
+          }
         },
         "sem7": {
-          "pct": null,
-          "sgpa": null,
-          "class": "",
-          "status": "—",
-          "sources": {}
+          "pct": 64.18,
+          "sgpa": 6.76,
+          "class": "FC",
+          "status": "Pass",
+          "sources": {
+            "ese_cia_repository": {
+              "citation": "ESE & CIA marks repository (2020_Sem_7.xls.xls)",
+              "file_name": "2020_Sem_7.xls.xls",
+              "total_marks": "353/550",
+              "pct": 64.18,
+              "sgpa_10pt": 6.76,
+              "status": "Pass"
+            }
+          }
         },
         "sem8": {
-          "pct": null,
-          "sgpa": null,
-          "class": "",
-          "status": "—",
-          "sources": {}
+          "pct": 135.0,
+          "sgpa": 14.21,
+          "class": "FC-D",
+          "status": "Pass",
+          "sources": {
+            "ese_cia_repository": {
+              "citation": "ESE & CIA marks repository (2020_Sem_8.xls.xls)",
+              "file_name": "2020_Sem_8.xls.xls",
+              "total_marks": "270/200",
+              "pct": 135.0,
+              "sgpa_10pt": 14.21,
+              "status": "Pass"
+            }
+          }
         }
       },
       "placement": {
@@ -17484,65 +18688,137 @@
       "gender": "Male",
       "domicile": "Andhra Pradesh",
       "category": "Regular",
-      "cgpa": null,
-      "gradStatus": "Discontinued / Transferred",
+      "cgpa": 7.77,
+      "gradStatus": "Graduated (With Backlog)",
       "failCount": 0,
       "semesters": {
         "sem1": {
-          "pct": null,
-          "sgpa": null,
-          "class": "",
-          "status": "—",
-          "sources": {}
+          "pct": 60.18,
+          "sgpa": 6.33,
+          "class": "FC",
+          "status": "Pass",
+          "sources": {
+            "ese_cia_repository": {
+              "citation": "ESE & CIA marks repository (2020_Sem_1.xls.xls)",
+              "file_name": "2020_Sem_1.xls.xls",
+              "total_marks": "331/550",
+              "pct": 60.18,
+              "sgpa_10pt": 6.33,
+              "status": "Pass"
+            }
+          }
         },
         "sem2": {
-          "pct": null,
-          "sgpa": null,
-          "class": "",
-          "status": "—",
-          "sources": {}
+          "pct": 62.67,
+          "sgpa": 6.6,
+          "class": "FC",
+          "status": "Pass",
+          "sources": {
+            "ese_cia_repository": {
+              "citation": "ESE & CIA marks repository (2020_Sem_2.xls.xls)",
+              "file_name": "2020_Sem_2.xls.xls",
+              "total_marks": "376/600",
+              "pct": 62.67,
+              "sgpa_10pt": 6.6,
+              "status": "Pass"
+            }
+          }
         },
         "sem3": {
-          "pct": null,
-          "sgpa": null,
-          "class": "",
-          "status": "—",
-          "sources": {}
+          "pct": 49.54,
+          "sgpa": 5.21,
+          "class": "Fail",
+          "status": "Fail",
+          "sources": {
+            "ese_cia_repository": {
+              "citation": "ESE & CIA marks repository (2020_Sem_3.xls.xls)",
+              "file_name": "2020_Sem_3.xls.xls",
+              "total_marks": "322/650",
+              "pct": 49.54,
+              "sgpa_10pt": 5.21,
+              "status": "Fail"
+            }
+          }
         },
         "sem4": {
-          "pct": null,
-          "sgpa": null,
-          "class": "",
-          "status": "—",
-          "sources": {}
+          "pct": 70.89,
+          "sgpa": 7.46,
+          "class": "FC",
+          "status": "Pass",
+          "sources": {
+            "ese_cia_repository": {
+              "citation": "ESE & CIA marks repository (2020_Sem_4.xls.xls)",
+              "file_name": "2020_Sem_4.xls.xls",
+              "total_marks": "319/450",
+              "pct": 70.89,
+              "sgpa_10pt": 7.46,
+              "status": "Pass"
+            }
+          }
         },
         "sem5": {
-          "pct": null,
-          "sgpa": null,
-          "class": "",
-          "status": "—",
-          "sources": {}
+          "pct": 69.64,
+          "sgpa": 7.33,
+          "class": "FC",
+          "status": "Pass",
+          "sources": {
+            "ese_cia_repository": {
+              "citation": "ESE & CIA marks repository (2020_Sem_5.xls.xls)",
+              "file_name": "2020_Sem_5.xls.xls",
+              "total_marks": "383/550",
+              "pct": 69.64,
+              "sgpa_10pt": 7.33,
+              "status": "Pass"
+            }
+          }
         },
         "sem6": {
-          "pct": null,
-          "sgpa": null,
-          "class": "",
-          "status": "—",
-          "sources": {}
+          "pct": 71.2,
+          "sgpa": 7.49,
+          "class": "FC",
+          "status": "Pass",
+          "sources": {
+            "ese_cia_repository": {
+              "citation": "ESE & CIA marks repository (2020_Sem_6.xls.xls)",
+              "file_name": "2020_Sem_6.xls.xls",
+              "total_marks": "356/500",
+              "pct": 71.2,
+              "sgpa_10pt": 7.49,
+              "status": "Pass"
+            }
+          }
         },
         "sem7": {
-          "pct": null,
-          "sgpa": null,
-          "class": "",
-          "status": "—",
-          "sources": {}
+          "pct": 71.82,
+          "sgpa": 7.56,
+          "class": "FC",
+          "status": "Pass",
+          "sources": {
+            "ese_cia_repository": {
+              "citation": "ESE & CIA marks repository (2020_Sem_7.xls.xls)",
+              "file_name": "2020_Sem_7.xls.xls",
+              "total_marks": "395/550",
+              "pct": 71.82,
+              "sgpa_10pt": 7.56,
+              "status": "Pass"
+            }
+          }
         },
         "sem8": {
-          "pct": null,
-          "sgpa": null,
-          "class": "",
-          "status": "—",
-          "sources": {}
+          "pct": 135.0,
+          "sgpa": 14.21,
+          "class": "FC-D",
+          "status": "Pass",
+          "sources": {
+            "ese_cia_repository": {
+              "citation": "ESE & CIA marks repository (2020_Sem_8.xls.xls)",
+              "file_name": "2020_Sem_8.xls.xls",
+              "total_marks": "270/200",
+              "pct": 135.0,
+              "sgpa_10pt": 14.21,
+              "status": "Pass"
+            }
+          }
         }
       },
       "placement": {
@@ -17575,65 +18851,137 @@
       "gender": "Male",
       "domicile": "Kerala",
       "category": "Regular",
-      "cgpa": null,
-      "gradStatus": "Discontinued / Transferred",
+      "cgpa": 8.73,
+      "gradStatus": "Graduated (With Backlog)",
       "failCount": 0,
       "semesters": {
         "sem1": {
-          "pct": null,
-          "sgpa": null,
-          "class": "",
-          "status": "—",
-          "sources": {}
+          "pct": 78.0,
+          "sgpa": 8.21,
+          "class": "FC-D",
+          "status": "Pass",
+          "sources": {
+            "ese_cia_repository": {
+              "citation": "ESE & CIA marks repository (2020_Sem_1.xls.xls)",
+              "file_name": "2020_Sem_1.xls.xls",
+              "total_marks": "429/550",
+              "pct": 78.0,
+              "sgpa_10pt": 8.21,
+              "status": "Pass"
+            }
+          }
         },
         "sem2": {
-          "pct": null,
-          "sgpa": null,
-          "class": "",
-          "status": "—",
-          "sources": {}
+          "pct": 82.0,
+          "sgpa": 8.63,
+          "class": "FC-D",
+          "status": "Pass",
+          "sources": {
+            "ese_cia_repository": {
+              "citation": "ESE & CIA marks repository (2020_Sem_2.xls.xls)",
+              "file_name": "2020_Sem_2.xls.xls",
+              "total_marks": "492/600",
+              "pct": 82.0,
+              "sgpa_10pt": 8.63,
+              "status": "Pass"
+            }
+          }
         },
         "sem3": {
-          "pct": null,
-          "sgpa": null,
-          "class": "",
-          "status": "—",
-          "sources": {}
+          "pct": 66.15,
+          "sgpa": 6.96,
+          "class": "Fail",
+          "status": "Fail",
+          "sources": {
+            "ese_cia_repository": {
+              "citation": "ESE & CIA marks repository (2020_Sem_3.xls.xls)",
+              "file_name": "2020_Sem_3.xls.xls",
+              "total_marks": "430/650",
+              "pct": 66.15,
+              "sgpa_10pt": 6.96,
+              "status": "Fail"
+            }
+          }
         },
         "sem4": {
-          "pct": null,
-          "sgpa": null,
-          "class": "",
-          "status": "—",
-          "sources": {}
+          "pct": 79.11,
+          "sgpa": 8.33,
+          "class": "FC-D",
+          "status": "Pass",
+          "sources": {
+            "ese_cia_repository": {
+              "citation": "ESE & CIA marks repository (2020_Sem_4.xls.xls)",
+              "file_name": "2020_Sem_4.xls.xls",
+              "total_marks": "356/450",
+              "pct": 79.11,
+              "sgpa_10pt": 8.33,
+              "status": "Pass"
+            }
+          }
         },
         "sem5": {
-          "pct": null,
-          "sgpa": null,
-          "class": "",
-          "status": "—",
-          "sources": {}
+          "pct": 81.45,
+          "sgpa": 8.57,
+          "class": "FC-D",
+          "status": "Pass",
+          "sources": {
+            "ese_cia_repository": {
+              "citation": "ESE & CIA marks repository (2020_Sem_5.xls.xls)",
+              "file_name": "2020_Sem_5.xls.xls",
+              "total_marks": "448/550",
+              "pct": 81.45,
+              "sgpa_10pt": 8.57,
+              "status": "Pass"
+            }
+          }
         },
         "sem6": {
-          "pct": null,
-          "sgpa": null,
-          "class": "",
-          "status": "—",
-          "sources": {}
+          "pct": 67.4,
+          "sgpa": 7.09,
+          "class": "FC",
+          "status": "Pass",
+          "sources": {
+            "ese_cia_repository": {
+              "citation": "ESE & CIA marks repository (2020_Sem_6.xls.xls)",
+              "file_name": "2020_Sem_6.xls.xls",
+              "total_marks": "337/500",
+              "pct": 67.4,
+              "sgpa_10pt": 7.09,
+              "status": "Pass"
+            }
+          }
         },
         "sem7": {
-          "pct": null,
-          "sgpa": null,
-          "class": "",
-          "status": "—",
-          "sources": {}
+          "pct": 76.55,
+          "sgpa": 8.06,
+          "class": "FC-D",
+          "status": "Pass",
+          "sources": {
+            "ese_cia_repository": {
+              "citation": "ESE & CIA marks repository (2020_Sem_7.xls.xls)",
+              "file_name": "2020_Sem_7.xls.xls",
+              "total_marks": "421/550",
+              "pct": 76.55,
+              "sgpa_10pt": 8.06,
+              "status": "Pass"
+            }
+          }
         },
         "sem8": {
-          "pct": null,
-          "sgpa": null,
-          "class": "",
-          "status": "—",
-          "sources": {}
+          "pct": 133.0,
+          "sgpa": 14.0,
+          "class": "FC-D",
+          "status": "Pass",
+          "sources": {
+            "ese_cia_repository": {
+              "citation": "ESE & CIA marks repository (2020_Sem_8.xls.xls)",
+              "file_name": "2020_Sem_8.xls.xls",
+              "total_marks": "266/200",
+              "pct": 133.0,
+              "sgpa_10pt": 14.0,
+              "status": "Pass"
+            }
+          }
         }
       },
       "placement": {
@@ -17666,65 +19014,137 @@
       "gender": "Male",
       "domicile": "Tamilnadu",
       "category": "Regular",
-      "cgpa": null,
-      "gradStatus": "Discontinued / Transferred",
+      "cgpa": 7.81,
+      "gradStatus": "Graduated (With Backlog)",
       "failCount": 0,
       "semesters": {
         "sem1": {
-          "pct": null,
-          "sgpa": null,
-          "class": "",
-          "status": "—",
-          "sources": {}
+          "pct": 78.0,
+          "sgpa": 8.21,
+          "class": "FC-D",
+          "status": "Pass",
+          "sources": {
+            "ese_cia_repository": {
+              "citation": "ESE & CIA marks repository (2020_Sem_1.xls.xls)",
+              "file_name": "2020_Sem_1.xls.xls",
+              "total_marks": "429/550",
+              "pct": 78.0,
+              "sgpa_10pt": 8.21,
+              "status": "Pass"
+            }
+          }
         },
         "sem2": {
-          "pct": null,
-          "sgpa": null,
-          "class": "",
-          "status": "—",
-          "sources": {}
+          "pct": 75.17,
+          "sgpa": 7.91,
+          "class": "FC-D",
+          "status": "Pass",
+          "sources": {
+            "ese_cia_repository": {
+              "citation": "ESE & CIA marks repository (2020_Sem_2.xls.xls)",
+              "file_name": "2020_Sem_2.xls.xls",
+              "total_marks": "451/600",
+              "pct": 75.17,
+              "sgpa_10pt": 7.91,
+              "status": "Pass"
+            }
+          }
         },
         "sem3": {
-          "pct": null,
-          "sgpa": null,
-          "class": "",
-          "status": "—",
-          "sources": {}
+          "pct": 55.38,
+          "sgpa": 5.83,
+          "class": "Fail",
+          "status": "Fail",
+          "sources": {
+            "ese_cia_repository": {
+              "citation": "ESE & CIA marks repository (2020_Sem_3.xls.xls)",
+              "file_name": "2020_Sem_3.xls.xls",
+              "total_marks": "360/650",
+              "pct": 55.38,
+              "sgpa_10pt": 5.83,
+              "status": "Fail"
+            }
+          }
         },
         "sem4": {
-          "pct": null,
-          "sgpa": null,
-          "class": "",
-          "status": "—",
-          "sources": {}
+          "pct": 59.11,
+          "sgpa": 6.22,
+          "class": "SC",
+          "status": "Pass",
+          "sources": {
+            "ese_cia_repository": {
+              "citation": "ESE & CIA marks repository (2020_Sem_4.xls.xls)",
+              "file_name": "2020_Sem_4.xls.xls",
+              "total_marks": "266/450",
+              "pct": 59.11,
+              "sgpa_10pt": 6.22,
+              "status": "Pass"
+            }
+          }
         },
         "sem5": {
-          "pct": null,
-          "sgpa": null,
-          "class": "",
-          "status": "—",
-          "sources": {}
+          "pct": 68.55,
+          "sgpa": 7.22,
+          "class": "FC",
+          "status": "Pass",
+          "sources": {
+            "ese_cia_repository": {
+              "citation": "ESE & CIA marks repository (2020_Sem_5.xls.xls)",
+              "file_name": "2020_Sem_5.xls.xls",
+              "total_marks": "377/550",
+              "pct": 68.55,
+              "sgpa_10pt": 7.22,
+              "status": "Pass"
+            }
+          }
         },
         "sem6": {
-          "pct": null,
-          "sgpa": null,
-          "class": "",
-          "status": "—",
-          "sources": {}
+          "pct": 60.4,
+          "sgpa": 6.36,
+          "class": "FC",
+          "status": "Pass",
+          "sources": {
+            "ese_cia_repository": {
+              "citation": "ESE & CIA marks repository (2020_Sem_6.xls.xls)",
+              "file_name": "2020_Sem_6.xls.xls",
+              "total_marks": "302/500",
+              "pct": 60.4,
+              "sgpa_10pt": 6.36,
+              "status": "Pass"
+            }
+          }
         },
         "sem7": {
-          "pct": null,
-          "sgpa": null,
-          "class": "",
-          "status": "—",
-          "sources": {}
+          "pct": 65.82,
+          "sgpa": 6.93,
+          "class": "FC",
+          "status": "Pass",
+          "sources": {
+            "ese_cia_repository": {
+              "citation": "ESE & CIA marks repository (2020_Sem_7.xls.xls)",
+              "file_name": "2020_Sem_7.xls.xls",
+              "total_marks": "362/550",
+              "pct": 65.82,
+              "sgpa_10pt": 6.93,
+              "status": "Pass"
+            }
+          }
         },
         "sem8": {
-          "pct": null,
-          "sgpa": null,
-          "class": "",
-          "status": "—",
-          "sources": {}
+          "pct": 131.0,
+          "sgpa": 13.79,
+          "class": "FC-D",
+          "status": "Pass",
+          "sources": {
+            "ese_cia_repository": {
+              "citation": "ESE & CIA marks repository (2020_Sem_8.xls.xls)",
+              "file_name": "2020_Sem_8.xls.xls",
+              "total_marks": "262/200",
+              "pct": 131.0,
+              "sgpa_10pt": 13.79,
+              "status": "Pass"
+            }
+          }
         }
       },
       "placement": {
@@ -17757,65 +19177,137 @@
       "gender": "Male",
       "domicile": "Karnataka",
       "category": "Regular",
-      "cgpa": null,
-      "gradStatus": "Discontinued / Transferred",
+      "cgpa": 8.81,
+      "gradStatus": "Graduated (With Backlog)",
       "failCount": 0,
       "semesters": {
         "sem1": {
-          "pct": null,
-          "sgpa": null,
-          "class": "",
-          "status": "—",
-          "sources": {}
+          "pct": 76.91,
+          "sgpa": 8.1,
+          "class": "FC-D",
+          "status": "Pass",
+          "sources": {
+            "ese_cia_repository": {
+              "citation": "ESE & CIA marks repository (2020_Sem_1.xls.xls)",
+              "file_name": "2020_Sem_1.xls.xls",
+              "total_marks": "423/550",
+              "pct": 76.91,
+              "sgpa_10pt": 8.1,
+              "status": "Pass"
+            }
+          }
         },
         "sem2": {
-          "pct": null,
-          "sgpa": null,
-          "class": "",
-          "status": "—",
-          "sources": {}
+          "pct": 74.67,
+          "sgpa": 7.86,
+          "class": "FC",
+          "status": "Pass",
+          "sources": {
+            "ese_cia_repository": {
+              "citation": "ESE & CIA marks repository (2020_Sem_2.xls.xls)",
+              "file_name": "2020_Sem_2.xls.xls",
+              "total_marks": "448/600",
+              "pct": 74.67,
+              "sgpa_10pt": 7.86,
+              "status": "Pass"
+            }
+          }
         },
         "sem3": {
-          "pct": null,
-          "sgpa": null,
-          "class": "",
-          "status": "—",
-          "sources": {}
+          "pct": 57.85,
+          "sgpa": 6.09,
+          "class": "Fail",
+          "status": "Fail",
+          "sources": {
+            "ese_cia_repository": {
+              "citation": "ESE & CIA marks repository (2020_Sem_3.xls.xls)",
+              "file_name": "2020_Sem_3.xls.xls",
+              "total_marks": "376/650",
+              "pct": 57.85,
+              "sgpa_10pt": 6.09,
+              "status": "Fail"
+            }
+          }
         },
         "sem4": {
-          "pct": null,
-          "sgpa": null,
-          "class": "",
-          "status": "—",
-          "sources": {}
+          "pct": 71.78,
+          "sgpa": 7.56,
+          "class": "FC",
+          "status": "Pass",
+          "sources": {
+            "ese_cia_repository": {
+              "citation": "ESE & CIA marks repository (2020_Sem_4.xls.xls)",
+              "file_name": "2020_Sem_4.xls.xls",
+              "total_marks": "323/450",
+              "pct": 71.78,
+              "sgpa_10pt": 7.56,
+              "status": "Pass"
+            }
+          }
         },
         "sem5": {
-          "pct": null,
-          "sgpa": null,
-          "class": "",
-          "status": "—",
-          "sources": {}
+          "pct": 84.18,
+          "sgpa": 8.86,
+          "class": "FC-D",
+          "status": "Pass",
+          "sources": {
+            "ese_cia_repository": {
+              "citation": "ESE & CIA marks repository (2020_Sem_5.xls.xls)",
+              "file_name": "2020_Sem_5.xls.xls",
+              "total_marks": "463/550",
+              "pct": 84.18,
+              "sgpa_10pt": 8.86,
+              "status": "Pass"
+            }
+          }
         },
         "sem6": {
-          "pct": null,
-          "sgpa": null,
-          "class": "",
-          "status": "—",
-          "sources": {}
+          "pct": 78.8,
+          "sgpa": 8.29,
+          "class": "FC-D",
+          "status": "Pass",
+          "sources": {
+            "ese_cia_repository": {
+              "citation": "ESE & CIA marks repository (2020_Sem_6.xls.xls)",
+              "file_name": "2020_Sem_6.xls.xls",
+              "total_marks": "394/500",
+              "pct": 78.8,
+              "sgpa_10pt": 8.29,
+              "status": "Pass"
+            }
+          }
         },
         "sem7": {
-          "pct": null,
-          "sgpa": null,
-          "class": "",
-          "status": "—",
-          "sources": {}
+          "pct": 81.45,
+          "sgpa": 8.57,
+          "class": "FC-D",
+          "status": "Pass",
+          "sources": {
+            "ese_cia_repository": {
+              "citation": "ESE & CIA marks repository (2020_Sem_7.xls.xls)",
+              "file_name": "2020_Sem_7.xls.xls",
+              "total_marks": "448/550",
+              "pct": 81.45,
+              "sgpa_10pt": 8.57,
+              "status": "Pass"
+            }
+          }
         },
         "sem8": {
-          "pct": null,
-          "sgpa": null,
-          "class": "",
-          "status": "—",
-          "sources": {}
+          "pct": 144.0,
+          "sgpa": 15.16,
+          "class": "FC-D",
+          "status": "Pass",
+          "sources": {
+            "ese_cia_repository": {
+              "citation": "ESE & CIA marks repository (2020_Sem_8.xls.xls)",
+              "file_name": "2020_Sem_8.xls.xls",
+              "total_marks": "288/200",
+              "pct": 144.0,
+              "sgpa_10pt": 15.16,
+              "status": "Pass"
+            }
+          }
         }
       },
       "placement": {
@@ -17848,65 +19340,137 @@
       "gender": "Female",
       "domicile": "Andhra Pradesh",
       "category": "Regular",
-      "cgpa": null,
-      "gradStatus": "Discontinued / Transferred",
+      "cgpa": 7.91,
+      "gradStatus": "Graduated (With Backlog)",
       "failCount": 0,
       "semesters": {
         "sem1": {
-          "pct": null,
-          "sgpa": null,
-          "class": "",
-          "status": "—",
-          "sources": {}
+          "pct": 80.55,
+          "sgpa": 8.48,
+          "class": "FC-D",
+          "status": "Pass",
+          "sources": {
+            "ese_cia_repository": {
+              "citation": "ESE & CIA marks repository (2020_Sem_1.xls.xls)",
+              "file_name": "2020_Sem_1.xls.xls",
+              "total_marks": "443/550",
+              "pct": 80.55,
+              "sgpa_10pt": 8.48,
+              "status": "Pass"
+            }
+          }
         },
         "sem2": {
-          "pct": null,
-          "sgpa": null,
-          "class": "",
-          "status": "—",
-          "sources": {}
+          "pct": 73.83,
+          "sgpa": 7.77,
+          "class": "FC",
+          "status": "Pass",
+          "sources": {
+            "ese_cia_repository": {
+              "citation": "ESE & CIA marks repository (2020_Sem_2.xls.xls)",
+              "file_name": "2020_Sem_2.xls.xls",
+              "total_marks": "443/600",
+              "pct": 73.83,
+              "sgpa_10pt": 7.77,
+              "status": "Pass"
+            }
+          }
         },
         "sem3": {
-          "pct": null,
-          "sgpa": null,
-          "class": "",
-          "status": "—",
-          "sources": {}
+          "pct": 55.85,
+          "sgpa": 5.88,
+          "class": "Fail",
+          "status": "Fail",
+          "sources": {
+            "ese_cia_repository": {
+              "citation": "ESE & CIA marks repository (2020_Sem_3.xls.xls)",
+              "file_name": "2020_Sem_3.xls.xls",
+              "total_marks": "363/650",
+              "pct": 55.85,
+              "sgpa_10pt": 5.88,
+              "status": "Fail"
+            }
+          }
         },
         "sem4": {
-          "pct": null,
-          "sgpa": null,
-          "class": "",
-          "status": "—",
-          "sources": {}
+          "pct": 62.22,
+          "sgpa": 6.55,
+          "class": "FC",
+          "status": "Pass",
+          "sources": {
+            "ese_cia_repository": {
+              "citation": "ESE & CIA marks repository (2020_Sem_4.xls.xls)",
+              "file_name": "2020_Sem_4.xls.xls",
+              "total_marks": "280/450",
+              "pct": 62.22,
+              "sgpa_10pt": 6.55,
+              "status": "Pass"
+            }
+          }
         },
         "sem5": {
-          "pct": null,
-          "sgpa": null,
-          "class": "",
-          "status": "—",
-          "sources": {}
+          "pct": 65.09,
+          "sgpa": 6.85,
+          "class": "FC",
+          "status": "Pass",
+          "sources": {
+            "ese_cia_repository": {
+              "citation": "ESE & CIA marks repository (2020_Sem_5.xls.xls)",
+              "file_name": "2020_Sem_5.xls.xls",
+              "total_marks": "358/550",
+              "pct": 65.09,
+              "sgpa_10pt": 6.85,
+              "status": "Pass"
+            }
+          }
         },
         "sem6": {
-          "pct": null,
-          "sgpa": null,
-          "class": "",
-          "status": "—",
-          "sources": {}
+          "pct": 55.6,
+          "sgpa": 5.85,
+          "class": "SC",
+          "status": "Pass",
+          "sources": {
+            "ese_cia_repository": {
+              "citation": "ESE & CIA marks repository (2020_Sem_6.xls.xls)",
+              "file_name": "2020_Sem_6.xls.xls",
+              "total_marks": "278/500",
+              "pct": 55.6,
+              "sgpa_10pt": 5.85,
+              "status": "Pass"
+            }
+          }
         },
         "sem7": {
-          "pct": null,
-          "sgpa": null,
-          "class": "",
-          "status": "—",
-          "sources": {}
+          "pct": 66.36,
+          "sgpa": 6.99,
+          "class": "FC",
+          "status": "Pass",
+          "sources": {
+            "ese_cia_repository": {
+              "citation": "ESE & CIA marks repository (2020_Sem_7.xls.xls)",
+              "file_name": "2020_Sem_7.xls.xls",
+              "total_marks": "365/550",
+              "pct": 66.36,
+              "sgpa_10pt": 6.99,
+              "status": "Pass"
+            }
+          }
         },
         "sem8": {
-          "pct": null,
-          "sgpa": null,
-          "class": "",
-          "status": "—",
-          "sources": {}
+          "pct": 141.5,
+          "sgpa": 14.89,
+          "class": "FC-D",
+          "status": "Pass",
+          "sources": {
+            "ese_cia_repository": {
+              "citation": "ESE & CIA marks repository (2020_Sem_8.xls.xls)",
+              "file_name": "2020_Sem_8.xls.xls",
+              "total_marks": "283/200",
+              "pct": 141.5,
+              "sgpa_10pt": 14.89,
+              "status": "Pass"
+            }
+          }
         }
       },
       "placement": {
@@ -17939,65 +19503,137 @@
       "gender": "Male",
       "domicile": "Meghalaya",
       "category": "Regular",
-      "cgpa": null,
-      "gradStatus": "Discontinued / Transferred",
+      "cgpa": 8.96,
+      "gradStatus": "Graduated (With Backlog)",
       "failCount": 0,
       "semesters": {
         "sem1": {
-          "pct": null,
-          "sgpa": null,
-          "class": "",
-          "status": "—",
-          "sources": {}
+          "pct": 78.0,
+          "sgpa": 8.21,
+          "class": "FC-D",
+          "status": "Pass",
+          "sources": {
+            "ese_cia_repository": {
+              "citation": "ESE & CIA marks repository (2020_Sem_1.xls.xls)",
+              "file_name": "2020_Sem_1.xls.xls",
+              "total_marks": "429/550",
+              "pct": 78.0,
+              "sgpa_10pt": 8.21,
+              "status": "Pass"
+            }
+          }
         },
         "sem2": {
-          "pct": null,
-          "sgpa": null,
-          "class": "",
-          "status": "—",
-          "sources": {}
+          "pct": 78.17,
+          "sgpa": 8.23,
+          "class": "FC-D",
+          "status": "Pass",
+          "sources": {
+            "ese_cia_repository": {
+              "citation": "ESE & CIA marks repository (2020_Sem_2.xls.xls)",
+              "file_name": "2020_Sem_2.xls.xls",
+              "total_marks": "469/600",
+              "pct": 78.17,
+              "sgpa_10pt": 8.23,
+              "status": "Pass"
+            }
+          }
         },
         "sem3": {
-          "pct": null,
-          "sgpa": null,
-          "class": "",
-          "status": "—",
-          "sources": {}
+          "pct": 58.15,
+          "sgpa": 6.12,
+          "class": "Fail",
+          "status": "Fail",
+          "sources": {
+            "ese_cia_repository": {
+              "citation": "ESE & CIA marks repository (2020_Sem_3.xls.xls)",
+              "file_name": "2020_Sem_3.xls.xls",
+              "total_marks": "378/650",
+              "pct": 58.15,
+              "sgpa_10pt": 6.12,
+              "status": "Fail"
+            }
+          }
         },
         "sem4": {
-          "pct": null,
-          "sgpa": null,
-          "class": "",
-          "status": "—",
-          "sources": {}
+          "pct": 72.0,
+          "sgpa": 7.58,
+          "class": "FC",
+          "status": "Pass",
+          "sources": {
+            "ese_cia_repository": {
+              "citation": "ESE & CIA marks repository (2020_Sem_4.xls.xls)",
+              "file_name": "2020_Sem_4.xls.xls",
+              "total_marks": "324/450",
+              "pct": 72.0,
+              "sgpa_10pt": 7.58,
+              "status": "Pass"
+            }
+          }
         },
         "sem5": {
-          "pct": null,
-          "sgpa": null,
-          "class": "",
-          "status": "—",
-          "sources": {}
+          "pct": 83.27,
+          "sgpa": 8.77,
+          "class": "FC-D",
+          "status": "Pass",
+          "sources": {
+            "ese_cia_repository": {
+              "citation": "ESE & CIA marks repository (2020_Sem_5.xls.xls)",
+              "file_name": "2020_Sem_5.xls.xls",
+              "total_marks": "458/550",
+              "pct": 83.27,
+              "sgpa_10pt": 8.77,
+              "status": "Pass"
+            }
+          }
         },
         "sem6": {
-          "pct": null,
-          "sgpa": null,
-          "class": "",
-          "status": "—",
-          "sources": {}
+          "pct": 77.4,
+          "sgpa": 8.15,
+          "class": "FC-D",
+          "status": "Pass",
+          "sources": {
+            "ese_cia_repository": {
+              "citation": "ESE & CIA marks repository (2020_Sem_6.xls.xls)",
+              "file_name": "2020_Sem_6.xls.xls",
+              "total_marks": "387/500",
+              "pct": 77.4,
+              "sgpa_10pt": 8.15,
+              "status": "Pass"
+            }
+          }
         },
         "sem7": {
-          "pct": null,
-          "sgpa": null,
-          "class": "",
-          "status": "—",
-          "sources": {}
+          "pct": 85.64,
+          "sgpa": 9.01,
+          "class": "FC-D",
+          "status": "Pass",
+          "sources": {
+            "ese_cia_repository": {
+              "citation": "ESE & CIA marks repository (2020_Sem_7.xls.xls)",
+              "file_name": "2020_Sem_7.xls.xls",
+              "total_marks": "471/550",
+              "pct": 85.64,
+              "sgpa_10pt": 9.01,
+              "status": "Pass"
+            }
+          }
         },
         "sem8": {
-          "pct": null,
-          "sgpa": null,
-          "class": "",
-          "status": "—",
-          "sources": {}
+          "pct": 148.0,
+          "sgpa": 15.58,
+          "class": "FC-D",
+          "status": "Pass",
+          "sources": {
+            "ese_cia_repository": {
+              "citation": "ESE & CIA marks repository (2020_Sem_8.xls.xls)",
+              "file_name": "2020_Sem_8.xls.xls",
+              "total_marks": "296/200",
+              "pct": 148.0,
+              "sgpa_10pt": 15.58,
+              "status": "Pass"
+            }
+          }
         }
       },
       "placement": {
@@ -18030,65 +19666,137 @@
       "gender": "Male",
       "domicile": "Karnataka",
       "category": "Regular",
-      "cgpa": null,
-      "gradStatus": "Discontinued / Transferred",
+      "cgpa": 7.95,
+      "gradStatus": "Graduated (With Backlog)",
       "failCount": 0,
       "semesters": {
         "sem1": {
-          "pct": null,
-          "sgpa": null,
-          "class": "",
-          "status": "—",
-          "sources": {}
+          "pct": 70.91,
+          "sgpa": 7.46,
+          "class": "FC",
+          "status": "Pass",
+          "sources": {
+            "ese_cia_repository": {
+              "citation": "ESE & CIA marks repository (2020_Sem_1.xls.xls)",
+              "file_name": "2020_Sem_1.xls.xls",
+              "total_marks": "390/550",
+              "pct": 70.91,
+              "sgpa_10pt": 7.46,
+              "status": "Pass"
+            }
+          }
         },
         "sem2": {
-          "pct": null,
-          "sgpa": null,
-          "class": "",
-          "status": "—",
-          "sources": {}
+          "pct": 71.67,
+          "sgpa": 7.54,
+          "class": "FC",
+          "status": "Pass",
+          "sources": {
+            "ese_cia_repository": {
+              "citation": "ESE & CIA marks repository (2020_Sem_2.xls.xls)",
+              "file_name": "2020_Sem_2.xls.xls",
+              "total_marks": "430/600",
+              "pct": 71.67,
+              "sgpa_10pt": 7.54,
+              "status": "Pass"
+            }
+          }
         },
         "sem3": {
-          "pct": null,
-          "sgpa": null,
-          "class": "",
-          "status": "—",
-          "sources": {}
+          "pct": 58.15,
+          "sgpa": 6.12,
+          "class": "Fail",
+          "status": "Fail",
+          "sources": {
+            "ese_cia_repository": {
+              "citation": "ESE & CIA marks repository (2020_Sem_3.xls.xls)",
+              "file_name": "2020_Sem_3.xls.xls",
+              "total_marks": "378/650",
+              "pct": 58.15,
+              "sgpa_10pt": 6.12,
+              "status": "Fail"
+            }
+          }
         },
         "sem4": {
-          "pct": null,
-          "sgpa": null,
-          "class": "",
-          "status": "—",
-          "sources": {}
+          "pct": 68.89,
+          "sgpa": 7.25,
+          "class": "FC",
+          "status": "Pass",
+          "sources": {
+            "ese_cia_repository": {
+              "citation": "ESE & CIA marks repository (2020_Sem_4.xls.xls)",
+              "file_name": "2020_Sem_4.xls.xls",
+              "total_marks": "310/450",
+              "pct": 68.89,
+              "sgpa_10pt": 7.25,
+              "status": "Pass"
+            }
+          }
         },
         "sem5": {
-          "pct": null,
-          "sgpa": null,
-          "class": "",
-          "status": "—",
-          "sources": {}
+          "pct": 73.64,
+          "sgpa": 7.75,
+          "class": "FC",
+          "status": "Pass",
+          "sources": {
+            "ese_cia_repository": {
+              "citation": "ESE & CIA marks repository (2020_Sem_5.xls.xls)",
+              "file_name": "2020_Sem_5.xls.xls",
+              "total_marks": "405/550",
+              "pct": 73.64,
+              "sgpa_10pt": 7.75,
+              "status": "Pass"
+            }
+          }
         },
         "sem6": {
-          "pct": null,
-          "sgpa": null,
-          "class": "",
-          "status": "—",
-          "sources": {}
+          "pct": 61.2,
+          "sgpa": 6.44,
+          "class": "FC",
+          "status": "Pass",
+          "sources": {
+            "ese_cia_repository": {
+              "citation": "ESE & CIA marks repository (2020_Sem_6.xls.xls)",
+              "file_name": "2020_Sem_6.xls.xls",
+              "total_marks": "306/500",
+              "pct": 61.2,
+              "sgpa_10pt": 6.44,
+              "status": "Pass"
+            }
+          }
         },
         "sem7": {
-          "pct": null,
-          "sgpa": null,
-          "class": "",
-          "status": "—",
-          "sources": {}
+          "pct": 66.36,
+          "sgpa": 6.99,
+          "class": "FC",
+          "status": "Pass",
+          "sources": {
+            "ese_cia_repository": {
+              "citation": "ESE & CIA marks repository (2020_Sem_7.xls.xls)",
+              "file_name": "2020_Sem_7.xls.xls",
+              "total_marks": "365/550",
+              "pct": 66.36,
+              "sgpa_10pt": 6.99,
+              "status": "Pass"
+            }
+          }
         },
         "sem8": {
-          "pct": null,
-          "sgpa": null,
-          "class": "",
-          "status": "—",
-          "sources": {}
+          "pct": 133.5,
+          "sgpa": 14.05,
+          "class": "FC-D",
+          "status": "Pass",
+          "sources": {
+            "ese_cia_repository": {
+              "citation": "ESE & CIA marks repository (2020_Sem_8.xls.xls)",
+              "file_name": "2020_Sem_8.xls.xls",
+              "total_marks": "267/200",
+              "pct": 133.5,
+              "sgpa_10pt": 14.05,
+              "status": "Pass"
+            }
+          }
         }
       },
       "placement": {
@@ -18212,65 +19920,137 @@
       "gender": "Male",
       "domicile": "Karnataka",
       "category": "Lateral",
-      "cgpa": null,
-      "gradStatus": "Discontinued / Transferred",
+      "cgpa": 7.43,
+      "gradStatus": "Graduated (With Backlog)",
       "failCount": 0,
       "semesters": {
         "sem1": {
-          "pct": null,
-          "sgpa": null,
-          "class": "",
-          "status": "—",
-          "sources": {}
+          "pct": 78.0,
+          "sgpa": 8.21,
+          "class": "FC-D",
+          "status": "Pass",
+          "sources": {
+            "ese_cia_repository": {
+              "citation": "ESE & CIA marks repository (2020_Sem_1.xls.xls)",
+              "file_name": "2020_Sem_1.xls.xls",
+              "total_marks": "468/600",
+              "pct": 78.0,
+              "sgpa_10pt": 8.21,
+              "status": "Pass"
+            }
+          }
         },
         "sem2": {
-          "pct": null,
-          "sgpa": null,
-          "class": "",
-          "status": "—",
-          "sources": {}
+          "pct": 68.73,
+          "sgpa": 7.23,
+          "class": "FC",
+          "status": "Pass",
+          "sources": {
+            "ese_cia_repository": {
+              "citation": "ESE & CIA marks repository (2020_Sem_2.xls.xls)",
+              "file_name": "2020_Sem_2.xls.xls",
+              "total_marks": "378/550",
+              "pct": 68.73,
+              "sgpa_10pt": 7.23,
+              "status": "Pass"
+            }
+          }
         },
         "sem3": {
-          "pct": null,
-          "sgpa": null,
-          "class": "",
-          "status": "—",
-          "sources": {}
+          "pct": 51.85,
+          "sgpa": 5.46,
+          "class": "Fail",
+          "status": "Fail",
+          "sources": {
+            "ese_cia_repository": {
+              "citation": "ESE & CIA marks repository (2020_Sem_3.xls.xls)",
+              "file_name": "2020_Sem_3.xls.xls",
+              "total_marks": "337/650",
+              "pct": 51.85,
+              "sgpa_10pt": 5.46,
+              "status": "Fail"
+            }
+          }
         },
         "sem4": {
-          "pct": null,
-          "sgpa": null,
-          "class": "",
-          "status": "—",
-          "sources": {}
+          "pct": 58.44,
+          "sgpa": 6.15,
+          "class": "SC",
+          "status": "Pass",
+          "sources": {
+            "ese_cia_repository": {
+              "citation": "ESE & CIA marks repository (2020_Sem_4.xls.xls)",
+              "file_name": "2020_Sem_4.xls.xls",
+              "total_marks": "263/450",
+              "pct": 58.44,
+              "sgpa_10pt": 6.15,
+              "status": "Pass"
+            }
+          }
         },
         "sem5": {
-          "pct": null,
-          "sgpa": null,
-          "class": "",
-          "status": "—",
-          "sources": {}
+          "pct": 63.64,
+          "sgpa": 6.7,
+          "class": "FC",
+          "status": "Pass",
+          "sources": {
+            "ese_cia_repository": {
+              "citation": "ESE & CIA marks repository (2020_Sem_5.xls.xls)",
+              "file_name": "2020_Sem_5.xls.xls",
+              "total_marks": "350/550",
+              "pct": 63.64,
+              "sgpa_10pt": 6.7,
+              "status": "Pass"
+            }
+          }
         },
         "sem6": {
-          "pct": null,
-          "sgpa": null,
-          "class": "",
-          "status": "—",
-          "sources": {}
+          "pct": 58.2,
+          "sgpa": 6.13,
+          "class": "SC",
+          "status": "Pass",
+          "sources": {
+            "ese_cia_repository": {
+              "citation": "ESE & CIA marks repository (2020_Sem_6.xls.xls)",
+              "file_name": "2020_Sem_6.xls.xls",
+              "total_marks": "291/500",
+              "pct": 58.2,
+              "sgpa_10pt": 6.13,
+              "status": "Pass"
+            }
+          }
         },
         "sem7": {
-          "pct": null,
-          "sgpa": null,
-          "class": "",
-          "status": "—",
-          "sources": {}
+          "pct": 62.36,
+          "sgpa": 6.56,
+          "class": "FC",
+          "status": "Pass",
+          "sources": {
+            "ese_cia_repository": {
+              "citation": "ESE & CIA marks repository (2020_Sem_7.xls.xls)",
+              "file_name": "2020_Sem_7.xls.xls",
+              "total_marks": "343/550",
+              "pct": 62.36,
+              "sgpa_10pt": 6.56,
+              "status": "Pass"
+            }
+          }
         },
         "sem8": {
-          "pct": null,
-          "sgpa": null,
-          "class": "",
-          "status": "—",
-          "sources": {}
+          "pct": 123.5,
+          "sgpa": 13.0,
+          "class": "FC-D",
+          "status": "Pass",
+          "sources": {
+            "ese_cia_repository": {
+              "citation": "ESE & CIA marks repository (2020_Sem_8.xls.xls)",
+              "file_name": "2020_Sem_8.xls.xls",
+              "total_marks": "247/200",
+              "pct": 123.5,
+              "sgpa_10pt": 13.0,
+              "status": "Pass"
+            }
+          }
         }
       },
       "placement": {
@@ -18303,65 +20083,137 @@
       "gender": "Male",
       "domicile": "Bihar",
       "category": "Lateral",
-      "cgpa": null,
-      "gradStatus": "Discontinued / Transferred",
+      "cgpa": 9.49,
+      "gradStatus": "Graduated (With Backlog)",
       "failCount": 0,
       "semesters": {
         "sem1": {
-          "pct": null,
-          "sgpa": null,
-          "class": "",
-          "status": "—",
-          "sources": {}
+          "pct": 81.83,
+          "sgpa": 8.61,
+          "class": "FC-D",
+          "status": "Pass",
+          "sources": {
+            "ese_cia_repository": {
+              "citation": "ESE & CIA marks repository (2020_Sem_1.xls.xls)",
+              "file_name": "2020_Sem_1.xls.xls",
+              "total_marks": "491/600",
+              "pct": 81.83,
+              "sgpa_10pt": 8.61,
+              "status": "Pass"
+            }
+          }
         },
         "sem2": {
-          "pct": null,
-          "sgpa": null,
-          "class": "",
-          "status": "—",
-          "sources": {}
+          "pct": 72.73,
+          "sgpa": 7.66,
+          "class": "FC",
+          "status": "Pass",
+          "sources": {
+            "ese_cia_repository": {
+              "citation": "ESE & CIA marks repository (2020_Sem_2.xls.xls)",
+              "file_name": "2020_Sem_2.xls.xls",
+              "total_marks": "400/550",
+              "pct": 72.73,
+              "sgpa_10pt": 7.66,
+              "status": "Pass"
+            }
+          }
         },
         "sem3": {
-          "pct": null,
-          "sgpa": null,
-          "class": "",
-          "status": "—",
-          "sources": {}
+          "pct": 68.92,
+          "sgpa": 7.25,
+          "class": "Fail",
+          "status": "Fail",
+          "sources": {
+            "ese_cia_repository": {
+              "citation": "ESE & CIA marks repository (2020_Sem_3.xls.xls)",
+              "file_name": "2020_Sem_3.xls.xls",
+              "total_marks": "448/650",
+              "pct": 68.92,
+              "sgpa_10pt": 7.25,
+              "status": "Fail"
+            }
+          }
         },
         "sem4": {
-          "pct": null,
-          "sgpa": null,
-          "class": "",
-          "status": "—",
-          "sources": {}
+          "pct": 87.33,
+          "sgpa": 9.19,
+          "class": "FC-D",
+          "status": "Pass",
+          "sources": {
+            "ese_cia_repository": {
+              "citation": "ESE & CIA marks repository (2020_Sem_4.xls.xls)",
+              "file_name": "2020_Sem_4.xls.xls",
+              "total_marks": "393/450",
+              "pct": 87.33,
+              "sgpa_10pt": 9.19,
+              "status": "Pass"
+            }
+          }
         },
         "sem5": {
-          "pct": null,
-          "sgpa": null,
-          "class": "",
-          "status": "—",
-          "sources": {}
+          "pct": 90.55,
+          "sgpa": 9.53,
+          "class": "FC-D",
+          "status": "Pass",
+          "sources": {
+            "ese_cia_repository": {
+              "citation": "ESE & CIA marks repository (2020_Sem_5.xls.xls)",
+              "file_name": "2020_Sem_5.xls.xls",
+              "total_marks": "498/550",
+              "pct": 90.55,
+              "sgpa_10pt": 9.53,
+              "status": "Pass"
+            }
+          }
         },
         "sem6": {
-          "pct": null,
-          "sgpa": null,
-          "class": "",
-          "status": "—",
-          "sources": {}
+          "pct": 81.6,
+          "sgpa": 8.59,
+          "class": "FC-D",
+          "status": "Pass",
+          "sources": {
+            "ese_cia_repository": {
+              "citation": "ESE & CIA marks repository (2020_Sem_6.xls.xls)",
+              "file_name": "2020_Sem_6.xls.xls",
+              "total_marks": "408/500",
+              "pct": 81.6,
+              "sgpa_10pt": 8.59,
+              "status": "Pass"
+            }
+          }
         },
         "sem7": {
-          "pct": null,
-          "sgpa": null,
-          "class": "",
-          "status": "—",
-          "sources": {}
+          "pct": 86.55,
+          "sgpa": 9.11,
+          "class": "FC-D",
+          "status": "Pass",
+          "sources": {
+            "ese_cia_repository": {
+              "citation": "ESE & CIA marks repository (2020_Sem_7.xls.xls)",
+              "file_name": "2020_Sem_7.xls.xls",
+              "total_marks": "476/550",
+              "pct": 86.55,
+              "sgpa_10pt": 9.11,
+              "status": "Pass"
+            }
+          }
         },
         "sem8": {
-          "pct": null,
-          "sgpa": null,
-          "class": "",
-          "status": "—",
-          "sources": {}
+          "pct": 152.0,
+          "sgpa": 16.0,
+          "class": "FC-D",
+          "status": "Pass",
+          "sources": {
+            "ese_cia_repository": {
+              "citation": "ESE & CIA marks repository (2020_Sem_8.xls.xls)",
+              "file_name": "2020_Sem_8.xls.xls",
+              "total_marks": "304/200",
+              "pct": 152.0,
+              "sgpa_10pt": 16.0,
+              "status": "Pass"
+            }
+          }
         }
       },
       "placement": {
@@ -18394,65 +20246,137 @@
       "gender": "Female",
       "domicile": "Maharashtra",
       "category": "Lateral",
-      "cgpa": null,
-      "gradStatus": "Discontinued / Transferred",
+      "cgpa": 9.17,
+      "gradStatus": "Graduated (With Backlog)",
       "failCount": 0,
       "semesters": {
         "sem1": {
-          "pct": null,
-          "sgpa": null,
-          "class": "",
-          "status": "—",
-          "sources": {}
+          "pct": 84.5,
+          "sgpa": 8.89,
+          "class": "FC-D",
+          "status": "Pass",
+          "sources": {
+            "ese_cia_repository": {
+              "citation": "ESE & CIA marks repository (2020_Sem_1.xls.xls)",
+              "file_name": "2020_Sem_1.xls.xls",
+              "total_marks": "507/600",
+              "pct": 84.5,
+              "sgpa_10pt": 8.89,
+              "status": "Pass"
+            }
+          }
         },
         "sem2": {
-          "pct": null,
-          "sgpa": null,
-          "class": "",
-          "status": "—",
-          "sources": {}
+          "pct": 80.0,
+          "sgpa": 8.42,
+          "class": "FC-D",
+          "status": "Pass",
+          "sources": {
+            "ese_cia_repository": {
+              "citation": "ESE & CIA marks repository (2020_Sem_2.xls.xls)",
+              "file_name": "2020_Sem_2.xls.xls",
+              "total_marks": "440/550",
+              "pct": 80.0,
+              "sgpa_10pt": 8.42,
+              "status": "Pass"
+            }
+          }
         },
         "sem3": {
-          "pct": null,
-          "sgpa": null,
-          "class": "",
-          "status": "—",
-          "sources": {}
+          "pct": 68.46,
+          "sgpa": 7.21,
+          "class": "Fail",
+          "status": "Fail",
+          "sources": {
+            "ese_cia_repository": {
+              "citation": "ESE & CIA marks repository (2020_Sem_3.xls.xls)",
+              "file_name": "2020_Sem_3.xls.xls",
+              "total_marks": "445/650",
+              "pct": 68.46,
+              "sgpa_10pt": 7.21,
+              "status": "Fail"
+            }
+          }
         },
         "sem4": {
-          "pct": null,
-          "sgpa": null,
-          "class": "",
-          "status": "—",
-          "sources": {}
+          "pct": 78.22,
+          "sgpa": 8.23,
+          "class": "FC-D",
+          "status": "Pass",
+          "sources": {
+            "ese_cia_repository": {
+              "citation": "ESE & CIA marks repository (2020_Sem_4.xls.xls)",
+              "file_name": "2020_Sem_4.xls.xls",
+              "total_marks": "352/450",
+              "pct": 78.22,
+              "sgpa_10pt": 8.23,
+              "status": "Pass"
+            }
+          }
         },
         "sem5": {
-          "pct": null,
-          "sgpa": null,
-          "class": "",
-          "status": "—",
-          "sources": {}
+          "pct": 76.73,
+          "sgpa": 8.08,
+          "class": "FC-D",
+          "status": "Pass",
+          "sources": {
+            "ese_cia_repository": {
+              "citation": "ESE & CIA marks repository (2020_Sem_5.xls.xls)",
+              "file_name": "2020_Sem_5.xls.xls",
+              "total_marks": "422/550",
+              "pct": 76.73,
+              "sgpa_10pt": 8.08,
+              "status": "Pass"
+            }
+          }
         },
         "sem6": {
-          "pct": null,
-          "sgpa": null,
-          "class": "",
-          "status": "—",
-          "sources": {}
+          "pct": 79.4,
+          "sgpa": 8.36,
+          "class": "FC-D",
+          "status": "Pass",
+          "sources": {
+            "ese_cia_repository": {
+              "citation": "ESE & CIA marks repository (2020_Sem_6.xls.xls)",
+              "file_name": "2020_Sem_6.xls.xls",
+              "total_marks": "397/500",
+              "pct": 79.4,
+              "sgpa_10pt": 8.36,
+              "status": "Pass"
+            }
+          }
         },
         "sem7": {
-          "pct": null,
-          "sgpa": null,
-          "class": "",
-          "status": "—",
-          "sources": {}
+          "pct": 82.91,
+          "sgpa": 8.73,
+          "class": "FC-D",
+          "status": "Pass",
+          "sources": {
+            "ese_cia_repository": {
+              "citation": "ESE & CIA marks repository (2020_Sem_7.xls.xls)",
+              "file_name": "2020_Sem_7.xls.xls",
+              "total_marks": "456/550",
+              "pct": 82.91,
+              "sgpa_10pt": 8.73,
+              "status": "Pass"
+            }
+          }
         },
         "sem8": {
-          "pct": null,
-          "sgpa": null,
-          "class": "",
-          "status": "—",
-          "sources": {}
+          "pct": 146.5,
+          "sgpa": 15.42,
+          "class": "FC-D",
+          "status": "Pass",
+          "sources": {
+            "ese_cia_repository": {
+              "citation": "ESE & CIA marks repository (2020_Sem_8.xls.xls)",
+              "file_name": "2020_Sem_8.xls.xls",
+              "total_marks": "293/200",
+              "pct": 146.5,
+              "sgpa_10pt": 15.42,
+              "status": "Pass"
+            }
+          }
         }
       },
       "placement": {
@@ -18485,65 +20409,137 @@
       "gender": "Male",
       "domicile": "Andhra Pradesh",
       "category": "Lateral",
-      "cgpa": null,
-      "gradStatus": "Discontinued / Transferred",
+      "cgpa": 8.11,
+      "gradStatus": "Graduated (With Backlog)",
       "failCount": 0,
       "semesters": {
         "sem1": {
-          "pct": null,
-          "sgpa": null,
-          "class": "",
-          "status": "—",
-          "sources": {}
+          "pct": 74.17,
+          "sgpa": 7.81,
+          "class": "FC",
+          "status": "Pass",
+          "sources": {
+            "ese_cia_repository": {
+              "citation": "ESE & CIA marks repository (2020_Sem_1.xls.xls)",
+              "file_name": "2020_Sem_1.xls.xls",
+              "total_marks": "445/600",
+              "pct": 74.17,
+              "sgpa_10pt": 7.81,
+              "status": "Pass"
+            }
+          }
         },
         "sem2": {
-          "pct": null,
-          "sgpa": null,
-          "class": "",
-          "status": "—",
-          "sources": {}
+          "pct": 74.18,
+          "sgpa": 7.81,
+          "class": "FC",
+          "status": "Pass",
+          "sources": {
+            "ese_cia_repository": {
+              "citation": "ESE & CIA marks repository (2020_Sem_2.xls.xls)",
+              "file_name": "2020_Sem_2.xls.xls",
+              "total_marks": "408/550",
+              "pct": 74.18,
+              "sgpa_10pt": 7.81,
+              "status": "Pass"
+            }
+          }
         },
         "sem3": {
-          "pct": null,
-          "sgpa": null,
-          "class": "",
-          "status": "—",
-          "sources": {}
+          "pct": 56.92,
+          "sgpa": 5.99,
+          "class": "Fail",
+          "status": "Fail",
+          "sources": {
+            "ese_cia_repository": {
+              "citation": "ESE & CIA marks repository (2020_Sem_3.xls.xls)",
+              "file_name": "2020_Sem_3.xls.xls",
+              "total_marks": "370/650",
+              "pct": 56.92,
+              "sgpa_10pt": 5.99,
+              "status": "Fail"
+            }
+          }
         },
         "sem4": {
-          "pct": null,
-          "sgpa": null,
-          "class": "",
-          "status": "—",
-          "sources": {}
+          "pct": 71.78,
+          "sgpa": 7.56,
+          "class": "FC",
+          "status": "Pass",
+          "sources": {
+            "ese_cia_repository": {
+              "citation": "ESE & CIA marks repository (2020_Sem_4.xls.xls)",
+              "file_name": "2020_Sem_4.xls.xls",
+              "total_marks": "323/450",
+              "pct": 71.78,
+              "sgpa_10pt": 7.56,
+              "status": "Pass"
+            }
+          }
         },
         "sem5": {
-          "pct": null,
-          "sgpa": null,
-          "class": "",
-          "status": "—",
-          "sources": {}
+          "pct": 66.0,
+          "sgpa": 6.95,
+          "class": "FC",
+          "status": "Pass",
+          "sources": {
+            "ese_cia_repository": {
+              "citation": "ESE & CIA marks repository (2020_Sem_5.xls.xls)",
+              "file_name": "2020_Sem_5.xls.xls",
+              "total_marks": "363/550",
+              "pct": 66.0,
+              "sgpa_10pt": 6.95,
+              "status": "Pass"
+            }
+          }
         },
         "sem6": {
-          "pct": null,
-          "sgpa": null,
-          "class": "",
-          "status": "—",
-          "sources": {}
+          "pct": 60.2,
+          "sgpa": 6.34,
+          "class": "FC",
+          "status": "Pass",
+          "sources": {
+            "ese_cia_repository": {
+              "citation": "ESE & CIA marks repository (2020_Sem_6.xls.xls)",
+              "file_name": "2020_Sem_6.xls.xls",
+              "total_marks": "301/500",
+              "pct": 60.2,
+              "sgpa_10pt": 6.34,
+              "status": "Pass"
+            }
+          }
         },
         "sem7": {
-          "pct": null,
-          "sgpa": null,
-          "class": "",
-          "status": "—",
-          "sources": {}
+          "pct": 70.73,
+          "sgpa": 7.45,
+          "class": "FC",
+          "status": "Pass",
+          "sources": {
+            "ese_cia_repository": {
+              "citation": "ESE & CIA marks repository (2020_Sem_7.xls.xls)",
+              "file_name": "2020_Sem_7.xls.xls",
+              "total_marks": "389/550",
+              "pct": 70.73,
+              "sgpa_10pt": 7.45,
+              "status": "Pass"
+            }
+          }
         },
         "sem8": {
-          "pct": null,
-          "sgpa": null,
-          "class": "",
-          "status": "—",
-          "sources": {}
+          "pct": 142.5,
+          "sgpa": 15.0,
+          "class": "FC-D",
+          "status": "Pass",
+          "sources": {
+            "ese_cia_repository": {
+              "citation": "ESE & CIA marks repository (2020_Sem_8.xls.xls)",
+              "file_name": "2020_Sem_8.xls.xls",
+              "total_marks": "285/200",
+              "pct": 142.5,
+              "sgpa_10pt": 15.0,
+              "status": "Pass"
+            }
+          }
         }
       },
       "placement": {
