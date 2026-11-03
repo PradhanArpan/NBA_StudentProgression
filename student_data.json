@@ -290,18 +290,66 @@
       "gender": "Male",
       "domicile": "Karnataka",
       "category": "Regular",
-      "cgpa": 7.5,
-      "gradStatus": "Ongoing",
+      "cgpa": null,
+      "gradStatus": "Enrolled (No Exam Records)",
       "failCount": 0,
       "semesters": {
-        "sem1": null,
-        "sem2": null,
-        "sem3": null,
-        "sem4": null,
-        "sem5": null,
-        "sem6": null,
-        "sem7": null,
-        "sem8": null
+        "sem1": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem2": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem3": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem4": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem5": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem6": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem7": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem8": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        }
       },
       "placement": {
         "status": "Ongoing",
@@ -333,18 +381,66 @@
       "gender": "Female",
       "domicile": "Karnataka",
       "category": "Regular",
-      "cgpa": 7.5,
-      "gradStatus": "Ongoing",
+      "cgpa": null,
+      "gradStatus": "Enrolled (No Exam Records)",
       "failCount": 0,
       "semesters": {
-        "sem1": null,
-        "sem2": null,
-        "sem3": null,
-        "sem4": null,
-        "sem5": null,
-        "sem6": null,
-        "sem7": null,
-        "sem8": null
+        "sem1": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem2": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem3": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem4": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem5": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem6": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem7": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem8": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        }
       },
       "placement": {
         "status": "Ongoing",
@@ -376,18 +472,66 @@
       "gender": "Male",
       "domicile": "Karnataka",
       "category": "Regular",
-      "cgpa": 7.5,
-      "gradStatus": "Ongoing",
+      "cgpa": null,
+      "gradStatus": "Enrolled (No Exam Records)",
       "failCount": 0,
       "semesters": {
-        "sem1": null,
-        "sem2": null,
-        "sem3": null,
-        "sem4": null,
-        "sem5": null,
-        "sem6": null,
-        "sem7": null,
-        "sem8": null
+        "sem1": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem2": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem3": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem4": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem5": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem6": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem7": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem8": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        }
       },
       "placement": {
         "status": "Ongoing",
@@ -419,18 +563,66 @@
       "gender": "Male",
       "domicile": "Karnataka",
       "category": "Regular",
-      "cgpa": 7.5,
-      "gradStatus": "Ongoing",
+      "cgpa": null,
+      "gradStatus": "Enrolled (No Exam Records)",
       "failCount": 0,
       "semesters": {
-        "sem1": null,
-        "sem2": null,
-        "sem3": null,
-        "sem4": null,
-        "sem5": null,
-        "sem6": null,
-        "sem7": null,
-        "sem8": null
+        "sem1": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem2": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem3": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem4": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem5": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem6": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem7": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem8": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        }
       },
       "placement": {
         "status": "Ongoing",
@@ -462,18 +654,66 @@
       "gender": "Male",
       "domicile": "Karnataka",
       "category": "Regular",
-      "cgpa": 7.5,
-      "gradStatus": "Ongoing",
+      "cgpa": null,
+      "gradStatus": "Enrolled (No Exam Records)",
       "failCount": 0,
       "semesters": {
-        "sem1": null,
-        "sem2": null,
-        "sem3": null,
-        "sem4": null,
-        "sem5": null,
-        "sem6": null,
-        "sem7": null,
-        "sem8": null
+        "sem1": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem2": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem3": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem4": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem5": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem6": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem7": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem8": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        }
       },
       "placement": {
         "status": "Ongoing",
@@ -505,18 +745,66 @@
       "gender": "Male",
       "domicile": "Karnataka",
       "category": "Regular",
-      "cgpa": 7.5,
-      "gradStatus": "Ongoing",
+      "cgpa": null,
+      "gradStatus": "Enrolled (No Exam Records)",
       "failCount": 0,
       "semesters": {
-        "sem1": null,
-        "sem2": null,
-        "sem3": null,
-        "sem4": null,
-        "sem5": null,
-        "sem6": null,
-        "sem7": null,
-        "sem8": null
+        "sem1": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem2": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem3": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem4": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem5": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem6": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem7": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem8": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        }
       },
       "placement": {
         "status": "Ongoing",
@@ -548,18 +836,66 @@
       "gender": "Male",
       "domicile": "Karnataka",
       "category": "Regular",
-      "cgpa": 7.5,
-      "gradStatus": "Ongoing",
+      "cgpa": null,
+      "gradStatus": "Enrolled (No Exam Records)",
       "failCount": 0,
       "semesters": {
-        "sem1": null,
-        "sem2": null,
-        "sem3": null,
-        "sem4": null,
-        "sem5": null,
-        "sem6": null,
-        "sem7": null,
-        "sem8": null
+        "sem1": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem2": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem3": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem4": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem5": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem6": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem7": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem8": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        }
       },
       "placement": {
         "status": "Ongoing",
@@ -591,18 +927,66 @@
       "gender": "Male",
       "domicile": "Karnataka",
       "category": "Regular",
-      "cgpa": 7.5,
-      "gradStatus": "Ongoing",
+      "cgpa": null,
+      "gradStatus": "Enrolled (No Exam Records)",
       "failCount": 0,
       "semesters": {
-        "sem1": null,
-        "sem2": null,
-        "sem3": null,
-        "sem4": null,
-        "sem5": null,
-        "sem6": null,
-        "sem7": null,
-        "sem8": null
+        "sem1": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem2": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem3": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem4": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem5": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem6": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem7": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem8": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        }
       },
       "placement": {
         "status": "Ongoing",
@@ -634,18 +1018,66 @@
       "gender": "Male",
       "domicile": "Karnataka",
       "category": "Regular",
-      "cgpa": 7.5,
-      "gradStatus": "Ongoing",
+      "cgpa": null,
+      "gradStatus": "Enrolled (No Exam Records)",
       "failCount": 0,
       "semesters": {
-        "sem1": null,
-        "sem2": null,
-        "sem3": null,
-        "sem4": null,
-        "sem5": null,
-        "sem6": null,
-        "sem7": null,
-        "sem8": null
+        "sem1": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem2": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem3": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem4": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem5": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem6": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem7": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem8": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        }
       },
       "placement": {
         "status": "Ongoing",
@@ -677,18 +1109,66 @@
       "gender": "Male",
       "domicile": "Karnataka",
       "category": "Regular",
-      "cgpa": 7.5,
-      "gradStatus": "Ongoing",
+      "cgpa": null,
+      "gradStatus": "Enrolled (No Exam Records)",
       "failCount": 0,
       "semesters": {
-        "sem1": null,
-        "sem2": null,
-        "sem3": null,
-        "sem4": null,
-        "sem5": null,
-        "sem6": null,
-        "sem7": null,
-        "sem8": null
+        "sem1": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem2": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem3": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem4": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem5": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem6": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem7": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem8": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        }
       },
       "placement": {
         "status": "Ongoing",
@@ -720,18 +1200,66 @@
       "gender": "Male",
       "domicile": "Karnataka",
       "category": "Regular",
-      "cgpa": 7.5,
-      "gradStatus": "Ongoing",
+      "cgpa": null,
+      "gradStatus": "Enrolled (No Exam Records)",
       "failCount": 0,
       "semesters": {
-        "sem1": null,
-        "sem2": null,
-        "sem3": null,
-        "sem4": null,
-        "sem5": null,
-        "sem6": null,
-        "sem7": null,
-        "sem8": null
+        "sem1": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem2": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem3": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem4": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem5": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem6": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem7": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem8": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        }
       },
       "placement": {
         "status": "Ongoing",
@@ -763,18 +1291,66 @@
       "gender": "Male",
       "domicile": "Karnataka",
       "category": "Regular",
-      "cgpa": 7.5,
-      "gradStatus": "Ongoing",
+      "cgpa": null,
+      "gradStatus": "Enrolled (No Exam Records)",
       "failCount": 0,
       "semesters": {
-        "sem1": null,
-        "sem2": null,
-        "sem3": null,
-        "sem4": null,
-        "sem5": null,
-        "sem6": null,
-        "sem7": null,
-        "sem8": null
+        "sem1": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem2": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem3": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem4": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem5": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem6": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem7": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem8": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        }
       },
       "placement": {
         "status": "Ongoing",
@@ -806,18 +1382,66 @@
       "gender": "Male",
       "domicile": "Karnataka",
       "category": "Regular",
-      "cgpa": 7.5,
-      "gradStatus": "Ongoing",
+      "cgpa": null,
+      "gradStatus": "Enrolled (No Exam Records)",
       "failCount": 0,
       "semesters": {
-        "sem1": null,
-        "sem2": null,
-        "sem3": null,
-        "sem4": null,
-        "sem5": null,
-        "sem6": null,
-        "sem7": null,
-        "sem8": null
+        "sem1": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem2": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem3": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem4": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem5": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem6": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem7": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem8": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        }
       },
       "placement": {
         "status": "Ongoing",
@@ -849,18 +1473,66 @@
       "gender": "Male",
       "domicile": "Karnataka",
       "category": "Regular",
-      "cgpa": 7.5,
-      "gradStatus": "Ongoing",
+      "cgpa": null,
+      "gradStatus": "Enrolled (No Exam Records)",
       "failCount": 0,
       "semesters": {
-        "sem1": null,
-        "sem2": null,
-        "sem3": null,
-        "sem4": null,
-        "sem5": null,
-        "sem6": null,
-        "sem7": null,
-        "sem8": null
+        "sem1": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem2": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem3": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem4": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem5": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem6": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem7": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem8": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        }
       },
       "placement": {
         "status": "Ongoing",
@@ -892,18 +1564,66 @@
       "gender": "Male",
       "domicile": "Karnataka",
       "category": "Regular",
-      "cgpa": 7.5,
-      "gradStatus": "Ongoing",
+      "cgpa": null,
+      "gradStatus": "Enrolled (No Exam Records)",
       "failCount": 0,
       "semesters": {
-        "sem1": null,
-        "sem2": null,
-        "sem3": null,
-        "sem4": null,
-        "sem5": null,
-        "sem6": null,
-        "sem7": null,
-        "sem8": null
+        "sem1": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem2": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem3": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem4": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem5": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem6": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem7": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem8": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        }
       },
       "placement": {
         "status": "Ongoing",
@@ -973,12 +1693,48 @@
             }
           }
         },
-        "sem3": null,
-        "sem4": null,
-        "sem5": null,
-        "sem6": null,
-        "sem7": null,
-        "sem8": null
+        "sem3": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem4": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem5": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem6": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem7": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem8": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        }
       },
       "placement": {
         "status": "Ongoing",
@@ -1048,12 +1804,48 @@
             }
           }
         },
-        "sem3": null,
-        "sem4": null,
-        "sem5": null,
-        "sem6": null,
-        "sem7": null,
-        "sem8": null
+        "sem3": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem4": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem5": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem6": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem7": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem8": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        }
       },
       "placement": {
         "status": "Ongoing",
@@ -1123,12 +1915,48 @@
             }
           }
         },
-        "sem3": null,
-        "sem4": null,
-        "sem5": null,
-        "sem6": null,
-        "sem7": null,
-        "sem8": null
+        "sem3": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem4": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem5": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem6": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem7": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem8": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        }
       },
       "placement": {
         "status": "Ongoing",
@@ -1198,12 +2026,48 @@
             }
           }
         },
-        "sem3": null,
-        "sem4": null,
-        "sem5": null,
-        "sem6": null,
-        "sem7": null,
-        "sem8": null
+        "sem3": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem4": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem5": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem6": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem7": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem8": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        }
       },
       "placement": {
         "status": "Ongoing",
@@ -1273,12 +2137,48 @@
             }
           }
         },
-        "sem3": null,
-        "sem4": null,
-        "sem5": null,
-        "sem6": null,
-        "sem7": null,
-        "sem8": null
+        "sem3": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem4": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem5": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem6": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem7": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem8": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        }
       },
       "placement": {
         "status": "Ongoing",
@@ -1348,12 +2248,48 @@
             }
           }
         },
-        "sem3": null,
-        "sem4": null,
-        "sem5": null,
-        "sem6": null,
-        "sem7": null,
-        "sem8": null
+        "sem3": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem4": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem5": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem6": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem7": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem8": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        }
       },
       "placement": {
         "status": "Ongoing",
@@ -1423,12 +2359,48 @@
             }
           }
         },
-        "sem3": null,
-        "sem4": null,
-        "sem5": null,
-        "sem6": null,
-        "sem7": null,
-        "sem8": null
+        "sem3": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem4": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem5": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem6": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem7": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem8": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        }
       },
       "placement": {
         "status": "Ongoing",
@@ -1460,18 +2432,66 @@
       "gender": "Male",
       "domicile": "Karnataka",
       "category": "Regular",
-      "cgpa": 7.5,
-      "gradStatus": "Discontinued / Transferred",
+      "cgpa": null,
+      "gradStatus": "Enrolled (No Exam Records)",
       "failCount": 0,
       "semesters": {
-        "sem1": null,
-        "sem2": null,
-        "sem3": null,
-        "sem4": null,
-        "sem5": null,
-        "sem6": null,
-        "sem7": null,
-        "sem8": null
+        "sem1": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem2": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem3": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem4": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem5": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem6": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem7": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem8": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        }
       },
       "placement": {
         "status": "Ongoing",
@@ -1541,12 +2561,48 @@
             }
           }
         },
-        "sem3": null,
-        "sem4": null,
-        "sem5": null,
-        "sem6": null,
-        "sem7": null,
-        "sem8": null
+        "sem3": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem4": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem5": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem6": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem7": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem8": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        }
       },
       "placement": {
         "status": "Ongoing",
@@ -1616,12 +2672,48 @@
             }
           }
         },
-        "sem3": null,
-        "sem4": null,
-        "sem5": null,
-        "sem6": null,
-        "sem7": null,
-        "sem8": null
+        "sem3": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem4": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem5": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem6": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem7": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem8": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        }
       },
       "placement": {
         "status": "Ongoing",
@@ -1691,12 +2783,48 @@
             }
           }
         },
-        "sem3": null,
-        "sem4": null,
-        "sem5": null,
-        "sem6": null,
-        "sem7": null,
-        "sem8": null
+        "sem3": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem4": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem5": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem6": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem7": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem8": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        }
       },
       "placement": {
         "status": "Ongoing",
@@ -1766,12 +2894,48 @@
             }
           }
         },
-        "sem3": null,
-        "sem4": null,
-        "sem5": null,
-        "sem6": null,
-        "sem7": null,
-        "sem8": null
+        "sem3": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem4": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem5": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem6": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem7": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem8": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        }
       },
       "placement": {
         "status": "Ongoing",
@@ -1841,12 +3005,48 @@
             }
           }
         },
-        "sem3": null,
-        "sem4": null,
-        "sem5": null,
-        "sem6": null,
-        "sem7": null,
-        "sem8": null
+        "sem3": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem4": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem5": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem6": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem7": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem8": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        }
       },
       "placement": {
         "status": "Ongoing",
@@ -1916,12 +3116,48 @@
             }
           }
         },
-        "sem3": null,
-        "sem4": null,
-        "sem5": null,
-        "sem6": null,
-        "sem7": null,
-        "sem8": null
+        "sem3": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem4": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem5": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem6": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem7": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem8": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        }
       },
       "placement": {
         "status": "Ongoing",
@@ -1991,12 +3227,48 @@
             }
           }
         },
-        "sem3": null,
-        "sem4": null,
-        "sem5": null,
-        "sem6": null,
-        "sem7": null,
-        "sem8": null
+        "sem3": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem4": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem5": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem6": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem7": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem8": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        }
       },
       "placement": {
         "status": "Ongoing",
@@ -2066,12 +3338,48 @@
             }
           }
         },
-        "sem3": null,
-        "sem4": null,
-        "sem5": null,
-        "sem6": null,
-        "sem7": null,
-        "sem8": null
+        "sem3": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem4": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem5": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem6": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem7": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem8": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        }
       },
       "placement": {
         "status": "Ongoing",
@@ -2141,12 +3449,48 @@
             }
           }
         },
-        "sem3": null,
-        "sem4": null,
-        "sem5": null,
-        "sem6": null,
-        "sem7": null,
-        "sem8": null
+        "sem3": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem4": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem5": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem6": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem7": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem8": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        }
       },
       "placement": {
         "status": "Ongoing",
@@ -2216,12 +3560,48 @@
             }
           }
         },
-        "sem3": null,
-        "sem4": null,
-        "sem5": null,
-        "sem6": null,
-        "sem7": null,
-        "sem8": null
+        "sem3": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem4": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem5": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem6": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem7": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem8": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        }
       },
       "placement": {
         "status": "Ongoing",
@@ -2291,12 +3671,48 @@
             }
           }
         },
-        "sem3": null,
-        "sem4": null,
-        "sem5": null,
-        "sem6": null,
-        "sem7": null,
-        "sem8": null
+        "sem3": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem4": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem5": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem6": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem7": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem8": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        }
       },
       "placement": {
         "status": "Ongoing",
@@ -2366,12 +3782,48 @@
             }
           }
         },
-        "sem3": null,
-        "sem4": null,
-        "sem5": null,
-        "sem6": null,
-        "sem7": null,
-        "sem8": null
+        "sem3": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem4": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem5": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem6": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem7": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem8": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        }
       },
       "placement": {
         "status": "Ongoing",
@@ -2441,12 +3893,48 @@
             }
           }
         },
-        "sem3": null,
-        "sem4": null,
-        "sem5": null,
-        "sem6": null,
-        "sem7": null,
-        "sem8": null
+        "sem3": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem4": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem5": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem6": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem7": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem8": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        }
       },
       "placement": {
         "status": "Ongoing",
@@ -2516,12 +4004,48 @@
             }
           }
         },
-        "sem3": null,
-        "sem4": null,
-        "sem5": null,
-        "sem6": null,
-        "sem7": null,
-        "sem8": null
+        "sem3": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem4": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem5": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem6": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem7": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem8": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        }
       },
       "placement": {
         "status": "Ongoing",
@@ -2591,12 +4115,48 @@
             }
           }
         },
-        "sem3": null,
-        "sem4": null,
-        "sem5": null,
-        "sem6": null,
-        "sem7": null,
-        "sem8": null
+        "sem3": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem4": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem5": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem6": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem7": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem8": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        }
       },
       "placement": {
         "status": "Ongoing",
@@ -2628,18 +4188,66 @@
       "gender": "Male",
       "domicile": "Karnataka",
       "category": "Regular",
-      "cgpa": 7.5,
-      "gradStatus": "Discontinued / Transferred",
+      "cgpa": null,
+      "gradStatus": "Enrolled (No Exam Records)",
       "failCount": 0,
       "semesters": {
-        "sem1": null,
-        "sem2": null,
-        "sem3": null,
-        "sem4": null,
-        "sem5": null,
-        "sem6": null,
-        "sem7": null,
-        "sem8": null
+        "sem1": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem2": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem3": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem4": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem5": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem6": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem7": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem8": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        }
       },
       "placement": {
         "status": "Ongoing",
@@ -2671,18 +4279,66 @@
       "gender": "Male",
       "domicile": "Karnataka",
       "category": "Regular",
-      "cgpa": 7.5,
-      "gradStatus": "Discontinued / Transferred",
+      "cgpa": null,
+      "gradStatus": "Enrolled (No Exam Records)",
       "failCount": 0,
       "semesters": {
-        "sem1": null,
-        "sem2": null,
-        "sem3": null,
-        "sem4": null,
-        "sem5": null,
-        "sem6": null,
-        "sem7": null,
-        "sem8": null
+        "sem1": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem2": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem3": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem4": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem5": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem6": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem7": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem8": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        }
       },
       "placement": {
         "status": "Ongoing",
@@ -2714,18 +4370,66 @@
       "gender": "Male",
       "domicile": "Karnataka",
       "category": "Regular",
-      "cgpa": 7.5,
-      "gradStatus": "Discontinued / Transferred",
+      "cgpa": null,
+      "gradStatus": "Enrolled (No Exam Records)",
       "failCount": 0,
       "semesters": {
-        "sem1": null,
-        "sem2": null,
-        "sem3": null,
-        "sem4": null,
-        "sem5": null,
-        "sem6": null,
-        "sem7": null,
-        "sem8": null
+        "sem1": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem2": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem3": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem4": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem5": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem6": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem7": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem8": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        }
       },
       "placement": {
         "status": "Ongoing",
@@ -2795,12 +4499,48 @@
             }
           }
         },
-        "sem3": null,
-        "sem4": null,
-        "sem5": null,
-        "sem6": null,
-        "sem7": null,
-        "sem8": null
+        "sem3": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem4": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem5": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem6": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem7": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem8": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        }
       },
       "placement": {
         "status": "Ongoing",
@@ -2870,12 +4610,48 @@
             }
           }
         },
-        "sem3": null,
-        "sem4": null,
-        "sem5": null,
-        "sem6": null,
-        "sem7": null,
-        "sem8": null
+        "sem3": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem4": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem5": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem6": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem7": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem8": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        }
       },
       "placement": {
         "status": "Ongoing",
@@ -2945,12 +4721,48 @@
             }
           }
         },
-        "sem3": null,
-        "sem4": null,
-        "sem5": null,
-        "sem6": null,
-        "sem7": null,
-        "sem8": null
+        "sem3": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem4": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem5": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem6": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem7": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem8": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        }
       },
       "placement": {
         "status": "Ongoing",
@@ -3020,12 +4832,48 @@
             }
           }
         },
-        "sem3": null,
-        "sem4": null,
-        "sem5": null,
-        "sem6": null,
-        "sem7": null,
-        "sem8": null
+        "sem3": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem4": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem5": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem6": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem7": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem8": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        }
       },
       "placement": {
         "status": "Ongoing",
@@ -3095,12 +4943,48 @@
             }
           }
         },
-        "sem3": null,
-        "sem4": null,
-        "sem5": null,
-        "sem6": null,
-        "sem7": null,
-        "sem8": null
+        "sem3": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem4": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem5": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem6": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem7": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem8": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        }
       },
       "placement": {
         "status": "Ongoing",
@@ -3204,10 +5088,34 @@
             }
           }
         },
-        "sem5": null,
-        "sem6": null,
-        "sem7": null,
-        "sem8": null
+        "sem5": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem6": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem7": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem8": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        }
       },
       "placement": {
         "status": "Ongoing",
@@ -3239,18 +5147,66 @@
       "gender": "Male",
       "domicile": "Karnataka",
       "category": "Regular",
-      "cgpa": 7.5,
-      "gradStatus": "Discontinued / Transferred",
+      "cgpa": null,
+      "gradStatus": "Enrolled (No Exam Records)",
       "failCount": 0,
       "semesters": {
-        "sem1": null,
-        "sem2": null,
-        "sem3": null,
-        "sem4": null,
-        "sem5": null,
-        "sem6": null,
-        "sem7": null,
-        "sem8": null
+        "sem1": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem2": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem3": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem4": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem5": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem6": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem7": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem8": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        }
       },
       "placement": {
         "status": "Ongoing",
@@ -3354,10 +5310,34 @@
             }
           }
         },
-        "sem5": null,
-        "sem6": null,
-        "sem7": null,
-        "sem8": null
+        "sem5": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem6": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem7": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem8": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        }
       },
       "placement": {
         "status": "Ongoing",
@@ -3389,18 +5369,66 @@
       "gender": "Male",
       "domicile": "Karnataka",
       "category": "Regular",
-      "cgpa": 7.5,
-      "gradStatus": "Discontinued / Transferred",
+      "cgpa": null,
+      "gradStatus": "Enrolled (No Exam Records)",
       "failCount": 0,
       "semesters": {
-        "sem1": null,
-        "sem2": null,
-        "sem3": null,
-        "sem4": null,
-        "sem5": null,
-        "sem6": null,
-        "sem7": null,
-        "sem8": null
+        "sem1": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem2": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem3": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem4": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem5": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem6": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem7": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem8": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        }
       },
       "placement": {
         "status": "Ongoing",
@@ -3504,10 +5532,34 @@
             }
           }
         },
-        "sem5": null,
-        "sem6": null,
-        "sem7": null,
-        "sem8": null
+        "sem5": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem6": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem7": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem8": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        }
       },
       "placement": {
         "status": "Ongoing",
@@ -3611,10 +5663,34 @@
             }
           }
         },
-        "sem5": null,
-        "sem6": null,
-        "sem7": null,
-        "sem8": null
+        "sem5": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem6": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem7": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem8": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        }
       },
       "placement": {
         "status": "Ongoing",
@@ -3718,10 +5794,34 @@
             }
           }
         },
-        "sem5": null,
-        "sem6": null,
-        "sem7": null,
-        "sem8": null
+        "sem5": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem6": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem7": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem8": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        }
       },
       "placement": {
         "status": "Ongoing",
@@ -3825,10 +5925,34 @@
             }
           }
         },
-        "sem5": null,
-        "sem6": null,
-        "sem7": null,
-        "sem8": null
+        "sem5": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem6": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem7": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem8": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        }
       },
       "placement": {
         "status": "Ongoing",
@@ -3932,10 +6056,34 @@
             }
           }
         },
-        "sem5": null,
-        "sem6": null,
-        "sem7": null,
-        "sem8": null
+        "sem5": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem6": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem7": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem8": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        }
       },
       "placement": {
         "status": "Ongoing",
@@ -3967,18 +6115,66 @@
       "gender": "Male",
       "domicile": "Karnataka",
       "category": "Regular",
-      "cgpa": 7.5,
-      "gradStatus": "Discontinued / Transferred",
+      "cgpa": null,
+      "gradStatus": "Enrolled (No Exam Records)",
       "failCount": 0,
       "semesters": {
-        "sem1": null,
-        "sem2": null,
-        "sem3": null,
-        "sem4": null,
-        "sem5": null,
-        "sem6": null,
-        "sem7": null,
-        "sem8": null
+        "sem1": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem2": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem3": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem4": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem5": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem6": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem7": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem8": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        }
       },
       "placement": {
         "status": "Ongoing",
@@ -4010,18 +6206,66 @@
       "gender": "Male",
       "domicile": "Karnataka",
       "category": "Regular",
-      "cgpa": 7.5,
-      "gradStatus": "Discontinued / Transferred",
+      "cgpa": null,
+      "gradStatus": "Enrolled (No Exam Records)",
       "failCount": 0,
       "semesters": {
-        "sem1": null,
-        "sem2": null,
-        "sem3": null,
-        "sem4": null,
-        "sem5": null,
-        "sem6": null,
-        "sem7": null,
-        "sem8": null
+        "sem1": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem2": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem3": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem4": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem5": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem6": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem7": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem8": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        }
       },
       "placement": {
         "status": "Ongoing",
@@ -4053,18 +6297,66 @@
       "gender": "Male",
       "domicile": "Karnataka",
       "category": "Regular",
-      "cgpa": 7.5,
-      "gradStatus": "Discontinued / Transferred",
+      "cgpa": null,
+      "gradStatus": "Enrolled (No Exam Records)",
       "failCount": 0,
       "semesters": {
-        "sem1": null,
-        "sem2": null,
-        "sem3": null,
-        "sem4": null,
-        "sem5": null,
-        "sem6": null,
-        "sem7": null,
-        "sem8": null
+        "sem1": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem2": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem3": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem4": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem5": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem6": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem7": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem8": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        }
       },
       "placement": {
         "status": "Ongoing",
@@ -4096,18 +6388,66 @@
       "gender": "Male",
       "domicile": "Karnataka",
       "category": "Regular",
-      "cgpa": 7.5,
-      "gradStatus": "Discontinued / Transferred",
+      "cgpa": null,
+      "gradStatus": "Enrolled (No Exam Records)",
       "failCount": 0,
       "semesters": {
-        "sem1": null,
-        "sem2": null,
-        "sem3": null,
-        "sem4": null,
-        "sem5": null,
-        "sem6": null,
-        "sem7": null,
-        "sem8": null
+        "sem1": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem2": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem3": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem4": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem5": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem6": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem7": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem8": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        }
       },
       "placement": {
         "status": "Ongoing",
@@ -4211,10 +6551,34 @@
             }
           }
         },
-        "sem5": null,
-        "sem6": null,
-        "sem7": null,
-        "sem8": null
+        "sem5": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem6": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem7": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem8": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        }
       },
       "placement": {
         "status": "Ongoing",
@@ -4246,18 +6610,66 @@
       "gender": "Female",
       "domicile": "Karnataka",
       "category": "Regular",
-      "cgpa": 7.5,
-      "gradStatus": "Discontinued / Transferred",
+      "cgpa": null,
+      "gradStatus": "Enrolled (No Exam Records)",
       "failCount": 0,
       "semesters": {
-        "sem1": null,
-        "sem2": null,
-        "sem3": null,
-        "sem4": null,
-        "sem5": null,
-        "sem6": null,
-        "sem7": null,
-        "sem8": null
+        "sem1": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem2": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem3": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem4": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem5": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem6": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem7": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem8": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        }
       },
       "placement": {
         "status": "Ongoing",
@@ -4361,10 +6773,34 @@
             }
           }
         },
-        "sem5": null,
-        "sem6": null,
-        "sem7": null,
-        "sem8": null
+        "sem5": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem6": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem7": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem8": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        }
       },
       "placement": {
         "status": "Ongoing",
@@ -4503,7 +6939,7 @@
       "gender": "Male",
       "domicile": "Haryana",
       "category": "Regular",
-      "cgpa": 7.2,
+      "cgpa": null,
       "gradStatus": "Discontinued / Transferred",
       "failCount": 0,
       "semesters": {
@@ -4549,8 +6985,20 @@
           "status": "—",
           "sources": {}
         },
-        "sem7": null,
-        "sem8": null
+        "sem7": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem8": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        }
       },
       "placement": {
         "status": "Ongoing",
@@ -4582,7 +7030,7 @@
       "gender": "Male",
       "domicile": "Kerala",
       "category": "Regular",
-      "cgpa": 7.2,
+      "cgpa": null,
       "gradStatus": "Discontinued / Transferred",
       "failCount": 0,
       "semesters": {
@@ -4628,8 +7076,20 @@
           "status": "—",
           "sources": {}
         },
-        "sem7": null,
-        "sem8": null
+        "sem7": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem8": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        }
       },
       "placement": {
         "status": "Ongoing",
@@ -4661,7 +7121,7 @@
       "gender": "Male",
       "domicile": "Kerala",
       "category": "Regular",
-      "cgpa": 7.2,
+      "cgpa": null,
       "gradStatus": "Discontinued / Transferred",
       "failCount": 0,
       "semesters": {
@@ -4707,8 +7167,20 @@
           "status": "—",
           "sources": {}
         },
-        "sem7": null,
-        "sem8": null
+        "sem7": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem8": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        }
       },
       "placement": {
         "status": "Ongoing",
@@ -5037,8 +7509,8 @@
       "domicile": "Karnataka",
       "category": "Regular",
       "cgpa": 7.14,
-      "gradStatus": "Ongoing (With Backlog)",
-      "failCount": 1,
+      "gradStatus": "Ongoing (No Backlog)",
+      "failCount": 0,
       "semesters": {
         "sem1": {
           "pct": 65.5,
@@ -6536,7 +9008,7 @@
       "gender": "Male",
       "domicile": "Karnataka",
       "category": "Regular",
-      "cgpa": 7.2,
+      "cgpa": null,
       "gradStatus": "Discontinued / Transferred",
       "failCount": 0,
       "semesters": {
@@ -6582,8 +9054,20 @@
           "status": "—",
           "sources": {}
         },
-        "sem7": null,
-        "sem8": null
+        "sem7": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem8": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        }
       },
       "placement": {
         "status": "Ongoing",
@@ -6615,7 +9099,7 @@
       "gender": "Male",
       "domicile": "Karnataka",
       "category": "Regular",
-      "cgpa": 7.2,
+      "cgpa": null,
       "gradStatus": "Discontinued / Transferred",
       "failCount": 0,
       "semesters": {
@@ -6661,8 +9145,20 @@
           "status": "—",
           "sources": {}
         },
-        "sem7": null,
-        "sem8": null
+        "sem7": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem8": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        }
       },
       "placement": {
         "status": "Ongoing",
@@ -6695,8 +9191,8 @@
       "domicile": "Karnataka",
       "category": "Regular",
       "cgpa": 7.67,
-      "gradStatus": "Ongoing (With Backlog)",
-      "failCount": 1,
+      "gradStatus": "Ongoing (No Backlog)",
+      "failCount": 0,
       "semesters": {
         "sem1": {
           "pct": 67.33,
@@ -7612,7 +10108,7 @@
       "gender": "Male",
       "domicile": "Kerala",
       "category": "Regular",
-      "cgpa": 7.2,
+      "cgpa": null,
       "gradStatus": "Discontinued / Transferred",
       "failCount": 0,
       "semesters": {
@@ -7658,8 +10154,20 @@
           "status": "—",
           "sources": {}
         },
-        "sem7": null,
-        "sem8": null
+        "sem7": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem8": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        }
       },
       "placement": {
         "status": "Ongoing",
@@ -7969,8 +10477,20 @@
             }
           }
         },
-        "sem7": null,
-        "sem8": null
+        "sem7": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem8": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        }
       },
       "placement": {
         "status": "Ongoing",
@@ -8102,8 +10622,20 @@
           "status": "—",
           "sources": {}
         },
-        "sem7": null,
-        "sem8": null
+        "sem7": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem8": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        }
       },
       "placement": {
         "status": "Ongoing",
@@ -8135,7 +10667,7 @@
       "gender": "Female",
       "domicile": "Kerala",
       "category": "Regular",
-      "cgpa": 7.2,
+      "cgpa": null,
       "gradStatus": "Discontinued / Transferred",
       "failCount": 0,
       "semesters": {
@@ -8181,8 +10713,20 @@
           "status": "—",
           "sources": {}
         },
-        "sem7": null,
-        "sem8": null
+        "sem7": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem8": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        }
       },
       "placement": {
         "status": "Ongoing",
@@ -8276,8 +10820,20 @@
           "status": "—",
           "sources": {}
         },
-        "sem7": null,
-        "sem8": null
+        "sem7": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem8": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        }
       },
       "placement": {
         "status": "Ongoing",
@@ -8309,7 +10865,7 @@
       "gender": "Female",
       "domicile": "Kerala",
       "category": "Regular",
-      "cgpa": 7.2,
+      "cgpa": null,
       "gradStatus": "Discontinued / Transferred",
       "failCount": 0,
       "semesters": {
@@ -8355,8 +10911,20 @@
           "status": "—",
           "sources": {}
         },
-        "sem7": null,
-        "sem8": null
+        "sem7": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem8": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        }
       },
       "placement": {
         "status": "Ongoing",
@@ -8388,7 +10956,7 @@
       "gender": "Female",
       "domicile": "Kerala",
       "category": "Regular",
-      "cgpa": 7.2,
+      "cgpa": null,
       "gradStatus": "Discontinued / Transferred",
       "failCount": 0,
       "semesters": {
@@ -8434,8 +11002,20 @@
           "status": "—",
           "sources": {}
         },
-        "sem7": null,
-        "sem8": null
+        "sem7": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem8": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        }
       },
       "placement": {
         "status": "Ongoing",
@@ -8467,7 +11047,7 @@
       "gender": "Male",
       "domicile": "Andhra Pradesh",
       "category": "Regular",
-      "cgpa": 7.2,
+      "cgpa": null,
       "gradStatus": "Discontinued / Transferred",
       "failCount": 0,
       "semesters": {
@@ -8513,8 +11093,20 @@
           "status": "—",
           "sources": {}
         },
-        "sem7": null,
-        "sem8": null
+        "sem7": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem8": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        }
       },
       "placement": {
         "status": "Ongoing",
@@ -8546,7 +11138,7 @@
       "gender": "Male",
       "domicile": "Karnataka",
       "category": "Regular",
-      "cgpa": 7.5,
+      "cgpa": null,
       "gradStatus": "Discontinued / Transferred",
       "failCount": 0,
       "semesters": {
@@ -8592,8 +11184,20 @@
           "status": "—",
           "sources": {}
         },
-        "sem7": null,
-        "sem8": null
+        "sem7": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem8": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        }
       },
       "placement": {
         "status": "Ongoing",
@@ -8625,7 +11229,7 @@
       "gender": "Male",
       "domicile": "Karnataka",
       "category": "Regular",
-      "cgpa": 7.5,
+      "cgpa": null,
       "gradStatus": "Discontinued / Transferred",
       "failCount": 0,
       "semesters": {
@@ -8671,8 +11275,20 @@
           "status": "—",
           "sources": {}
         },
-        "sem7": null,
-        "sem8": null
+        "sem7": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem8": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        }
       },
       "placement": {
         "status": "Ongoing",
@@ -8704,7 +11320,7 @@
       "gender": "Male",
       "domicile": "Karnataka",
       "category": "Regular",
-      "cgpa": 7.5,
+      "cgpa": null,
       "gradStatus": "Discontinued / Transferred",
       "failCount": 0,
       "semesters": {
@@ -8750,8 +11366,20 @@
           "status": "—",
           "sources": {}
         },
-        "sem7": null,
-        "sem8": null
+        "sem7": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem8": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        }
       },
       "placement": {
         "status": "Ongoing",
@@ -8783,7 +11411,7 @@
       "gender": "Male",
       "domicile": "Karnataka",
       "category": "Regular",
-      "cgpa": 7.5,
+      "cgpa": null,
       "gradStatus": "Discontinued / Transferred",
       "failCount": 0,
       "semesters": {
@@ -8829,8 +11457,20 @@
           "status": "—",
           "sources": {}
         },
-        "sem7": null,
-        "sem8": null
+        "sem7": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem8": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        }
       },
       "placement": {
         "status": "Ongoing",
@@ -9029,7 +11669,7 @@
       "category": "Regular",
       "cgpa": 8.49,
       "gradStatus": "Graduated (With Backlog)",
-      "failCount": 0,
+      "failCount": 1,
       "semesters": {
         "sem1": {
           "pct": 64.83,
@@ -9227,7 +11867,7 @@
       "domicile": "Tamilnadu",
       "category": "Regular",
       "cgpa": 5.96,
-      "gradStatus": "With Backlog",
+      "gradStatus": "Discontinued / Transferred",
       "failCount": 1,
       "semesters": {
         "sem1": {
@@ -9290,10 +11930,34 @@
             }
           }
         },
-        "sem5": null,
-        "sem6": null,
-        "sem7": null,
-        "sem8": null
+        "sem5": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem6": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem7": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem8": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        }
       },
       "placement": {
         "status": "Discontinued",
@@ -9327,7 +11991,7 @@
       "category": "Regular",
       "cgpa": 6.87,
       "gradStatus": "Graduated (With Backlog)",
-      "failCount": 3,
+      "failCount": 1,
       "semesters": {
         "sem1": {
           "pct": 49.83,
@@ -9526,7 +12190,7 @@
       "category": "Regular",
       "cgpa": 7.49,
       "gradStatus": "Graduated (With Backlog)",
-      "failCount": 0,
+      "failCount": 1,
       "semesters": {
         "sem1": {
           "pct": 73.83,
@@ -9724,8 +12388,8 @@
       "domicile": "Kerala",
       "category": "Regular",
       "cgpa": 4.81,
-      "gradStatus": "With Backlog",
-      "failCount": 3,
+      "gradStatus": "Discontinued / Transferred",
+      "failCount": 1,
       "semesters": {
         "sem1": {
           "pct": 48.0,
@@ -9775,14 +12439,38 @@
         "sem4": {
           "pct": null,
           "sgpa": null,
-          "class": "Detained",
+          "class": "",
           "status": "—",
           "sources": {}
         },
-        "sem5": null,
-        "sem6": null,
-        "sem7": null,
-        "sem8": null
+        "sem5": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem6": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem7": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem8": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        }
       },
       "placement": {
         "status": "Discontinued",
@@ -9815,8 +12503,8 @@
       "domicile": "Kerala",
       "category": "Regular",
       "cgpa": 4.98,
-      "gradStatus": "With Backlog",
-      "failCount": 4,
+      "gradStatus": "Discontinued / Transferred",
+      "failCount": 1,
       "semesters": {
         "sem1": {
           "pct": 53.5,
@@ -9878,10 +12566,34 @@
             }
           }
         },
-        "sem5": null,
-        "sem6": null,
-        "sem7": null,
-        "sem8": null
+        "sem5": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem6": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem7": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem8": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        }
       },
       "placement": {
         "status": "Discontinued",
@@ -9914,7 +12626,7 @@
       "domicile": "Kerala",
       "category": "Regular",
       "cgpa": 5.98,
-      "gradStatus": "With Backlog",
+      "gradStatus": "Discontinued / Transferred",
       "failCount": 1,
       "semesters": {
         "sem1": {
@@ -9977,10 +12689,34 @@
             }
           }
         },
-        "sem5": null,
-        "sem6": null,
-        "sem7": null,
-        "sem8": null
+        "sem5": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem6": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem7": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem8": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        }
       },
       "placement": {
         "status": "Discontinued",
@@ -10213,7 +12949,7 @@
       "category": "Regular",
       "cgpa": 8.18,
       "gradStatus": "Graduated (With Backlog)",
-      "failCount": 0,
+      "failCount": 1,
       "semesters": {
         "sem1": {
           "pct": 74.73,
@@ -10411,8 +13147,8 @@
       "domicile": "Kerala",
       "category": "Regular",
       "cgpa": 5.32,
-      "gradStatus": "With Backlog",
-      "failCount": 3,
+      "gradStatus": "Discontinued / Transferred",
+      "failCount": 1,
       "semesters": {
         "sem1": {
           "pct": 52.17,
@@ -10474,10 +13210,34 @@
             }
           }
         },
-        "sem5": null,
-        "sem6": null,
-        "sem7": null,
-        "sem8": null
+        "sem5": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem6": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem7": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem8": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        }
       },
       "placement": {
         "status": "Discontinued",
@@ -10510,7 +13270,7 @@
       "domicile": "Kerala",
       "category": "Regular",
       "cgpa": 6.49,
-      "gradStatus": "Discontinued",
+      "gradStatus": "Discontinued / Transferred",
       "failCount": 0,
       "semesters": {
         "sem1": {
@@ -10543,12 +13303,48 @@
             }
           }
         },
-        "sem3": null,
-        "sem4": null,
-        "sem5": null,
-        "sem6": null,
-        "sem7": null,
-        "sem8": null
+        "sem3": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem4": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem5": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem6": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem7": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem8": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        }
       },
       "placement": {
         "status": "Discontinued",
@@ -10582,7 +13378,7 @@
       "category": "Regular",
       "cgpa": 9.02,
       "gradStatus": "Graduated (With Backlog)",
-      "failCount": 0,
+      "failCount": 1,
       "semesters": {
         "sem1": {
           "pct": 68.36,
@@ -10780,8 +13576,8 @@
       "domicile": "Karnataka",
       "category": "Regular",
       "cgpa": 5.28,
-      "gradStatus": "With Backlog",
-      "failCount": 3,
+      "gradStatus": "Discontinued / Transferred",
+      "failCount": 1,
       "semesters": {
         "sem1": {
           "pct": 51.64,
@@ -10843,10 +13639,34 @@
             }
           }
         },
-        "sem5": null,
-        "sem6": null,
-        "sem7": null,
-        "sem8": null
+        "sem5": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem6": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem7": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem8": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        }
       },
       "placement": {
         "status": "Discontinued",
@@ -11078,11 +13898,23 @@
       "domicile": "Karnataka",
       "category": "Regular",
       "cgpa": 6.64,
-      "gradStatus": "With Backlog",
+      "gradStatus": "Discontinued / Transferred",
       "failCount": 1,
       "semesters": {
-        "sem1": null,
-        "sem2": null,
+        "sem1": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem2": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
         "sem3": {
           "pct": 51.09,
           "sgpa": 5.38,
@@ -11113,10 +13945,34 @@
             }
           }
         },
-        "sem5": null,
-        "sem6": null,
-        "sem7": null,
-        "sem8": null
+        "sem5": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem6": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem7": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem8": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        }
       },
       "placement": {
         "status": "Higher Studies",
@@ -11149,11 +14005,23 @@
       "domicile": "Karnataka",
       "category": "Regular",
       "cgpa": 6.67,
-      "gradStatus": "No Backlog",
+      "gradStatus": "Discontinued / Transferred",
       "failCount": 0,
       "semesters": {
-        "sem1": null,
-        "sem2": null,
+        "sem1": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem2": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
         "sem3": {
           "pct": 59.27,
           "sgpa": 6.24,
@@ -11184,10 +14052,34 @@
             }
           }
         },
-        "sem5": null,
-        "sem6": null,
-        "sem7": null,
-        "sem8": null
+        "sem5": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem6": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem7": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem8": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        }
       },
       "placement": {
         "status": "Higher Studies",
@@ -11220,11 +14112,23 @@
       "domicile": "Telangana",
       "category": "Regular",
       "cgpa": 7.17,
-      "gradStatus": "No Backlog",
+      "gradStatus": "Discontinued / Transferred",
       "failCount": 0,
       "semesters": {
-        "sem1": null,
-        "sem2": null,
+        "sem1": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem2": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
         "sem3": {
           "pct": 73.27,
           "sgpa": 7.71,
@@ -11255,10 +14159,34 @@
             }
           }
         },
-        "sem5": null,
-        "sem6": null,
-        "sem7": null,
-        "sem8": null
+        "sem5": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem6": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem7": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem8": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        }
       },
       "placement": {
         "status": "Higher Studies",
@@ -11291,11 +14219,23 @@
       "domicile": "Andhra Pradesh",
       "category": "Regular",
       "cgpa": 7.51,
-      "gradStatus": "No Backlog",
+      "gradStatus": "Discontinued / Transferred",
       "failCount": 0,
       "semesters": {
-        "sem1": null,
-        "sem2": null,
+        "sem1": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem2": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
         "sem3": {
           "pct": 65.64,
           "sgpa": 6.91,
@@ -11326,10 +14266,34 @@
             }
           }
         },
-        "sem5": null,
-        "sem6": null,
-        "sem7": null,
-        "sem8": null
+        "sem5": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem6": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem7": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem8": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        }
       },
       "placement": {
         "status": "Placed",
@@ -11362,11 +14326,23 @@
       "domicile": "Kerala",
       "category": "Regular",
       "cgpa": 5.01,
-      "gradStatus": "With Backlog",
-      "failCount": 2,
+      "gradStatus": "Discontinued / Transferred",
+      "failCount": 1,
       "semesters": {
-        "sem1": null,
-        "sem2": null,
+        "sem1": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem2": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
         "sem3": {
           "pct": 46.55,
           "sgpa": 4.9,
@@ -11397,10 +14373,34 @@
             }
           }
         },
-        "sem5": null,
-        "sem6": null,
-        "sem7": null,
-        "sem8": null
+        "sem5": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem6": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem7": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem8": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        }
       },
       "placement": {
         "status": "Entrepreneur",
@@ -11433,11 +14433,23 @@
       "domicile": "Andhra Pradesh",
       "category": "Regular",
       "cgpa": 6.83,
-      "gradStatus": "With Backlog",
+      "gradStatus": "Discontinued / Transferred",
       "failCount": 1,
       "semesters": {
-        "sem1": null,
-        "sem2": null,
+        "sem1": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem2": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
         "sem3": {
           "pct": 62.18,
           "sgpa": 6.55,
@@ -11468,10 +14480,34 @@
             }
           }
         },
-        "sem5": null,
-        "sem6": null,
-        "sem7": null,
-        "sem8": null
+        "sem5": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem6": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem7": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem8": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        }
       },
       "placement": {
         "status": "Placed",
@@ -11504,8 +14540,8 @@
       "domicile": "Kerala",
       "category": "Regular",
       "cgpa": 3.99,
-      "gradStatus": "Completed",
-      "failCount": 0,
+      "gradStatus": "Discontinued / Transferred",
+      "failCount": 1,
       "semesters": {
         "sem1": {
           "pct": 44.73,
@@ -11552,11 +14588,41 @@
             }
           }
         },
-        "sem4": null,
-        "sem5": null,
-        "sem6": null,
-        "sem7": null,
-        "sem8": null
+        "sem4": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem5": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem6": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem7": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem8": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        }
       },
       "placement": {
         "status": "Discontinued",
@@ -11589,8 +14655,8 @@
       "domicile": "Kerala",
       "category": "Regular",
       "cgpa": 3.99,
-      "gradStatus": "Discontinued",
-      "failCount": 0,
+      "gradStatus": "Discontinued / Transferred",
+      "failCount": 1,
       "semesters": {
         "sem1": {
           "pct": 44.73,
@@ -11637,11 +14703,41 @@
             }
           }
         },
-        "sem4": null,
-        "sem5": null,
-        "sem6": null,
-        "sem7": null,
-        "sem8": null
+        "sem4": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem5": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem6": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem7": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem8": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        }
       },
       "placement": {
         "status": "Discontinued",
@@ -11674,7 +14770,7 @@
       "domicile": "Kerala",
       "category": "Regular",
       "cgpa": 7.88,
-      "gradStatus": "No Backlog",
+      "gradStatus": "Discontinued / Transferred",
       "failCount": 0,
       "semesters": {
         "sem1": {
@@ -11767,8 +14863,20 @@
             }
           }
         },
-        "sem7": null,
-        "sem8": null
+        "sem7": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem8": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        }
       },
       "placement": {
         "status": "Placed",
@@ -11801,7 +14909,7 @@
       "domicile": "Kerala",
       "category": "Regular",
       "cgpa": 6.59,
-      "gradStatus": "With Backlog",
+      "gradStatus": "Discontinued / Transferred",
       "failCount": 1,
       "semesters": {
         "sem1": {
@@ -11894,8 +15002,20 @@
             }
           }
         },
-        "sem7": null,
-        "sem8": null
+        "sem7": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem8": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        }
       },
       "placement": {
         "status": "Higher Studies",
@@ -11928,7 +15048,7 @@
       "domicile": "Kerala",
       "category": "Regular",
       "cgpa": 8.59,
-      "gradStatus": "Discontinued",
+      "gradStatus": "Discontinued / Transferred",
       "failCount": 0,
       "semesters": {
         "sem1": {
@@ -11976,11 +15096,41 @@
             }
           }
         },
-        "sem4": null,
-        "sem5": null,
-        "sem6": null,
-        "sem7": null,
-        "sem8": null
+        "sem4": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem5": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem6": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem7": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem8": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        }
       },
       "placement": {
         "status": "Discontinued",
@@ -12013,7 +15163,7 @@
       "domicile": "Kerala",
       "category": "Regular",
       "cgpa": 6.9,
-      "gradStatus": "No Backlog",
+      "gradStatus": "Discontinued / Transferred",
       "failCount": 0,
       "semesters": {
         "sem1": {
@@ -12106,8 +15256,20 @@
             }
           }
         },
-        "sem7": null,
-        "sem8": null
+        "sem7": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem8": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        }
       },
       "placement": {
         "status": "Placed",
@@ -12139,9 +15301,9 @@
       "gender": "Male",
       "domicile": "Kerala",
       "category": "Regular",
-      "cgpa": 6.07,
-      "gradStatus": "Discontinued",
-      "failCount": 0,
+      "cgpa": 6.06,
+      "gradStatus": "Discontinued / Transferred",
+      "failCount": 1,
       "semesters": {
         "sem1": {
           "pct": 60.17,
@@ -12173,12 +15335,48 @@
             }
           }
         },
-        "sem3": null,
-        "sem4": null,
-        "sem5": null,
-        "sem6": null,
-        "sem7": null,
-        "sem8": null
+        "sem3": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem4": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem5": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem6": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem7": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem8": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        }
       },
       "placement": {
         "status": "Discontinued",
@@ -12211,8 +15409,8 @@
       "domicile": "Manipur",
       "category": "Regular",
       "cgpa": 3.66,
-      "gradStatus": "Discontinued",
-      "failCount": 0,
+      "gradStatus": "Discontinued / Transferred",
+      "failCount": 1,
       "semesters": {
         "sem1": {
           "pct": 34.73,
@@ -12229,13 +15427,55 @@
             }
           }
         },
-        "sem2": null,
-        "sem3": null,
-        "sem4": null,
-        "sem5": null,
-        "sem6": null,
-        "sem7": null,
-        "sem8": null
+        "sem2": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem3": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem4": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem5": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem6": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem7": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem8": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        }
       },
       "placement": {
         "status": "Discontinued",
@@ -12268,7 +15508,7 @@
       "domicile": "Kerala",
       "category": "Regular",
       "cgpa": 6.83,
-      "gradStatus": "No Backlog",
+      "gradStatus": "Discontinued / Transferred",
       "failCount": 0,
       "semesters": {
         "sem1": {
@@ -12361,8 +15601,20 @@
             }
           }
         },
-        "sem7": null,
-        "sem8": null
+        "sem7": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem8": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        }
       },
       "placement": {
         "status": "Higher Studies",
@@ -12395,7 +15647,7 @@
       "domicile": "Telangana",
       "category": "Regular",
       "cgpa": 7.6,
-      "gradStatus": "No Backlog",
+      "gradStatus": "Discontinued / Transferred",
       "failCount": 0,
       "semesters": {
         "sem1": {
@@ -12488,8 +15740,20 @@
             }
           }
         },
-        "sem7": null,
-        "sem8": null
+        "sem7": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem8": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        }
       },
       "placement": {
         "status": "Placed",
@@ -12522,7 +15786,7 @@
       "domicile": "Meghalaya",
       "category": "Regular",
       "cgpa": 6.18,
-      "gradStatus": "With Backlog",
+      "gradStatus": "Discontinued / Transferred",
       "failCount": 1,
       "semesters": {
         "sem1": {
@@ -12615,8 +15879,20 @@
             }
           }
         },
-        "sem7": null,
-        "sem8": null
+        "sem7": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem8": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        }
       },
       "placement": {
         "status": "Higher Studies",
@@ -12649,10 +15925,16 @@
       "domicile": "Kerala",
       "category": "Regular",
       "cgpa": 6.37,
-      "gradStatus": "Discontinued",
+      "gradStatus": "Discontinued / Transferred",
       "failCount": 0,
       "semesters": {
-        "sem1": null,
+        "sem1": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
         "sem2": {
           "pct": 60.5,
           "sgpa": 6.37,
@@ -12668,12 +15950,48 @@
             }
           }
         },
-        "sem3": null,
-        "sem4": null,
-        "sem5": null,
-        "sem6": null,
-        "sem7": null,
-        "sem8": null
+        "sem3": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem4": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem5": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem6": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem7": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem8": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        }
       },
       "placement": {
         "status": "Discontinued",
@@ -12706,7 +16024,7 @@
       "domicile": "Gujarat",
       "category": "Lateral",
       "cgpa": 6.95,
-      "gradStatus": "No Backlog",
+      "gradStatus": "Discontinued / Transferred",
       "failCount": 0,
       "semesters": {
         "sem1": {
@@ -12799,8 +16117,20 @@
             }
           }
         },
-        "sem7": null,
-        "sem8": null
+        "sem7": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem8": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        }
       },
       "placement": {
         "status": "Entrepreneur",
@@ -12833,8 +16163,8 @@
       "domicile": "Tamilnadu",
       "category": "Lateral",
       "cgpa": 7.13,
-      "gradStatus": "With Backlog",
-      "failCount": 2,
+      "gradStatus": "Discontinued / Transferred",
+      "failCount": 1,
       "semesters": {
         "sem1": {
           "pct": 72.36,
@@ -12926,8 +16256,20 @@
             }
           }
         },
-        "sem7": null,
-        "sem8": null
+        "sem7": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem8": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        }
       },
       "placement": {
         "status": "Higher Studies",
@@ -12959,49 +16301,49 @@
       "gender": "Male",
       "domicile": "Kerala",
       "category": "Regular",
-      "cgpa": 7.2,
-      "gradStatus": "No Backlog",
+      "cgpa": null,
+      "gradStatus": "Discontinued / Transferred",
       "failCount": 0,
       "semesters": {
         "sem1": {
           "pct": null,
           "sgpa": null,
-          "class": "68.18",
+          "class": "",
           "status": "—",
           "sources": {}
         },
         "sem2": {
           "pct": null,
           "sgpa": null,
-          "class": "64.0",
+          "class": "",
           "status": "—",
           "sources": {}
         },
         "sem3": {
           "pct": null,
           "sgpa": null,
-          "class": "63.0",
+          "class": "",
           "status": "—",
           "sources": {}
         },
         "sem4": {
           "pct": null,
           "sgpa": null,
-          "class": "59.17",
+          "class": "",
           "status": "—",
           "sources": {}
         },
         "sem5": {
           "pct": null,
           "sgpa": null,
-          "class": "66.43",
+          "class": "",
           "status": "—",
           "sources": {}
         },
         "sem6": {
           "pct": null,
           "sgpa": null,
-          "class": "78.0",
+          "class": "",
           "status": "—",
           "sources": {}
         },
@@ -13050,35 +16392,35 @@
       "gender": "Male",
       "domicile": "Kerala",
       "category": "Regular",
-      "cgpa": 7.2,
-      "gradStatus": "With Backlog",
+      "cgpa": null,
+      "gradStatus": "Discontinued / Transferred",
       "failCount": 0,
       "semesters": {
         "sem1": {
           "pct": null,
           "sgpa": null,
-          "class": "62.55",
+          "class": "",
           "status": "—",
           "sources": {}
         },
         "sem2": {
           "pct": null,
           "sgpa": null,
-          "class": "66.44",
+          "class": "",
           "status": "—",
           "sources": {}
         },
         "sem3": {
           "pct": null,
           "sgpa": null,
-          "class": "63.17",
+          "class": "",
           "status": "—",
           "sources": {}
         },
         "sem4": {
           "pct": null,
           "sgpa": null,
-          "class": "62.0",
+          "class": "",
           "status": "—",
           "sources": {}
         },
@@ -13089,11 +16431,17 @@
           "status": "—",
           "sources": {}
         },
-        "sem6": null,
+        "sem6": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
         "sem7": {
           "pct": null,
           "sgpa": null,
-          "class": "1",
+          "class": "",
           "status": "—",
           "sources": {}
         },
@@ -13135,35 +16483,35 @@
       "gender": "Male",
       "domicile": "Jharkhand",
       "category": "Regular",
-      "cgpa": 7.2,
-      "gradStatus": "No Backlog",
+      "cgpa": null,
+      "gradStatus": "Discontinued / Transferred",
       "failCount": 0,
       "semesters": {
         "sem1": {
           "pct": null,
           "sgpa": null,
-          "class": "72.36",
+          "class": "",
           "status": "—",
           "sources": {}
         },
         "sem2": {
           "pct": null,
           "sgpa": null,
-          "class": "74.22",
+          "class": "",
           "status": "—",
           "sources": {}
         },
         "sem3": {
           "pct": null,
           "sgpa": null,
-          "class": "78.0",
+          "class": "",
           "status": "—",
           "sources": {}
         },
         "sem4": {
           "pct": null,
           "sgpa": null,
-          "class": "76.17",
+          "class": "",
           "status": "—",
           "sources": {}
         },
@@ -13174,7 +16522,13 @@
           "status": "—",
           "sources": {}
         },
-        "sem6": null,
+        "sem6": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
         "sem7": {
           "pct": null,
           "sgpa": null,
@@ -13220,21 +16574,21 @@
       "gender": "Male",
       "domicile": "Saudi Arabia",
       "category": "Regular",
-      "cgpa": 7.2,
-      "gradStatus": "Semester Exch.",
+      "cgpa": null,
+      "gradStatus": "Discontinued / Transferred",
       "failCount": 0,
       "semesters": {
         "sem1": {
           "pct": null,
           "sgpa": null,
-          "class": "54.73",
+          "class": "",
           "status": "—",
           "sources": {}
         },
         "sem2": {
           "pct": null,
           "sgpa": null,
-          "class": "0.22",
+          "class": "",
           "status": "—",
           "sources": {}
         },
@@ -13245,13 +16599,31 @@
           "status": "—",
           "sources": {}
         },
-        "sem4": null,
-        "sem5": null,
-        "sem6": null,
+        "sem4": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem5": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
+        "sem6": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
         "sem7": {
           "pct": null,
           "sgpa": null,
-          "class": "2",
+          "class": "",
           "status": "—",
           "sources": {}
         },
@@ -13293,35 +16665,35 @@
       "gender": "Male",
       "domicile": "UAE",
       "category": "Regular",
-      "cgpa": 7.2,
-      "gradStatus": "With Backlog",
+      "cgpa": null,
+      "gradStatus": "Discontinued / Transferred",
       "failCount": 0,
       "semesters": {
         "sem1": {
           "pct": null,
           "sgpa": null,
-          "class": "67.27",
+          "class": "",
           "status": "—",
           "sources": {}
         },
         "sem2": {
           "pct": null,
           "sgpa": null,
-          "class": "62.0",
+          "class": "",
           "status": "—",
           "sources": {}
         },
         "sem3": {
           "pct": null,
           "sgpa": null,
-          "class": "53.67",
+          "class": "",
           "status": "—",
           "sources": {}
         },
         "sem4": {
           "pct": null,
           "sgpa": null,
-          "class": "56.17",
+          "class": "",
           "status": "—",
           "sources": {}
         },
@@ -13332,11 +16704,17 @@
           "status": "—",
           "sources": {}
         },
-        "sem6": null,
+        "sem6": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
         "sem7": {
           "pct": null,
           "sgpa": null,
-          "class": "4",
+          "class": "",
           "status": "—",
           "sources": {}
         },
@@ -13378,35 +16756,35 @@
       "gender": "Male",
       "domicile": "New Delhi",
       "category": "Regular",
-      "cgpa": 7.2,
-      "gradStatus": "No Backlog",
+      "cgpa": null,
+      "gradStatus": "Discontinued / Transferred",
       "failCount": 0,
       "semesters": {
         "sem1": {
           "pct": null,
           "sgpa": null,
-          "class": "74.55",
+          "class": "",
           "status": "—",
           "sources": {}
         },
         "sem2": {
           "pct": null,
           "sgpa": null,
-          "class": "74.0",
+          "class": "",
           "status": "—",
           "sources": {}
         },
         "sem3": {
           "pct": null,
           "sgpa": null,
-          "class": "71.17",
+          "class": "",
           "status": "—",
           "sources": {}
         },
         "sem4": {
           "pct": null,
           "sgpa": null,
-          "class": "71.33",
+          "class": "",
           "status": "—",
           "sources": {}
         },
@@ -13417,7 +16795,13 @@
           "status": "—",
           "sources": {}
         },
-        "sem6": null,
+        "sem6": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
         "sem7": {
           "pct": null,
           "sgpa": null,
@@ -13463,35 +16847,35 @@
       "gender": "Male",
       "domicile": "Meghalaya",
       "category": "Regular",
-      "cgpa": 7.2,
-      "gradStatus": "No Backlog",
+      "cgpa": null,
+      "gradStatus": "Discontinued / Transferred",
       "failCount": 0,
       "semesters": {
         "sem1": {
           "pct": null,
           "sgpa": null,
-          "class": "60.36",
+          "class": "",
           "status": "—",
           "sources": {}
         },
         "sem2": {
           "pct": null,
           "sgpa": null,
-          "class": "69.11",
+          "class": "",
           "status": "—",
           "sources": {}
         },
         "sem3": {
           "pct": null,
           "sgpa": null,
-          "class": "76.83",
+          "class": "",
           "status": "—",
           "sources": {}
         },
         "sem4": {
           "pct": null,
           "sgpa": null,
-          "class": "69.83",
+          "class": "",
           "status": "—",
           "sources": {}
         },
@@ -13502,7 +16886,13 @@
           "status": "—",
           "sources": {}
         },
-        "sem6": null,
+        "sem6": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
         "sem7": {
           "pct": null,
           "sgpa": null,
@@ -13548,35 +16938,35 @@
       "gender": "Female",
       "domicile": "Kerala",
       "category": "Regular",
-      "cgpa": 7.2,
-      "gradStatus": "With Backlog",
+      "cgpa": null,
+      "gradStatus": "Discontinued / Transferred",
       "failCount": 0,
       "semesters": {
         "sem1": {
           "pct": null,
           "sgpa": null,
-          "class": "82.55",
+          "class": "",
           "status": "—",
           "sources": {}
         },
         "sem2": {
           "pct": null,
           "sgpa": null,
-          "class": "77.56",
+          "class": "",
           "status": "—",
           "sources": {}
         },
         "sem3": {
           "pct": null,
           "sgpa": null,
-          "class": "86.83",
+          "class": "",
           "status": "—",
           "sources": {}
         },
         "sem4": {
           "pct": null,
           "sgpa": null,
-          "class": "82.83",
+          "class": "",
           "status": "—",
           "sources": {}
         },
@@ -13587,11 +16977,17 @@
           "status": "—",
           "sources": {}
         },
-        "sem6": null,
+        "sem6": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
         "sem7": {
           "pct": null,
           "sgpa": null,
-          "class": "1",
+          "class": "",
           "status": "—",
           "sources": {}
         },
@@ -13633,35 +17029,35 @@
       "gender": "Female",
       "domicile": "West Bengal",
       "category": "Regular",
-      "cgpa": 7.2,
-      "gradStatus": "With Backlog",
+      "cgpa": null,
+      "gradStatus": "Discontinued / Transferred",
       "failCount": 0,
       "semesters": {
         "sem1": {
           "pct": null,
           "sgpa": null,
-          "class": "68.91",
+          "class": "",
           "status": "—",
           "sources": {}
         },
         "sem2": {
           "pct": null,
           "sgpa": null,
-          "class": "78.0",
+          "class": "",
           "status": "—",
           "sources": {}
         },
         "sem3": {
           "pct": null,
           "sgpa": null,
-          "class": "74.33",
+          "class": "",
           "status": "—",
           "sources": {}
         },
         "sem4": {
           "pct": null,
           "sgpa": null,
-          "class": "83.0",
+          "class": "",
           "status": "—",
           "sources": {}
         },
@@ -13672,11 +17068,17 @@
           "status": "—",
           "sources": {}
         },
-        "sem6": null,
+        "sem6": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
         "sem7": {
           "pct": null,
           "sgpa": null,
-          "class": "1",
+          "class": "",
           "status": "—",
           "sources": {}
         },
@@ -13718,35 +17120,35 @@
       "gender": "Male",
       "domicile": "Kerala",
       "category": "Regular",
-      "cgpa": 7.2,
-      "gradStatus": "With Backlog",
+      "cgpa": null,
+      "gradStatus": "Discontinued / Transferred",
       "failCount": 0,
       "semesters": {
         "sem1": {
           "pct": null,
           "sgpa": null,
-          "class": "62.73",
+          "class": "",
           "status": "—",
           "sources": {}
         },
         "sem2": {
           "pct": null,
           "sgpa": null,
-          "class": "66.89",
+          "class": "",
           "status": "—",
           "sources": {}
         },
         "sem3": {
           "pct": null,
           "sgpa": null,
-          "class": "70.83",
+          "class": "",
           "status": "—",
           "sources": {}
         },
         "sem4": {
           "pct": null,
           "sgpa": null,
-          "class": "64.33",
+          "class": "",
           "status": "—",
           "sources": {}
         },
@@ -13757,11 +17159,17 @@
           "status": "—",
           "sources": {}
         },
-        "sem6": null,
+        "sem6": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
         "sem7": {
           "pct": null,
           "sgpa": null,
-          "class": "1",
+          "class": "",
           "status": "—",
           "sources": {}
         },
@@ -13803,35 +17211,35 @@
       "gender": "Female",
       "domicile": "Kerala",
       "category": "Regular",
-      "cgpa": 7.2,
-      "gradStatus": "With Backlog",
+      "cgpa": null,
+      "gradStatus": "Discontinued / Transferred",
       "failCount": 0,
       "semesters": {
         "sem1": {
           "pct": null,
           "sgpa": null,
-          "class": "62.0",
+          "class": "",
           "status": "—",
           "sources": {}
         },
         "sem2": {
           "pct": null,
           "sgpa": null,
-          "class": "58.67",
+          "class": "",
           "status": "—",
           "sources": {}
         },
         "sem3": {
           "pct": null,
           "sgpa": null,
-          "class": "58.0",
+          "class": "",
           "status": "—",
           "sources": {}
         },
         "sem4": {
           "pct": null,
           "sgpa": null,
-          "class": "59.33",
+          "class": "",
           "status": "—",
           "sources": {}
         },
@@ -13842,11 +17250,17 @@
           "status": "—",
           "sources": {}
         },
-        "sem6": null,
+        "sem6": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
         "sem7": {
           "pct": null,
           "sgpa": null,
-          "class": "1",
+          "class": "",
           "status": "—",
           "sources": {}
         },
@@ -13888,35 +17302,35 @@
       "gender": "Male",
       "domicile": "Andhra Pradesh",
       "category": "Regular",
-      "cgpa": 7.2,
-      "gradStatus": "With Backlog",
+      "cgpa": null,
+      "gradStatus": "Discontinued / Transferred",
       "failCount": 0,
       "semesters": {
         "sem1": {
           "pct": null,
           "sgpa": null,
-          "class": "40.91",
+          "class": "",
           "status": "—",
           "sources": {}
         },
         "sem2": {
           "pct": null,
           "sgpa": null,
-          "class": "48.67",
+          "class": "",
           "status": "—",
           "sources": {}
         },
         "sem3": {
           "pct": null,
           "sgpa": null,
-          "class": "53.0",
+          "class": "",
           "status": "—",
           "sources": {}
         },
         "sem4": {
           "pct": null,
           "sgpa": null,
-          "class": "47.33",
+          "class": "",
           "status": "—",
           "sources": {}
         },
@@ -13927,11 +17341,17 @@
           "status": "—",
           "sources": {}
         },
-        "sem6": null,
+        "sem6": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
         "sem7": {
           "pct": null,
           "sgpa": null,
-          "class": "2",
+          "class": "",
           "status": "—",
           "sources": {}
         },
@@ -13973,35 +17393,35 @@
       "gender": "Male",
       "domicile": "Andhra Pradesh",
       "category": "Regular",
-      "cgpa": 7.2,
-      "gradStatus": "With Backlog",
+      "cgpa": null,
+      "gradStatus": "Discontinued / Transferred",
       "failCount": 0,
       "semesters": {
         "sem1": {
           "pct": null,
           "sgpa": null,
-          "class": "53.27",
+          "class": "",
           "status": "—",
           "sources": {}
         },
         "sem2": {
           "pct": null,
           "sgpa": null,
-          "class": "54.22",
+          "class": "",
           "status": "—",
           "sources": {}
         },
         "sem3": {
           "pct": null,
           "sgpa": null,
-          "class": "53.67",
+          "class": "",
           "status": "—",
           "sources": {}
         },
         "sem4": {
           "pct": null,
           "sgpa": null,
-          "class": "49.67",
+          "class": "",
           "status": "—",
           "sources": {}
         },
@@ -14012,11 +17432,17 @@
           "status": "—",
           "sources": {}
         },
-        "sem6": null,
+        "sem6": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
         "sem7": {
           "pct": null,
           "sgpa": null,
-          "class": "4",
+          "class": "",
           "status": "—",
           "sources": {}
         },
@@ -14058,35 +17484,35 @@
       "gender": "Male",
       "domicile": "Andhra Pradesh",
       "category": "Regular",
-      "cgpa": 7.2,
-      "gradStatus": "With Backlog",
+      "cgpa": null,
+      "gradStatus": "Discontinued / Transferred",
       "failCount": 0,
       "semesters": {
         "sem1": {
           "pct": null,
           "sgpa": null,
-          "class": "53.45",
+          "class": "",
           "status": "—",
           "sources": {}
         },
         "sem2": {
           "pct": null,
           "sgpa": null,
-          "class": "70.89",
+          "class": "",
           "status": "—",
           "sources": {}
         },
         "sem3": {
           "pct": null,
           "sgpa": null,
-          "class": "63.83",
+          "class": "",
           "status": "—",
           "sources": {}
         },
         "sem4": {
           "pct": null,
           "sgpa": null,
-          "class": "71.0",
+          "class": "",
           "status": "—",
           "sources": {}
         },
@@ -14097,11 +17523,17 @@
           "status": "—",
           "sources": {}
         },
-        "sem6": null,
+        "sem6": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
         "sem7": {
           "pct": null,
           "sgpa": null,
-          "class": "1",
+          "class": "",
           "status": "—",
           "sources": {}
         },
@@ -14143,35 +17575,35 @@
       "gender": "Male",
       "domicile": "Kerala",
       "category": "Regular",
-      "cgpa": 7.2,
-      "gradStatus": "No Backlog",
+      "cgpa": null,
+      "gradStatus": "Discontinued / Transferred",
       "failCount": 0,
       "semesters": {
         "sem1": {
           "pct": null,
           "sgpa": null,
-          "class": "78.18",
+          "class": "",
           "status": "—",
           "sources": {}
         },
         "sem2": {
           "pct": null,
           "sgpa": null,
-          "class": "79.11",
+          "class": "",
           "status": "—",
           "sources": {}
         },
         "sem3": {
           "pct": null,
           "sgpa": null,
-          "class": "74.67",
+          "class": "",
           "status": "—",
           "sources": {}
         },
         "sem4": {
           "pct": null,
           "sgpa": null,
-          "class": "65.67",
+          "class": "",
           "status": "—",
           "sources": {}
         },
@@ -14182,7 +17614,13 @@
           "status": "—",
           "sources": {}
         },
-        "sem6": null,
+        "sem6": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
         "sem7": {
           "pct": null,
           "sgpa": null,
@@ -14228,35 +17666,35 @@
       "gender": "Male",
       "domicile": "Tamilnadu",
       "category": "Regular",
-      "cgpa": 7.2,
-      "gradStatus": "No Backlog",
+      "cgpa": null,
+      "gradStatus": "Discontinued / Transferred",
       "failCount": 0,
       "semesters": {
         "sem1": {
           "pct": null,
           "sgpa": null,
-          "class": "65.45",
+          "class": "",
           "status": "—",
           "sources": {}
         },
         "sem2": {
           "pct": null,
           "sgpa": null,
-          "class": "59.11",
+          "class": "",
           "status": "—",
           "sources": {}
         },
         "sem3": {
           "pct": null,
           "sgpa": null,
-          "class": "62.83",
+          "class": "",
           "status": "—",
           "sources": {}
         },
         "sem4": {
           "pct": null,
           "sgpa": null,
-          "class": "58.0",
+          "class": "",
           "status": "—",
           "sources": {}
         },
@@ -14267,7 +17705,13 @@
           "status": "—",
           "sources": {}
         },
-        "sem6": null,
+        "sem6": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
         "sem7": {
           "pct": null,
           "sgpa": null,
@@ -14313,35 +17757,35 @@
       "gender": "Male",
       "domicile": "Karnataka",
       "category": "Regular",
-      "cgpa": 7.2,
-      "gradStatus": "No Backlog",
+      "cgpa": null,
+      "gradStatus": "Discontinued / Transferred",
       "failCount": 0,
       "semesters": {
         "sem1": {
           "pct": null,
           "sgpa": null,
-          "class": "68.36",
+          "class": "",
           "status": "—",
           "sources": {}
         },
         "sem2": {
           "pct": null,
           "sgpa": null,
-          "class": "71.78",
+          "class": "",
           "status": "—",
           "sources": {}
         },
         "sem3": {
           "pct": null,
           "sgpa": null,
-          "class": "77.17",
+          "class": "",
           "status": "—",
           "sources": {}
         },
         "sem4": {
           "pct": null,
           "sgpa": null,
-          "class": "72.67",
+          "class": "",
           "status": "—",
           "sources": {}
         },
@@ -14352,7 +17796,13 @@
           "status": "—",
           "sources": {}
         },
-        "sem6": null,
+        "sem6": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
         "sem7": {
           "pct": null,
           "sgpa": null,
@@ -14398,35 +17848,35 @@
       "gender": "Female",
       "domicile": "Andhra Pradesh",
       "category": "Regular",
-      "cgpa": 7.2,
-      "gradStatus": "With Backlog",
+      "cgpa": null,
+      "gradStatus": "Discontinued / Transferred",
       "failCount": 0,
       "semesters": {
         "sem1": {
           "pct": null,
           "sgpa": null,
-          "class": "58.0",
+          "class": "",
           "status": "—",
           "sources": {}
         },
         "sem2": {
           "pct": null,
           "sgpa": null,
-          "class": "62.22",
+          "class": "",
           "status": "—",
           "sources": {}
         },
         "sem3": {
           "pct": null,
           "sgpa": null,
-          "class": "59.67",
+          "class": "",
           "status": "—",
           "sources": {}
         },
         "sem4": {
           "pct": null,
           "sgpa": null,
-          "class": "58.17",
+          "class": "",
           "status": "—",
           "sources": {}
         },
@@ -14437,11 +17887,17 @@
           "status": "—",
           "sources": {}
         },
-        "sem6": null,
+        "sem6": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
         "sem7": {
           "pct": null,
           "sgpa": null,
-          "class": "1",
+          "class": "",
           "status": "—",
           "sources": {}
         },
@@ -14483,35 +17939,35 @@
       "gender": "Male",
       "domicile": "Meghalaya",
       "category": "Regular",
-      "cgpa": 7.2,
-      "gradStatus": "No Backlog",
+      "cgpa": null,
+      "gradStatus": "Discontinued / Transferred",
       "failCount": 0,
       "semesters": {
         "sem1": {
           "pct": null,
           "sgpa": null,
-          "class": "68.73",
+          "class": "",
           "status": "—",
           "sources": {}
         },
         "sem2": {
           "pct": null,
           "sgpa": null,
-          "class": "72.0",
+          "class": "",
           "status": "—",
           "sources": {}
         },
         "sem3": {
           "pct": null,
           "sgpa": null,
-          "class": "76.33",
+          "class": "",
           "status": "—",
           "sources": {}
         },
         "sem4": {
           "pct": null,
           "sgpa": null,
-          "class": "71.83",
+          "class": "",
           "status": "—",
           "sources": {}
         },
@@ -14522,7 +17978,13 @@
           "status": "—",
           "sources": {}
         },
-        "sem6": null,
+        "sem6": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
         "sem7": {
           "pct": null,
           "sgpa": null,
@@ -14568,35 +18030,35 @@
       "gender": "Male",
       "domicile": "Karnataka",
       "category": "Regular",
-      "cgpa": 7.2,
-      "gradStatus": "No Backlog",
+      "cgpa": null,
+      "gradStatus": "Discontinued / Transferred",
       "failCount": 0,
       "semesters": {
         "sem1": {
           "pct": null,
           "sgpa": null,
-          "class": "68.73",
+          "class": "",
           "status": "—",
           "sources": {}
         },
         "sem2": {
           "pct": null,
           "sgpa": null,
-          "class": "68.89",
+          "class": "",
           "status": "—",
           "sources": {}
         },
         "sem3": {
           "pct": null,
           "sgpa": null,
-          "class": "67.5",
+          "class": "",
           "status": "—",
           "sources": {}
         },
         "sem4": {
           "pct": null,
           "sgpa": null,
-          "class": "60.5",
+          "class": "",
           "status": "—",
           "sources": {}
         },
@@ -14607,7 +18069,13 @@
           "status": "—",
           "sources": {}
         },
-        "sem6": null,
+        "sem6": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
         "sem7": {
           "pct": null,
           "sgpa": null,
@@ -14653,35 +18121,35 @@
       "gender": "Male",
       "domicile": "Karnataka",
       "category": "Regular",
-      "cgpa": 7.2,
-      "gradStatus": "With Backlog",
+      "cgpa": null,
+      "gradStatus": "Discontinued / Transferred",
       "failCount": 0,
       "semesters": {
         "sem1": {
           "pct": null,
           "sgpa": null,
-          "class": "50.73",
+          "class": "",
           "status": "—",
           "sources": {}
         },
         "sem2": {
           "pct": null,
           "sgpa": null,
-          "class": "46.67",
+          "class": "",
           "status": "—",
           "sources": {}
         },
         "sem3": {
           "pct": null,
           "sgpa": null,
-          "class": "47.5",
+          "class": "",
           "status": "—",
           "sources": {}
         },
         "sem4": {
           "pct": null,
           "sgpa": null,
-          "class": "46.83",
+          "class": "",
           "status": "—",
           "sources": {}
         },
@@ -14692,11 +18160,17 @@
           "status": "—",
           "sources": {}
         },
-        "sem6": null,
+        "sem6": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
         "sem7": {
           "pct": null,
           "sgpa": null,
-          "class": "4",
+          "class": "",
           "status": "—",
           "sources": {}
         },
@@ -14738,35 +18212,35 @@
       "gender": "Male",
       "domicile": "Karnataka",
       "category": "Lateral",
-      "cgpa": 7.2,
-      "gradStatus": "With Backlog",
+      "cgpa": null,
+      "gradStatus": "Discontinued / Transferred",
       "failCount": 0,
       "semesters": {
         "sem1": {
           "pct": null,
           "sgpa": null,
-          "class": "61.27",
+          "class": "",
           "status": "—",
           "sources": {}
         },
         "sem2": {
           "pct": null,
           "sgpa": null,
-          "class": "58.44",
+          "class": "",
           "status": "—",
           "sources": {}
         },
         "sem3": {
           "pct": null,
           "sgpa": null,
-          "class": "52.67",
+          "class": "",
           "status": "—",
           "sources": {}
         },
         "sem4": {
           "pct": null,
           "sgpa": null,
-          "class": "57.67",
+          "class": "",
           "status": "—",
           "sources": {}
         },
@@ -14777,11 +18251,17 @@
           "status": "—",
           "sources": {}
         },
-        "sem6": null,
+        "sem6": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
         "sem7": {
           "pct": null,
           "sgpa": null,
-          "class": "1",
+          "class": "",
           "status": "—",
           "sources": {}
         },
@@ -14823,35 +18303,35 @@
       "gender": "Male",
       "domicile": "Bihar",
       "category": "Lateral",
-      "cgpa": 7.2,
-      "gradStatus": "With Backlog",
+      "cgpa": null,
+      "gradStatus": "Discontinued / Transferred",
       "failCount": 0,
       "semesters": {
         "sem1": {
           "pct": null,
           "sgpa": null,
-          "class": "81.45",
+          "class": "",
           "status": "—",
           "sources": {}
         },
         "sem2": {
           "pct": null,
           "sgpa": null,
-          "class": "87.33",
+          "class": "",
           "status": "—",
           "sources": {}
         },
         "sem3": {
           "pct": null,
           "sgpa": null,
-          "class": "83.0",
+          "class": "",
           "status": "—",
           "sources": {}
         },
         "sem4": {
           "pct": null,
           "sgpa": null,
-          "class": "76.33",
+          "class": "",
           "status": "—",
           "sources": {}
         },
@@ -14862,11 +18342,17 @@
           "status": "—",
           "sources": {}
         },
-        "sem6": null,
+        "sem6": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
         "sem7": {
           "pct": null,
           "sgpa": null,
-          "class": "1",
+          "class": "",
           "status": "—",
           "sources": {}
         },
@@ -14908,35 +18394,35 @@
       "gender": "Female",
       "domicile": "Maharashtra",
       "category": "Lateral",
-      "cgpa": 7.2,
-      "gradStatus": "No Backlog",
+      "cgpa": null,
+      "gradStatus": "Discontinued / Transferred",
       "failCount": 0,
       "semesters": {
         "sem1": {
           "pct": null,
           "sgpa": null,
-          "class": "80.91",
+          "class": "",
           "status": "—",
           "sources": {}
         },
         "sem2": {
           "pct": null,
           "sgpa": null,
-          "class": "78.22",
+          "class": "",
           "status": "—",
           "sources": {}
         },
         "sem3": {
           "pct": null,
           "sgpa": null,
-          "class": "70.33",
+          "class": "",
           "status": "—",
           "sources": {}
         },
         "sem4": {
           "pct": null,
           "sgpa": null,
-          "class": "77.67",
+          "class": "",
           "status": "—",
           "sources": {}
         },
@@ -14947,7 +18433,13 @@
           "status": "—",
           "sources": {}
         },
-        "sem6": null,
+        "sem6": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
         "sem7": {
           "pct": null,
           "sgpa": null,
@@ -14993,35 +18485,35 @@
       "gender": "Male",
       "domicile": "Andhra Pradesh",
       "category": "Lateral",
-      "cgpa": 7.2,
-      "gradStatus": "With Backlog",
+      "cgpa": null,
+      "gradStatus": "Discontinued / Transferred",
       "failCount": 0,
       "semesters": {
         "sem1": {
           "pct": null,
           "sgpa": null,
-          "class": "67.27",
+          "class": "",
           "status": "—",
           "sources": {}
         },
         "sem2": {
           "pct": null,
           "sgpa": null,
-          "class": "71.78",
+          "class": "",
           "status": "—",
           "sources": {}
         },
         "sem3": {
           "pct": null,
           "sgpa": null,
-          "class": "60.5",
+          "class": "",
           "status": "—",
           "sources": {}
         },
         "sem4": {
           "pct": null,
           "sgpa": null,
-          "class": "57.83",
+          "class": "",
           "status": "—",
           "sources": {}
         },
@@ -15032,11 +18524,17 @@
           "status": "—",
           "sources": {}
         },
-        "sem6": null,
+        "sem6": {
+          "pct": null,
+          "sgpa": null,
+          "class": "",
+          "status": "—",
+          "sources": {}
+        },
         "sem7": {
           "pct": null,
           "sgpa": null,
-          "class": "2",
+          "class": "",
           "status": "—",
           "sources": {}
         },

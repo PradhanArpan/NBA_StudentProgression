@@ -883,7 +883,21 @@
           </div>
         </div>
 
-        <div class="overflow-x-auto">
+        <!-- Verification & Quality Audit Legend -->
+        <div class="flex flex-wrap items-center justify-between gap-3 bg-slate-50 border border-slate-200 px-3.5 py-2.5 rounded-lg text-xs mb-3">
+          <div class="flex flex-wrap items-center gap-2.5 text-slate-700 font-medium">
+            <span class="font-bold text-slate-900 uppercase tracking-wider text-[11px]">Cell Quality Legend:</span>
+            <span class="inline-flex items-center gap-1.5 px-2 py-0.5 rounded bg-emerald-50 text-emerald-800 border border-emerald-200 font-semibold shadow-2xs"><span class="w-2 h-2 rounded-full bg-emerald-500"></span> Verified (COE Sheet / PDF Marks Card)</span>
+            <span class="inline-flex items-center gap-1.5 px-2 py-0.5 rounded bg-amber-100 text-amber-950 border border-amber-400 font-semibold shadow-2xs"><span class="w-2 h-2 rounded-full bg-amber-500"></span> ⚠️ Doubtful / Unverified (Pending COE Backing)</span>
+            <span class="inline-flex items-center gap-1.5 px-2 py-0.5 rounded bg-amber-50 text-amber-800 border border-amber-200 font-semibold shadow-2xs"><span class="w-2 h-2 rounded-full bg-amber-400"></span> N/A (Data Not Available)</span>
+            <span class="inline-flex items-center gap-1.5 px-2 py-0.5 rounded bg-red-50 text-red-700 border border-red-200 font-semibold shadow-2xs"><span class="w-2 h-2 rounded-full bg-red-500"></span> Backlog / Fail</span>
+          </div>
+          <div class="text-[11px] text-slate-500 italic">
+            * All assumed/hypothetical data removed. Only verified Controller of Examinations data feeds Criterion 4 calculations.
+          </div>
+        </div>
+
+        <div class="overflow-x-auto">
           <table class="w-full whitespace-nowrap">
             <thead>
               <tr class="whitespace-nowrap">
@@ -1777,33 +1791,51 @@
         
         const semCells = ['sem1','sem2','sem3','sem4','sem5','sem6','sem7','sem8'].map(sm => {
           const sObj = s.semesters?.[sm];
-          if (!sObj || (sObj.sgpa === undefined && sObj.pct === undefined)) {
-            return '<td class="whitespace-nowrap px-2.5 py-2 text-center text-slate-300 text-xs">—</td>';
+          // Check if data is completely missing or null
+          if (!sObj || sObj.sgpa === undefined || sObj.sgpa === null || sObj.pct === undefined || sObj.pct === null) {
+            return `<td class="whitespace-nowrap px-2 py-1.5 text-center text-xs bg-amber-50/50 border border-amber-200/50" title="Data Not Available (N/A) — No Examination / Marksheet Record on file"><span class="px-1.5 py-0.5 rounded text-[10px] font-bold bg-amber-100 text-amber-800 border border-amber-300 shadow-2xs">N/A</span></td>`;
           }
-          const sgpaVal = sObj.sgpa !== undefined && sObj.sgpa !== null ? sObj.sgpa : (sObj.pct ? round(sObj.pct / 9.5, 2) : '—');
+
+          const sgpaVal = Number(sObj.sgpa).toFixed(2);
           const isFail = sObj.status === 'Fail' || sObj.class === 'Fail';
+          const isVerified = Boolean(sObj.sources?.verified_marksheet || sObj.sources?.ese_cia_repository);
+          const isDoubtful = !isVerified && Boolean(sObj.sources?.historical || sObj.sources?.kobo_survey);
+
           let docBadge = '';
           if (sObj.marksheetFile) {
             docBadge = `<a href="${sObj.marksheetFile}" target="_blank" class="inline-block text-[11px] text-amber-700 hover:text-amber-950 font-bold ml-1 hover:underline" title="View Verified Marksheet Proof (Attached Document)">📄</a>`;
           }
+
           let tooltip = `${sm.toUpperCase()}: SGPA ${sgpaVal}`;
           if (sObj.gpa_4pt) tooltip += ` | 4-pt GPA: ${sObj.gpa_4pt}`;
           if (sObj.pct) tooltip += ` | ${sObj.pct}%`;
           if (sObj.status) tooltip += ` (${sObj.status})`;
           if (sObj.sources?.verified_marksheet) {
-            tooltip += `\n• [Verified Proof]: ${sObj.sources.verified_marksheet.citation} (Marks: ${sObj.sources.verified_marksheet.total_marks || ''})`;
+            tooltip += `
+📄 [Verified Proof]: ${sObj.sources.verified_marksheet.citation} (Marks: ${sObj.sources.verified_marksheet.total_marks || ''})`;
           }
           if (sObj.sources?.kobo_survey) {
-            tooltip += `\n• [Survey Form]: ${sObj.sources.kobo_survey.citation}`;
+            tooltip += `
+📋 [Survey Form]: ${sObj.sources.kobo_survey.citation}`;
           }
           if (sObj.sources?.historical) {
-            tooltip += `\n• [Master Record]: ${sObj.sources.historical.citation}`;
+            tooltip += `
+📜 [Master Record]: ${sObj.sources.historical.citation}`;
           }
-          if (sObj.sources?.ese_cia_repository?.file_name || sObj.sources?.ese_cia_file?.file_name) {
-            const fName = sObj.sources.ese_cia_repository?.file_name || sObj.sources.ese_cia_file?.file_name;
-            tooltip += `\n• [ESE&CIA Marksheet]: ${fName}`;
+          if (sObj.sources?.ese_cia_repository?.file_name) {
+            tooltip += `
+📑 [ESE&CIA Marksheet]: ${sObj.sources.ese_cia_repository.file_name}`;
           }
-          return `<td class="whitespace-nowrap px-2 py-2 text-center text-xs ${isFail ? 'bg-red-50 text-red-600 font-bold' : 'text-slate-700'}" title="${tooltip}"><span class="inline-flex items-center justify-center">${sgpaVal}${docBadge}</span></td>`;
+
+          if (isDoubtful) {
+            return `<td class="whitespace-nowrap px-2 py-1.5 text-center text-xs bg-amber-100/70 border-2 border-dashed border-amber-400 text-amber-950 font-bold" title="⚠️ Doubtful / Unverified: Historical master record only; not cross-verified against Controller of Examinations marksheet."><span class="inline-flex items-center gap-1">${sgpaVal} <span class="px-1 py-0.2 rounded text-[9px] font-bold bg-amber-200 text-amber-900 border border-amber-400" title="Unverified against COE marksheet">⚠️ Doubtful</span></span></td>`;
+          }
+
+          if (isFail) {
+            return `<td class="whitespace-nowrap px-2 py-1.5 text-center text-xs bg-red-50 text-red-600 font-bold border border-red-200" title="${tooltip}"><span class="inline-flex items-center justify-center">${sgpaVal}${docBadge} <span class="ml-1 text-[9px] bg-red-100 text-red-700 px-1 py-0.2 rounded border border-red-200 font-bold">FAIL</span></span></td>`;
+          }
+
+          return `<td class="whitespace-nowrap px-2 py-1.5 text-center text-xs text-slate-800 bg-emerald-50/20 border border-emerald-100/60" title="${tooltip}"><span class="inline-flex items-center justify-center font-medium">${sgpaVal}${docBadge}</span></td>`;
         }).join('');
 
         // Internship 1
