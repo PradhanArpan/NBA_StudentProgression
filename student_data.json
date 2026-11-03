@@ -4,7 +4,7 @@
     "department": "Department of Civil Engineering",
     "institution": "CHRIST (Deemed to be University), Faculty of Engineering",
     "accreditation": "NBA Tier-I Pre-Qualifier & SAR Cycle",
-    "criterion": "Criterion 4 — Students' Performance (120 Marks)",
+    "criterion": "Criterion 4 \u2014 Students' Performance (120 Marks)",
     "criterionInCharges": "Dr. Arpan Pradhan & Dr. Shibu K Mani",
     "nbaCoordinator": "Dr. Thejas H K",
     "hod": "Dr. Sujatha Unnikrishnan",
@@ -2964,49 +2964,73 @@
           "pct": 37.33,
           "sgpa": 3.93,
           "class": "Fail",
-          "status": "Fail"
+          "status": "Fail",
+          "sources": {
+            "historical": {
+              "pct": 37.33,
+              "sgpa": 3.93,
+              "class": "Fail",
+              "status": "Fail",
+              "citation": "Department Academic Records (Pre-existing Master)"
+            }
+          }
         },
         "sem2": {
           "pct": 42.0,
           "sgpa": 4.42,
           "class": "Fail",
-          "status": "Fail"
+          "status": "Fail",
+          "sources": {
+            "historical": {
+              "pct": 42.0,
+              "sgpa": 4.42,
+              "class": "Fail",
+              "status": "Fail",
+              "citation": "Department Academic Records (Pre-existing Master)"
+            }
+          }
         },
         "sem3": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—"
+          "status": "\u2014",
+          "sources": {}
         },
         "sem4": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—"
+          "status": "\u2014",
+          "sources": {}
         },
         "sem5": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—"
+          "status": "\u2014",
+          "sources": {}
         },
         "sem6": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—"
+          "status": "\u2014",
+          "sources": {}
         },
         "sem7": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—"
+          "status": "\u2014",
+          "sources": {}
         },
         "sem8": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—"
+          "status": "\u2014",
+          "sources": {}
         }
       },
       "placement": {
@@ -3176,49 +3200,207 @@
           "pct": 71.45,
           "sgpa": 7.52,
           "class": "FC",
-          "status": "Pass"
+          "status": "Pass",
+          "sources": {
+            "historical": {
+              "citation": "Department Academic Records (Pre-existing Master)",
+              "pct": 71.45,
+              "sgpa": 7.52,
+              "status": "Pass"
+            },
+            "verified_marksheet": {
+              "citation": "Uploaded Controller of Examinations Marks Card",
+              "file": "documents/Batch_2023/2360105/kp.christuniversity.in_KnowledgePro_StudentLoginNewAction.do_methodprintMarksCardForBtech-12_5_59.pdf",
+              "total_marks": "393/550",
+              "credits": 21,
+              "gpa_4pt": 3.49,
+              "sgpa_10pt": 7.52,
+              "pct": 71.45,
+              "class": "FC",
+              "status": "Pass",
+              "supp": null
+            },
+            "kobo_survey": {
+              "citation": "Student Survey Response (Nov 2026)",
+              "reported_backlog": "no"
+            },
+            "ese_cia_repository": {
+              "citation": "ESE & CIA marks repository (2023_Sem1.xls.xls)",
+              "file_name": "2023_Sem1.xls.xls"
+            }
+          },
+          "gpa_4pt": 3.49,
+          "marksheetFile": "documents/Batch_2023/2360105/kp.christuniversity.in_KnowledgePro_StudentLoginNewAction.do_methodprintMarksCardForBtech-12_5_59.pdf"
         },
         "sem2": {
           "pct": 60.17,
           "sgpa": 6.33,
           "class": "Fail",
-          "status": "Fail"
+          "status": "Fail",
+          "sources": {
+            "historical": {
+              "citation": "Department Academic Records (Pre-existing Master)",
+              "pct": 60.17,
+              "sgpa": 6.33,
+              "status": "Fail"
+            },
+            "verified_marksheet": {
+              "citation": "Uploaded Controller of Examinations Marks Card",
+              "file": "documents/Batch_2023/2360105/kp.christuniversity.in_KnowledgePro_StudentLoginNewAction.do_methodprintMarksCardForBtech_1-12_6_19.pdf",
+              "total_marks": "361/600",
+              "credits": 20,
+              "gpa_4pt": 2.58,
+              "sgpa_10pt": 6.33,
+              "pct": 60.17,
+              "class": "Fail",
+              "status": "Fail",
+              "supp": "Cleared (GPA 2.4, 4 credits)"
+            },
+            "kobo_survey": {
+              "citation": "Student Survey Response (Nov 2026)",
+              "reported_backlog": "yes"
+            },
+            "ese_cia_repository": {
+              "citation": "ESE & CIA marks repository (2023_Sem2.xls.xls)",
+              "file_name": "2023_Sem2.xls.xls"
+            }
+          },
+          "gpa_4pt": 2.58,
+          "marksheetFile": "documents/Batch_2023/2360105/kp.christuniversity.in_KnowledgePro_StudentLoginNewAction.do_methodprintMarksCardForBtech_1-12_6_19.pdf"
         },
         "sem3": {
-          "pct": null,
-          "sgpa": null,
-          "class": "",
-          "status": "—"
+          "pct": 74.62,
+          "sgpa": 7.85,
+          "class": "FC",
+          "status": "Pass",
+          "sources": {
+            "verified_marksheet": {
+              "citation": "Uploaded Controller of Examinations Marks Card",
+              "file": "documents/Batch_2023/2360105/kp.christuniversity.in_KnowledgePro_StudentLoginNewAction.do_methodprintMarksCardForBtech_2-12_6_39.pdf",
+              "total_marks": "485/650",
+              "credits": 22,
+              "gpa_4pt": 3.58,
+              "sgpa_10pt": 7.85,
+              "pct": 74.62,
+              "class": "FC",
+              "status": "Pass",
+              "supp": null
+            },
+            "kobo_survey": {
+              "citation": "Student Survey Response (Nov 2026)",
+              "reported_backlog": "no"
+            },
+            "ese_cia_repository": {
+              "citation": "ESE & CIA marks repository (2023_Sem3.xls.xls)",
+              "file_name": "2023_Sem3.xls.xls"
+            }
+          },
+          "gpa_4pt": 3.58,
+          "marksheetFile": "documents/Batch_2023/2360105/kp.christuniversity.in_KnowledgePro_StudentLoginNewAction.do_methodprintMarksCardForBtech_2-12_6_39.pdf"
         },
         "sem4": {
-          "pct": null,
-          "sgpa": null,
-          "class": "",
-          "status": "—"
+          "pct": 69.17,
+          "sgpa": 7.28,
+          "class": "FC",
+          "status": "Pass",
+          "sources": {
+            "verified_marksheet": {
+              "citation": "Uploaded Controller of Examinations Marks Card",
+              "file": "documents/Batch_2023/2360105/kp.christuniversity.in_KnowledgePro_StudentLoginNewAction.do_methodprintMarksCardForBtech_3-12_6_59.pdf",
+              "total_marks": "415/600",
+              "credits": 23,
+              "gpa_4pt": 3.36,
+              "sgpa_10pt": 7.28,
+              "pct": 69.17,
+              "class": "FC",
+              "status": "Pass",
+              "supp": null
+            },
+            "kobo_survey": {
+              "citation": "Student Survey Response (Nov 2026)",
+              "reported_backlog": "no"
+            },
+            "ese_cia_repository": {
+              "citation": "ESE & CIA marks repository (2023_Sem4.xls.xls)",
+              "file_name": "2023_Sem4.xls.xls"
+            }
+          },
+          "gpa_4pt": 3.36,
+          "marksheetFile": "documents/Batch_2023/2360105/kp.christuniversity.in_KnowledgePro_StudentLoginNewAction.do_methodprintMarksCardForBtech_3-12_6_59.pdf"
         },
         "sem5": {
-          "pct": null,
-          "sgpa": null,
-          "class": "",
-          "status": "—"
+          "pct": 62.0,
+          "sgpa": 6.53,
+          "class": "Fail",
+          "status": "Fail",
+          "sources": {
+            "verified_marksheet": {
+              "citation": "Uploaded Controller of Examinations Marks Card",
+              "file": "documents/Batch_2023/2360105/kp.christuniversity.in_KnowledgePro_StudentLoginNewAction.do_methodprintMarksCardForBtech_4-12_7_18.pdf",
+              "total_marks": "Pending backlog in AEC-V",
+              "credits": 22,
+              "gpa_4pt": 2.8,
+              "sgpa_10pt": 6.53,
+              "pct": 62.0,
+              "class": "Fail",
+              "status": "Fail",
+              "supp": "Cleared (GPA 3.2, 1 credit)"
+            },
+            "kobo_survey": {
+              "citation": "Student Survey Response (Nov 2026)",
+              "reported_backlog": "yes"
+            },
+            "ese_cia_repository": {
+              "citation": "ESE & CIA marks repository (2023_Sem5.xls.xls)",
+              "file_name": "2023_Sem5.xls.xls"
+            }
+          },
+          "gpa_4pt": 2.8,
+          "marksheetFile": "documents/Batch_2023/2360105/kp.christuniversity.in_KnowledgePro_StudentLoginNewAction.do_methodprintMarksCardForBtech_4-12_7_18.pdf"
         },
         "sem6": {
-          "pct": null,
-          "sgpa": null,
-          "class": "",
-          "status": "—"
+          "pct": 58.0,
+          "sgpa": 6.1,
+          "class": "Fail",
+          "status": "Fail",
+          "sources": {
+            "verified_marksheet": {
+              "citation": "Uploaded Controller of Examinations Marks Card",
+              "file": "documents/Batch_2023/2360105/kp.christuniversity.in_KnowledgePro_StudentLoginNewAction.do_methodprintMarksCardForBtech_5-12_7_48.pdf",
+              "total_marks": "Failed",
+              "credits": 19,
+              "gpa_4pt": 2.6,
+              "sgpa_10pt": 6.1,
+              "pct": 58.0,
+              "class": "Fail",
+              "status": "Fail",
+              "supp": null
+            },
+            "kobo_survey": {
+              "citation": "Student Survey Response (Nov 2026)",
+              "reported_backlog": "yes"
+            },
+            "ese_cia_repository": {
+              "citation": "ESE & CIA marks repository (2023_Sem6.xls.xls)",
+              "file_name": "2023_Sem6.xls.xls"
+            }
+          },
+          "gpa_4pt": 2.6,
+          "marksheetFile": "documents/Batch_2023/2360105/kp.christuniversity.in_KnowledgePro_StudentLoginNewAction.do_methodprintMarksCardForBtech_5-12_7_48.pdf"
         },
         "sem7": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—"
+          "status": "\u2014",
+          "sources": {}
         },
         "sem8": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—"
+          "status": "\u2014",
+          "sources": {}
         }
       },
       "placement": {
@@ -3232,14 +3414,14 @@
       },
       "internship": null,
       "internship1": {
-        "company": null,
-        "title": null,
-        "file": null
+        "company": "Uralungal Labour Contract Co-operative Society (ULCCS) Ltd. Kerala",
+        "title": "Civil Engineering Intern",
+        "file": "documents/Batch_2023/2360105/Internship_25-12_8_7.pdf"
       },
       "internship2": {
-        "company": null,
-        "title": null,
-        "file": null
+        "company": "Mantis Infra Solutions Pvt Ltd, Hyderabad",
+        "title": "Structural Validation using FEA",
+        "file": "documents/Batch_2023/2360105/Internship_26-12_8_14.pdf"
       },
       "email": "akshay.girish@btech.christuniversity.in",
       "phone": "9846605821",
@@ -3276,7 +3458,7 @@
       "gender": "Male",
       "domicile": "Karnataka",
       "category": "Regular",
-      "cgpa": 6.98,
+      "cgpa": 7.14,
       "gradStatus": "No Backlog",
       "failCount": 0,
       "semesters": {
@@ -3284,49 +3466,207 @@
           "pct": 65.5,
           "sgpa": 6.89,
           "class": "FC",
-          "status": "Pass"
+          "status": "Pass",
+          "sources": {
+            "historical": {
+              "citation": "Department Academic Records (Pre-existing Master)",
+              "pct": 65.5,
+              "sgpa": 6.89,
+              "status": "Pass"
+            },
+            "verified_marksheet": {
+              "citation": "Uploaded Controller of Examinations Marks Card",
+              "file": "documents/Batch_2023/2360106/Sem_1-11_25_47.pdf",
+              "total_marks": "393/600",
+              "credits": 22,
+              "gpa_4pt": 3.13,
+              "sgpa_10pt": 6.89,
+              "pct": 65.5,
+              "class": "FC",
+              "status": "Pass",
+              "supp": null
+            },
+            "kobo_survey": {
+              "citation": "Student Survey Response (Nov 2026)",
+              "reported_backlog": "no"
+            },
+            "ese_cia_repository": {
+              "citation": "ESE & CIA marks repository (2023_Sem1.xls.xls)",
+              "file_name": "2023_Sem1.xls.xls"
+            }
+          },
+          "gpa_4pt": 3.13,
+          "marksheetFile": "documents/Batch_2023/2360106/Sem_1-11_25_47.pdf"
         },
         "sem2": {
           "pct": 67.09,
           "sgpa": 7.06,
           "class": "FC",
-          "status": "Pass"
+          "status": "Pass",
+          "sources": {
+            "historical": {
+              "citation": "Department Academic Records (Pre-existing Master)",
+              "pct": 67.09,
+              "sgpa": 7.06,
+              "status": "Pass"
+            },
+            "verified_marksheet": {
+              "citation": "Uploaded Controller of Examinations Marks Card",
+              "file": "documents/Batch_2023/2360106/Sem_2-11_25_59.pdf",
+              "total_marks": "369/550",
+              "credits": 23,
+              "gpa_4pt": 3.23,
+              "sgpa_10pt": 7.06,
+              "pct": 67.09,
+              "class": "FC",
+              "status": "Pass",
+              "supp": null
+            },
+            "kobo_survey": {
+              "citation": "Student Survey Response (Nov 2026)",
+              "reported_backlog": "no"
+            },
+            "ese_cia_repository": {
+              "citation": "ESE & CIA marks repository (2023_Sem2.xls.xls)",
+              "file_name": "2023_Sem2.xls.xls"
+            }
+          },
+          "gpa_4pt": 3.23,
+          "marksheetFile": "documents/Batch_2023/2360106/Sem_2-11_25_59.pdf"
         },
         "sem3": {
-          "pct": null,
-          "sgpa": null,
-          "class": "",
-          "status": "—"
+          "pct": 72.15,
+          "sgpa": 7.59,
+          "class": "FC",
+          "status": "Pass",
+          "sources": {
+            "verified_marksheet": {
+              "citation": "Uploaded Controller of Examinations Marks Card",
+              "file": "documents/Batch_2023/2360106/Sem_3-11_26_5.pdf",
+              "total_marks": "469/650",
+              "credits": 22,
+              "gpa_4pt": 3.51,
+              "sgpa_10pt": 7.59,
+              "pct": 72.15,
+              "class": "FC",
+              "status": "Pass",
+              "supp": null
+            },
+            "kobo_survey": {
+              "citation": "Student Survey Response (Nov 2026)",
+              "reported_backlog": "no"
+            },
+            "ese_cia_repository": {
+              "citation": "ESE & CIA marks repository (2023_Sem3.xls.xls)",
+              "file_name": "2023_Sem3.xls.xls"
+            }
+          },
+          "gpa_4pt": 3.51,
+          "marksheetFile": "documents/Batch_2023/2360106/Sem_3-11_26_5.pdf"
         },
         "sem4": {
-          "pct": null,
-          "sgpa": null,
-          "class": "",
-          "status": "—"
+          "pct": 64.17,
+          "sgpa": 6.75,
+          "class": "FC",
+          "status": "Pass",
+          "sources": {
+            "verified_marksheet": {
+              "citation": "Uploaded Controller of Examinations Marks Card",
+              "file": "documents/Batch_2023/2360106/Sem_4-11_26_12.pdf",
+              "total_marks": "385/600",
+              "credits": 23,
+              "gpa_4pt": 3.17,
+              "sgpa_10pt": 6.75,
+              "pct": 64.17,
+              "class": "FC",
+              "status": "Pass",
+              "supp": null
+            },
+            "kobo_survey": {
+              "citation": "Student Survey Response (Nov 2026)",
+              "reported_backlog": "no"
+            },
+            "ese_cia_repository": {
+              "citation": "ESE & CIA marks repository (2023_Sem4.xls.xls)",
+              "file_name": "2023_Sem4.xls.xls"
+            }
+          },
+          "gpa_4pt": 3.17,
+          "marksheetFile": "documents/Batch_2023/2360106/Sem_4-11_26_12.pdf"
         },
         "sem5": {
-          "pct": null,
-          "sgpa": null,
-          "class": "",
-          "status": "—"
+          "pct": 69.13,
+          "sgpa": 7.28,
+          "class": "FC",
+          "status": "Pass",
+          "sources": {
+            "verified_marksheet": {
+              "citation": "Uploaded Controller of Examinations Marks Card",
+              "file": "documents/Batch_2023/2360106/Sem_5-11_26_19.pdf",
+              "total_marks": "553/800",
+              "credits": 23,
+              "gpa_4pt": 3.32,
+              "sgpa_10pt": 7.28,
+              "pct": 69.13,
+              "class": "FC",
+              "status": "Pass",
+              "supp": null
+            },
+            "kobo_survey": {
+              "citation": "Student Survey Response (Nov 2026)",
+              "reported_backlog": "no"
+            },
+            "ese_cia_repository": {
+              "citation": "ESE & CIA marks repository (2023_Sem5.xls.xls)",
+              "file_name": "2023_Sem5.xls.xls"
+            }
+          },
+          "gpa_4pt": 3.32,
+          "marksheetFile": "documents/Batch_2023/2360106/Sem_5-11_26_19.pdf"
         },
         "sem6": {
-          "pct": null,
-          "sgpa": null,
-          "class": "",
-          "status": "—"
+          "pct": 69.29,
+          "sgpa": 7.29,
+          "class": "FC",
+          "status": "Pass",
+          "sources": {
+            "verified_marksheet": {
+              "citation": "Uploaded Controller of Examinations Marks Card",
+              "file": "documents/Batch_2023/2360106/Sem_6-11_26_26.pdf",
+              "total_marks": "485/700",
+              "credits": 22,
+              "gpa_4pt": 3.47,
+              "sgpa_10pt": 7.29,
+              "pct": 69.29,
+              "class": "FC",
+              "status": "Pass",
+              "supp": null
+            },
+            "kobo_survey": {
+              "citation": "Student Survey Response (Nov 2026)",
+              "reported_backlog": "no"
+            },
+            "ese_cia_repository": {
+              "citation": "ESE & CIA marks repository (2023_Sem6.xls.xls)",
+              "file_name": "2023_Sem6.xls.xls"
+            }
+          },
+          "gpa_4pt": 3.47,
+          "marksheetFile": "documents/Batch_2023/2360106/Sem_6-11_26_26.pdf"
         },
         "sem7": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—"
+          "status": "\u2014",
+          "sources": {}
         },
         "sem8": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—"
+          "status": "\u2014",
+          "sources": {}
         }
       },
       "placement": {
@@ -3345,9 +3685,9 @@
         "file": null
       },
       "internship2": {
-        "company": null,
-        "title": null,
-        "file": null
+        "company": "M/s Shri Radhe Construction Company",
+        "title": "Design Department Intern (Residential & Commercial)",
+        "file": "documents/Batch_2023/2360106/Summer_Internship_2026-11_27_18.pdf"
       },
       "email": "amandeep.p@btech.christuniversity.in",
       "phone": "6376863225",
@@ -3390,49 +3730,73 @@
           "pct": 56.73,
           "sgpa": 5.97,
           "class": "Fail",
-          "status": "Fail"
+          "status": "Fail",
+          "sources": {
+            "historical": {
+              "pct": 56.73,
+              "sgpa": 5.97,
+              "class": "Fail",
+              "status": "Fail",
+              "citation": "Department Academic Records (Pre-existing Master)"
+            }
+          }
         },
         "sem2": {
           "pct": 60.5,
           "sgpa": 6.37,
           "class": "Fail",
-          "status": "Fail"
+          "status": "Fail",
+          "sources": {
+            "historical": {
+              "pct": 60.5,
+              "sgpa": 6.37,
+              "class": "Fail",
+              "status": "Fail",
+              "citation": "Department Academic Records (Pre-existing Master)"
+            }
+          }
         },
         "sem3": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—"
+          "status": "\u2014",
+          "sources": {}
         },
         "sem4": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—"
+          "status": "\u2014",
+          "sources": {}
         },
         "sem5": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—"
+          "status": "\u2014",
+          "sources": {}
         },
         "sem6": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—"
+          "status": "\u2014",
+          "sources": {}
         },
         "sem7": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—"
+          "status": "\u2014",
+          "sources": {}
         },
         "sem8": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—"
+          "status": "\u2014",
+          "sources": {}
         }
       },
       "placement": {
@@ -3473,49 +3837,73 @@
           "pct": 48.73,
           "sgpa": 5.13,
           "class": "Fail",
-          "status": "Fail"
+          "status": "Fail",
+          "sources": {
+            "historical": {
+              "pct": 48.73,
+              "sgpa": 5.13,
+              "class": "Fail",
+              "status": "Fail",
+              "citation": "Department Academic Records (Pre-existing Master)"
+            }
+          }
         },
         "sem2": {
           "pct": 49.33,
           "sgpa": 5.19,
           "class": "Fail",
-          "status": "Fail"
+          "status": "Fail",
+          "sources": {
+            "historical": {
+              "pct": 49.33,
+              "sgpa": 5.19,
+              "class": "Fail",
+              "status": "Fail",
+              "citation": "Department Academic Records (Pre-existing Master)"
+            }
+          }
         },
         "sem3": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—"
+          "status": "\u2014",
+          "sources": {}
         },
         "sem4": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—"
+          "status": "\u2014",
+          "sources": {}
         },
         "sem5": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—"
+          "status": "\u2014",
+          "sources": {}
         },
         "sem6": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—"
+          "status": "\u2014",
+          "sources": {}
         },
         "sem7": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—"
+          "status": "\u2014",
+          "sources": {}
         },
         "sem8": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—"
+          "status": "\u2014",
+          "sources": {}
         }
       },
       "placement": {
@@ -3556,49 +3944,73 @@
           "pct": 71.0,
           "sgpa": 7.47,
           "class": "FC",
-          "status": "Pass"
+          "status": "Pass",
+          "sources": {
+            "historical": {
+              "pct": 71.0,
+              "sgpa": 7.47,
+              "class": "FC",
+              "status": "Pass",
+              "citation": "Department Academic Records (Pre-existing Master)"
+            }
+          }
         },
         "sem2": {
           "pct": 66.0,
           "sgpa": 6.95,
           "class": "FC",
-          "status": "Pass"
+          "status": "Pass",
+          "sources": {
+            "historical": {
+              "pct": 66.0,
+              "sgpa": 6.95,
+              "class": "FC",
+              "status": "Pass",
+              "citation": "Department Academic Records (Pre-existing Master)"
+            }
+          }
         },
         "sem3": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—"
+          "status": "\u2014",
+          "sources": {}
         },
         "sem4": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—"
+          "status": "\u2014",
+          "sources": {}
         },
         "sem5": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—"
+          "status": "\u2014",
+          "sources": {}
         },
         "sem6": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—"
+          "status": "\u2014",
+          "sources": {}
         },
         "sem7": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—"
+          "status": "\u2014",
+          "sources": {}
         },
         "sem8": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—"
+          "status": "\u2014",
+          "sources": {}
         }
       },
       "placement": {
@@ -3639,49 +4051,73 @@
           "pct": 72.0,
           "sgpa": 7.58,
           "class": "FC",
-          "status": "Pass"
+          "status": "Pass",
+          "sources": {
+            "historical": {
+              "pct": 72.0,
+              "sgpa": 7.58,
+              "class": "FC",
+              "status": "Pass",
+              "citation": "Department Academic Records (Pre-existing Master)"
+            }
+          }
         },
         "sem2": {
           "pct": 70.0,
           "sgpa": 7.37,
           "class": "FC",
-          "status": "Pass"
+          "status": "Pass",
+          "sources": {
+            "historical": {
+              "pct": 70.0,
+              "sgpa": 7.37,
+              "class": "FC",
+              "status": "Pass",
+              "citation": "Department Academic Records (Pre-existing Master)"
+            }
+          }
         },
         "sem3": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—"
+          "status": "\u2014",
+          "sources": {}
         },
         "sem4": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—"
+          "status": "\u2014",
+          "sources": {}
         },
         "sem5": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—"
+          "status": "\u2014",
+          "sources": {}
         },
         "sem6": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—"
+          "status": "\u2014",
+          "sources": {}
         },
         "sem7": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—"
+          "status": "\u2014",
+          "sources": {}
         },
         "sem8": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—"
+          "status": "\u2014",
+          "sources": {}
         }
       },
       "placement": {
@@ -3722,49 +4158,73 @@
           "pct": 59.67,
           "sgpa": 6.28,
           "class": "Fail",
-          "status": "Fail"
+          "status": "Fail",
+          "sources": {
+            "historical": {
+              "pct": 59.67,
+              "sgpa": 6.28,
+              "class": "Fail",
+              "status": "Fail",
+              "citation": "Department Academic Records (Pre-existing Master)"
+            }
+          }
         },
         "sem2": {
           "pct": 58.36,
           "sgpa": 6.14,
           "class": "Fail",
-          "status": "Fail"
+          "status": "Fail",
+          "sources": {
+            "historical": {
+              "pct": 58.36,
+              "sgpa": 6.14,
+              "class": "Fail",
+              "status": "Fail",
+              "citation": "Department Academic Records (Pre-existing Master)"
+            }
+          }
         },
         "sem3": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—"
+          "status": "\u2014",
+          "sources": {}
         },
         "sem4": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—"
+          "status": "\u2014",
+          "sources": {}
         },
         "sem5": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—"
+          "status": "\u2014",
+          "sources": {}
         },
         "sem6": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—"
+          "status": "\u2014",
+          "sources": {}
         },
         "sem7": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—"
+          "status": "\u2014",
+          "sources": {}
         },
         "sem8": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—"
+          "status": "\u2014",
+          "sources": {}
         }
       },
       "placement": {
@@ -3805,49 +4265,73 @@
           "pct": 54.17,
           "sgpa": 5.7,
           "class": "Fail",
-          "status": "Fail"
+          "status": "Fail",
+          "sources": {
+            "historical": {
+              "pct": 54.17,
+              "sgpa": 5.7,
+              "class": "Fail",
+              "status": "Fail",
+              "citation": "Department Academic Records (Pre-existing Master)"
+            }
+          }
         },
         "sem2": {
           "pct": 46.36,
           "sgpa": 4.88,
           "class": "Fail",
-          "status": "Fail"
+          "status": "Fail",
+          "sources": {
+            "historical": {
+              "pct": 46.36,
+              "sgpa": 4.88,
+              "class": "Fail",
+              "status": "Fail",
+              "citation": "Department Academic Records (Pre-existing Master)"
+            }
+          }
         },
         "sem3": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—"
+          "status": "\u2014",
+          "sources": {}
         },
         "sem4": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—"
+          "status": "\u2014",
+          "sources": {}
         },
         "sem5": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—"
+          "status": "\u2014",
+          "sources": {}
         },
         "sem6": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—"
+          "status": "\u2014",
+          "sources": {}
         },
         "sem7": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—"
+          "status": "\u2014",
+          "sources": {}
         },
         "sem8": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—"
+          "status": "\u2014",
+          "sources": {}
         }
       },
       "placement": {
@@ -3880,7 +4364,7 @@
       "gender": "Female",
       "domicile": "Outside Karnataka",
       "category": "Regular",
-      "cgpa": 9.01,
+      "cgpa": 8.79,
       "gradStatus": "No Backlog",
       "failCount": 0,
       "semesters": {
@@ -3888,49 +4372,207 @@
           "pct": 87.27,
           "sgpa": 9.19,
           "class": "FC-D",
-          "status": "Pass"
+          "status": "Pass",
+          "sources": {
+            "historical": {
+              "citation": "Department Academic Records (Pre-existing Master)",
+              "pct": 87.27,
+              "sgpa": 9.19,
+              "status": "Pass"
+            },
+            "verified_marksheet": {
+              "citation": "Uploaded Controller of Examinations Marks Card",
+              "file": "documents/Batch_2023/2360113/1stsem_marks-14_46_11.pdf",
+              "total_marks": "480/550",
+              "credits": 21,
+              "gpa_4pt": 3.98,
+              "sgpa_10pt": 9.19,
+              "pct": 87.27,
+              "class": "FC-D",
+              "status": "Pass",
+              "supp": null
+            },
+            "kobo_survey": {
+              "citation": "Student Survey Response (Nov 2026)",
+              "reported_backlog": "no"
+            },
+            "ese_cia_repository": {
+              "citation": "ESE & CIA marks repository (2023_Sem1.xls.xls)",
+              "file_name": "2023_Sem1.xls.xls"
+            }
+          },
+          "gpa_4pt": 3.98,
+          "marksheetFile": "documents/Batch_2023/2360113/1stsem_marks-14_46_11.pdf"
         },
         "sem2": {
           "pct": 83.83,
           "sgpa": 8.82,
           "class": "FC-D",
-          "status": "Pass"
+          "status": "Pass",
+          "sources": {
+            "historical": {
+              "citation": "Department Academic Records (Pre-existing Master)",
+              "pct": 83.83,
+              "sgpa": 8.82,
+              "status": "Pass"
+            },
+            "verified_marksheet": {
+              "citation": "Uploaded Controller of Examinations Marks Card",
+              "file": "documents/Batch_2023/2360113/2ndsem_marks-14_46_22.pdf",
+              "total_marks": "503/600",
+              "credits": 24,
+              "gpa_4pt": 3.9,
+              "sgpa_10pt": 8.82,
+              "pct": 83.83,
+              "class": "FC-D",
+              "status": "Pass",
+              "supp": null
+            },
+            "kobo_survey": {
+              "citation": "Student Survey Response (Nov 2026)",
+              "reported_backlog": "no"
+            },
+            "ese_cia_repository": {
+              "citation": "ESE & CIA marks repository (2023_Sem2.xls.xls)",
+              "file_name": "2023_Sem2.xls.xls"
+            }
+          },
+          "gpa_4pt": 3.9,
+          "marksheetFile": "documents/Batch_2023/2360113/2ndsem_marks-14_46_22.pdf"
         },
         "sem3": {
-          "pct": null,
-          "sgpa": null,
-          "class": "",
-          "status": "—"
+          "pct": 88.31,
+          "sgpa": 9.3,
+          "class": "FC-D",
+          "status": "Pass",
+          "sources": {
+            "verified_marksheet": {
+              "citation": "Uploaded Controller of Examinations Marks Card",
+              "file": "documents/Batch_2023/2360113/3rdsem_marks-14_46_29.pdf",
+              "total_marks": "574/650",
+              "credits": 22,
+              "gpa_4pt": 3.96,
+              "sgpa_10pt": 9.3,
+              "pct": 88.31,
+              "class": "FC-D",
+              "status": "Pass",
+              "supp": null
+            },
+            "kobo_survey": {
+              "citation": "Student Survey Response (Nov 2026)",
+              "reported_backlog": "no"
+            },
+            "ese_cia_repository": {
+              "citation": "ESE & CIA marks repository (2023_Sem3.xls.xls)",
+              "file_name": "2023_Sem3.xls.xls"
+            }
+          },
+          "gpa_4pt": 3.96,
+          "marksheetFile": "documents/Batch_2023/2360113/3rdsem_marks-14_46_29.pdf"
         },
         "sem4": {
-          "pct": null,
-          "sgpa": null,
-          "class": "",
-          "status": "—"
+          "pct": 82.17,
+          "sgpa": 8.65,
+          "class": "FC-D",
+          "status": "Pass",
+          "sources": {
+            "verified_marksheet": {
+              "citation": "Uploaded Controller of Examinations Marks Card",
+              "file": "documents/Batch_2023/2360113/4thsem_marks-14_46_38.pdf",
+              "total_marks": "493/600",
+              "credits": 23,
+              "gpa_4pt": 3.88,
+              "sgpa_10pt": 8.65,
+              "pct": 82.17,
+              "class": "FC-D",
+              "status": "Pass",
+              "supp": null
+            },
+            "kobo_survey": {
+              "citation": "Student Survey Response (Nov 2026)",
+              "reported_backlog": "no"
+            },
+            "ese_cia_repository": {
+              "citation": "ESE & CIA marks repository (2023_Sem4.xls.xls)",
+              "file_name": "2023_Sem4.xls.xls"
+            }
+          },
+          "gpa_4pt": 3.88,
+          "marksheetFile": "documents/Batch_2023/2360113/4thsem_marks-14_46_38.pdf"
         },
         "sem5": {
-          "pct": null,
-          "sgpa": null,
-          "class": "",
-          "status": "—"
+          "pct": 84.5,
+          "sgpa": 8.89,
+          "class": "FC-D",
+          "status": "Pass",
+          "sources": {
+            "verified_marksheet": {
+              "citation": "Uploaded Controller of Examinations Marks Card",
+              "file": "documents/Batch_2023/2360113/5th-14_47_3.pdf",
+              "total_marks": "676/800",
+              "credits": 23,
+              "gpa_4pt": 3.86,
+              "sgpa_10pt": 8.89,
+              "pct": 84.5,
+              "class": "FC-D",
+              "status": "Pass",
+              "supp": null
+            },
+            "kobo_survey": {
+              "citation": "Student Survey Response (Nov 2026)",
+              "reported_backlog": "no"
+            },
+            "ese_cia_repository": {
+              "citation": "ESE & CIA marks repository (2023_Sem5.xls.xls)",
+              "file_name": "2023_Sem5.xls.xls"
+            }
+          },
+          "gpa_4pt": 3.86,
+          "marksheetFile": "documents/Batch_2023/2360113/5th-14_47_3.pdf"
         },
         "sem6": {
-          "pct": null,
-          "sgpa": null,
-          "class": "",
-          "status": "—"
+          "pct": 75.0,
+          "sgpa": 7.89,
+          "class": "FC-D",
+          "status": "Pass",
+          "sources": {
+            "verified_marksheet": {
+              "citation": "Uploaded Controller of Examinations Marks Card",
+              "file": "documents/Batch_2023/2360113/6th-14_47_13.pdf",
+              "total_marks": "525/700",
+              "credits": 22,
+              "gpa_4pt": 3.62,
+              "sgpa_10pt": 7.89,
+              "pct": 75.0,
+              "class": "FC-D",
+              "status": "Pass",
+              "supp": null
+            },
+            "kobo_survey": {
+              "citation": "Student Survey Response (Nov 2026)",
+              "reported_backlog": "no"
+            },
+            "ese_cia_repository": {
+              "citation": "ESE & CIA marks repository (2023_Sem6.xls.xls)",
+              "file_name": "2023_Sem6.xls.xls"
+            }
+          },
+          "gpa_4pt": 3.62,
+          "marksheetFile": "documents/Batch_2023/2360113/6th-14_47_13.pdf"
         },
         "sem7": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—"
+          "status": "\u2014",
+          "sources": {}
         },
         "sem8": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—"
+          "status": "\u2014",
+          "sources": {}
         }
       },
       "placement": {
@@ -3944,14 +4586,14 @@
       },
       "internship": null,
       "internship1": {
-        "company": null,
-        "title": null,
-        "file": null
+        "company": "M/s Al Shandagha Architects and Engineering Consultants, Dubai, U.A.E",
+        "title": "Engineering Consultant Intern",
+        "file": "documents/Batch_2023/2360113/AL_SHANDAGHA-14_49_48.pdf"
       },
       "internship2": {
-        "company": null,
-        "title": null,
-        "file": null
+        "company": "Thrissur Municipal Corporation",
+        "title": "Civil Engineering Intern",
+        "file": "documents/Batch_2023/2360113/G1-7237923TCR-CORP-14_49_55.pdf"
       },
       "email": "malavika.manoj@btech.christuniversity.in",
       "phone": "9605096092",
@@ -4080,49 +4722,207 @@
           "pct": 67.33,
           "sgpa": 7.09,
           "class": "FC",
-          "status": "Pass"
+          "status": "Pass",
+          "sources": {
+            "historical": {
+              "citation": "Department Academic Records (Pre-existing Master)",
+              "pct": 67.33,
+              "sgpa": 7.09,
+              "status": "Pass"
+            },
+            "verified_marksheet": {
+              "citation": "Uploaded Controller of Examinations Marks Card",
+              "file": "documents/Batch_2023/2360116/Screenshot_2026-11-02_121305-12_22_17.pdf",
+              "total_marks": null,
+              "credits": null,
+              "gpa_4pt": 3.2,
+              "sgpa_10pt": 7.09,
+              "pct": 67.33,
+              "class": "FC",
+              "status": "Pass",
+              "supp": null
+            },
+            "kobo_survey": {
+              "citation": "Student Survey Response (Nov 2026)",
+              "reported_backlog": "no"
+            },
+            "ese_cia_repository": {
+              "citation": "ESE & CIA marks repository (2023_Sem1.xls.xls)",
+              "file_name": "2023_Sem1.xls.xls"
+            }
+          },
+          "gpa_4pt": 3.2,
+          "marksheetFile": "documents/Batch_2023/2360116/Screenshot_2026-11-02_121305-12_22_17.pdf"
         },
         "sem2": {
           "pct": 78.36,
           "sgpa": 8.25,
           "class": "FC-D",
-          "status": "Pass"
+          "status": "Pass",
+          "sources": {
+            "historical": {
+              "citation": "Department Academic Records (Pre-existing Master)",
+              "pct": 78.36,
+              "sgpa": 8.25,
+              "status": "Pass"
+            },
+            "verified_marksheet": {
+              "citation": "Uploaded Controller of Examinations Marks Card",
+              "file": "documents/Batch_2023/2360116/Screenshot_2026-11-02_121332-12_22_22.pdf",
+              "total_marks": null,
+              "credits": null,
+              "gpa_4pt": 3.65,
+              "sgpa_10pt": 8.25,
+              "pct": 78.36,
+              "class": "FC-D",
+              "status": "Pass",
+              "supp": null
+            },
+            "kobo_survey": {
+              "citation": "Student Survey Response (Nov 2026)",
+              "reported_backlog": "no"
+            },
+            "ese_cia_repository": {
+              "citation": "ESE & CIA marks repository (2023_Sem2.xls.xls)",
+              "file_name": "2023_Sem2.xls.xls"
+            }
+          },
+          "gpa_4pt": 3.65,
+          "marksheetFile": "documents/Batch_2023/2360116/Screenshot_2026-11-02_121332-12_22_22.pdf"
         },
         "sem3": {
-          "pct": null,
-          "sgpa": null,
-          "class": "",
-          "status": "—"
+          "pct": 74.31,
+          "sgpa": 7.82,
+          "class": "FC",
+          "status": "Pass",
+          "sources": {
+            "verified_marksheet": {
+              "citation": "Uploaded Controller of Examinations Marks Card",
+              "file": "documents/Batch_2023/2360116/Screenshot_2026-11-02_121357-12_22_27.pdf",
+              "total_marks": null,
+              "credits": null,
+              "gpa_4pt": 3.5,
+              "sgpa_10pt": 7.82,
+              "pct": 74.31,
+              "class": "FC",
+              "status": "Pass",
+              "supp": null
+            },
+            "kobo_survey": {
+              "citation": "Student Survey Response (Nov 2026)",
+              "reported_backlog": "no"
+            },
+            "ese_cia_repository": {
+              "citation": "ESE & CIA marks repository (2023_Sem3.xls.xls)",
+              "file_name": "2023_Sem3.xls.xls"
+            }
+          },
+          "gpa_4pt": 3.5,
+          "marksheetFile": "documents/Batch_2023/2360116/Screenshot_2026-11-02_121357-12_22_27.pdf"
         },
         "sem4": {
-          "pct": null,
-          "sgpa": null,
-          "class": "",
-          "status": "—"
+          "pct": 71.25,
+          "sgpa": 7.5,
+          "class": "FC",
+          "status": "Pass",
+          "sources": {
+            "verified_marksheet": {
+              "citation": "Uploaded Controller of Examinations Marks Card",
+              "file": "documents/Batch_2023/2360116/Screenshot_2026-11-02_121418-12_21_35.pdf",
+              "total_marks": null,
+              "credits": null,
+              "gpa_4pt": 3.4,
+              "sgpa_10pt": 7.5,
+              "pct": 71.25,
+              "class": "FC",
+              "status": "Pass",
+              "supp": null
+            },
+            "kobo_survey": {
+              "citation": "Student Survey Response (Nov 2026)",
+              "reported_backlog": "no"
+            },
+            "ese_cia_repository": {
+              "citation": "ESE & CIA marks repository (2023_Sem4.xls.xls)",
+              "file_name": "2023_Sem4.xls.xls"
+            }
+          },
+          "gpa_4pt": 3.4,
+          "marksheetFile": "documents/Batch_2023/2360116/Screenshot_2026-11-02_121418-12_21_35.pdf"
         },
         "sem5": {
-          "pct": null,
-          "sgpa": null,
-          "class": "",
-          "status": "—"
+          "pct": 72.3,
+          "sgpa": 7.61,
+          "class": "FC",
+          "status": "Pass",
+          "sources": {
+            "verified_marksheet": {
+              "citation": "Uploaded Controller of Examinations Marks Card",
+              "file": "documents/Batch_2023/2360116/Screenshot_2026-11-02_121445-12_21_43.pdf",
+              "total_marks": null,
+              "credits": null,
+              "gpa_4pt": 3.45,
+              "sgpa_10pt": 7.61,
+              "pct": 72.3,
+              "class": "FC",
+              "status": "Pass",
+              "supp": null
+            },
+            "kobo_survey": {
+              "citation": "Student Survey Response (Nov 2026)",
+              "reported_backlog": "no"
+            },
+            "ese_cia_repository": {
+              "citation": "ESE & CIA marks repository (2023_Sem5.xls.xls)",
+              "file_name": "2023_Sem5.xls.xls"
+            }
+          },
+          "gpa_4pt": 3.45,
+          "marksheetFile": "documents/Batch_2023/2360116/Screenshot_2026-11-02_121445-12_21_43.pdf"
         },
         "sem6": {
-          "pct": null,
-          "sgpa": null,
-          "class": "",
-          "status": "—"
+          "pct": 73.8,
+          "sgpa": 7.77,
+          "class": "FC",
+          "status": "Pass",
+          "sources": {
+            "verified_marksheet": {
+              "citation": "Uploaded Controller of Examinations Marks Card",
+              "file": "documents/Batch_2023/2360116/Screenshot_2026-11-02_121505-12_21_49.pdf",
+              "total_marks": null,
+              "credits": null,
+              "gpa_4pt": 3.5,
+              "sgpa_10pt": 7.77,
+              "pct": 73.8,
+              "class": "FC",
+              "status": "Pass",
+              "supp": null
+            },
+            "kobo_survey": {
+              "citation": "Student Survey Response (Nov 2026)",
+              "reported_backlog": "no"
+            },
+            "ese_cia_repository": {
+              "citation": "ESE & CIA marks repository (2023_Sem6.xls.xls)",
+              "file_name": "2023_Sem6.xls.xls"
+            }
+          },
+          "gpa_4pt": 3.5,
+          "marksheetFile": "documents/Batch_2023/2360116/Screenshot_2026-11-02_121505-12_21_49.pdf"
         },
         "sem7": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—"
+          "status": "\u2014",
+          "sources": {}
         },
         "sem8": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—"
+          "status": "\u2014",
+          "sources": {}
         }
       },
       "placement": {
@@ -4136,14 +4936,14 @@
       },
       "internship": null,
       "internship1": {
-        "company": null,
-        "title": null,
-        "file": null
+        "company": "Prasad Consultants - Structural Designers, Bangalore",
+        "title": "Structural Design Intern",
+        "file": "documents/Batch_2023/2360116/internship_certificate-12_32_6.pdf"
       },
       "internship2": {
-        "company": null,
-        "title": null,
-        "file": null
+        "company": "Sculpt Space Private Limited, Bengaluru",
+        "title": "BIM (Building Information Modelling) Intern",
+        "file": "documents/Batch_2023/2360116/INTERNSHIP_COMPLETION_CERTIFICATE_Priyasha-12_11_24.pdf"
       },
       "email": "priyasha.wadekar@btech.christuniversity.in",
       "verificationStatus": "Form Submitted (Awaiting Media ZIP for Marks & Certificate OCR)",
@@ -4185,49 +4985,73 @@
           "pct": 77.5,
           "sgpa": 8.16,
           "class": "FC-D",
-          "status": "Pass"
+          "status": "Pass",
+          "sources": {
+            "historical": {
+              "pct": 77.5,
+              "sgpa": 8.16,
+              "class": "FC-D",
+              "status": "Pass",
+              "citation": "Department Academic Records (Pre-existing Master)"
+            }
+          }
         },
         "sem2": {
           "pct": 81.64,
           "sgpa": 8.59,
           "class": "FC-D",
-          "status": "Pass"
+          "status": "Pass",
+          "sources": {
+            "historical": {
+              "pct": 81.64,
+              "sgpa": 8.59,
+              "class": "FC-D",
+              "status": "Pass",
+              "citation": "Department Academic Records (Pre-existing Master)"
+            }
+          }
         },
         "sem3": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—"
+          "status": "\u2014",
+          "sources": {}
         },
         "sem4": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—"
+          "status": "\u2014",
+          "sources": {}
         },
         "sem5": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—"
+          "status": "\u2014",
+          "sources": {}
         },
         "sem6": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—"
+          "status": "\u2014",
+          "sources": {}
         },
         "sem7": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—"
+          "status": "\u2014",
+          "sources": {}
         },
         "sem8": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—"
+          "status": "\u2014",
+          "sources": {}
         }
       },
       "placement": {
@@ -4268,49 +5092,73 @@
           "pct": 70.33,
           "sgpa": 7.4,
           "class": "FC",
-          "status": "Pass"
+          "status": "Pass",
+          "sources": {
+            "historical": {
+              "pct": 70.33,
+              "sgpa": 7.4,
+              "class": "FC",
+              "status": "Pass",
+              "citation": "Department Academic Records (Pre-existing Master)"
+            }
+          }
         },
         "sem2": {
           "pct": 65.27,
           "sgpa": 6.87,
           "class": "FC",
-          "status": "Pass"
+          "status": "Pass",
+          "sources": {
+            "historical": {
+              "pct": 65.27,
+              "sgpa": 6.87,
+              "class": "FC",
+              "status": "Pass",
+              "citation": "Department Academic Records (Pre-existing Master)"
+            }
+          }
         },
         "sem3": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—"
+          "status": "\u2014",
+          "sources": {}
         },
         "sem4": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—"
+          "status": "\u2014",
+          "sources": {}
         },
         "sem5": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—"
+          "status": "\u2014",
+          "sources": {}
         },
         "sem6": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—"
+          "status": "\u2014",
+          "sources": {}
         },
         "sem7": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—"
+          "status": "\u2014",
+          "sources": {}
         },
         "sem8": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—"
+          "status": "\u2014",
+          "sources": {}
         }
       },
       "placement": {
@@ -4343,57 +5191,215 @@
       "gender": "Female",
       "domicile": "Outside Karnataka",
       "category": "Regular",
-      "cgpa": 6.6,
+      "cgpa": 6.9,
       "gradStatus": "With Backlog",
       "failCount": 1,
       "semesters": {
         "sem1": {
-          "pct": 67.82,
-          "sgpa": 7.14,
+          "pct": 68.33,
+          "sgpa": 7.19,
           "class": "FC",
-          "status": "Pass"
+          "status": "Pass",
+          "sources": {
+            "historical": {
+              "citation": "Department Academic Records (Pre-existing Master)",
+              "pct": 67.82,
+              "sgpa": 7.14,
+              "status": "Pass"
+            },
+            "verified_marksheet": {
+              "citation": "Uploaded Controller of Examinations Marks Card",
+              "file": "documents/Batch_2023/2360119/Sem_1-10_23_34.pdf",
+              "total_marks": "410/600",
+              "credits": 22,
+              "gpa_4pt": 3.36,
+              "sgpa_10pt": 7.19,
+              "pct": 68.33,
+              "class": "FC",
+              "status": "Pass",
+              "supp": null
+            },
+            "kobo_survey": {
+              "citation": "Student Survey Response (Nov 2026)",
+              "reported_backlog": "no"
+            },
+            "ese_cia_repository": {
+              "citation": "ESE & CIA marks repository (2023_Sem1.xls.xls)",
+              "file_name": "2023_Sem1.xls.xls"
+            }
+          },
+          "gpa_4pt": 3.36,
+          "marksheetFile": "documents/Batch_2023/2360119/Sem_1-10_23_34.pdf"
         },
         "sem2": {
           "pct": 57.5,
           "sgpa": 6.05,
           "class": "Fail",
-          "status": "Fail"
+          "status": "Fail",
+          "sources": {
+            "historical": {
+              "citation": "Department Academic Records (Pre-existing Master)",
+              "pct": 57.5,
+              "sgpa": 6.05,
+              "status": "Fail"
+            },
+            "verified_marksheet": {
+              "citation": "Uploaded Controller of Examinations Marks Card",
+              "file": "documents/Batch_2023/2360119/Sem_2-10_23_43.pdf",
+              "total_marks": "345/600",
+              "credits": 16,
+              "gpa_4pt": 2.02,
+              "sgpa_10pt": 6.05,
+              "pct": 57.5,
+              "class": "Fail",
+              "status": "Fail",
+              "supp": "Chemistry cleared, Computer Programming pending"
+            },
+            "kobo_survey": {
+              "citation": "Student Survey Response (Nov 2026)",
+              "reported_backlog": "yes"
+            },
+            "ese_cia_repository": {
+              "citation": "ESE & CIA marks repository (2023_Sem2.xls.xls)",
+              "file_name": "2023_Sem2.xls.xls"
+            }
+          },
+          "gpa_4pt": 2.02,
+          "marksheetFile": "documents/Batch_2023/2360119/Sem_2-10_23_43.pdf"
         },
         "sem3": {
-          "pct": null,
-          "sgpa": null,
-          "class": "",
-          "status": "—"
+          "pct": 67.23,
+          "sgpa": 7.08,
+          "class": "FC",
+          "status": "Pass",
+          "sources": {
+            "verified_marksheet": {
+              "citation": "Uploaded Controller of Examinations Marks Card",
+              "file": "documents/Batch_2023/2360119/Sem_3-10_28_5.pdf",
+              "total_marks": "437/650",
+              "credits": 22,
+              "gpa_4pt": 3.29,
+              "sgpa_10pt": 7.08,
+              "pct": 67.23,
+              "class": "FC",
+              "status": "Pass",
+              "supp": null
+            },
+            "kobo_survey": {
+              "citation": "Student Survey Response (Nov 2026)",
+              "reported_backlog": "no"
+            },
+            "ese_cia_repository": {
+              "citation": "ESE & CIA marks repository (2023_Sem3.xls.xls)",
+              "file_name": "2023_Sem3.xls.xls"
+            }
+          },
+          "gpa_4pt": 3.29,
+          "marksheetFile": "documents/Batch_2023/2360119/Sem_3-10_28_5.pdf"
         },
         "sem4": {
-          "pct": null,
-          "sgpa": null,
-          "class": "",
-          "status": "—"
+          "pct": 62.0,
+          "sgpa": 6.53,
+          "class": "FC",
+          "status": "Pass",
+          "sources": {
+            "verified_marksheet": {
+              "citation": "Uploaded Controller of Examinations Marks Card",
+              "file": "documents/Batch_2023/2360119/Sem_4-10_28_10.pdf",
+              "total_marks": "372/600",
+              "credits": 23,
+              "gpa_4pt": 3.04,
+              "sgpa_10pt": 6.53,
+              "pct": 62.0,
+              "class": "FC",
+              "status": "Pass",
+              "supp": null
+            },
+            "kobo_survey": {
+              "citation": "Student Survey Response (Nov 2026)",
+              "reported_backlog": "no"
+            },
+            "ese_cia_repository": {
+              "citation": "ESE & CIA marks repository (2023_Sem4.xls.xls)",
+              "file_name": "2023_Sem4.xls.xls"
+            }
+          },
+          "gpa_4pt": 3.04,
+          "marksheetFile": "documents/Batch_2023/2360119/Sem_4-10_28_10.pdf"
         },
         "sem5": {
-          "pct": null,
-          "sgpa": null,
-          "class": "",
-          "status": "—"
+          "pct": 71.13,
+          "sgpa": 7.49,
+          "class": "FC",
+          "status": "Pass",
+          "sources": {
+            "verified_marksheet": {
+              "citation": "Uploaded Controller of Examinations Marks Card",
+              "file": "documents/Batch_2023/2360119/Sem_5-10_28_16.pdf",
+              "total_marks": "569/800",
+              "credits": 23,
+              "gpa_4pt": 3.43,
+              "sgpa_10pt": 7.49,
+              "pct": 71.13,
+              "class": "FC",
+              "status": "Pass",
+              "supp": null
+            },
+            "kobo_survey": {
+              "citation": "Student Survey Response (Nov 2026)",
+              "reported_backlog": "no"
+            },
+            "ese_cia_repository": {
+              "citation": "ESE & CIA marks repository (2023_Sem5.xls.xls)",
+              "file_name": "2023_Sem5.xls.xls"
+            }
+          },
+          "gpa_4pt": 3.43,
+          "marksheetFile": "documents/Batch_2023/2360119/Sem_5-10_28_16.pdf"
         },
         "sem6": {
-          "pct": null,
-          "sgpa": null,
-          "class": "",
-          "status": "—"
+          "pct": 67.29,
+          "sgpa": 7.08,
+          "class": "FC",
+          "status": "Pass",
+          "sources": {
+            "verified_marksheet": {
+              "citation": "Uploaded Controller of Examinations Marks Card",
+              "file": "documents/Batch_2023/2360119/Sem_6-10_28_26.pdf",
+              "total_marks": "471/700",
+              "credits": 22,
+              "gpa_4pt": 3.24,
+              "sgpa_10pt": 7.08,
+              "pct": 67.29,
+              "class": "FC",
+              "status": "Pass",
+              "supp": null
+            },
+            "kobo_survey": {
+              "citation": "Student Survey Response (Nov 2026)",
+              "reported_backlog": "no"
+            },
+            "ese_cia_repository": {
+              "citation": "ESE & CIA marks repository (2023_Sem6.xls.xls)",
+              "file_name": "2023_Sem6.xls.xls"
+            }
+          },
+          "gpa_4pt": 3.24,
+          "marksheetFile": "documents/Batch_2023/2360119/Sem_6-10_28_26.pdf"
         },
         "sem7": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—"
+          "status": "\u2014",
+          "sources": {}
         },
         "sem8": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—"
+          "status": "\u2014",
+          "sources": {}
         }
       },
       "placement": {
@@ -4407,14 +5413,14 @@
       },
       "internship": null,
       "internship1": {
-        "company": null,
-        "title": null,
-        "file": null
+        "company": "M/s Tricon Builders & Developers, Margao, Goa",
+        "title": "Civil Engineering Intern",
+        "file": "documents/Batch_2023/2360119/Sania_Certificate-10_39_53.pdf"
       },
       "internship2": {
-        "company": null,
-        "title": null,
-        "file": null
+        "company": "Albert Developers, Panaji, Goa",
+        "title": "Civil Engineering Intern",
+        "file": "documents/Batch_2023/2360119/certi-10_38_57.pdf"
       },
       "email": "sania.valerie@btech.christuniversity.in",
       "phone": "9175056048",
@@ -4501,49 +5507,65 @@
           "pct": 54.0,
           "sgpa": 5.68,
           "class": "Fail",
-          "status": "Fail"
+          "status": "Fail",
+          "sources": {
+            "historical": {
+              "pct": 54.0,
+              "sgpa": 5.68,
+              "class": "Fail",
+              "status": "Fail",
+              "citation": "Department Academic Records (Pre-existing Master)"
+            }
+          }
         },
         "sem2": {
           "pct": null,
           "sgpa": null,
           "class": "Fail",
-          "status": "Fail"
+          "status": "Fail",
+          "sources": {}
         },
         "sem3": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—"
+          "status": "\u2014",
+          "sources": {}
         },
         "sem4": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—"
+          "status": "\u2014",
+          "sources": {}
         },
         "sem5": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—"
+          "status": "\u2014",
+          "sources": {}
         },
         "sem6": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—"
+          "status": "\u2014",
+          "sources": {}
         },
         "sem7": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—"
+          "status": "\u2014",
+          "sources": {}
         },
         "sem8": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—"
+          "status": "\u2014",
+          "sources": {}
         }
       },
       "placement": {
@@ -4584,19 +5606,38 @@
           "pct": 64.5,
           "sgpa": 6.79,
           "class": "FC",
-          "status": "Pass"
+          "status": "Pass",
+          "sources": {
+            "historical": {
+              "pct": 64.5,
+              "sgpa": 6.79,
+              "class": "FC",
+              "status": "Pass",
+              "citation": "Department Academic Records (Pre-existing Master)"
+            }
+          }
         },
         "sem2": {
           "pct": 70.55,
           "sgpa": 7.43,
           "class": "FC",
-          "status": "Pass"
+          "status": "Pass",
+          "sources": {
+            "historical": {
+              "pct": 70.55,
+              "sgpa": 7.43,
+              "class": "FC",
+              "status": "Pass",
+              "citation": "Department Academic Records (Pre-existing Master)"
+            }
+          }
         },
         "sem3": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—"
+          "status": "\u2014",
+          "sources": {}
         },
         "sem4": null,
         "sem5": null,
@@ -4642,19 +5683,38 @@
           "pct": 43.83,
           "sgpa": 4.61,
           "class": "Fail",
-          "status": "Fail"
+          "status": "Fail",
+          "sources": {
+            "historical": {
+              "pct": 43.83,
+              "sgpa": 4.61,
+              "class": "Fail",
+              "status": "Fail",
+              "citation": "Department Academic Records (Pre-existing Master)"
+            }
+          }
         },
         "sem2": {
           "pct": 49.82,
           "sgpa": 5.24,
           "class": "Fail",
-          "status": "Fail"
+          "status": "Fail",
+          "sources": {
+            "historical": {
+              "pct": 49.82,
+              "sgpa": 5.24,
+              "class": "Fail",
+              "status": "Fail",
+              "citation": "Department Academic Records (Pre-existing Master)"
+            }
+          }
         },
         "sem3": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—"
+          "status": "\u2014",
+          "sources": {}
         },
         "sem4": null,
         "sem5": null,
@@ -4702,7 +5762,8 @@
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—"
+          "status": "\u2014",
+          "sources": {}
         },
         "sem4": null,
         "sem5": null,
@@ -4748,19 +5809,38 @@
           "pct": 46.17,
           "sgpa": 4.86,
           "class": "Fail",
-          "status": "Fail"
+          "status": "Fail",
+          "sources": {
+            "historical": {
+              "pct": 46.17,
+              "sgpa": 4.86,
+              "class": "Fail",
+              "status": "Fail",
+              "citation": "Department Academic Records (Pre-existing Master)"
+            }
+          }
         },
         "sem2": {
           "pct": 38.0,
           "sgpa": 4.0,
           "class": "Fail",
-          "status": "Fail"
+          "status": "Fail",
+          "sources": {
+            "historical": {
+              "pct": 38.0,
+              "sgpa": 4.0,
+              "class": "Fail",
+              "status": "Fail",
+              "citation": "Department Academic Records (Pre-existing Master)"
+            }
+          }
         },
         "sem3": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—"
+          "status": "\u2014",
+          "sources": {}
         },
         "sem4": null,
         "sem5": null,
@@ -4808,7 +5888,8 @@
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—"
+          "status": "\u2014",
+          "sources": {}
         },
         "sem4": null,
         "sem5": null,
@@ -4856,7 +5937,8 @@
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—"
+          "status": "\u2014",
+          "sources": {}
         },
         "sem4": null,
         "sem5": null,
@@ -4904,7 +5986,8 @@
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—"
+          "status": "\u2014",
+          "sources": {}
         },
         "sem4": null,
         "sem5": null,
@@ -5122,49 +6205,73 @@
           "pct": 46.73,
           "sgpa": 4.92,
           "class": "Fail",
-          "status": "Fail"
+          "status": "Fail",
+          "sources": {
+            "historical": {
+              "pct": 46.73,
+              "sgpa": 4.92,
+              "class": "Fail",
+              "status": "Fail",
+              "citation": "Department Academic Records (Pre-existing Master)"
+            }
+          }
         },
         "sem2": {
           "pct": 61.0,
           "sgpa": 6.42,
           "class": "FC",
-          "status": "Pass"
+          "status": "Pass",
+          "sources": {
+            "historical": {
+              "pct": 61.0,
+              "sgpa": 6.42,
+              "class": "FC",
+              "status": "Pass",
+              "citation": "Department Academic Records (Pre-existing Master)"
+            }
+          }
         },
         "sem3": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—"
+          "status": "\u2014",
+          "sources": {}
         },
         "sem4": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—"
+          "status": "\u2014",
+          "sources": {}
         },
         "sem5": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—"
+          "status": "\u2014",
+          "sources": {}
         },
         "sem6": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—"
+          "status": "\u2014",
+          "sources": {}
         },
         "sem7": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—"
+          "status": "\u2014",
+          "sources": {}
         },
         "sem8": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—"
+          "status": "\u2014",
+          "sources": {}
         }
       },
       "placement": {
@@ -5205,49 +6312,89 @@
           "pct": 64.83,
           "sgpa": 6.82,
           "class": "FC",
-          "status": "Pass"
+          "status": "Pass",
+          "sources": {
+            "historical": {
+              "pct": 64.83,
+              "sgpa": 6.82,
+              "class": "FC",
+              "status": "Pass",
+              "citation": "Department Academic Records (Pre-existing Master)"
+            }
+          }
         },
         "sem2": {
           "pct": 60.91,
           "sgpa": 6.41,
           "class": "FC",
-          "status": "Pass"
+          "status": "Pass",
+          "sources": {
+            "historical": {
+              "pct": 60.91,
+              "sgpa": 6.41,
+              "class": "FC",
+              "status": "Pass",
+              "citation": "Department Academic Records (Pre-existing Master)"
+            }
+          }
         },
         "sem3": {
           "pct": 75.64,
           "sgpa": 7.96,
           "class": "FC-D",
-          "status": "Pass"
+          "status": "Pass",
+          "sources": {
+            "historical": {
+              "pct": 75.64,
+              "sgpa": 7.96,
+              "class": "FC-D",
+              "status": "Pass",
+              "citation": "Department Academic Records (Pre-existing Master)"
+            }
+          }
         },
         "sem4": {
           "pct": 77.11,
           "sgpa": 8.12,
           "class": "FC-D",
-          "status": "Pass"
+          "status": "Pass",
+          "sources": {
+            "historical": {
+              "pct": 77.11,
+              "sgpa": 8.12,
+              "class": "FC-D",
+              "status": "Pass",
+              "citation": "Department Academic Records (Pre-existing Master)"
+            }
+          }
         },
         "sem5": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—"
+          "status": "\u2014",
+          "sources": {}
         },
         "sem6": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—"
+          "status": "\u2014",
+          "sources": {}
         },
         "sem7": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—"
+          "status": "\u2014",
+          "sources": {}
         },
         "sem8": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—"
+          "status": "\u2014",
+          "sources": {}
         }
       },
       "placement": {
@@ -5288,25 +6435,61 @@
           "pct": 59.17,
           "sgpa": 6.23,
           "class": "SC",
-          "status": "Pass"
+          "status": "Pass",
+          "sources": {
+            "historical": {
+              "pct": 59.17,
+              "sgpa": 6.23,
+              "class": "SC",
+              "status": "Pass",
+              "citation": "Department Academic Records (Pre-existing Master)"
+            }
+          }
         },
         "sem2": {
           "pct": 61.45,
           "sgpa": 6.47,
           "class": "FC",
-          "status": "Pass"
+          "status": "Pass",
+          "sources": {
+            "historical": {
+              "pct": 61.45,
+              "sgpa": 6.47,
+              "class": "FC",
+              "status": "Pass",
+              "citation": "Department Academic Records (Pre-existing Master)"
+            }
+          }
         },
         "sem3": {
           "pct": 60.73,
           "sgpa": 6.39,
           "class": "FC",
-          "status": "Pass"
+          "status": "Pass",
+          "sources": {
+            "historical": {
+              "pct": 60.73,
+              "sgpa": 6.39,
+              "class": "FC",
+              "status": "Pass",
+              "citation": "Department Academic Records (Pre-existing Master)"
+            }
+          }
         },
         "sem4": {
           "pct": 45.11,
           "sgpa": 4.75,
           "class": "Fail",
-          "status": "Fail"
+          "status": "Fail",
+          "sources": {
+            "historical": {
+              "pct": 45.11,
+              "sgpa": 4.75,
+              "class": "Fail",
+              "status": "Fail",
+              "citation": "Department Academic Records (Pre-existing Master)"
+            }
+          }
         },
         "sem5": null,
         "sem6": null,
@@ -5351,25 +6534,61 @@
           "pct": 49.83,
           "sgpa": 5.25,
           "class": "Fail",
-          "status": "Fail"
+          "status": "Fail",
+          "sources": {
+            "historical": {
+              "pct": 49.83,
+              "sgpa": 5.25,
+              "class": "Fail",
+              "status": "Fail",
+              "citation": "Department Academic Records (Pre-existing Master)"
+            }
+          }
         },
         "sem2": {
           "pct": 50.36,
           "sgpa": 5.3,
           "class": "Fail",
-          "status": "Fail"
+          "status": "Fail",
+          "sources": {
+            "historical": {
+              "pct": 50.36,
+              "sgpa": 5.3,
+              "class": "Fail",
+              "status": "Fail",
+              "citation": "Department Academic Records (Pre-existing Master)"
+            }
+          }
         },
         "sem3": {
           "pct": 47.64,
           "sgpa": 5.01,
           "class": "Fail",
-          "status": "Fail"
+          "status": "Fail",
+          "sources": {
+            "historical": {
+              "pct": 47.64,
+              "sgpa": 5.01,
+              "class": "Fail",
+              "status": "Fail",
+              "citation": "Department Academic Records (Pre-existing Master)"
+            }
+          }
         },
         "sem4": {
           "pct": 50.44,
           "sgpa": 5.31,
           "class": "SC",
-          "status": "Pass"
+          "status": "Pass",
+          "sources": {
+            "historical": {
+              "pct": 50.44,
+              "sgpa": 5.31,
+              "class": "SC",
+              "status": "Pass",
+              "citation": "Department Academic Records (Pre-existing Master)"
+            }
+          }
         },
         "sem5": null,
         "sem6": null,
@@ -5414,25 +6633,61 @@
           "pct": 73.83,
           "sgpa": 7.77,
           "class": "FC",
-          "status": "Pass"
+          "status": "Pass",
+          "sources": {
+            "historical": {
+              "pct": 73.83,
+              "sgpa": 7.77,
+              "class": "FC",
+              "status": "Pass",
+              "citation": "Department Academic Records (Pre-existing Master)"
+            }
+          }
         },
         "sem2": {
           "pct": 60.91,
           "sgpa": 6.41,
           "class": "FC",
-          "status": "Pass"
+          "status": "Pass",
+          "sources": {
+            "historical": {
+              "pct": 60.91,
+              "sgpa": 6.41,
+              "class": "FC",
+              "status": "Pass",
+              "citation": "Department Academic Records (Pre-existing Master)"
+            }
+          }
         },
         "sem3": {
           "pct": 56.91,
           "sgpa": 5.99,
           "class": "SC",
-          "status": "Pass"
+          "status": "Pass",
+          "sources": {
+            "historical": {
+              "pct": 56.91,
+              "sgpa": 5.99,
+              "class": "SC",
+              "status": "Pass",
+              "citation": "Department Academic Records (Pre-existing Master)"
+            }
+          }
         },
         "sem4": {
           "pct": 55.11,
           "sgpa": 5.8,
           "class": "SC",
-          "status": "Pass"
+          "status": "Pass",
+          "sources": {
+            "historical": {
+              "pct": 55.11,
+              "sgpa": 5.8,
+              "class": "SC",
+              "status": "Pass",
+              "citation": "Department Academic Records (Pre-existing Master)"
+            }
+          }
         },
         "sem5": null,
         "sem6": null,
@@ -5477,25 +6732,53 @@
           "pct": 48.0,
           "sgpa": 5.05,
           "class": "Fail",
-          "status": "Fail"
+          "status": "Fail",
+          "sources": {
+            "historical": {
+              "pct": 48.0,
+              "sgpa": 5.05,
+              "class": "Fail",
+              "status": "Fail",
+              "citation": "Department Academic Records (Pre-existing Master)"
+            }
+          }
         },
         "sem2": {
           "pct": 43.27,
           "sgpa": 4.55,
           "class": "Fail",
-          "status": "Fail"
+          "status": "Fail",
+          "sources": {
+            "historical": {
+              "pct": 43.27,
+              "sgpa": 4.55,
+              "class": "Fail",
+              "status": "Fail",
+              "citation": "Department Academic Records (Pre-existing Master)"
+            }
+          }
         },
         "sem3": {
           "pct": 45.82,
           "sgpa": 4.82,
           "class": "Fail",
-          "status": "Fail"
+          "status": "Fail",
+          "sources": {
+            "historical": {
+              "pct": 45.82,
+              "sgpa": 4.82,
+              "class": "Fail",
+              "status": "Fail",
+              "citation": "Department Academic Records (Pre-existing Master)"
+            }
+          }
         },
         "sem4": {
           "pct": null,
           "sgpa": null,
           "class": "Detained",
-          "status": "—"
+          "status": "\u2014",
+          "sources": {}
         },
         "sem5": null,
         "sem6": null,
@@ -5540,25 +6823,61 @@
           "pct": 53.5,
           "sgpa": 5.63,
           "class": "Fail",
-          "status": "Fail"
+          "status": "Fail",
+          "sources": {
+            "historical": {
+              "pct": 53.5,
+              "sgpa": 5.63,
+              "class": "Fail",
+              "status": "Fail",
+              "citation": "Department Academic Records (Pre-existing Master)"
+            }
+          }
         },
         "sem2": {
           "pct": 45.09,
           "sgpa": 4.75,
           "class": "Fail",
-          "status": "Fail"
+          "status": "Fail",
+          "sources": {
+            "historical": {
+              "pct": 45.09,
+              "sgpa": 4.75,
+              "class": "Fail",
+              "status": "Fail",
+              "citation": "Department Academic Records (Pre-existing Master)"
+            }
+          }
         },
         "sem3": {
           "pct": 46.73,
           "sgpa": 4.92,
           "class": "Fail",
-          "status": "Fail"
+          "status": "Fail",
+          "sources": {
+            "historical": {
+              "pct": 46.73,
+              "sgpa": 4.92,
+              "class": "Fail",
+              "status": "Fail",
+              "citation": "Department Academic Records (Pre-existing Master)"
+            }
+          }
         },
         "sem4": {
           "pct": 44.0,
           "sgpa": 4.63,
           "class": "Fail",
-          "status": "Fail"
+          "status": "Fail",
+          "sources": {
+            "historical": {
+              "pct": 44.0,
+              "sgpa": 4.63,
+              "class": "Fail",
+              "status": "Fail",
+              "citation": "Department Academic Records (Pre-existing Master)"
+            }
+          }
         },
         "sem5": null,
         "sem6": null,
@@ -5603,25 +6922,61 @@
           "pct": 56.18,
           "sgpa": 5.91,
           "class": "Fail",
-          "status": "Fail"
+          "status": "Fail",
+          "sources": {
+            "historical": {
+              "pct": 56.18,
+              "sgpa": 5.91,
+              "class": "Fail",
+              "status": "Fail",
+              "citation": "Department Academic Records (Pre-existing Master)"
+            }
+          }
         },
         "sem2": {
           "pct": 59.0,
           "sgpa": 6.21,
           "class": "SC",
-          "status": "Pass"
+          "status": "Pass",
+          "sources": {
+            "historical": {
+              "pct": 59.0,
+              "sgpa": 6.21,
+              "class": "SC",
+              "status": "Pass",
+              "citation": "Department Academic Records (Pre-existing Master)"
+            }
+          }
         },
         "sem3": {
           "pct": 56.91,
           "sgpa": 5.99,
           "class": "SC",
-          "status": "Pass"
+          "status": "Pass",
+          "sources": {
+            "historical": {
+              "pct": 56.91,
+              "sgpa": 5.99,
+              "class": "SC",
+              "status": "Pass",
+              "citation": "Department Academic Records (Pre-existing Master)"
+            }
+          }
         },
         "sem4": {
           "pct": 55.11,
           "sgpa": 5.8,
           "class": "SC",
-          "status": "Pass"
+          "status": "Pass",
+          "sources": {
+            "historical": {
+              "pct": 55.11,
+              "sgpa": 5.8,
+              "class": "SC",
+              "status": "Pass",
+              "citation": "Department Academic Records (Pre-existing Master)"
+            }
+          }
         },
         "sem5": null,
         "sem6": null,
@@ -5666,25 +7021,61 @@
           "pct": 53.82,
           "sgpa": 5.67,
           "class": "SC",
-          "status": "Pass"
+          "status": "Pass",
+          "sources": {
+            "historical": {
+              "pct": 53.82,
+              "sgpa": 5.67,
+              "class": "SC",
+              "status": "Pass",
+              "citation": "Department Academic Records (Pre-existing Master)"
+            }
+          }
         },
         "sem2": {
           "pct": 55.0,
           "sgpa": 5.79,
           "class": "Fail",
-          "status": "Fail"
+          "status": "Fail",
+          "sources": {
+            "historical": {
+              "pct": 55.0,
+              "sgpa": 5.79,
+              "class": "Fail",
+              "status": "Fail",
+              "citation": "Department Academic Records (Pre-existing Master)"
+            }
+          }
         },
         "sem3": {
           "pct": 58.73,
           "sgpa": 6.18,
           "class": "SC",
-          "status": "Pass"
+          "status": "Pass",
+          "sources": {
+            "historical": {
+              "pct": 58.73,
+              "sgpa": 6.18,
+              "class": "SC",
+              "status": "Pass",
+              "citation": "Department Academic Records (Pre-existing Master)"
+            }
+          }
         },
         "sem4": {
           "pct": 50.22,
           "sgpa": 5.29,
           "class": "SC",
-          "status": "Pass"
+          "status": "Pass",
+          "sources": {
+            "historical": {
+              "pct": 50.22,
+              "sgpa": 5.29,
+              "class": "SC",
+              "status": "Pass",
+              "citation": "Department Academic Records (Pre-existing Master)"
+            }
+          }
         },
         "sem5": null,
         "sem6": null,
@@ -5729,25 +7120,61 @@
           "pct": 74.73,
           "sgpa": 7.87,
           "class": "FC",
-          "status": "Pass"
+          "status": "Pass",
+          "sources": {
+            "historical": {
+              "pct": 74.73,
+              "sgpa": 7.87,
+              "class": "FC",
+              "status": "Pass",
+              "citation": "Department Academic Records (Pre-existing Master)"
+            }
+          }
         },
         "sem2": {
           "pct": 73.83,
           "sgpa": 7.77,
           "class": "FC",
-          "status": "Pass"
+          "status": "Pass",
+          "sources": {
+            "historical": {
+              "pct": 73.83,
+              "sgpa": 7.77,
+              "class": "FC",
+              "status": "Pass",
+              "citation": "Department Academic Records (Pre-existing Master)"
+            }
+          }
         },
         "sem3": {
           "pct": 69.27,
           "sgpa": 7.29,
           "class": "FC",
-          "status": "Pass"
+          "status": "Pass",
+          "sources": {
+            "historical": {
+              "pct": 69.27,
+              "sgpa": 7.29,
+              "class": "FC",
+              "status": "Pass",
+              "citation": "Department Academic Records (Pre-existing Master)"
+            }
+          }
         },
         "sem4": {
           "pct": 70.22,
           "sgpa": 7.39,
           "class": "FC",
-          "status": "Pass"
+          "status": "Pass",
+          "sources": {
+            "historical": {
+              "pct": 70.22,
+              "sgpa": 7.39,
+              "class": "FC",
+              "status": "Pass",
+              "citation": "Department Academic Records (Pre-existing Master)"
+            }
+          }
         },
         "sem5": null,
         "sem6": null,
@@ -5792,25 +7219,61 @@
           "pct": 52.17,
           "sgpa": 5.49,
           "class": "Fail",
-          "status": "Fail"
+          "status": "Fail",
+          "sources": {
+            "historical": {
+              "pct": 52.17,
+              "sgpa": 5.49,
+              "class": "Fail",
+              "status": "Fail",
+              "citation": "Department Academic Records (Pre-existing Master)"
+            }
+          }
         },
         "sem2": {
           "pct": 48.91,
           "sgpa": 5.15,
           "class": "Fail",
-          "status": "Fail"
+          "status": "Fail",
+          "sources": {
+            "historical": {
+              "pct": 48.91,
+              "sgpa": 5.15,
+              "class": "Fail",
+              "status": "Fail",
+              "citation": "Department Academic Records (Pre-existing Master)"
+            }
+          }
         },
         "sem3": {
           "pct": 45.09,
           "sgpa": 4.75,
           "class": "Fail",
-          "status": "Fail"
+          "status": "Fail",
+          "sources": {
+            "historical": {
+              "pct": 45.09,
+              "sgpa": 4.75,
+              "class": "Fail",
+              "status": "Fail",
+              "citation": "Department Academic Records (Pre-existing Master)"
+            }
+          }
         },
         "sem4": {
           "pct": 56.0,
           "sgpa": 5.89,
           "class": "SC",
-          "status": "Pass"
+          "status": "Pass",
+          "sources": {
+            "historical": {
+              "pct": 56.0,
+              "sgpa": 5.89,
+              "class": "SC",
+              "status": "Pass",
+              "citation": "Department Academic Records (Pre-existing Master)"
+            }
+          }
         },
         "sem5": null,
         "sem6": null,
@@ -5855,13 +7318,31 @@
           "pct": 60.83,
           "sgpa": 6.4,
           "class": "FC",
-          "status": "Pass"
+          "status": "Pass",
+          "sources": {
+            "historical": {
+              "pct": 60.83,
+              "sgpa": 6.4,
+              "class": "FC",
+              "status": "Pass",
+              "citation": "Department Academic Records (Pre-existing Master)"
+            }
+          }
         },
         "sem2": {
           "pct": 62.55,
           "sgpa": 6.58,
           "class": "FC",
-          "status": "Pass"
+          "status": "Pass",
+          "sources": {
+            "historical": {
+              "pct": 62.55,
+              "sgpa": 6.58,
+              "class": "FC",
+              "status": "Pass",
+              "citation": "Department Academic Records (Pre-existing Master)"
+            }
+          }
         },
         "sem3": null,
         "sem4": null,
@@ -5908,25 +7389,61 @@
           "pct": 68.36,
           "sgpa": 7.2,
           "class": "FC",
-          "status": "Pass"
+          "status": "Pass",
+          "sources": {
+            "historical": {
+              "pct": 68.36,
+              "sgpa": 7.2,
+              "class": "FC",
+              "status": "Pass",
+              "citation": "Department Academic Records (Pre-existing Master)"
+            }
+          }
         },
         "sem2": {
           "pct": 75.17,
           "sgpa": 7.91,
           "class": "FC-D",
-          "status": "Pass"
+          "status": "Pass",
+          "sources": {
+            "historical": {
+              "pct": 75.17,
+              "sgpa": 7.91,
+              "class": "FC-D",
+              "status": "Pass",
+              "citation": "Department Academic Records (Pre-existing Master)"
+            }
+          }
         },
         "sem3": {
           "pct": 80.18,
           "sgpa": 8.44,
           "class": "FC-D",
-          "status": "Pass"
+          "status": "Pass",
+          "sources": {
+            "historical": {
+              "pct": 80.18,
+              "sgpa": 8.44,
+              "class": "FC-D",
+              "status": "Pass",
+              "citation": "Department Academic Records (Pre-existing Master)"
+            }
+          }
         },
         "sem4": {
           "pct": 81.33,
           "sgpa": 8.56,
           "class": "FC-D",
-          "status": "Pass"
+          "status": "Pass",
+          "sources": {
+            "historical": {
+              "pct": 81.33,
+              "sgpa": 8.56,
+              "class": "FC-D",
+              "status": "Pass",
+              "citation": "Department Academic Records (Pre-existing Master)"
+            }
+          }
         },
         "sem5": null,
         "sem6": null,
@@ -5971,25 +7488,61 @@
           "pct": 51.64,
           "sgpa": 5.44,
           "class": "Fail",
-          "status": "Fail"
+          "status": "Fail",
+          "sources": {
+            "historical": {
+              "pct": 51.64,
+              "sgpa": 5.44,
+              "class": "Fail",
+              "status": "Fail",
+              "citation": "Department Academic Records (Pre-existing Master)"
+            }
+          }
         },
         "sem2": {
           "pct": 49.17,
           "sgpa": 5.18,
           "class": "Fail",
-          "status": "Fail"
+          "status": "Fail",
+          "sources": {
+            "historical": {
+              "pct": 49.17,
+              "sgpa": 5.18,
+              "class": "Fail",
+              "status": "Fail",
+              "citation": "Department Academic Records (Pre-existing Master)"
+            }
+          }
         },
         "sem3": {
           "pct": 48.18,
           "sgpa": 5.07,
           "class": "Fail",
-          "status": "Fail"
+          "status": "Fail",
+          "sources": {
+            "historical": {
+              "pct": 48.18,
+              "sgpa": 5.07,
+              "class": "Fail",
+              "status": "Fail",
+              "citation": "Department Academic Records (Pre-existing Master)"
+            }
+          }
         },
         "sem4": {
           "pct": 51.56,
           "sgpa": 5.43,
           "class": "SC",
-          "status": "Pass"
+          "status": "Pass",
+          "sources": {
+            "historical": {
+              "pct": 51.56,
+              "sgpa": 5.43,
+              "class": "SC",
+              "status": "Pass",
+              "citation": "Department Academic Records (Pre-existing Master)"
+            }
+          }
         },
         "sem5": null,
         "sem6": null,
@@ -6034,25 +7587,61 @@
           "pct": 57.33,
           "sgpa": 6.03,
           "class": "SC",
-          "status": "Pass"
+          "status": "Pass",
+          "sources": {
+            "historical": {
+              "pct": 57.33,
+              "sgpa": 6.03,
+              "class": "SC",
+              "status": "Pass",
+              "citation": "Department Academic Records (Pre-existing Master)"
+            }
+          }
         },
         "sem2": {
           "pct": 54.55,
           "sgpa": 5.74,
           "class": "Fail",
-          "status": "Fail"
+          "status": "Fail",
+          "sources": {
+            "historical": {
+              "pct": 54.55,
+              "sgpa": 5.74,
+              "class": "Fail",
+              "status": "Fail",
+              "citation": "Department Academic Records (Pre-existing Master)"
+            }
+          }
         },
         "sem3": {
           "pct": 70.18,
           "sgpa": 7.39,
           "class": "FC",
-          "status": "Pass"
+          "status": "Pass",
+          "sources": {
+            "historical": {
+              "pct": 70.18,
+              "sgpa": 7.39,
+              "class": "FC",
+              "status": "Pass",
+              "citation": "Department Academic Records (Pre-existing Master)"
+            }
+          }
         },
         "sem4": {
           "pct": 73.78,
           "sgpa": 7.77,
           "class": "FC",
-          "status": "Pass"
+          "status": "Pass",
+          "sources": {
+            "historical": {
+              "pct": 73.78,
+              "sgpa": 7.77,
+              "class": "FC",
+              "status": "Pass",
+              "citation": "Department Academic Records (Pre-existing Master)"
+            }
+          }
         },
         "sem5": null,
         "sem6": null,
@@ -6099,13 +7688,31 @@
           "pct": 51.09,
           "sgpa": 5.38,
           "class": "Fail",
-          "status": "Fail"
+          "status": "Fail",
+          "sources": {
+            "historical": {
+              "pct": 51.09,
+              "sgpa": 5.38,
+              "class": "Fail",
+              "status": "Fail",
+              "citation": "Department Academic Records (Pre-existing Master)"
+            }
+          }
         },
         "sem4": {
           "pct": 75.11,
           "sgpa": 7.91,
           "class": "FC-D",
-          "status": "Pass"
+          "status": "Pass",
+          "sources": {
+            "historical": {
+              "pct": 75.11,
+              "sgpa": 7.91,
+              "class": "FC-D",
+              "status": "Pass",
+              "citation": "Department Academic Records (Pre-existing Master)"
+            }
+          }
         },
         "sem5": null,
         "sem6": null,
@@ -6152,13 +7759,31 @@
           "pct": 59.27,
           "sgpa": 6.24,
           "class": "SC",
-          "status": "Pass"
+          "status": "Pass",
+          "sources": {
+            "historical": {
+              "pct": 59.27,
+              "sgpa": 6.24,
+              "class": "SC",
+              "status": "Pass",
+              "citation": "Department Academic Records (Pre-existing Master)"
+            }
+          }
         },
         "sem4": {
           "pct": 67.33,
           "sgpa": 7.09,
           "class": "FC",
-          "status": "Pass"
+          "status": "Pass",
+          "sources": {
+            "historical": {
+              "pct": 67.33,
+              "sgpa": 7.09,
+              "class": "FC",
+              "status": "Pass",
+              "citation": "Department Academic Records (Pre-existing Master)"
+            }
+          }
         },
         "sem5": null,
         "sem6": null,
@@ -6205,13 +7830,31 @@
           "pct": 73.27,
           "sgpa": 7.71,
           "class": "FC",
-          "status": "Pass"
+          "status": "Pass",
+          "sources": {
+            "historical": {
+              "pct": 73.27,
+              "sgpa": 7.71,
+              "class": "FC",
+              "status": "Pass",
+              "citation": "Department Academic Records (Pre-existing Master)"
+            }
+          }
         },
         "sem4": {
           "pct": 62.89,
           "sgpa": 6.62,
           "class": "FC",
-          "status": "Pass"
+          "status": "Pass",
+          "sources": {
+            "historical": {
+              "pct": 62.89,
+              "sgpa": 6.62,
+              "class": "FC",
+              "status": "Pass",
+              "citation": "Department Academic Records (Pre-existing Master)"
+            }
+          }
         },
         "sem5": null,
         "sem6": null,
@@ -6258,13 +7901,31 @@
           "pct": 65.64,
           "sgpa": 6.91,
           "class": "FC",
-          "status": "Pass"
+          "status": "Pass",
+          "sources": {
+            "historical": {
+              "pct": 65.64,
+              "sgpa": 6.91,
+              "class": "FC",
+              "status": "Pass",
+              "citation": "Department Academic Records (Pre-existing Master)"
+            }
+          }
         },
         "sem4": {
           "pct": 77.11,
           "sgpa": 8.12,
           "class": "FC-D",
-          "status": "Pass"
+          "status": "Pass",
+          "sources": {
+            "historical": {
+              "pct": 77.11,
+              "sgpa": 8.12,
+              "class": "FC-D",
+              "status": "Pass",
+              "citation": "Department Academic Records (Pre-existing Master)"
+            }
+          }
         },
         "sem5": null,
         "sem6": null,
@@ -6311,13 +7972,31 @@
           "pct": 46.55,
           "sgpa": 4.9,
           "class": "Fail",
-          "status": "Fail"
+          "status": "Fail",
+          "sources": {
+            "historical": {
+              "pct": 46.55,
+              "sgpa": 4.9,
+              "class": "Fail",
+              "status": "Fail",
+              "citation": "Department Academic Records (Pre-existing Master)"
+            }
+          }
         },
         "sem4": {
           "pct": 48.67,
           "sgpa": 5.12,
           "class": "Fail",
-          "status": "Fail"
+          "status": "Fail",
+          "sources": {
+            "historical": {
+              "pct": 48.67,
+              "sgpa": 5.12,
+              "class": "Fail",
+              "status": "Fail",
+              "citation": "Department Academic Records (Pre-existing Master)"
+            }
+          }
         },
         "sem5": null,
         "sem6": null,
@@ -6364,13 +8043,31 @@
           "pct": 62.18,
           "sgpa": 6.55,
           "class": "Fail",
-          "status": "Fail"
+          "status": "Fail",
+          "sources": {
+            "historical": {
+              "pct": 62.18,
+              "sgpa": 6.55,
+              "class": "Fail",
+              "status": "Fail",
+              "citation": "Department Academic Records (Pre-existing Master)"
+            }
+          }
         },
         "sem4": {
           "pct": 67.56,
           "sgpa": 7.11,
           "class": "FC",
-          "status": "Pass"
+          "status": "Pass",
+          "sources": {
+            "historical": {
+              "pct": 67.56,
+              "sgpa": 7.11,
+              "class": "FC",
+              "status": "Pass",
+              "citation": "Department Academic Records (Pre-existing Master)"
+            }
+          }
         },
         "sem5": null,
         "sem6": null,
@@ -6415,19 +8112,46 @@
           "pct": 44.73,
           "sgpa": 4.71,
           "class": "Fail",
-          "status": "Fail"
+          "status": "Fail",
+          "sources": {
+            "historical": {
+              "pct": 44.73,
+              "sgpa": 4.71,
+              "class": "Fail",
+              "status": "Fail",
+              "citation": "Department Academic Records (Pre-existing Master)"
+            }
+          }
         },
         "sem2": {
           "pct": 31.67,
           "sgpa": 3.33,
           "class": "Fail",
-          "status": "Fail"
+          "status": "Fail",
+          "sources": {
+            "historical": {
+              "pct": 31.67,
+              "sgpa": 3.33,
+              "class": "Fail",
+              "status": "Fail",
+              "citation": "Department Academic Records (Pre-existing Master)"
+            }
+          }
         },
         "sem3": {
           "pct": 37.45,
           "sgpa": 3.94,
           "class": "Fail",
-          "status": "Fail"
+          "status": "Fail",
+          "sources": {
+            "historical": {
+              "pct": 37.45,
+              "sgpa": 3.94,
+              "class": "Fail",
+              "status": "Fail",
+              "citation": "Department Academic Records (Pre-existing Master)"
+            }
+          }
         },
         "sem4": null,
         "sem5": null,
@@ -6473,19 +8197,46 @@
           "pct": 44.73,
           "sgpa": 4.71,
           "class": "Fail",
-          "status": "Fail"
+          "status": "Fail",
+          "sources": {
+            "historical": {
+              "pct": 44.73,
+              "sgpa": 4.71,
+              "class": "Fail",
+              "status": "Fail",
+              "citation": "Department Academic Records (Pre-existing Master)"
+            }
+          }
         },
         "sem2": {
           "pct": 31.67,
           "sgpa": 3.33,
           "class": "Fail",
-          "status": "Fail"
+          "status": "Fail",
+          "sources": {
+            "historical": {
+              "pct": 31.67,
+              "sgpa": 3.33,
+              "class": "Fail",
+              "status": "Fail",
+              "citation": "Department Academic Records (Pre-existing Master)"
+            }
+          }
         },
         "sem3": {
           "pct": 37.45,
           "sgpa": 3.94,
           "class": "Fail",
-          "status": "Fail"
+          "status": "Fail",
+          "sources": {
+            "historical": {
+              "pct": 37.45,
+              "sgpa": 3.94,
+              "class": "Fail",
+              "status": "Fail",
+              "citation": "Department Academic Records (Pre-existing Master)"
+            }
+          }
         },
         "sem4": null,
         "sem5": null,
@@ -6531,37 +8282,91 @@
           "pct": 77.27,
           "sgpa": 8.13,
           "class": "FC-D",
-          "status": "Pass"
+          "status": "Pass",
+          "sources": {
+            "historical": {
+              "pct": 77.27,
+              "sgpa": 8.13,
+              "class": "FC-D",
+              "status": "Pass",
+              "citation": "Department Academic Records (Pre-existing Master)"
+            }
+          }
         },
         "sem2": {
           "pct": 76.0,
           "sgpa": 8.0,
           "class": "FC-D",
-          "status": "Pass"
+          "status": "Pass",
+          "sources": {
+            "historical": {
+              "pct": 76.0,
+              "sgpa": 8.0,
+              "class": "FC-D",
+              "status": "Pass",
+              "citation": "Department Academic Records (Pre-existing Master)"
+            }
+          }
         },
         "sem3": {
           "pct": 75.27,
           "sgpa": 7.92,
           "class": "FC-D",
-          "status": "Pass"
+          "status": "Pass",
+          "sources": {
+            "historical": {
+              "pct": 75.27,
+              "sgpa": 7.92,
+              "class": "FC-D",
+              "status": "Pass",
+              "citation": "Department Academic Records (Pre-existing Master)"
+            }
+          }
         },
         "sem4": {
           "pct": 74.44,
           "sgpa": 7.84,
           "class": "FC",
-          "status": "Pass"
+          "status": "Pass",
+          "sources": {
+            "historical": {
+              "pct": 74.44,
+              "sgpa": 7.84,
+              "class": "FC",
+              "status": "Pass",
+              "citation": "Department Academic Records (Pre-existing Master)"
+            }
+          }
         },
         "sem5": {
           "pct": 73.5,
           "sgpa": 7.74,
           "class": "FC",
-          "status": "Pass"
+          "status": "Pass",
+          "sources": {
+            "historical": {
+              "pct": 73.5,
+              "sgpa": 7.74,
+              "class": "FC",
+              "status": "Pass",
+              "citation": "Department Academic Records (Pre-existing Master)"
+            }
+          }
         },
         "sem6": {
           "pct": 72.83,
           "sgpa": 7.67,
           "class": "FC",
-          "status": "Pass"
+          "status": "Pass",
+          "sources": {
+            "historical": {
+              "pct": 72.83,
+              "sgpa": 7.67,
+              "class": "FC",
+              "status": "Pass",
+              "citation": "Department Academic Records (Pre-existing Master)"
+            }
+          }
         },
         "sem7": null,
         "sem8": null
@@ -6604,37 +8409,91 @@
           "pct": 58.91,
           "sgpa": 6.2,
           "class": "SC",
-          "status": "Pass"
+          "status": "Pass",
+          "sources": {
+            "historical": {
+              "pct": 58.91,
+              "sgpa": 6.2,
+              "class": "SC",
+              "status": "Pass",
+              "citation": "Department Academic Records (Pre-existing Master)"
+            }
+          }
         },
         "sem2": {
           "pct": 58.17,
           "sgpa": 6.12,
           "class": "SC",
-          "status": "Pass"
+          "status": "Pass",
+          "sources": {
+            "historical": {
+              "pct": 58.17,
+              "sgpa": 6.12,
+              "class": "SC",
+              "status": "Pass",
+              "citation": "Department Academic Records (Pre-existing Master)"
+            }
+          }
         },
         "sem3": {
           "pct": 59.27,
           "sgpa": 6.24,
           "class": "SC",
-          "status": "Pass"
+          "status": "Pass",
+          "sources": {
+            "historical": {
+              "pct": 59.27,
+              "sgpa": 6.24,
+              "class": "SC",
+              "status": "Pass",
+              "citation": "Department Academic Records (Pre-existing Master)"
+            }
+          }
         },
         "sem4": {
           "pct": 70.67,
           "sgpa": 7.44,
           "class": "FC",
-          "status": "Pass"
+          "status": "Pass",
+          "sources": {
+            "historical": {
+              "pct": 70.67,
+              "sgpa": 7.44,
+              "class": "FC",
+              "status": "Pass",
+              "citation": "Department Academic Records (Pre-existing Master)"
+            }
+          }
         },
         "sem5": {
           "pct": 59.67,
           "sgpa": 6.28,
           "class": "Fail",
-          "status": "Fail"
+          "status": "Fail",
+          "sources": {
+            "historical": {
+              "pct": 59.67,
+              "sgpa": 6.28,
+              "class": "Fail",
+              "status": "Fail",
+              "citation": "Department Academic Records (Pre-existing Master)"
+            }
+          }
         },
         "sem6": {
           "pct": 69.0,
           "sgpa": 7.26,
           "class": "FC",
-          "status": "Pass"
+          "status": "Pass",
+          "sources": {
+            "historical": {
+              "pct": 69.0,
+              "sgpa": 7.26,
+              "class": "FC",
+              "status": "Pass",
+              "citation": "Department Academic Records (Pre-existing Master)"
+            }
+          }
         },
         "sem7": null,
         "sem8": null
@@ -6677,19 +8536,46 @@
           "pct": 76.0,
           "sgpa": 8.0,
           "class": "FC-D",
-          "status": "Pass"
+          "status": "Pass",
+          "sources": {
+            "historical": {
+              "pct": 76.0,
+              "sgpa": 8.0,
+              "class": "FC-D",
+              "status": "Pass",
+              "citation": "Department Academic Records (Pre-existing Master)"
+            }
+          }
         },
         "sem2": {
           "pct": 79.5,
           "sgpa": 8.37,
           "class": "FC-D",
-          "status": "Pass"
+          "status": "Pass",
+          "sources": {
+            "historical": {
+              "pct": 79.5,
+              "sgpa": 8.37,
+              "class": "FC-D",
+              "status": "Pass",
+              "citation": "Department Academic Records (Pre-existing Master)"
+            }
+          }
         },
         "sem3": {
           "pct": 89.27,
           "sgpa": 9.4,
           "class": "SC",
-          "status": "Pass"
+          "status": "Pass",
+          "sources": {
+            "historical": {
+              "pct": 89.27,
+              "sgpa": 9.4,
+              "class": "SC",
+              "status": "Pass",
+              "citation": "Department Academic Records (Pre-existing Master)"
+            }
+          }
         },
         "sem4": null,
         "sem5": null,
@@ -6735,37 +8621,91 @@
           "pct": 59.45,
           "sgpa": 6.26,
           "class": "SC",
-          "status": "Pass"
+          "status": "Pass",
+          "sources": {
+            "historical": {
+              "pct": 59.45,
+              "sgpa": 6.26,
+              "class": "SC",
+              "status": "Pass",
+              "citation": "Department Academic Records (Pre-existing Master)"
+            }
+          }
         },
         "sem2": {
           "pct": 64.0,
           "sgpa": 6.74,
           "class": "FC",
-          "status": "Pass"
+          "status": "Pass",
+          "sources": {
+            "historical": {
+              "pct": 64.0,
+              "sgpa": 6.74,
+              "class": "FC",
+              "status": "Pass",
+              "citation": "Department Academic Records (Pre-existing Master)"
+            }
+          }
         },
         "sem3": {
           "pct": 61.45,
           "sgpa": 6.47,
           "class": "FC",
-          "status": "Pass"
+          "status": "Pass",
+          "sources": {
+            "historical": {
+              "pct": 61.45,
+              "sgpa": 6.47,
+              "class": "FC",
+              "status": "Pass",
+              "citation": "Department Academic Records (Pre-existing Master)"
+            }
+          }
         },
         "sem4": {
           "pct": 73.78,
           "sgpa": 7.77,
           "class": "FC",
-          "status": "Pass"
+          "status": "Pass",
+          "sources": {
+            "historical": {
+              "pct": 73.78,
+              "sgpa": 7.77,
+              "class": "FC",
+              "status": "Pass",
+              "citation": "Department Academic Records (Pre-existing Master)"
+            }
+          }
         },
         "sem5": {
           "pct": 63.67,
           "sgpa": 6.7,
           "class": "FC",
-          "status": "Pass"
+          "status": "Pass",
+          "sources": {
+            "historical": {
+              "pct": 63.67,
+              "sgpa": 6.7,
+              "class": "FC",
+              "status": "Pass",
+              "citation": "Department Academic Records (Pre-existing Master)"
+            }
+          }
         },
         "sem6": {
           "pct": 70.67,
           "sgpa": 7.44,
           "class": "FC",
-          "status": "Pass"
+          "status": "Pass",
+          "sources": {
+            "historical": {
+              "pct": 70.67,
+              "sgpa": 7.44,
+              "class": "FC",
+              "status": "Pass",
+              "citation": "Department Academic Records (Pre-existing Master)"
+            }
+          }
         },
         "sem7": null,
         "sem8": null
@@ -6808,13 +8748,31 @@
           "pct": 60.17,
           "sgpa": 6.33,
           "class": "Fail",
-          "status": "Fail"
+          "status": "Fail",
+          "sources": {
+            "historical": {
+              "pct": 60.17,
+              "sgpa": 6.33,
+              "class": "Fail",
+              "status": "Fail",
+              "citation": "Department Academic Records (Pre-existing Master)"
+            }
+          }
         },
         "sem2": {
           "pct": 55.09,
           "sgpa": 5.8,
           "class": "Fail",
-          "status": "Fail"
+          "status": "Fail",
+          "sources": {
+            "historical": {
+              "pct": 55.09,
+              "sgpa": 5.8,
+              "class": "Fail",
+              "status": "Fail",
+              "citation": "Department Academic Records (Pre-existing Master)"
+            }
+          }
         },
         "sem3": null,
         "sem4": null,
@@ -6861,7 +8819,16 @@
           "pct": 34.73,
           "sgpa": 3.66,
           "class": "Fail",
-          "status": "Fail"
+          "status": "Fail",
+          "sources": {
+            "historical": {
+              "pct": 34.73,
+              "sgpa": 3.66,
+              "class": "Fail",
+              "status": "Fail",
+              "citation": "Department Academic Records (Pre-existing Master)"
+            }
+          }
         },
         "sem2": null,
         "sem3": null,
@@ -6909,37 +8876,91 @@
           "pct": 58.18,
           "sgpa": 6.12,
           "class": "SC",
-          "status": "Pass"
+          "status": "Pass",
+          "sources": {
+            "historical": {
+              "pct": 58.18,
+              "sgpa": 6.12,
+              "class": "SC",
+              "status": "Pass",
+              "citation": "Department Academic Records (Pre-existing Master)"
+            }
+          }
         },
         "sem2": {
           "pct": 58.5,
           "sgpa": 6.16,
           "class": "SC",
-          "status": "Pass"
+          "status": "Pass",
+          "sources": {
+            "historical": {
+              "pct": 58.5,
+              "sgpa": 6.16,
+              "class": "SC",
+              "status": "Pass",
+              "citation": "Department Academic Records (Pre-existing Master)"
+            }
+          }
         },
         "sem3": {
           "pct": 59.64,
           "sgpa": 6.28,
           "class": "SC",
-          "status": "Pass"
+          "status": "Pass",
+          "sources": {
+            "historical": {
+              "pct": 59.64,
+              "sgpa": 6.28,
+              "class": "SC",
+              "status": "Pass",
+              "citation": "Department Academic Records (Pre-existing Master)"
+            }
+          }
         },
         "sem4": {
           "pct": 72.67,
           "sgpa": 7.65,
           "class": "FC",
-          "status": "Pass"
+          "status": "Pass",
+          "sources": {
+            "historical": {
+              "pct": 72.67,
+              "sgpa": 7.65,
+              "class": "FC",
+              "status": "Pass",
+              "citation": "Department Academic Records (Pre-existing Master)"
+            }
+          }
         },
         "sem5": {
           "pct": 70.17,
           "sgpa": 7.39,
           "class": "FC",
-          "status": "Pass"
+          "status": "Pass",
+          "sources": {
+            "historical": {
+              "pct": 70.17,
+              "sgpa": 7.39,
+              "class": "FC",
+              "status": "Pass",
+              "citation": "Department Academic Records (Pre-existing Master)"
+            }
+          }
         },
         "sem6": {
           "pct": 70.0,
           "sgpa": 7.37,
           "class": "FC",
-          "status": "Pass"
+          "status": "Pass",
+          "sources": {
+            "historical": {
+              "pct": 70.0,
+              "sgpa": 7.37,
+              "class": "FC",
+              "status": "Pass",
+              "citation": "Department Academic Records (Pre-existing Master)"
+            }
+          }
         },
         "sem7": null,
         "sem8": null
@@ -6982,37 +9003,91 @@
           "pct": 58.5,
           "sgpa": 6.16,
           "class": "SC",
-          "status": "Pass"
+          "status": "Pass",
+          "sources": {
+            "historical": {
+              "pct": 58.5,
+              "sgpa": 6.16,
+              "class": "SC",
+              "status": "Pass",
+              "citation": "Department Academic Records (Pre-existing Master)"
+            }
+          }
         },
         "sem2": {
           "pct": 56.73,
           "sgpa": 5.97,
           "class": "SC",
-          "status": "Pass"
+          "status": "Pass",
+          "sources": {
+            "historical": {
+              "pct": 56.73,
+              "sgpa": 5.97,
+              "class": "SC",
+              "status": "Pass",
+              "citation": "Department Academic Records (Pre-existing Master)"
+            }
+          }
         },
         "sem3": {
           "pct": 69.45,
           "sgpa": 7.31,
           "class": "FC",
-          "status": "Pass"
+          "status": "Pass",
+          "sources": {
+            "historical": {
+              "pct": 69.45,
+              "sgpa": 7.31,
+              "class": "FC",
+              "status": "Pass",
+              "citation": "Department Academic Records (Pre-existing Master)"
+            }
+          }
         },
         "sem4": {
           "pct": 84.44,
           "sgpa": 8.89,
           "class": "FC-D",
-          "status": "Pass"
+          "status": "Pass",
+          "sources": {
+            "historical": {
+              "pct": 84.44,
+              "sgpa": 8.89,
+              "class": "FC-D",
+              "status": "Pass",
+              "citation": "Department Academic Records (Pre-existing Master)"
+            }
+          }
         },
         "sem5": {
           "pct": 81.5,
           "sgpa": 8.58,
           "class": "FC-D",
-          "status": "Pass"
+          "status": "Pass",
+          "sources": {
+            "historical": {
+              "pct": 81.5,
+              "sgpa": 8.58,
+              "class": "FC-D",
+              "status": "Pass",
+              "citation": "Department Academic Records (Pre-existing Master)"
+            }
+          }
         },
         "sem6": {
           "pct": 82.33,
           "sgpa": 8.67,
           "class": "FC-D",
-          "status": "Pass"
+          "status": "Pass",
+          "sources": {
+            "historical": {
+              "pct": 82.33,
+              "sgpa": 8.67,
+              "class": "FC-D",
+              "status": "Pass",
+              "citation": "Department Academic Records (Pre-existing Master)"
+            }
+          }
         },
         "sem7": null,
         "sem8": null
@@ -7055,37 +9130,91 @@
           "pct": 49.45,
           "sgpa": 5.21,
           "class": "P",
-          "status": "Pass"
+          "status": "Pass",
+          "sources": {
+            "historical": {
+              "pct": 49.45,
+              "sgpa": 5.21,
+              "class": "P",
+              "status": "Pass",
+              "citation": "Department Academic Records (Pre-existing Master)"
+            }
+          }
         },
         "sem2": {
           "pct": 55.67,
           "sgpa": 5.86,
           "class": "SC",
-          "status": "Pass"
+          "status": "Pass",
+          "sources": {
+            "historical": {
+              "pct": 55.67,
+              "sgpa": 5.86,
+              "class": "SC",
+              "status": "Pass",
+              "citation": "Department Academic Records (Pre-existing Master)"
+            }
+          }
         },
         "sem3": {
           "pct": 62.0,
           "sgpa": 6.53,
           "class": "FC",
-          "status": "Pass"
+          "status": "Pass",
+          "sources": {
+            "historical": {
+              "pct": 62.0,
+              "sgpa": 6.53,
+              "class": "FC",
+              "status": "Pass",
+              "citation": "Department Academic Records (Pre-existing Master)"
+            }
+          }
         },
         "sem4": {
           "pct": 69.78,
           "sgpa": 7.35,
           "class": "FC",
-          "status": "Pass"
+          "status": "Pass",
+          "sources": {
+            "historical": {
+              "pct": 69.78,
+              "sgpa": 7.35,
+              "class": "FC",
+              "status": "Pass",
+              "citation": "Department Academic Records (Pre-existing Master)"
+            }
+          }
         },
         "sem5": {
           "pct": 49.5,
           "sgpa": 5.21,
           "class": "Fail",
-          "status": "Fail"
+          "status": "Fail",
+          "sources": {
+            "historical": {
+              "pct": 49.5,
+              "sgpa": 5.21,
+              "class": "Fail",
+              "status": "Fail",
+              "citation": "Department Academic Records (Pre-existing Master)"
+            }
+          }
         },
         "sem6": {
           "pct": 65.83,
           "sgpa": 6.93,
           "class": "FC",
-          "status": "Pass"
+          "status": "Pass",
+          "sources": {
+            "historical": {
+              "pct": 65.83,
+              "sgpa": 6.93,
+              "class": "FC",
+              "status": "Pass",
+              "citation": "Department Academic Records (Pre-existing Master)"
+            }
+          }
         },
         "sem7": null,
         "sem8": null
@@ -7129,7 +9258,16 @@
           "pct": 60.5,
           "sgpa": 6.37,
           "class": "FC",
-          "status": "Pass"
+          "status": "Pass",
+          "sources": {
+            "historical": {
+              "pct": 60.5,
+              "sgpa": 6.37,
+              "class": "FC",
+              "status": "Pass",
+              "citation": "Department Academic Records (Pre-existing Master)"
+            }
+          }
         },
         "sem3": null,
         "sem4": null,
@@ -7176,37 +9314,91 @@
           "pct": 65.64,
           "sgpa": 6.91,
           "class": "FC",
-          "status": "Pass"
+          "status": "Pass",
+          "sources": {
+            "historical": {
+              "pct": 65.64,
+              "sgpa": 6.91,
+              "class": "FC",
+              "status": "Pass",
+              "citation": "Department Academic Records (Pre-existing Master)"
+            }
+          }
         },
         "sem2": {
           "pct": 60.5,
           "sgpa": 6.37,
           "class": "FC",
-          "status": "Pass"
+          "status": "Pass",
+          "sources": {
+            "historical": {
+              "pct": 60.5,
+              "sgpa": 6.37,
+              "class": "FC",
+              "status": "Pass",
+              "citation": "Department Academic Records (Pre-existing Master)"
+            }
+          }
         },
         "sem3": {
           "pct": 65.82,
           "sgpa": 6.93,
           "class": "FC",
-          "status": "Pass"
+          "status": "Pass",
+          "sources": {
+            "historical": {
+              "pct": 65.82,
+              "sgpa": 6.93,
+              "class": "FC",
+              "status": "Pass",
+              "citation": "Department Academic Records (Pre-existing Master)"
+            }
+          }
         },
         "sem4": {
           "pct": 71.56,
           "sgpa": 7.53,
           "class": "FC",
-          "status": "Pass"
+          "status": "Pass",
+          "sources": {
+            "historical": {
+              "pct": 71.56,
+              "sgpa": 7.53,
+              "class": "FC",
+              "status": "Pass",
+              "citation": "Department Academic Records (Pre-existing Master)"
+            }
+          }
         },
         "sem5": {
           "pct": 62.5,
           "sgpa": 6.58,
           "class": "FC",
-          "status": "Pass"
+          "status": "Pass",
+          "sources": {
+            "historical": {
+              "pct": 62.5,
+              "sgpa": 6.58,
+              "class": "FC",
+              "status": "Pass",
+              "citation": "Department Academic Records (Pre-existing Master)"
+            }
+          }
         },
         "sem6": {
           "pct": 70.17,
           "sgpa": 7.39,
           "class": "FC",
-          "status": "Pass"
+          "status": "Pass",
+          "sources": {
+            "historical": {
+              "pct": 70.17,
+              "sgpa": 7.39,
+              "class": "FC",
+              "status": "Pass",
+              "citation": "Department Academic Records (Pre-existing Master)"
+            }
+          }
         },
         "sem7": null,
         "sem8": null
@@ -7249,37 +9441,91 @@
           "pct": 72.36,
           "sgpa": 7.62,
           "class": "FC",
-          "status": "Pass"
+          "status": "Pass",
+          "sources": {
+            "historical": {
+              "pct": 72.36,
+              "sgpa": 7.62,
+              "class": "FC",
+              "status": "Pass",
+              "citation": "Department Academic Records (Pre-existing Master)"
+            }
+          }
         },
         "sem2": {
           "pct": 68.33,
           "sgpa": 7.19,
           "class": "FC",
-          "status": "Pass"
+          "status": "Pass",
+          "sources": {
+            "historical": {
+              "pct": 68.33,
+              "sgpa": 7.19,
+              "class": "FC",
+              "status": "Pass",
+              "citation": "Department Academic Records (Pre-existing Master)"
+            }
+          }
         },
         "sem3": {
           "pct": 74.36,
           "sgpa": 7.83,
           "class": "FC",
-          "status": "Pass"
+          "status": "Pass",
+          "sources": {
+            "historical": {
+              "pct": 74.36,
+              "sgpa": 7.83,
+              "class": "FC",
+              "status": "Pass",
+              "citation": "Department Academic Records (Pre-existing Master)"
+            }
+          }
         },
         "sem4": {
           "pct": 71.33,
           "sgpa": 7.51,
           "class": "FC",
-          "status": "Pass"
+          "status": "Pass",
+          "sources": {
+            "historical": {
+              "pct": 71.33,
+              "sgpa": 7.51,
+              "class": "FC",
+              "status": "Pass",
+              "citation": "Department Academic Records (Pre-existing Master)"
+            }
+          }
         },
         "sem5": {
           "pct": 71.33,
           "sgpa": 7.51,
           "class": "Fail",
-          "status": "Fail"
+          "status": "Fail",
+          "sources": {
+            "historical": {
+              "pct": 71.33,
+              "sgpa": 7.51,
+              "class": "Fail",
+              "status": "Fail",
+              "citation": "Department Academic Records (Pre-existing Master)"
+            }
+          }
         },
         "sem6": {
           "pct": 48.5,
           "sgpa": 5.11,
           "class": "Fail",
-          "status": "Fail"
+          "status": "Fail",
+          "sources": {
+            "historical": {
+              "pct": 48.5,
+              "sgpa": 5.11,
+              "class": "Fail",
+              "status": "Fail",
+              "citation": "Department Academic Records (Pre-existing Master)"
+            }
+          }
         },
         "sem7": null,
         "sem8": null
@@ -7322,49 +9568,57 @@
           "pct": null,
           "sgpa": null,
           "class": "68.18",
-          "status": "—"
+          "status": "\u2014",
+          "sources": {}
         },
         "sem2": {
           "pct": null,
           "sgpa": null,
           "class": "64.0",
-          "status": "—"
+          "status": "\u2014",
+          "sources": {}
         },
         "sem3": {
           "pct": null,
           "sgpa": null,
           "class": "63.0",
-          "status": "—"
+          "status": "\u2014",
+          "sources": {}
         },
         "sem4": {
           "pct": null,
           "sgpa": null,
           "class": "59.17",
-          "status": "—"
+          "status": "\u2014",
+          "sources": {}
         },
         "sem5": {
           "pct": null,
           "sgpa": null,
           "class": "66.43",
-          "status": "—"
+          "status": "\u2014",
+          "sources": {}
         },
         "sem6": {
           "pct": null,
           "sgpa": null,
           "class": "78.0",
-          "status": "—"
+          "status": "\u2014",
+          "sources": {}
         },
         "sem7": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—"
+          "status": "\u2014",
+          "sources": {}
         },
         "sem8": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—"
+          "status": "\u2014",
+          "sources": {}
         }
       },
       "placement": {
@@ -7405,44 +9659,51 @@
           "pct": null,
           "sgpa": null,
           "class": "62.55",
-          "status": "—"
+          "status": "\u2014",
+          "sources": {}
         },
         "sem2": {
           "pct": null,
           "sgpa": null,
           "class": "66.44",
-          "status": "—"
+          "status": "\u2014",
+          "sources": {}
         },
         "sem3": {
           "pct": null,
           "sgpa": null,
           "class": "63.17",
-          "status": "—"
+          "status": "\u2014",
+          "sources": {}
         },
         "sem4": {
           "pct": null,
           "sgpa": null,
           "class": "62.0",
-          "status": "—"
+          "status": "\u2014",
+          "sources": {}
         },
         "sem5": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—"
+          "status": "\u2014",
+          "sources": {}
         },
         "sem6": null,
         "sem7": {
           "pct": null,
           "sgpa": null,
           "class": "1",
-          "status": "—"
+          "status": "\u2014",
+          "sources": {}
         },
         "sem8": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—"
+          "status": "\u2014",
+          "sources": {}
         }
       },
       "placement": {
@@ -7483,44 +9744,51 @@
           "pct": null,
           "sgpa": null,
           "class": "72.36",
-          "status": "—"
+          "status": "\u2014",
+          "sources": {}
         },
         "sem2": {
           "pct": null,
           "sgpa": null,
           "class": "74.22",
-          "status": "—"
+          "status": "\u2014",
+          "sources": {}
         },
         "sem3": {
           "pct": null,
           "sgpa": null,
           "class": "78.0",
-          "status": "—"
+          "status": "\u2014",
+          "sources": {}
         },
         "sem4": {
           "pct": null,
           "sgpa": null,
           "class": "76.17",
-          "status": "—"
+          "status": "\u2014",
+          "sources": {}
         },
         "sem5": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—"
+          "status": "\u2014",
+          "sources": {}
         },
         "sem6": null,
         "sem7": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—"
+          "status": "\u2014",
+          "sources": {}
         },
         "sem8": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—"
+          "status": "\u2014",
+          "sources": {}
         }
       },
       "placement": {
@@ -7561,19 +9829,22 @@
           "pct": null,
           "sgpa": null,
           "class": "54.73",
-          "status": "—"
+          "status": "\u2014",
+          "sources": {}
         },
         "sem2": {
           "pct": null,
           "sgpa": null,
           "class": "0.22",
-          "status": "—"
+          "status": "\u2014",
+          "sources": {}
         },
         "sem3": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—"
+          "status": "\u2014",
+          "sources": {}
         },
         "sem4": null,
         "sem5": null,
@@ -7582,13 +9853,15 @@
           "pct": null,
           "sgpa": null,
           "class": "2",
-          "status": "—"
+          "status": "\u2014",
+          "sources": {}
         },
         "sem8": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—"
+          "status": "\u2014",
+          "sources": {}
         }
       },
       "placement": {
@@ -7629,44 +9902,51 @@
           "pct": null,
           "sgpa": null,
           "class": "67.27",
-          "status": "—"
+          "status": "\u2014",
+          "sources": {}
         },
         "sem2": {
           "pct": null,
           "sgpa": null,
           "class": "62.0",
-          "status": "—"
+          "status": "\u2014",
+          "sources": {}
         },
         "sem3": {
           "pct": null,
           "sgpa": null,
           "class": "53.67",
-          "status": "—"
+          "status": "\u2014",
+          "sources": {}
         },
         "sem4": {
           "pct": null,
           "sgpa": null,
           "class": "56.17",
-          "status": "—"
+          "status": "\u2014",
+          "sources": {}
         },
         "sem5": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—"
+          "status": "\u2014",
+          "sources": {}
         },
         "sem6": null,
         "sem7": {
           "pct": null,
           "sgpa": null,
           "class": "4",
-          "status": "—"
+          "status": "\u2014",
+          "sources": {}
         },
         "sem8": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—"
+          "status": "\u2014",
+          "sources": {}
         }
       },
       "placement": {
@@ -7707,44 +9987,51 @@
           "pct": null,
           "sgpa": null,
           "class": "74.55",
-          "status": "—"
+          "status": "\u2014",
+          "sources": {}
         },
         "sem2": {
           "pct": null,
           "sgpa": null,
           "class": "74.0",
-          "status": "—"
+          "status": "\u2014",
+          "sources": {}
         },
         "sem3": {
           "pct": null,
           "sgpa": null,
           "class": "71.17",
-          "status": "—"
+          "status": "\u2014",
+          "sources": {}
         },
         "sem4": {
           "pct": null,
           "sgpa": null,
           "class": "71.33",
-          "status": "—"
+          "status": "\u2014",
+          "sources": {}
         },
         "sem5": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—"
+          "status": "\u2014",
+          "sources": {}
         },
         "sem6": null,
         "sem7": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—"
+          "status": "\u2014",
+          "sources": {}
         },
         "sem8": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—"
+          "status": "\u2014",
+          "sources": {}
         }
       },
       "placement": {
@@ -7785,44 +10072,51 @@
           "pct": null,
           "sgpa": null,
           "class": "60.36",
-          "status": "—"
+          "status": "\u2014",
+          "sources": {}
         },
         "sem2": {
           "pct": null,
           "sgpa": null,
           "class": "69.11",
-          "status": "—"
+          "status": "\u2014",
+          "sources": {}
         },
         "sem3": {
           "pct": null,
           "sgpa": null,
           "class": "76.83",
-          "status": "—"
+          "status": "\u2014",
+          "sources": {}
         },
         "sem4": {
           "pct": null,
           "sgpa": null,
           "class": "69.83",
-          "status": "—"
+          "status": "\u2014",
+          "sources": {}
         },
         "sem5": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—"
+          "status": "\u2014",
+          "sources": {}
         },
         "sem6": null,
         "sem7": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—"
+          "status": "\u2014",
+          "sources": {}
         },
         "sem8": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—"
+          "status": "\u2014",
+          "sources": {}
         }
       },
       "placement": {
@@ -7863,44 +10157,51 @@
           "pct": null,
           "sgpa": null,
           "class": "82.55",
-          "status": "—"
+          "status": "\u2014",
+          "sources": {}
         },
         "sem2": {
           "pct": null,
           "sgpa": null,
           "class": "77.56",
-          "status": "—"
+          "status": "\u2014",
+          "sources": {}
         },
         "sem3": {
           "pct": null,
           "sgpa": null,
           "class": "86.83",
-          "status": "—"
+          "status": "\u2014",
+          "sources": {}
         },
         "sem4": {
           "pct": null,
           "sgpa": null,
           "class": "82.83",
-          "status": "—"
+          "status": "\u2014",
+          "sources": {}
         },
         "sem5": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—"
+          "status": "\u2014",
+          "sources": {}
         },
         "sem6": null,
         "sem7": {
           "pct": null,
           "sgpa": null,
           "class": "1",
-          "status": "—"
+          "status": "\u2014",
+          "sources": {}
         },
         "sem8": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—"
+          "status": "\u2014",
+          "sources": {}
         }
       },
       "placement": {
@@ -7941,44 +10242,51 @@
           "pct": null,
           "sgpa": null,
           "class": "68.91",
-          "status": "—"
+          "status": "\u2014",
+          "sources": {}
         },
         "sem2": {
           "pct": null,
           "sgpa": null,
           "class": "78.0",
-          "status": "—"
+          "status": "\u2014",
+          "sources": {}
         },
         "sem3": {
           "pct": null,
           "sgpa": null,
           "class": "74.33",
-          "status": "—"
+          "status": "\u2014",
+          "sources": {}
         },
         "sem4": {
           "pct": null,
           "sgpa": null,
           "class": "83.0",
-          "status": "—"
+          "status": "\u2014",
+          "sources": {}
         },
         "sem5": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—"
+          "status": "\u2014",
+          "sources": {}
         },
         "sem6": null,
         "sem7": {
           "pct": null,
           "sgpa": null,
           "class": "1",
-          "status": "—"
+          "status": "\u2014",
+          "sources": {}
         },
         "sem8": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—"
+          "status": "\u2014",
+          "sources": {}
         }
       },
       "placement": {
@@ -8019,44 +10327,51 @@
           "pct": null,
           "sgpa": null,
           "class": "62.73",
-          "status": "—"
+          "status": "\u2014",
+          "sources": {}
         },
         "sem2": {
           "pct": null,
           "sgpa": null,
           "class": "66.89",
-          "status": "—"
+          "status": "\u2014",
+          "sources": {}
         },
         "sem3": {
           "pct": null,
           "sgpa": null,
           "class": "70.83",
-          "status": "—"
+          "status": "\u2014",
+          "sources": {}
         },
         "sem4": {
           "pct": null,
           "sgpa": null,
           "class": "64.33",
-          "status": "—"
+          "status": "\u2014",
+          "sources": {}
         },
         "sem5": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—"
+          "status": "\u2014",
+          "sources": {}
         },
         "sem6": null,
         "sem7": {
           "pct": null,
           "sgpa": null,
           "class": "1",
-          "status": "—"
+          "status": "\u2014",
+          "sources": {}
         },
         "sem8": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—"
+          "status": "\u2014",
+          "sources": {}
         }
       },
       "placement": {
@@ -8097,44 +10412,51 @@
           "pct": null,
           "sgpa": null,
           "class": "62.0",
-          "status": "—"
+          "status": "\u2014",
+          "sources": {}
         },
         "sem2": {
           "pct": null,
           "sgpa": null,
           "class": "58.67",
-          "status": "—"
+          "status": "\u2014",
+          "sources": {}
         },
         "sem3": {
           "pct": null,
           "sgpa": null,
           "class": "58.0",
-          "status": "—"
+          "status": "\u2014",
+          "sources": {}
         },
         "sem4": {
           "pct": null,
           "sgpa": null,
           "class": "59.33",
-          "status": "—"
+          "status": "\u2014",
+          "sources": {}
         },
         "sem5": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—"
+          "status": "\u2014",
+          "sources": {}
         },
         "sem6": null,
         "sem7": {
           "pct": null,
           "sgpa": null,
           "class": "1",
-          "status": "—"
+          "status": "\u2014",
+          "sources": {}
         },
         "sem8": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—"
+          "status": "\u2014",
+          "sources": {}
         }
       },
       "placement": {
@@ -8175,44 +10497,51 @@
           "pct": null,
           "sgpa": null,
           "class": "40.91",
-          "status": "—"
+          "status": "\u2014",
+          "sources": {}
         },
         "sem2": {
           "pct": null,
           "sgpa": null,
           "class": "48.67",
-          "status": "—"
+          "status": "\u2014",
+          "sources": {}
         },
         "sem3": {
           "pct": null,
           "sgpa": null,
           "class": "53.0",
-          "status": "—"
+          "status": "\u2014",
+          "sources": {}
         },
         "sem4": {
           "pct": null,
           "sgpa": null,
           "class": "47.33",
-          "status": "—"
+          "status": "\u2014",
+          "sources": {}
         },
         "sem5": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—"
+          "status": "\u2014",
+          "sources": {}
         },
         "sem6": null,
         "sem7": {
           "pct": null,
           "sgpa": null,
           "class": "2",
-          "status": "—"
+          "status": "\u2014",
+          "sources": {}
         },
         "sem8": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—"
+          "status": "\u2014",
+          "sources": {}
         }
       },
       "placement": {
@@ -8253,44 +10582,51 @@
           "pct": null,
           "sgpa": null,
           "class": "53.27",
-          "status": "—"
+          "status": "\u2014",
+          "sources": {}
         },
         "sem2": {
           "pct": null,
           "sgpa": null,
           "class": "54.22",
-          "status": "—"
+          "status": "\u2014",
+          "sources": {}
         },
         "sem3": {
           "pct": null,
           "sgpa": null,
           "class": "53.67",
-          "status": "—"
+          "status": "\u2014",
+          "sources": {}
         },
         "sem4": {
           "pct": null,
           "sgpa": null,
           "class": "49.67",
-          "status": "—"
+          "status": "\u2014",
+          "sources": {}
         },
         "sem5": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—"
+          "status": "\u2014",
+          "sources": {}
         },
         "sem6": null,
         "sem7": {
           "pct": null,
           "sgpa": null,
           "class": "4",
-          "status": "—"
+          "status": "\u2014",
+          "sources": {}
         },
         "sem8": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—"
+          "status": "\u2014",
+          "sources": {}
         }
       },
       "placement": {
@@ -8331,44 +10667,51 @@
           "pct": null,
           "sgpa": null,
           "class": "53.45",
-          "status": "—"
+          "status": "\u2014",
+          "sources": {}
         },
         "sem2": {
           "pct": null,
           "sgpa": null,
           "class": "70.89",
-          "status": "—"
+          "status": "\u2014",
+          "sources": {}
         },
         "sem3": {
           "pct": null,
           "sgpa": null,
           "class": "63.83",
-          "status": "—"
+          "status": "\u2014",
+          "sources": {}
         },
         "sem4": {
           "pct": null,
           "sgpa": null,
           "class": "71.0",
-          "status": "—"
+          "status": "\u2014",
+          "sources": {}
         },
         "sem5": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—"
+          "status": "\u2014",
+          "sources": {}
         },
         "sem6": null,
         "sem7": {
           "pct": null,
           "sgpa": null,
           "class": "1",
-          "status": "—"
+          "status": "\u2014",
+          "sources": {}
         },
         "sem8": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—"
+          "status": "\u2014",
+          "sources": {}
         }
       },
       "placement": {
@@ -8409,44 +10752,51 @@
           "pct": null,
           "sgpa": null,
           "class": "78.18",
-          "status": "—"
+          "status": "\u2014",
+          "sources": {}
         },
         "sem2": {
           "pct": null,
           "sgpa": null,
           "class": "79.11",
-          "status": "—"
+          "status": "\u2014",
+          "sources": {}
         },
         "sem3": {
           "pct": null,
           "sgpa": null,
           "class": "74.67",
-          "status": "—"
+          "status": "\u2014",
+          "sources": {}
         },
         "sem4": {
           "pct": null,
           "sgpa": null,
           "class": "65.67",
-          "status": "—"
+          "status": "\u2014",
+          "sources": {}
         },
         "sem5": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—"
+          "status": "\u2014",
+          "sources": {}
         },
         "sem6": null,
         "sem7": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—"
+          "status": "\u2014",
+          "sources": {}
         },
         "sem8": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—"
+          "status": "\u2014",
+          "sources": {}
         }
       },
       "placement": {
@@ -8487,44 +10837,51 @@
           "pct": null,
           "sgpa": null,
           "class": "65.45",
-          "status": "—"
+          "status": "\u2014",
+          "sources": {}
         },
         "sem2": {
           "pct": null,
           "sgpa": null,
           "class": "59.11",
-          "status": "—"
+          "status": "\u2014",
+          "sources": {}
         },
         "sem3": {
           "pct": null,
           "sgpa": null,
           "class": "62.83",
-          "status": "—"
+          "status": "\u2014",
+          "sources": {}
         },
         "sem4": {
           "pct": null,
           "sgpa": null,
           "class": "58.0",
-          "status": "—"
+          "status": "\u2014",
+          "sources": {}
         },
         "sem5": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—"
+          "status": "\u2014",
+          "sources": {}
         },
         "sem6": null,
         "sem7": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—"
+          "status": "\u2014",
+          "sources": {}
         },
         "sem8": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—"
+          "status": "\u2014",
+          "sources": {}
         }
       },
       "placement": {
@@ -8565,44 +10922,51 @@
           "pct": null,
           "sgpa": null,
           "class": "68.36",
-          "status": "—"
+          "status": "\u2014",
+          "sources": {}
         },
         "sem2": {
           "pct": null,
           "sgpa": null,
           "class": "71.78",
-          "status": "—"
+          "status": "\u2014",
+          "sources": {}
         },
         "sem3": {
           "pct": null,
           "sgpa": null,
           "class": "77.17",
-          "status": "—"
+          "status": "\u2014",
+          "sources": {}
         },
         "sem4": {
           "pct": null,
           "sgpa": null,
           "class": "72.67",
-          "status": "—"
+          "status": "\u2014",
+          "sources": {}
         },
         "sem5": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—"
+          "status": "\u2014",
+          "sources": {}
         },
         "sem6": null,
         "sem7": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—"
+          "status": "\u2014",
+          "sources": {}
         },
         "sem8": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—"
+          "status": "\u2014",
+          "sources": {}
         }
       },
       "placement": {
@@ -8643,44 +11007,51 @@
           "pct": null,
           "sgpa": null,
           "class": "58.0",
-          "status": "—"
+          "status": "\u2014",
+          "sources": {}
         },
         "sem2": {
           "pct": null,
           "sgpa": null,
           "class": "62.22",
-          "status": "—"
+          "status": "\u2014",
+          "sources": {}
         },
         "sem3": {
           "pct": null,
           "sgpa": null,
           "class": "59.67",
-          "status": "—"
+          "status": "\u2014",
+          "sources": {}
         },
         "sem4": {
           "pct": null,
           "sgpa": null,
           "class": "58.17",
-          "status": "—"
+          "status": "\u2014",
+          "sources": {}
         },
         "sem5": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—"
+          "status": "\u2014",
+          "sources": {}
         },
         "sem6": null,
         "sem7": {
           "pct": null,
           "sgpa": null,
           "class": "1",
-          "status": "—"
+          "status": "\u2014",
+          "sources": {}
         },
         "sem8": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—"
+          "status": "\u2014",
+          "sources": {}
         }
       },
       "placement": {
@@ -8721,44 +11092,51 @@
           "pct": null,
           "sgpa": null,
           "class": "68.73",
-          "status": "—"
+          "status": "\u2014",
+          "sources": {}
         },
         "sem2": {
           "pct": null,
           "sgpa": null,
           "class": "72.0",
-          "status": "—"
+          "status": "\u2014",
+          "sources": {}
         },
         "sem3": {
           "pct": null,
           "sgpa": null,
           "class": "76.33",
-          "status": "—"
+          "status": "\u2014",
+          "sources": {}
         },
         "sem4": {
           "pct": null,
           "sgpa": null,
           "class": "71.83",
-          "status": "—"
+          "status": "\u2014",
+          "sources": {}
         },
         "sem5": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—"
+          "status": "\u2014",
+          "sources": {}
         },
         "sem6": null,
         "sem7": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—"
+          "status": "\u2014",
+          "sources": {}
         },
         "sem8": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—"
+          "status": "\u2014",
+          "sources": {}
         }
       },
       "placement": {
@@ -8799,44 +11177,51 @@
           "pct": null,
           "sgpa": null,
           "class": "68.73",
-          "status": "—"
+          "status": "\u2014",
+          "sources": {}
         },
         "sem2": {
           "pct": null,
           "sgpa": null,
           "class": "68.89",
-          "status": "—"
+          "status": "\u2014",
+          "sources": {}
         },
         "sem3": {
           "pct": null,
           "sgpa": null,
           "class": "67.5",
-          "status": "—"
+          "status": "\u2014",
+          "sources": {}
         },
         "sem4": {
           "pct": null,
           "sgpa": null,
           "class": "60.5",
-          "status": "—"
+          "status": "\u2014",
+          "sources": {}
         },
         "sem5": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—"
+          "status": "\u2014",
+          "sources": {}
         },
         "sem6": null,
         "sem7": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—"
+          "status": "\u2014",
+          "sources": {}
         },
         "sem8": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—"
+          "status": "\u2014",
+          "sources": {}
         }
       },
       "placement": {
@@ -8877,44 +11262,51 @@
           "pct": null,
           "sgpa": null,
           "class": "50.73",
-          "status": "—"
+          "status": "\u2014",
+          "sources": {}
         },
         "sem2": {
           "pct": null,
           "sgpa": null,
           "class": "46.67",
-          "status": "—"
+          "status": "\u2014",
+          "sources": {}
         },
         "sem3": {
           "pct": null,
           "sgpa": null,
           "class": "47.5",
-          "status": "—"
+          "status": "\u2014",
+          "sources": {}
         },
         "sem4": {
           "pct": null,
           "sgpa": null,
           "class": "46.83",
-          "status": "—"
+          "status": "\u2014",
+          "sources": {}
         },
         "sem5": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—"
+          "status": "\u2014",
+          "sources": {}
         },
         "sem6": null,
         "sem7": {
           "pct": null,
           "sgpa": null,
           "class": "4",
-          "status": "—"
+          "status": "\u2014",
+          "sources": {}
         },
         "sem8": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—"
+          "status": "\u2014",
+          "sources": {}
         }
       },
       "placement": {
@@ -8955,44 +11347,51 @@
           "pct": null,
           "sgpa": null,
           "class": "61.27",
-          "status": "—"
+          "status": "\u2014",
+          "sources": {}
         },
         "sem2": {
           "pct": null,
           "sgpa": null,
           "class": "58.44",
-          "status": "—"
+          "status": "\u2014",
+          "sources": {}
         },
         "sem3": {
           "pct": null,
           "sgpa": null,
           "class": "52.67",
-          "status": "—"
+          "status": "\u2014",
+          "sources": {}
         },
         "sem4": {
           "pct": null,
           "sgpa": null,
           "class": "57.67",
-          "status": "—"
+          "status": "\u2014",
+          "sources": {}
         },
         "sem5": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—"
+          "status": "\u2014",
+          "sources": {}
         },
         "sem6": null,
         "sem7": {
           "pct": null,
           "sgpa": null,
           "class": "1",
-          "status": "—"
+          "status": "\u2014",
+          "sources": {}
         },
         "sem8": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—"
+          "status": "\u2014",
+          "sources": {}
         }
       },
       "placement": {
@@ -9033,44 +11432,51 @@
           "pct": null,
           "sgpa": null,
           "class": "81.45",
-          "status": "—"
+          "status": "\u2014",
+          "sources": {}
         },
         "sem2": {
           "pct": null,
           "sgpa": null,
           "class": "87.33",
-          "status": "—"
+          "status": "\u2014",
+          "sources": {}
         },
         "sem3": {
           "pct": null,
           "sgpa": null,
           "class": "83.0",
-          "status": "—"
+          "status": "\u2014",
+          "sources": {}
         },
         "sem4": {
           "pct": null,
           "sgpa": null,
           "class": "76.33",
-          "status": "—"
+          "status": "\u2014",
+          "sources": {}
         },
         "sem5": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—"
+          "status": "\u2014",
+          "sources": {}
         },
         "sem6": null,
         "sem7": {
           "pct": null,
           "sgpa": null,
           "class": "1",
-          "status": "—"
+          "status": "\u2014",
+          "sources": {}
         },
         "sem8": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—"
+          "status": "\u2014",
+          "sources": {}
         }
       },
       "placement": {
@@ -9111,44 +11517,51 @@
           "pct": null,
           "sgpa": null,
           "class": "80.91",
-          "status": "—"
+          "status": "\u2014",
+          "sources": {}
         },
         "sem2": {
           "pct": null,
           "sgpa": null,
           "class": "78.22",
-          "status": "—"
+          "status": "\u2014",
+          "sources": {}
         },
         "sem3": {
           "pct": null,
           "sgpa": null,
           "class": "70.33",
-          "status": "—"
+          "status": "\u2014",
+          "sources": {}
         },
         "sem4": {
           "pct": null,
           "sgpa": null,
           "class": "77.67",
-          "status": "—"
+          "status": "\u2014",
+          "sources": {}
         },
         "sem5": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—"
+          "status": "\u2014",
+          "sources": {}
         },
         "sem6": null,
         "sem7": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—"
+          "status": "\u2014",
+          "sources": {}
         },
         "sem8": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—"
+          "status": "\u2014",
+          "sources": {}
         }
       },
       "placement": {
@@ -9189,44 +11602,51 @@
           "pct": null,
           "sgpa": null,
           "class": "67.27",
-          "status": "—"
+          "status": "\u2014",
+          "sources": {}
         },
         "sem2": {
           "pct": null,
           "sgpa": null,
           "class": "71.78",
-          "status": "—"
+          "status": "\u2014",
+          "sources": {}
         },
         "sem3": {
           "pct": null,
           "sgpa": null,
           "class": "60.5",
-          "status": "—"
+          "status": "\u2014",
+          "sources": {}
         },
         "sem4": {
           "pct": null,
           "sgpa": null,
           "class": "57.83",
-          "status": "—"
+          "status": "\u2014",
+          "sources": {}
         },
         "sem5": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—"
+          "status": "\u2014",
+          "sources": {}
         },
         "sem6": null,
         "sem7": {
           "pct": null,
           "sgpa": null,
           "class": "2",
-          "status": "—"
+          "status": "\u2014",
+          "sources": {}
         },
         "sem8": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—"
+          "status": "\u2014",
+          "sources": {}
         }
       },
       "placement": {
@@ -9250,5 +11670,82 @@
         "file": null
       }
     }
-  ]
+  ],
+  "marks_sources_metadata": {
+    "description": "Multi-source marks and progression data architecture for NBA Criteria 4 compliance",
+    "sources": {
+      "source_1_historical_master": {
+        "name": "Historical Department Database",
+        "description": "Master academic records maintained by the department (percentages & converted 10-point SGPA).",
+        "citation_key": "historical"
+      },
+      "source_2_student_survey": {
+        "name": "Student Self-Reported Progression Form",
+        "description": "Form responses collected via KoboToolbox survey (November 2026), including reported backlogs and internship details.",
+        "citation_key": "survey"
+      },
+      "source_3_marksheet_proofs": {
+        "name": "Verified KnowledgePro Marks Cards & Examination Proofs",
+        "description": "Physical PDF/scanned statement of marks issued by Controller of Examinations, Christ University, containing exact subject marks, credits awarded, and 4-point GPA.",
+        "citation_key": "proof_doc"
+      },
+      "source_4_ese_cia_repository": {
+        "name": "ESE & CIA Examination Marksheets (Civil Engineering)",
+        "description": "Official semester-wise comprehensive ESE & CIA examination spreadsheets (36 files across Batches 2020 to 2025).",
+        "location": "ESE&CIA marks - Civil Engineering",
+        "total_files": 36,
+        "files": {
+          "2020": [
+            "2020_Sem_1.xls.xls",
+            "2020_Sem_2.xls.xls",
+            "2020_Sem_3.xls.xls",
+            "2020_Sem_4.xls.xls",
+            "2020_Sem_5.xls.xls",
+            "2020_Sem_6.xls.xls",
+            "2020_Sem_7.xls.xls",
+            "2020_Sem_8.xls.xls"
+          ],
+          "2021": [
+            "2021_Sem_1.xls.xls",
+            "2021_Sem_2.xls.xls",
+            "2021_Sem_3.xls.xls",
+            "2021_Sem_4.xls.xls",
+            "2021_Sem_5.xls.xls",
+            "2021_Sem_6.xls.xls",
+            "2021_Sem_7.xls.xls",
+            "2021_Sem_8.xls.xls"
+          ],
+          "2022": [
+            "2022_Sem_1.xls.xls",
+            "2022_Sem_2.xls.xls",
+            "2022_Sem_3.xls.xls",
+            "2022_Sem_4.xls.xls",
+            "2022_Sem_5.xls.xls",
+            "2022_Sem_6.xls.xls",
+            "2022_Sem_7.xls.xls",
+            "2022_Sem_8.xls.xls"
+          ],
+          "2023": [
+            "2023_Sem_1.xls.xls",
+            "2023_Sem_2.xls.xls",
+            "2023_Sem_3.xls.xls",
+            "2023_Sem_4.xls.xls",
+            "2023_Sem_5.xls.xls",
+            "2023_Sem_6.xls.xls"
+          ],
+          "2024": [
+            "2024_Sem_1.xls.xls",
+            "2024_Sem_2.xls.xls",
+            "2024_Sem_3.xls.xls",
+            "2024_Sem_4.xls.xls"
+          ],
+          "2025": [
+            "2025_Sem_1.xls.xls",
+            "2025_Sem_2.xls.xls"
+          ]
+        },
+        "citation_key": "ese_cia"
+      }
+    }
+  }
 }

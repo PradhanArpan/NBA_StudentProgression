@@ -1782,7 +1782,28 @@
           }
           const sgpaVal = sObj.sgpa !== undefined && sObj.sgpa !== null ? sObj.sgpa : (sObj.pct ? round(sObj.pct / 9.5, 2) : '—');
           const isFail = sObj.status === 'Fail' || sObj.class === 'Fail';
-          return `<td class="whitespace-nowrap px-2.5 py-2 text-center text-xs ${isFail ? 'bg-red-50 text-red-600 font-bold' : 'text-slate-700'}" title="${sm.toUpperCase()}: SGPA ${sgpaVal} (${sObj.pct || ''}%)">${sgpaVal}</td>`;
+          let docBadge = '';
+          if (sObj.marksheetFile) {
+            docBadge = `<a href="${sObj.marksheetFile}" target="_blank" class="inline-block text-[11px] text-amber-700 hover:text-amber-950 font-bold ml-1 hover:underline" title="View Verified Marksheet Proof (Attached Document)">📄</a>`;
+          }
+          let tooltip = `${sm.toUpperCase()}: SGPA ${sgpaVal}`;
+          if (sObj.gpa_4pt) tooltip += ` | 4-pt GPA: ${sObj.gpa_4pt}`;
+          if (sObj.pct) tooltip += ` | ${sObj.pct}%`;
+          if (sObj.status) tooltip += ` (${sObj.status})`;
+          if (sObj.sources?.verified_marksheet) {
+            tooltip += `\n• [Verified Proof]: ${sObj.sources.verified_marksheet.citation} (Marks: ${sObj.sources.verified_marksheet.total_marks || ''})`;
+          }
+          if (sObj.sources?.kobo_survey) {
+            tooltip += `\n• [Survey Form]: ${sObj.sources.kobo_survey.citation}`;
+          }
+          if (sObj.sources?.historical) {
+            tooltip += `\n• [Master Record]: ${sObj.sources.historical.citation}`;
+          }
+          if (sObj.sources?.ese_cia_repository?.file_name || sObj.sources?.ese_cia_file?.file_name) {
+            const fName = sObj.sources.ese_cia_repository?.file_name || sObj.sources.ese_cia_file?.file_name;
+            tooltip += `\n• [ESE&CIA Marksheet]: ${fName}`;
+          }
+          return `<td class="whitespace-nowrap px-2 py-2 text-center text-xs ${isFail ? 'bg-red-50 text-red-600 font-bold' : 'text-slate-700'}" title="${tooltip}"><span class="inline-flex items-center justify-center">${sgpaVal}${docBadge}</span></td>`;
         }).join('');
 
         // Internship 1
