@@ -839,6 +839,9 @@
             </div>
           </div>
           <div class="flex items-center gap-2">
+            <a href="/Master_Student_Directory_Editable.xlsx" download="Master_Student_Directory_Editable.xlsx" class="px-3.5 py-1.5 bg-blue-900 hover:bg-blue-800 text-white rounded-md text-xs font-bold flex items-center gap-1.5 shadow-sm transition">
+              <span>📥 Download Master Directory (.xlsx)</span>
+            </a>
             <a href="/Civil_Engineering_Academic_Year_Student_Lists_2020_to_2027.xlsx" download="Civil_Engineering_Academic_Year_Student_Lists_2020_to_2027.xlsx" class="px-3.5 py-1.5 bg-emerald-700 hover:bg-emerald-800 text-white rounded-md text-xs font-bold flex items-center gap-1.5 shadow-sm transition">
               <span>📥 Download Complete AY Rosters (.xlsx)</span>
             </a>
@@ -1307,11 +1310,14 @@
             </div>
           </div>
 
-          <div class="text-[11px] font-bold uppercase text-slate-400 mb-2">Semester Progress &amp; Grades (Sem 1 to 8)</div>
-          <div class="sem-grid-row text-[11px] font-semibold text-slate-500 mb-1">
-            <span>Semester</span><span>Percentage (%)</span><span>Class / Result</span><span>Status</span>
+          <div class="text-[11px] font-bold uppercase text-slate-700 mb-2 flex items-center justify-between">
+            <span>Semester Marks &amp; Academic Performance (Sem 1 to 8)</span>
+            <span class="text-[10px] text-slate-500 font-normal">* Edit SGPA or % (auto-converts); select Status (Pass/Fail/Not Enrolled).</span>
           </div>
-          <div id="modal-semesters-container"></div>
+          <div class="grid grid-cols-4 gap-2 text-[11px] font-bold text-slate-600 mb-1 px-1">
+            <span>Semester</span><span>SGPA (10-pt scale)</span><span>Percentage (%)</span><span>Status / Result</span>
+          </div>
+          <div id="modal-semesters-container" class="space-y-1.5"></div>
 
           <!-- Section: Placement / Higher Studies -->
           <div class="p-3 bg-emerald-50/60 border border-emerald-200 rounded-lg mt-4 mb-4">
@@ -2429,7 +2435,7 @@
       renderStudentsTable();
     }
 
-    function renderStudentsTable() {
+        function renderStudentsTable() {
       const query = (document.getElementById('student-search-input')?.value || '').toLowerCase();
       const filtered = db.students.filter(s => {
         const matchBatch = (selectedBatch === 'All' || s.batch === selectedBatch);
@@ -2448,70 +2454,47 @@
       tbody.innerHTML = filtered.map(s => {
         let catBadge = '<span class="badge badge-blue">Regular</span>';
         if (s.category === 'Lateral') {
-          catBadge = '<span class="badge badge-amber font-semibold">Lateral Entry</span>';
+          catBadge = '<span class="badge bg-cyan-100 text-cyan-900 border border-cyan-300 font-bold" title="Lateral Entry (Admitted in Year II, Sem 3)">Lateral (Sem 3)</span>';
         } else if (s.category?.includes('Readmitted') || s.yearBackOrigin) {
           catBadge = `<span class="badge bg-purple-100 text-purple-900 border border-purple-300 font-bold" title="Readmitted after Year-Back from Batch ${s.yearBackOrigin?.batch || ''} (ex-${s.yearBackOrigin?.regNo || ''})">🔄 Readmitted (ex-${s.yearBackOrigin?.regNo || ''})</span>`;
         }
 
-        let gradBadge = '<span class="badge badge-gray">Ongoing</span>';
-        if (s.isYearBackExit) {
-          gradBadge = `<span class="badge bg-amber-100 text-amber-950 border border-amber-400 font-bold" title="Detained / Year-Back: Moved to Batch ${s.yearBackTransferredTo?.batch || ''} with new Reg No. ${s.yearBackTransferredTo?.regNo || ''}">⚠️ Year-Back ➔ ${s.yearBackTransferredTo?.batch || ''} (${s.yearBackTransferredTo?.regNo || ''})</span>`;
+        let progBadge = '<span class="badge bg-emerald-50 text-emerald-800 border border-emerald-300 font-semibold">🟢 Normal</span>';
+        if (s.progressionStatus === 'Discontinued' || s.gradStatus?.includes('Discontinued')) {
+          progBadge = `<span class="badge bg-red-100 text-red-800 border border-red-300 font-bold" title="Discontinued from Sem ${s.discontinuedFromSem || '—'}">🚫 Discontinued (Sem ${s.discontinuedFromSem || '—'})</span>`;
+        } else if (s.progressionStatus === 'Year-Back' || s.isYearBackExit) {
+          progBadge = `<span class="badge bg-amber-100 text-amber-950 border border-amber-400 font-bold" title="Detained at Sem ${s.yearBackFromSem || '—'} ➔ Moves to Batch ${s.yearBackJuniorBatch || '—'} (${s.readmissionRegNo || 'Same Reg No'})">⚠️ Year-Back (Sem ${s.yearBackFromSem || '—'} ➔ ${s.yearBackJuniorBatch || '—'})</span>`;
+        } else if (s.progressionStatus === 'Readmitted') {
+          progBadge = `<span class="badge bg-purple-100 text-purple-900 border border-purple-300 font-bold" title="Readmitted repeating in this cohort">🔄 Readmit Repeat</span>`;
         } else if (s.gradStatus?.includes('No Backlog')) {
-          gradBadge = '<span class="badge badge-green font-semibold">No Backlog</span>';
+          progBadge = '<span class="badge badge-green font-semibold">Completed (Clear)</span>';
         } else if (s.gradStatus?.includes('With Backlog')) {
-          gradBadge = '<span class="badge badge-amber font-semibold">With Backlog</span>';
-        } else if (s.gradStatus?.includes('Discontinued')) {
-          gradBadge = '<span class="badge badge-red font-semibold">Discontinued</span>';
+          progBadge = '<span class="badge badge-amber font-semibold">Completed (With Backlog)</span>';
         }
-        
-        
+
         const semCells = ['sem1','sem2','sem3','sem4','sem5','sem6','sem7','sem8'].map(sm => {
           const sObj = s.semesters?.[sm];
-          // Check if data is completely missing or null
-          if (!sObj || sObj.sgpa === undefined || sObj.sgpa === null || sObj.pct === undefined || sObj.pct === null) {
-            return `<td class="whitespace-nowrap px-2 py-1.5 text-center text-xs bg-amber-50/50 border border-amber-200/50" title="Data Not Available (N/A) — No Examination / Marksheet Record on file"><span class="px-1.5 py-0.5 rounded text-[10px] font-bold bg-amber-100 text-amber-800 border border-amber-300 shadow-2xs">N/A</span></td>`;
+          if (!sObj || (sObj.sgpa === undefined || sObj.sgpa === null) && (sObj.pct === undefined || sObj.pct === null)) {
+            return `<td class="whitespace-nowrap px-2 py-1.5 text-center text-xs text-slate-300 bg-slate-50/40 border border-slate-100/70" title="Not Enrolled / Data Not Available">—</td>`;
           }
 
-          const sgpaVal = Number(sObj.sgpa).toFixed(2);
+          const sgpaVal = sObj.sgpa !== null && sObj.sgpa !== undefined ? Number(sObj.sgpa).toFixed(2) : '—';
           const isFail = sObj.status === 'Fail' || sObj.class === 'Fail';
-          const isVerified = Boolean(sObj.sources?.verified_marksheet || sObj.sources?.ese_cia_repository);
-          const isDoubtful = !isVerified && Boolean(sObj.sources?.historical || sObj.sources?.kobo_survey);
 
           let docBadge = '';
           if (sObj.marksheetFile) {
-            docBadge = `<a href="${sObj.marksheetFile}" target="_blank" class="inline-block text-[11px] text-amber-700 hover:text-amber-950 font-bold ml-1 hover:underline" title="View Verified Marksheet Proof (Attached Document)">📄</a>`;
+            docBadge = `<a href="${sObj.marksheetFile}" target="_blank" class="inline-block text-[11px] text-amber-700 hover:text-amber-950 font-bold ml-1 hover:underline" title="View Verified Marksheet Proof">📄</a>`;
           }
 
           let tooltip = `${sm.toUpperCase()}: SGPA ${sgpaVal}`;
-          if (sObj.gpa_4pt) tooltip += ` | 4-pt GPA: ${sObj.gpa_4pt}`;
           if (sObj.pct) tooltip += ` | ${sObj.pct}%`;
           if (sObj.status) tooltip += ` (${sObj.status})`;
-          if (sObj.sources?.verified_marksheet) {
-            tooltip += `
-📄 [Verified Proof]: ${sObj.sources.verified_marksheet.citation} (Marks: ${sObj.sources.verified_marksheet.total_marks || ''})`;
-          }
-          if (sObj.sources?.kobo_survey) {
-            tooltip += `
-📋 [Survey Form]: ${sObj.sources.kobo_survey.citation}`;
-          }
-          if (sObj.sources?.historical) {
-            tooltip += `
-📜 [Master Record]: ${sObj.sources.historical.citation}`;
-          }
-          if (sObj.sources?.ese_cia_repository?.file_name) {
-            tooltip += `
-📑 [ESE&CIA Marksheet]: ${sObj.sources.ese_cia_repository.file_name}`;
-          }
-
-          if (isDoubtful) {
-            return `<td class="whitespace-nowrap px-2 py-1.5 text-center text-xs bg-amber-100/70 border-2 border-dashed border-amber-400 text-amber-950 font-bold" title="⚠️ Doubtful / Unverified: Historical master record only; not cross-verified against Controller of Examinations marksheet."><span class="inline-flex items-center gap-1">${sgpaVal} <span class="px-1 py-0.2 rounded text-[9px] font-bold bg-amber-200 text-amber-900 border border-amber-400" title="Unverified against COE marksheet">⚠️ Doubtful</span></span></td>`;
-          }
 
           if (isFail) {
             return `<td class="whitespace-nowrap px-2 py-1.5 text-center text-xs bg-red-50 text-red-600 font-bold border border-red-200" title="${tooltip}"><span class="inline-flex items-center justify-center">${sgpaVal}${docBadge} <span class="ml-1 text-[9px] bg-red-100 text-red-700 px-1 py-0.2 rounded border border-red-200 font-bold">FAIL</span></span></td>`;
           }
 
-          return `<td class="whitespace-nowrap px-2 py-1.5 text-center text-xs text-slate-800 bg-emerald-50/20 border border-emerald-100/60" title="${tooltip}"><span class="inline-flex items-center justify-center font-medium">${sgpaVal}${docBadge}</span></td>`;
+          return `<td class="whitespace-nowrap px-2 py-1.5 text-center text-xs text-slate-900 bg-emerald-50/20 border border-emerald-100/60 font-semibold" title="${tooltip}"><span class="inline-flex items-center justify-center">${sgpaVal}${docBadge}</span></td>`;
         }).join('');
 
         // Internship 1
@@ -2545,7 +2528,7 @@
             <td class="whitespace-nowrap px-3 py-2 text-center text-xs font-semibold">${s.gender === 'Male' ? 'M' : 'F'}</td>
             <td class="whitespace-nowrap px-3 py-2 text-xs text-slate-600">${s.domicile || '—'}</td>
             <td class="whitespace-nowrap px-3 py-2 text-center">${catBadge}</td>
-            <td class="whitespace-nowrap px-3 py-2 text-center">${gradBadge}</td>
+            <td class="whitespace-nowrap px-3 py-2 text-center">${progBadge}</td>
             <td class="whitespace-nowrap px-3 py-2 text-center font-bold ${s.cgpa >= 8.0 ? 'text-emerald-700' : s.cgpa >= 6.5 ? 'text-blue-800' : 'text-amber-700'}">${s.cgpa ? Number(s.cgpa).toFixed(2) : '—'}</td>
             <td class="whitespace-nowrap px-3 py-2 text-center font-bold ${s.failCount > 0 ? 'text-red-600 bg-red-50/50' : 'text-slate-400'}">${s.failCount || 0}</td>
             ${semCells}
@@ -2553,15 +2536,15 @@
             <td class="whitespace-nowrap px-3 py-2 text-xs text-slate-700"><span class="font-medium" title="${s.internship2?.title || ''}">${i2Company}</span> ${i2File}</td>
             <td class="whitespace-nowrap px-3 py-2 text-xs">${plBadge}${plDetail} ${plFile}</td>
             <td class="whitespace-nowrap px-3 py-2 text-right">
-              <button onclick="openStudentModal('${s.id}')" class="px-2 py-0.5 bg-blue-50 text-blue-700 hover:bg-blue-100 rounded text-xs font-semibold mr-1">✏️ Edit</button>
-              <button onclick="deleteStudent('${s.id}')" class="px-2 py-0.5 bg-red-50 text-red-700 hover:bg-red-100 rounded text-xs font-semibold">🗑</button>
+              <button onclick="openStudentModal('${s.id}')" class="px-2.5 py-1 bg-blue-900 text-white hover:bg-blue-800 rounded text-xs font-bold mr-1 shadow-2xs">✏️ Edit Details</button>
+              <button onclick="deleteStudent('${s.id}')" class="px-2 py-1 bg-red-50 text-red-700 hover:bg-red-100 rounded text-xs font-semibold">🗑</button>
             </td>
           </tr>
         `;
       }).join('') || '<tr><td colspan="21" class="text-center py-6 text-slate-400">No student records found matching filters.</td></tr>';
 
       document.getElementById('student-record-counter').innerHTML = `
-        <span>Showing <strong>${filtered.length}</strong> of <strong>${db.students.length}</strong> Civil Engineering Students</span>
+        <span>Showing <strong>${filtered.length}</strong> of <strong>${db.students.length}</strong> Civil Engineering Students in Master Directory</span>
         <span class="text-slate-400">Department of Civil Engineering · CHRIST (Deemed to be University)</span>
       `;
     }
@@ -2620,10 +2603,36 @@
       }
     }
 
+        function autoCalcSemPct(sm) {
+      const sgpa = parseFloat(document.getElementById('m-sgpa-' + sm)?.value);
+      const pctInput = document.getElementById('m-pct-' + sm);
+      const stSelect = document.getElementById('m-st-' + sm);
+      if (!isNaN(sgpa) && sgpa > 0) {
+        pctInput.value = round(sgpa * 9.5, 2);
+        if (stSelect.value === '—' || !stSelect.value) stSelect.value = 'Pass';
+      } else if (isNaN(sgpa)) {
+        pctInput.value = '';
+        stSelect.value = '—';
+      }
+    }
+
+    function autoCalcSemSgpa(sm) {
+      const pct = parseFloat(document.getElementById('m-pct-' + sm)?.value);
+      const sgpaInput = document.getElementById('m-sgpa-' + sm);
+      const stSelect = document.getElementById('m-st-' + sm);
+      if (!isNaN(pct) && pct > 0) {
+        sgpaInput.value = round(pct / 9.5, 2);
+        if (stSelect.value === '—' || !stSelect.value) stSelect.value = 'Pass';
+      } else if (isNaN(pct)) {
+        sgpaInput.value = '';
+        stSelect.value = '—';
+      }
+    }
+
     function openStudentModal(id = null) {
       document.getElementById('student-form').reset();
       document.getElementById('modal-student-id').value = id || '';
-      document.getElementById('modal-title').textContent = id ? 'Edit Civil Student Details' : 'Add New Civil Engineering Student';
+      document.getElementById('modal-title').textContent = id ? 'Edit Civil Student Details & Progression' : 'Add New Civil Engineering Student';
 
       let existing = null;
       if (id) {
@@ -2644,8 +2653,8 @@
           document.getElementById('f-yearback-batch').value = existing.yearBackJuniorBatch || String(parseInt(existing.batch) + 1);
           document.getElementById('f-readmission-regno').value = existing.readmissionRegNo || '';
           toggleProgressionFields();
-          document.getElementById('f-cgpa').value = existing.cgpa !== undefined ? existing.cgpa : '';
-          document.getElementById('f-backlogs').value = existing.failCount !== undefined ? existing.failCount : 0;
+          document.getElementById('f-cgpa').value = existing.cgpa !== undefined && existing.cgpa !== null ? existing.cgpa : '';
+          document.getElementById('f-backlogs').value = existing.failCount !== undefined && existing.failCount !== null ? existing.failCount : 0;
           
           // Internship 1
           document.getElementById('f-intern1-company').value = existing.internship1?.company || '';
@@ -2683,29 +2692,24 @@
         toggleProgressionFields();
       }
 
-      // Populate Semesters
+      // Populate Semesters with SGPA, %, Status
       const sems = ['sem1','sem2','sem3','sem4','sem5','sem6','sem7','sem8'];
       const semLabels = ['Sem 1', 'Sem 2', 'Sem 3', 'Sem 4', 'Sem 5', 'Sem 6', 'Sem 7', 'Sem 8'];
       const container = document.getElementById('modal-semesters-container');
       container.innerHTML = sems.map((sm, i) => {
-        const val = existing?.semesters?.[sm]?.pct || '';
-        const cls = existing?.semesters?.[sm]?.class || 'FC';
-        const st = existing?.semesters?.[sm]?.status || 'Pass';
+        const smObj = existing?.semesters?.[sm];
+        const sgpaVal = (smObj?.sgpa !== undefined && smObj?.sgpa !== null) ? smObj.sgpa : '';
+        const pctVal = (smObj?.pct !== undefined && smObj?.pct !== null) ? smObj.pct : '';
+        const st = smObj?.status || (smObj?.class === 'Fail' ? 'Fail' : (sgpaVal ? 'Pass' : '—'));
         return `
-          <div class="sem-grid-row">
-            <label class="text-xs font-semibold text-slate-600">${semLabels[i]}</label>
-            <input type="number" step="0.01" id="m-pct-${sm}" value="${val}" placeholder="Percentage %" class="border rounded px-2 py-1 text-xs">
-            <select id="m-cls-${sm}" class="border rounded px-2 py-1 text-xs">
-              <option value="FC-D" ${cls === 'FC-D' ? 'selected' : ''}>FC-D (Distinction)</option>
-              <option value="FC" ${cls === 'FC' ? 'selected' : ''}>FC (First Class)</option>
-              <option value="SC" ${cls === 'SC' ? 'selected' : ''}>SC (Second Class)</option>
-              <option value="P" ${cls === 'P' ? 'selected' : ''}>Pass Class</option>
-              <option value="Fail" ${cls === 'Fail' ? 'selected' : ''}>Fail</option>
-            </select>
-            <select id="m-st-${sm}" class="border rounded px-2 py-1 text-xs">
-              <option value="Pass" ${st === 'Pass' ? 'selected' : ''}>Pass</option>
-              <option value="Fail" ${st === 'Fail' ? 'selected' : ''}>Fail / Backlog</option>
-              <option value="—" ${st === '—' ? 'selected' : ''}>Not Appeared</option>
+          <div class="grid grid-cols-4 gap-2 items-center bg-slate-50 p-1.5 rounded border border-slate-200">
+            <span class="text-xs font-bold text-slate-700 pl-1">${semLabels[i]}</span>
+            <input type="number" step="0.01" id="m-sgpa-${sm}" value="${sgpaVal}" oninput="autoCalcSemPct('${sm}')" placeholder="SGPA e.g. 7.50" class="border rounded px-2 py-1 text-xs bg-white font-medium">
+            <input type="number" step="0.01" id="m-pct-${sm}" value="${pctVal}" oninput="autoCalcSemSgpa('${sm}')" placeholder="% e.g. 71.25" class="border rounded px-2 py-1 text-xs bg-white font-medium">
+            <select id="m-st-${sm}" class="border rounded px-2 py-1 text-xs bg-white font-medium">
+              <option value="Pass" ${st === 'Pass' ? 'selected' : ''}>✅ Pass</option>
+              <option value="Fail" ${st === 'Fail' ? 'selected' : ''}>❌ Fail / Backlog</option>
+              <option value="—" ${st === '—' || !st ? 'selected' : ''}>— Not Enrolled / N/A</option>
             </select>
           </div>
         `;
@@ -2739,6 +2743,13 @@
       const manualCgpa = parseFloat(document.getElementById('f-cgpa').value);
       const manualBacklogs = parseInt(document.getElementById('f-backlogs').value);
 
+      const progVal = document.getElementById('f-progression')?.value || 'Normal';
+      const discSemVal = progVal === 'Discontinued' ? (parseInt(document.getElementById('f-discontinued-sem')?.value) || 1) : null;
+      const ybSemVal = progVal === 'Year-Back' ? (parseInt(document.getElementById('f-yearback-sem')?.value) || 2) : null;
+      const ybBatchVal = progVal === 'Year-Back' ? (document.getElementById('f-yearback-batch')?.value || String(parseInt(batch) + 1)) : null;
+      const readmitRegVal = progVal === 'Year-Back' ? (document.getElementById('f-readmission-regno')?.value.trim() || null) : null;
+      const isYearBackExit = progVal === 'Year-Back';
+
       const intern1Company = document.getElementById('f-intern1-company').value.trim();
       const intern1Title = document.getElementById('f-intern1-title').value.trim();
       let intern1FilePath = document.getElementById('f-intern1-file-path').value;
@@ -2754,7 +2765,7 @@
 
       // Handle any newly selected files in student form
       const intern1FileInput = document.getElementById('f-intern1-file-input');
-      if (intern1FileInput.files.length > 0) {
+      if (intern1FileInput && intern1FileInput.files.length > 0) {
         try {
           const file = intern1FileInput.files[0];
           const b64 = await readFileAsBase64(file);
@@ -2769,7 +2780,7 @@
       }
 
       const intern2FileInput = document.getElementById('f-intern2-file-input');
-      if (intern2FileInput.files.length > 0) {
+      if (intern2FileInput && intern2FileInput.files.length > 0) {
         try {
           const file = intern2FileInput.files[0];
           const b64 = await readFileAsBase64(file);
@@ -2784,7 +2795,7 @@
       }
 
       const plFileInput = document.getElementById('f-pl-file-input');
-      if (plFileInput.files.length > 0) {
+      if (plFileInput && plFileInput.files.length > 0) {
         try {
           const file = plFileInput.files[0];
           const b64 = await readFileAsBase64(file);
@@ -2798,28 +2809,60 @@
         } catch(err) { console.error('Placement upload error:', err); }
       }
 
+      const existingIdx = db.students.findIndex(s => s.id === id || s.regNo === regNo);
+      const existingStudent = existingIdx >= 0 ? db.students[existingIdx] : {};
+
       const semesters = {};
-      let totalPcts = 0, countPcts = 0, failCount = 0;
+      let totalSgpas = 0, countSgpas = 0, failCount = 0;
       ['sem1','sem2','sem3','sem4','sem5','sem6','sem7','sem8'].forEach(sm => {
-        const pctVal = parseFloat(document.getElementById('m-pct-' + sm)?.value);
-        const clsVal = document.getElementById('m-cls-' + sm)?.value;
+        const sgpaInput = parseFloat(document.getElementById('m-sgpa-' + sm)?.value);
+        const pctInput = parseFloat(document.getElementById('m-pct-' + sm)?.value);
         const stVal = document.getElementById('m-st-' + sm)?.value;
-        if (!isNaN(pctVal) && pctVal > 0) {
-          semesters[sm] = { pct: pctVal, sgpa: round(pctVal / 9.5, 2), class: clsVal, status: stVal };
-          totalPcts += pctVal;
-          countPcts++;
-          if (stVal === 'Fail') failCount++;
+
+        if (stVal === '—' || (isNaN(sgpaInput) && isNaN(pctInput))) {
+          semesters[sm] = { pct: null, sgpa: null, class: '', status: '—', sources: {} };
         } else {
-          semesters[sm] = null;
+          let sgpa = !isNaN(sgpaInput) ? sgpaInput : round(pctInput / 9.5, 2);
+          let pct = !isNaN(pctInput) ? pctInput : round(sgpaInput * 9.5, 2);
+          let cls = stVal === 'Fail' ? 'Fail' : (sgpa >= 7.5 ? 'FC-D' : (sgpa >= 6.0 ? 'FC' : 'SC'));
+          const prevSources = existingStudent.semesters?.[sm]?.sources || {};
+          const marksheetFile = existingStudent.semesters?.[sm]?.marksheetFile || null;
+
+          semesters[sm] = {
+            sgpa: round(sgpa, 2),
+            pct: round(pct, 2),
+            class: cls,
+            status: stVal,
+            sources: prevSources,
+            marksheetFile: marksheetFile
+          };
+          totalSgpas += sgpa;
+          countSgpas++;
+          if (stVal === 'Fail') failCount++;
         }
       });
 
       const actualBacklogs = !isNaN(manualBacklogs) ? manualBacklogs : failCount;
-      const cgpa = !isNaN(manualCgpa) ? manualCgpa : (countPcts > 0 ? round(totalPcts / (countPcts * 9.5), 2) : 7.2);
-      const gradStatus = actualBacklogs === 0 ? 'No Backlog' : 'With Backlog';
+      const cgpa = !isNaN(manualCgpa) ? manualCgpa : (countSgpas > 0 ? round(totalSgpas / countSgpas, 2) : (existingStudent.cgpa || null));
+      
+      let gradStatus = 'Ongoing';
+      if (progVal === 'Discontinued') {
+        gradStatus = 'Discontinued / Transferred';
+      } else if (progVal === 'Year-Back') {
+        gradStatus = 'Year-Back Detained';
+      } else if (actualBacklogs === 0 && countSgpas >= 8) {
+        gradStatus = 'Graduated (No Backlog)';
+      } else if (actualBacklogs > 0 && countSgpas >= 8) {
+        gradStatus = 'Graduated (With Backlog)';
+      } else if (actualBacklogs === 0) {
+        gradStatus = 'No Backlog';
+      } else {
+        gradStatus = 'With Backlog';
+      }
 
       const studentObj = {
-        id: id || `CIVIL_${batch}_${regNo}`,
+        ...existingStudent,
+        id: id || existingStudent.id || `CIVIL_${batch}_${regNo}`,
         regNo,
         name,
         batch,
@@ -2828,6 +2871,21 @@
         domicile,
         category,
         cgpa,
+        failCount: actualBacklogs,
+        gradStatus,
+        progressionStatus: progVal,
+        discontinuedFromSem: discSemVal,
+        yearBackFromSem: ybSemVal,
+        yearBackJuniorBatch: ybBatchVal,
+        readmissionRegNo: readmitRegVal,
+        isYearBackExit: isYearBackExit || undefined,
+        semesters,
+        placement: {
+          status: plStatus,
+          company: plCompany,
+          package: plPackage,
+          file: plFilePath
+        },
         internship: `${intern1Company || 'Site'} / ${intern2Company || 'Design'}`,
         internship1: {
           company: intern1Company,
@@ -2838,25 +2896,9 @@
           company: intern2Company,
           title: intern2Title,
           file: intern2FilePath
-        },
-        gradStatus,
-        progressionStatus,
-        discontinuedFromSem,
-        yearBackFromSem,
-        yearBackJuniorBatch,
-        readmissionRegNo,
-        isYearBackExit: isYearBackExit || undefined,
-        failCount: actualBacklogs,
-        semesters,
-        placement: {
-          status: plStatus,
-          company: plCompany,
-          package: plPackage,
-          file: plFilePath
         }
       };
 
-      const existingIdx = db.students.findIndex(s => s.id === studentObj.id || s.regNo === regNo);
       if (existingIdx >= 0) {
         db.students[existingIdx] = studentObj;
       } else {
@@ -2872,8 +2914,14 @@
         });
         if (!resp.ok) throw new Error('Save failed');
         closeStudentModal();
+        if (typeof computeAllCriterionMetrics === 'function') {
+          computeAllCriterionMetrics();
+        }
         renderAllViews();
-        showToast('✅ Civil Student record saved to JSON!', 'success');
+        if (typeof renderAcademicYearRosters === 'function') {
+          renderAcademicYearRosters();
+        }
+        showToast('✅ Student record and progression successfully updated!', 'success');
       } catch (err) {
         showToast('⚠️ Could not save to server. Check server.py', 'error');
       }
