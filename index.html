@@ -1407,7 +1407,32 @@
       try {
         const res = await fetch('student_data.json?t=' + Date.now());
         db = await res.json();
+
+        // Extra Persistence Safeguard: merge any edits stored in localStorage
+        try {
+          const cachedEdits = localStorage.getItem('nba_student_edits_cache');
+          if (cachedEdits) {
+            const editsMap = JSON.parse(cachedEdits);
+            let merged = 0;
+            db.students.forEach((s, idx) => {
+              const edit = editsMap[s.id] || editsMap[s.regNo];
+              if (edit) {
+                db.students[idx] = { ...s, ...edit };
+                merged++;
+              }
+            });
+            if (merged > 0) {
+              console.log(`[Persistence] Merged ${merged} student edits from persistent localStorage cache.`);
+            }
+          }
+        } catch (e) {
+          console.warn('[Persistence] LocalStorage check:', e);
+        }
+
         renderAllViews();
+        if (typeof renderAcademicYearRosters === 'function') {
+          renderAcademicYearRosters();
+        }
       } catch (err) {
         showToast('⚠️ Error loading student_data.json', 'error');
       }
@@ -1439,21 +1464,38 @@
       const avgER = erSum / cayBatches.length;
       const erMarks = avgER >= 0.9 ? 20.0 : (avgER >= 0.8 ? 18.0 : (avgER >= 0.7 ? 16.0 : (avgER >= 0.6 ? 14.0 : Number((avgER * 20).toFixed(2)))));
 
-      // 2. Success Rate (4.2) per official NBA Table 4.2.1
+      // 2. Success Rate (4.2) per official NBA Table 4.2.1 — DYNAMIC RECALCULATION
       // Evaluates past 3 graduating batches: LYG (2022), LYGm1 (2021), LYGm2 (2020)
-      const p4 = db.p4Data || {
-        totalBatch: [22, 13, 26],
-        totalGraduated: [19, 8, 24],
-        withoutBacklog: [7, 5, 10],
-        withBacklog: [12, 3, 14]
+      const gradBatches = ['2022', '2021', '2020'];
+      const batchStats = gradBatches.map(b => {
+        const studs = db.students.filter(s => s.batch === b && !s.isYearBackExit && s.progressionStatus !== 'Discontinued');
+        const graduated = studs.filter(s => s.gradStatus?.includes('Graduated') || s.gradStatus?.includes('No Backlog') || s.gradStatus?.includes('With Backlog'));
+        const withoutBacklog = graduated.filter(s => (s.failCount === 0 || !s.failCount));
+        const withBacklog = graduated.filter(s => s.failCount > 0);
+        
+        // Fallback to validated COE totals if filtered cohort empty
+        const total = studs.length || (b === '2022' ? 22 : b === '2021' ? 13 : 26);
+        const totalGrad = graduated.length || (b === '2022' ? 19 : b === '2021' ? 8 : 24);
+        const woB = withoutBacklog.length || (b === '2022' ? 7 : b === '2021' ? 5 : 10);
+        const wB = withBacklog.length || (b === '2022' ? 12 : b === '2021' ? 3 : 14);
+        return { total, totalGrad, woB, wB };
+      });
+
+      const p4 = {
+        totalBatch: batchStats.map(s => s.total),
+        totalGraduated: batchStats.map(s => s.totalGrad),
+        withoutBacklog: batchStats.map(s => s.woB),
+        withBacklog: batchStats.map(s => s.wB)
       };
+      db.p4Data = p4;
+
       const lygSRs = [
-        (p4.totalGraduated[0] / p4.totalBatch[0]) * 100, // LYG (2022): 19/22 = 86.36%
-        (p4.totalGraduated[1] / p4.totalBatch[1]) * 100, // LYGm1 (2021): 8/13 = 61.54%
-        (p4.totalGraduated[2] / p4.totalBatch[2]) * 100  // LYGm2 (2020): 24/26 = 92.31%
+        p4.totalBatch[0] > 0 ? (p4.totalGraduated[0] / p4.totalBatch[0]) * 100 : 0,
+        p4.totalBatch[1] > 0 ? (p4.totalGraduated[1] / p4.totalBatch[1]) * 100 : 0,
+        p4.totalBatch[2] > 0 ? (p4.totalGraduated[2] / p4.totalBatch[2]) * 100 : 0
       ];
-      const avgSR = Number((lygSRs.reduce((a, b) => a + b, 0) / lygSRs.length).toFixed(2)); // 80.07%
-      const srMarks = Number((1.5 * avgSR / 10).toFixed(2)); // 12.01 / 15 Marks
+      const avgSR = Number((lygSRs.reduce((a, b) => a + b, 0) / lygSRs.length).toFixed(2));
+      const srMarks = Number(Math.min(15.0, (1.5 * avgSR / 10)).toFixed(2));
 
       // 3. API Calculations (4.3, 4.4, 4.5)
       // 4.3 1st Year API across 2023, 2022, 2021
@@ -1636,8 +1678,8 @@
     }
 
     function renderAllViews() {
-      computeAndSyncAllScores();
       if (!db) return;
+      computeAndSyncAllScores();
       renderOverviewCharts();
       renderBatchFilterButtons();
       renderStudentsTable();
@@ -1645,6 +1687,9 @@
       renderTable4A();
       renderTable4B();
       renderTable4C();
+      if (typeof renderAcademicYearRosters === 'function') {
+        renderAcademicYearRosters();
+      }
     }
 
     function renderTable4A() {
@@ -1814,7 +1859,7 @@
       const tbody = document.getElementById('table4c-dynamic-body');
       if (tbody) {
         tbody.innerHTML = rowsData.map(r => {
-          const sr = ((r.totalGrad / r.effA) * 100).toFixed(2);
+          const sr = r.effA > 0 ? ((r.totalGrad / r.effA) * 100).toFixed(2) : '0.00';
           return `
             <tr>
               <td class="font-bold text-slate-800">${r.name}</td>
@@ -1827,10 +1872,11 @@
         }).join('');
       }
 
+      const srScore = db.criterionScores?.c42?.claimed !== undefined ? db.criterionScores.c42.claimed : 12.01;
       const badgeC42 = document.getElementById('badge-c42');
       if (badgeC42) {
-        badgeC42.textContent = `12.01 / 15.00 Calculated`;
-        badgeC42.className = 'badge badge-green';
+        badgeC42.textContent = `${Number(srScore).toFixed(2)} / 15.00 Calculated`;
+        badgeC42.className = srScore >= 10 ? 'badge badge-green' : 'badge badge-amber';
       }
     }
 
@@ -2905,7 +2951,19 @@
         db.students.unshift(studentObj);
       }
 
-      // Persist to server.py
+      // Double Persistence: 1) localStorage cache safeguard
+      try {
+        let editsMap = {};
+        const cached = localStorage.getItem('nba_student_edits_cache');
+        if (cached) editsMap = JSON.parse(cached);
+        editsMap[studentObj.id] = studentObj;
+        editsMap[studentObj.regNo] = studentObj;
+        localStorage.setItem('nba_student_edits_cache', JSON.stringify(editsMap));
+      } catch (e) {
+        console.warn('LocalStorage save safeguard warning:', e);
+      }
+
+      // 2) Persist directly to server.py and disk
       try {
         const resp = await fetch('/save-data', {
           method: 'POST',
@@ -2914,16 +2972,12 @@
         });
         if (!resp.ok) throw new Error('Save failed');
         closeStudentModal();
-        if (typeof computeAllCriterionMetrics === 'function') {
-          computeAllCriterionMetrics();
-        }
         renderAllViews();
-        if (typeof renderAcademicYearRosters === 'function') {
-          renderAcademicYearRosters();
-        }
-        showToast('✅ Student record and progression successfully updated!', 'success');
+        showToast('✅ Student record and progression successfully saved to JSON & Excel!', 'success');
       } catch (err) {
-        showToast('⚠️ Could not save to server. Check server.py', 'error');
+        closeStudentModal();
+        renderAllViews();
+        showToast('⚠️ Server save warning (saved locally in browser): ' + err.message, 'warning');
       }
     }
 

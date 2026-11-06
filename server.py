@@ -38,6 +38,21 @@ class CustomHandler(http.server.SimpleHTTPRequestHandler):
 
     def do_GET(self):
         clean_path = self.path.split('?')[0]
+        # Never cache student_data.json
+        if clean_path in ['/student_data.json', '/student_data.json/']:
+            if os.path.exists(DATA_FILE):
+                self.send_response(200)
+                self.send_header('Content-Type', 'application/json; charset=utf-8')
+                self.send_header('Cache-Control', 'no-cache, no-store, must-revalidate')
+                self.send_header('Pragma', 'no-cache')
+                self.send_header('Expires', '0')
+                self.send_header('Access-Control-Allow-Origin', '*')
+                self.send_header('Content-Length', str(os.path.getsize(DATA_FILE)))
+                self.end_headers()
+                with open(DATA_FILE, 'rb') as f:
+                    self.wfile.write(f.read())
+                return
+
         if clean_path in DOWNLOADS:
             fpath = DOWNLOADS[clean_path]
             # Fallback to local directory if not found in NBA_DIR
@@ -114,8 +129,24 @@ class CustomHandler(http.server.SimpleHTTPRequestHandler):
                 content_length = int(self.headers.get('Content-Length', 0))
                 body = self.rfile.read(content_length)
                 data = json.loads(body.decode('utf-8'))
+                
+                # Automated rolling backup before saving
+                backup_dir = os.path.join(DIRECTORY, 'backups')
+                os.makedirs(backup_dir, exist_ok=True)
+                import time, shutil
+                backup_file = os.path.join(backup_dir, f'student_data_backup_{int(time.time())}.json')
+                if os.path.exists(DATA_FILE):
+                    shutil.copy2(DATA_FILE, backup_file)
+
+                # Write to primary data file
                 with open(DATA_FILE, 'w', encoding='utf-8') as f:
                     json.dump(data, f, indent=2, ensure_ascii=False)
+                
+                # Also mirror to public folder if exists
+                pub_file = os.path.join(DIRECTORY, 'public', 'student_data.json')
+                if os.path.exists(os.path.dirname(pub_file)):
+                    with open(pub_file, 'w', encoding='utf-8') as f:
+                        json.dump(data, f, indent=2, ensure_ascii=False)
                 
                 # Auto refresh both Master Directory & AY Roster Excel files
                 try:
