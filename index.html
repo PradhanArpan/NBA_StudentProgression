@@ -825,64 +825,103 @@
          ===================================================================== -->
     <div id="view-students" class="tab-view space-y-4">
       <div class="nba-card">
-        <div class="flex flex-col md:flex-row md:items-center justify-between gap-3 mb-4">
-          <div class="flex flex-wrap gap-1.5" id="batch-filter-container"></div>
+        <!-- Top Toolbar & View Mode Switcher -->
+        <div class="flex flex-col md:flex-row md:items-center justify-between gap-3 pb-3 mb-3 border-b border-slate-200">
           <div class="flex items-center gap-2">
-            <input type="text" id="student-search-input" oninput="renderStudentsTable()" placeholder="🔍 Search Civil Student by Name / Reg No..." class="border rounded-md px-3 py-1.5 text-xs w-64">
-            <button onclick="openStudentModal()" class="px-3 py-1.5 bg-blue-900 text-white rounded-md text-xs font-semibold hover:bg-blue-800 flex items-center gap-1">
-              <span>+ Add Civil Student</span>
-            </button>
+            <span class="text-xs font-bold text-slate-700 uppercase tracking-wider">Directory View Mode:</span>
+            <div class="inline-flex rounded-md shadow-xs">
+              <button type="button" id="btn-view-mode-batch" onclick="setStudentViewMode('batch')" class="px-3 py-1.5 text-xs font-bold rounded-l-lg border border-blue-900 bg-blue-900 text-white transition">
+                🎓 View by Admission Batch (2020-2026)
+              </button>
+              <button type="button" id="btn-view-mode-ay" onclick="setStudentViewMode('ay')" class="px-3 py-1.5 text-xs font-bold rounded-r-lg border border-slate-300 bg-white text-slate-700 hover:bg-slate-50 transition">
+                📅 View by Academic Year (I, II, III, IV Years)
+              </button>
+            </div>
+          </div>
+          <div class="flex items-center gap-2">
+            <a href="/Civil_Engineering_Academic_Year_Student_Lists_2020_to_2027.xlsx" download="Civil_Engineering_Academic_Year_Student_Lists_2020_to_2027.xlsx" class="px-3.5 py-1.5 bg-emerald-700 hover:bg-emerald-800 text-white rounded-md text-xs font-bold flex items-center gap-1.5 shadow-sm transition">
+              <span>📥 Download Complete AY Rosters (.xlsx)</span>
+            </a>
           </div>
         </div>
 
-        <!-- Verification & Quality Audit Legend -->
-        <div class="flex flex-wrap items-center justify-between gap-3 bg-slate-50 border border-slate-200 px-3.5 py-2.5 rounded-lg text-xs mb-3">
-          <div class="flex flex-wrap items-center gap-2.5 text-slate-700 font-medium">
-            <span class="font-bold text-slate-900 uppercase tracking-wider text-[11px]">Cell Quality Legend:</span>
-            <span class="inline-flex items-center gap-1.5 px-2 py-0.5 rounded bg-emerald-50 text-emerald-800 border border-emerald-200 font-semibold shadow-2xs"><span class="w-2 h-2 rounded-full bg-emerald-500"></span> Verified (COE Sheet / PDF Marks Card)</span>
-            <span class="inline-flex items-center gap-1.5 px-2 py-0.5 rounded bg-amber-100 text-amber-950 border border-amber-400 font-semibold shadow-2xs"><span class="w-2 h-2 rounded-full bg-amber-500"></span> ⚠️ Doubtful / Unverified (Pending COE Backing)</span>
-            <span class="inline-flex items-center gap-1.5 px-2 py-0.5 rounded bg-amber-50 text-amber-800 border border-amber-200 font-semibold shadow-2xs"><span class="w-2 h-2 rounded-full bg-amber-400"></span> N/A (Data Not Available)</span>
-            <span class="inline-flex items-center gap-1.5 px-2 py-0.5 rounded bg-red-50 text-red-700 border border-red-200 font-semibold shadow-2xs"><span class="w-2 h-2 rounded-full bg-red-500"></span> Backlog / Fail</span>
+        <!-- ================= CONTAINER A: BATCH VIEW ================= -->
+        <div id="students-batch-view-container">
+          <div class="flex flex-col md:flex-row md:items-center justify-between gap-3 mb-4">
+            <div class="flex flex-wrap gap-1.5" id="batch-filter-container"></div>
+            <div class="flex items-center gap-2">
+              <input type="text" id="student-search-input" oninput="renderStudentsTable()" placeholder="🔍 Search Civil Student by Name / Reg No..." class="border rounded-md px-3 py-1.5 text-xs w-64">
+              <button onclick="openStudentModal()" class="px-3 py-1.5 bg-blue-900 text-white rounded-md text-xs font-semibold hover:bg-blue-800 flex items-center gap-1">
+                <span>+ Add Civil Student</span>
+              </button>
+            </div>
           </div>
-          <div class="text-[11px] text-slate-500 italic">
-            * All assumed/hypothetical data removed. Only verified Controller of Examinations data feeds Criterion 4 calculations.
+
+          <!-- Verification & Quality Audit Legend -->
+          <div class="flex flex-wrap items-center justify-between gap-3 bg-slate-50 border border-slate-200 px-3.5 py-2.5 rounded-lg text-xs mb-3">
+            <div class="flex flex-wrap items-center gap-2.5 text-slate-700 font-medium">
+              <span class="font-bold text-slate-900 uppercase tracking-wider text-[11px]">Cell Quality Legend:</span>
+              <span class="inline-flex items-center gap-1.5 px-2 py-0.5 rounded bg-emerald-50 text-emerald-800 border border-emerald-200 font-semibold shadow-2xs"><span class="w-2 h-2 rounded-full bg-emerald-500"></span> Verified (COE Sheet / PDF Marks Card)</span>
+              <span class="inline-flex items-center gap-1.5 px-2 py-0.5 rounded bg-amber-100 text-amber-950 border border-amber-400 font-semibold shadow-2xs"><span class="w-2 h-2 rounded-full bg-amber-500"></span> ⚠️ Doubtful / Unverified (Pending COE Backing)</span>
+              <span class="inline-flex items-center gap-1.5 px-2 py-0.5 rounded bg-amber-50 text-amber-800 border border-amber-200 font-semibold shadow-2xs"><span class="w-2 h-2 rounded-full bg-amber-400"></span> N/A (Data Not Available)</span>
+              <span class="inline-flex items-center gap-1.5 px-2 py-0.5 rounded bg-red-50 text-red-700 border border-red-200 font-semibold shadow-2xs"><span class="w-2 h-2 rounded-full bg-red-500"></span> Backlog / Fail</span>
+            </div>
+            <div class="text-[11px] text-slate-500 italic">
+              * All assumed/hypothetical data removed. Only verified Controller of Examinations data feeds Criterion 4 calculations.
+            </div>
+          </div>
+
+          <div class="overflow-x-auto">
+            <table class="w-full whitespace-nowrap">
+              <thead>
+                <tr class="whitespace-nowrap">
+                  <th class="whitespace-nowrap px-3 py-2 text-center">Batch</th>
+                  <th class="whitespace-nowrap px-3 py-2">Reg No</th>
+                  <th class="whitespace-nowrap px-3 py-2">Student Name</th>
+                  <th class="whitespace-nowrap px-3 py-2 text-center">Gender</th>
+                  <th class="whitespace-nowrap px-3 py-2">Domicile</th>
+                  <th class="whitespace-nowrap px-3 py-2 text-center">Category</th>
+                  <th class="whitespace-nowrap px-3 py-2 text-center">Status</th>
+                  <th class="whitespace-nowrap px-3 py-2 text-center">CGPA</th>
+                  <th class="whitespace-nowrap px-3 py-2 text-center">Backlogs</th>
+                  <th class="whitespace-nowrap px-2 py-2 text-center">S1</th>
+                  <th class="whitespace-nowrap px-2 py-2 text-center">S2</th>
+                  <th class="whitespace-nowrap px-2 py-2 text-center">S3</th>
+                  <th class="whitespace-nowrap px-2 py-2 text-center">S4</th>
+                  <th class="whitespace-nowrap px-2 py-2 text-center">S5</th>
+                  <th class="whitespace-nowrap px-2 py-2 text-center">S6</th>
+                  <th class="whitespace-nowrap px-2 py-2 text-center">S7</th>
+                  <th class="whitespace-nowrap px-2 py-2 text-center">S8</th>
+                  <th class="whitespace-nowrap px-3 py-2">Internship 1</th>
+                  <th class="whitespace-nowrap px-3 py-2">Internship 2</th>
+                  <th class="whitespace-nowrap px-3 py-2">Placement</th>
+                  <th class="whitespace-nowrap px-3 py-2 text-right">Actions</th>
+                </tr>
+              </thead>
+              <tbody id="civil-students-table-body"></tbody>
+            </table>
+          </div>
+
+          <div class="mt-3 text-xs text-slate-500 flex justify-between items-center" id="student-record-counter">
+            <span>Showing students</span>
           </div>
         </div>
 
-        <div class="overflow-x-auto">
+        <!-- ================= CONTAINER B: ACADEMIC YEAR VIEW ================= -->
+        <div id="students-ay-view-container" class="hidden space-y-5">
+          <!-- AY Selector Bar -->
+          <div class="flex flex-col md:flex-row md:items-center justify-between gap-3 bg-blue-50/50 p-3 rounded-lg border border-blue-100">
+            <div class="flex flex-wrap items-center gap-1.5" id="ay-selector-buttons"></div>
+            <div class="flex items-center gap-2">
+              <input type="text" id="ay-student-search-input" oninput="renderAcademicYearRosters()" placeholder="🔍 Filter students in this AY..." class="border rounded-md px-3 py-1.5 text-xs w-60 bg-white">
+            </div>
+          </div>
 
-          <table class="w-full whitespace-nowrap">
-            <thead>
-              <tr class="whitespace-nowrap">
-                <th class="whitespace-nowrap px-3 py-2 text-center">Batch</th>
-                <th class="whitespace-nowrap px-3 py-2">Reg No</th>
-                <th class="whitespace-nowrap px-3 py-2">Student Name</th>
-                <th class="whitespace-nowrap px-3 py-2 text-center">Gender</th>
-                <th class="whitespace-nowrap px-3 py-2">Domicile</th>
-                <th class="whitespace-nowrap px-3 py-2 text-center">Category</th>
-                <th class="whitespace-nowrap px-3 py-2 text-center">Status</th>
-                <th class="whitespace-nowrap px-3 py-2 text-center">CGPA</th>
-                <th class="whitespace-nowrap px-3 py-2 text-center">Backlogs</th>
-                <th class="whitespace-nowrap px-2.5 py-2 text-center">SGPA 1</th>
-                <th class="whitespace-nowrap px-2.5 py-2 text-center">SGPA 2</th>
-                <th class="whitespace-nowrap px-2.5 py-2 text-center">SGPA 3</th>
-                <th class="whitespace-nowrap px-2.5 py-2 text-center">SGPA 4</th>
-                <th class="whitespace-nowrap px-2.5 py-2 text-center">SGPA 5</th>
-                <th class="whitespace-nowrap px-2.5 py-2 text-center">SGPA 6</th>
-                <th class="whitespace-nowrap px-2.5 py-2 text-center">SGPA 7</th>
-                <th class="whitespace-nowrap px-2.5 py-2 text-center">SGPA 8</th>
-                <th class="whitespace-nowrap px-3 py-2">Internship 1</th>
-                <th class="whitespace-nowrap px-3 py-2">Internship 2</th>
-                <th class="whitespace-nowrap px-3 py-2">Placement</th>
-                <th class="whitespace-nowrap px-3 py-2 text-right">Actions</th>
-              </tr>
-            </thead>
-            <tbody id="civil-students-table-body"></tbody>
-          </table>
-        </div>
+          <!-- AY Header & Summary KPI Strip -->
+          <div id="ay-header-summary-strip"></div>
 
-        <div class="mt-3 text-xs text-slate-500 flex justify-between items-center" id="student-record-counter">
-          <span>Showing students</span>
+          <!-- 4 Year Rosters Container -->
+          <div id="ay-four-years-container" class="space-y-6"></div>
         </div>
       </div>
     </div>
@@ -1927,6 +1966,276 @@
       }, {
         scales: { x: { stacked: true }, y: { stacked: true } }
       });
+    }
+
+    
+    // =========================================================================
+    // ACADEMIC YEAR (AY) VIEW CONTROLLER & ROSTER GENERATOR
+    // =========================================================================
+    let currentStudentViewMode = 'batch'; // 'batch' or 'ay'
+    let selectedAY = 'AY 2026-27';
+
+    const AY_CONFIG = [
+      { id: 'AY 2026-27', startYear: 2026, label: 'AY 2026-27', nbalabel: 'Current Academic Year (CAY)' },
+      { id: 'AY 2025-26', startYear: 2025, label: 'AY 2025-26', nbalabel: 'CAYm1' },
+      { id: 'AY 2024-25', startYear: 2024, label: 'AY 2024-25', nbalabel: 'CAYm2' },
+      { id: 'AY 2023-24', startYear: 2023, label: 'AY 2023-24', nbalabel: 'CAYm3 / Latest Graduated Batch (2020)' },
+      { id: 'AY 2022-23', startYear: 2022, label: 'AY 2022-23', nbalabel: 'CAYm4 / LYG' },
+      { id: 'AY 2021-22', startYear: 2021, label: 'AY 2021-22', nbalabel: 'CAYm5 / LYGm1' },
+      { id: 'AY 2020-21', startYear: 2020, label: 'AY 2020-21', nbalabel: 'CAYm6 / LYGm2' }
+    ];
+
+    function setStudentViewMode(mode) {
+      currentStudentViewMode = mode;
+      const btnBatch = document.getElementById('btn-view-mode-batch');
+      const btnAY = document.getElementById('btn-view-mode-ay');
+      const boxBatch = document.getElementById('students-batch-view-container');
+      const boxAY = document.getElementById('students-ay-view-container');
+
+      if (mode === 'ay') {
+        btnAY.className = 'px-3 py-1.5 text-xs font-bold rounded-r-lg border border-blue-900 bg-blue-900 text-white transition';
+        btnBatch.className = 'px-3 py-1.5 text-xs font-bold rounded-l-lg border border-slate-300 bg-white text-slate-700 hover:bg-slate-50 transition';
+        boxBatch.classList.add('hidden');
+        boxAY.classList.remove('hidden');
+        renderAcademicYearButtons();
+        renderAcademicYearRosters();
+      } else {
+        btnBatch.className = 'px-3 py-1.5 text-xs font-bold rounded-l-lg border border-blue-900 bg-blue-900 text-white transition';
+        btnAY.className = 'px-3 py-1.5 text-xs font-bold rounded-r-lg border border-slate-300 bg-white text-slate-700 hover:bg-slate-50 transition';
+        boxAY.classList.add('hidden');
+        boxBatch.classList.remove('hidden');
+        renderStudentsTable();
+      }
+    }
+
+    function renderAcademicYearButtons() {
+      const container = document.getElementById('ay-selector-buttons');
+      if (!container) return;
+      container.innerHTML = AY_CONFIG.map(ay => {
+        const isActive = ay.id === selectedAY;
+        return `
+          <button onclick="setAcademicYear('${ay.id}')"
+            class="px-3 py-1.5 rounded-md text-xs font-bold border transition ${isActive ? 'bg-blue-900 text-white border-blue-900 shadow-sm' : 'bg-white text-slate-700 border-slate-300 hover:bg-slate-100'}">
+            ${ay.label} <span class="text-[10px] font-normal opacity-85">(${ay.nbalabel.split('/')[0].trim()})</span>
+          </button>
+        `;
+      }).join('');
+    }
+
+    function setAcademicYear(ayId) {
+      selectedAY = ayId;
+      renderAcademicYearButtons();
+      renderAcademicYearRosters();
+    }
+
+    function getStudentsForAYYear(ayStart, yearLevel) {
+      const cohortBatch = String(ayStart - (yearLevel - 1));
+      const batchStudents = (db.students || []).filter(s => s.batch === cohortBatch);
+      const oddKey = 'sem' + (yearLevel * 2 - 1);
+      const evenKey = 'sem' + (yearLevel * 2);
+
+      const roster = [];
+      for (const s of batchStudents) {
+        const cat = s.category || 'Regular';
+        const isYbExit = Boolean(s.isYearBackExit);
+
+        // Lateral entry students only join in Year II (Sem 3)
+        if (yearLevel === 1 && cat === 'Lateral') continue;
+
+        // Year back exits did not progress to Year III or IV in this batch
+        if (isYbExit && yearLevel > 2) continue;
+
+        // Readmitted students did Year I under their senior registration number
+        if (yearLevel === 1 && cat.includes('Readmitted')) continue;
+
+        // Discontinued students: if marked discontinued and no semesters in this year level
+        const semOdd = s.semesters?.[oddKey] || {};
+        const semEven = s.semesters?.[evenKey] || {};
+
+        let statusDesc = 'Enrolled / Active';
+        if (isYbExit && yearLevel === 2) {
+          statusDesc = 'Year-Back Exit (Detained / Rejoined Junior Batch)';
+        } else if (semOdd.status === 'Fail' || semEven.status === 'Fail') {
+          statusDesc = 'With Backlog';
+        } else if (semOdd.status === 'Pass' && semEven.status === 'Pass') {
+          statusDesc = 'Pass (All Cleared)';
+        } else if (semOdd.status === 'Pass' || semEven.status === 'Pass') {
+          statusDesc = 'In Progress / Part Verified';
+        } else if (s.gradStatus?.includes('No Backlog') && yearLevel === 4) {
+          statusDesc = 'Graduated (Clear)';
+        } else if (s.gradStatus?.includes('With Backlog') && yearLevel === 4) {
+          statusDesc = 'Graduated (With Backlog)';
+        }
+
+        let remarks = [];
+        if (cat === 'Lateral') remarks.push('Lateral Entry (Admitted Year II / Sem 3)');
+        if (cat.includes('Readmitted')) remarks.push('Readmitted in Year II after Year-Back');
+        if (isYbExit) remarks.push('Year-Back Exit (Rejoined Junior Cohort)');
+        if (remarks.length === 0) remarks.push('Regular Admission');
+
+        const oddStr = semOdd.sgpa ? `SGPA ${Number(semOdd.sgpa).toFixed(2)} (${semOdd.pct}%)` : (semOdd.status || '—');
+        const evenStr = semEven.sgpa ? `SGPA ${Number(semEven.sgpa).toFixed(2)} (${semEven.pct}%)` : (semEven.status || '—');
+
+        roster.push({
+          student: s,
+          regNo: s.regNo,
+          name: s.name,
+          gender: s.gender || '—',
+          category: cat,
+          batch: cohortBatch,
+          oddSem: oddKey.toUpperCase() + ': ' + oddStr,
+          evenSem: evenKey.toUpperCase() + ': ' + evenStr,
+          status: statusDesc,
+          remarks: remarks.join('; ')
+        });
+      }
+      return roster;
+    }
+
+    function renderAcademicYearRosters() {
+      const ayItem = AY_CONFIG.find(a => a.id === selectedAY) || AY_CONFIG[0];
+      const query = (document.getElementById('ay-student-search-input')?.value || '').toLowerCase();
+
+      const yearLevels = [
+        { level: 1, title: 'I YEAR (First Year - Semesters 1 & 2)', subtitle: 'Freshman Regular Cohort', color: 'border-blue-500 bg-blue-50/70 text-blue-950', badgeColor: 'bg-blue-100 text-blue-900 border-blue-300' },
+        { level: 2, title: 'II YEAR (Second Year - Semesters 3 & 4)', subtitle: 'Sophomore Cohort (Regular + Lateral Entry + Readmitted)', color: 'border-cyan-600 bg-cyan-50/70 text-cyan-950', badgeColor: 'bg-cyan-100 text-cyan-900 border-cyan-300' },
+        { level: 3, title: 'III YEAR (Third Year - Semesters 5 & 6)', subtitle: 'Junior Cohort Continuing Core Civil Engineering', color: 'border-emerald-600 bg-emerald-50/70 text-emerald-950', badgeColor: 'bg-emerald-100 text-emerald-900 border-emerald-300' },
+        { level: 4, title: 'IV YEAR (Fourth Year - Semesters 7 & 8)', subtitle: 'Senior Cohort / Final Year Graduating Class', color: 'border-purple-600 bg-purple-50/70 text-purple-950', badgeColor: 'bg-purple-100 text-purple-900 border-purple-300' }
+      ];
+
+      const rosters = yearLevels.map(yl => {
+        const fullRoster = getStudentsForAYYear(ayItem.startYear, yl.level);
+        const filtered = fullRoster.filter(r => {
+          if (!query) return true;
+          return r.name.toLowerCase().includes(query) || r.regNo.toLowerCase().includes(query) || r.category.toLowerCase().includes(query);
+        });
+        return { ...yl, cohortBatch: String(ayItem.startYear - (yl.level - 1)), fullCount: fullRoster.length, list: filtered };
+      });
+
+      const totalAYStudents = rosters.reduce((acc, r) => acc + r.fullCount, 0);
+
+      // Render Header Summary Strip
+      const summaryStrip = document.getElementById('ay-header-summary-strip');
+      if (summaryStrip) {
+        summaryStrip.innerHTML = `
+          <div class="bg-gradient-to-r from-blue-900 via-indigo-900 to-slate-900 rounded-xl p-4 text-white shadow-md">
+            <div class="flex flex-col md:flex-row md:items-center justify-between gap-3">
+              <div>
+                <div class="flex items-center gap-2">
+                  <span class="px-2.5 py-0.5 rounded text-xs font-black uppercase tracking-wider bg-amber-400 text-slate-950">${ayItem.label}</span>
+                  <span class="text-xs text-blue-200 font-medium">${ayItem.nbalabel}</span>
+                </div>
+                <h3 class="text-lg font-black mt-1">B.Tech Civil Engineering — Comprehensive Academic Year Student Roster</h3>
+                <p class="text-xs text-blue-100/80 mt-0.5">Active enrolled student distribution across First, Second, Third, and Fourth years with verified university marks.</p>
+              </div>
+              <div class="flex items-center gap-3">
+                <div class="bg-white/10 backdrop-blur-xs px-4 py-2 rounded-lg border border-white/20 text-center">
+                  <div class="text-[11px] font-semibold text-blue-200 uppercase">Total AY Strength</div>
+                  <div class="text-2xl font-black text-amber-300">${totalAYStudents} <span class="text-xs text-white/70 font-normal">Students</span></div>
+                </div>
+              </div>
+            </div>
+
+            <!-- KPI Sub-Cards for I, II, III, IV Years -->
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-3 mt-4 pt-3 border-t border-white/15">
+              ${rosters.map(r => `
+                <div class="bg-white/5 hover:bg-white/10 transition p-2.5 rounded-lg border border-white/10">
+                  <div class="text-[10px] font-bold text-blue-200 uppercase">${r.title.split('(')[0].trim()} (Batch ${r.cohortBatch})</div>
+                  <div class="text-xl font-black text-white mt-0.5">${r.fullCount} <span class="text-[11px] font-medium text-blue-200">Enrolled</span></div>
+                  <div class="text-[10px] text-blue-200/70 truncate">${r.subtitle}</div>
+                </div>
+              `).join('')}
+            </div>
+          </div>
+        `;
+      }
+
+      // Render 4 Year Rosters Container
+      const yearsContainer = document.getElementById('ay-four-years-container');
+      if (yearsContainer) {
+        yearsContainer.innerHTML = rosters.map(r => {
+          let tableHtml = '';
+          if (r.list.length === 0) {
+            tableHtml = `
+              <div class="p-6 text-center text-slate-400 text-xs italic bg-slate-50 rounded-b-lg border-t border-slate-200">
+                ${r.fullCount === 0 ? `No student records in repository for Batch ${r.cohortBatch} (Pre-2020 cohorts are not in the 36 COE XML dataset).` : 'No students matching search filter in this year level.'}
+              </div>
+            `;
+          } else {
+            tableHtml = `
+              <div class="overflow-x-auto">
+                <table class="w-full text-xs">
+                  <thead>
+                    <tr class="bg-slate-100 text-slate-700 font-bold border-b border-slate-200">
+                      <th class="px-3 py-2 text-center w-12">#</th>
+                      <th class="px-3 py-2 text-left w-28">Reg No</th>
+                      <th class="px-3 py-2 text-left">Student Name</th>
+                      <th class="px-3 py-2 text-center w-16">Gender</th>
+                      <th class="px-3 py-2 text-center w-28">Category</th>
+                      <th class="px-3 py-2 text-center w-24">Batch</th>
+                      <th class="px-3 py-2 text-left w-44">Odd Semester</th>
+                      <th class="px-3 py-2 text-left w-44">Even Semester</th>
+                      <th class="px-3 py-2 text-center w-40">Status</th>
+                      <th class="px-3 py-2 text-left w-48">Remarks</th>
+                    </tr>
+                  </thead>
+                  <tbody class="divide-y divide-slate-100">
+                    ${r.list.map((st, idx) => {
+                      let catBadge = '<span class="badge badge-blue">Regular</span>';
+                      if (st.category === 'Lateral') {
+                        catBadge = '<span class="badge badge-amber font-bold">Lateral Entry</span>';
+                      } else if (st.category.includes('Readmitted')) {
+                        catBadge = '<span class="badge bg-purple-100 text-purple-900 border border-purple-300 font-bold">🔄 Readmitted</span>';
+                      }
+
+                      let statBadge = '<span class="badge badge-gray font-medium">Active</span>';
+                      if (st.status.includes('Backlog')) {
+                        statBadge = '<span class="badge badge-red font-bold">With Backlog</span>';
+                      } else if (st.status.includes('Pass') || st.status.includes('Clear')) {
+                        statBadge = '<span class="badge badge-green font-bold">Pass / Clear</span>';
+                      } else if (st.status.includes('Exit')) {
+                        statBadge = '<span class="badge bg-amber-100 text-amber-950 border border-amber-400 font-bold">⚠️ Year-Back Exit</span>';
+                      }
+
+                      return `
+                        <tr class="hover:bg-blue-50/30 transition ${idx % 2 === 1 ? 'bg-slate-50/50' : 'bg-white'}">
+                          <td class="px-3 py-2 text-center text-slate-400 font-medium">${idx + 1}</td>
+                          <td class="px-3 py-2 font-mono font-bold text-blue-950">${st.regNo}</td>
+                          <td class="px-3 py-2 font-semibold text-slate-900">${st.name}</td>
+                          <td class="px-3 py-2 text-center font-medium text-slate-600">${st.gender === 'Male' ? 'M' : st.gender === 'Female' ? 'F' : '—'}</td>
+                          <td class="px-3 py-2 text-center">${catBadge}</td>
+                          <td class="px-3 py-2 text-center font-bold text-slate-700">Batch ${st.batch}</td>
+                          <td class="px-3 py-2 text-slate-700 font-medium">${st.oddSem}</td>
+                          <td class="px-3 py-2 text-slate-700 font-medium">${st.evenSem}</td>
+                          <td class="px-3 py-2 text-center">${statBadge}</td>
+                          <td class="px-3 py-2 text-[11px] text-slate-500 italic">${st.remarks}</td>
+                        </tr>
+                      `;
+                    }).join('')}
+                  </tbody>
+                </table>
+              </div>
+            `;
+          }
+
+          return `
+            <div class="border rounded-xl overflow-hidden shadow-2xs bg-white">
+              <div class="p-3.5 border-l-4 ${r.color} flex flex-col md:flex-row md:items-center justify-between gap-2">
+                <div class="flex items-center gap-2.5">
+                  <span class="px-2.5 py-1 rounded-md text-xs font-black ${r.badgeColor} border">${r.title.split('(')[0].trim()}</span>
+                  <span class="font-bold text-sm text-slate-800">${r.title.includes('(') ? '(' + r.title.split('(')[1] : ''}</span>
+                  <span class="text-xs text-slate-500 font-medium">| Batch ${r.cohortBatch}</span>
+                </div>
+                <div class="flex items-center gap-2">
+                  <span class="text-xs font-bold text-slate-600">Enrolled: <strong>${r.fullCount}</strong></span>
+                  ${r.list.length !== r.fullCount ? `<span class="text-[11px] text-blue-700 font-semibold">(Filtered: ${r.list.length})</span>` : ''}
+                </div>
+              </div>
+              ${tableHtml}
+            </div>
+          `;
+        }).join('');
+      }
     }
 
     function renderBatchFilterButtons() {
