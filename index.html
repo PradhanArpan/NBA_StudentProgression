@@ -839,12 +839,12 @@
             </div>
           </div>
           <div class="flex items-center gap-2">
-            <a href="/Master_Student_Directory_Editable.xlsx" download="Master_Student_Directory_Editable.xlsx" class="px-3.5 py-1.5 bg-blue-900 hover:bg-blue-800 text-white rounded-md text-xs font-bold flex items-center gap-1.5 shadow-sm transition">
+            <button type="button" id="btn-dl-master" onclick="downloadLiveMasterExcel(event)" class="px-3.5 py-1.5 bg-blue-900 hover:bg-blue-800 text-white rounded-md text-xs font-bold flex items-center gap-1.5 shadow-sm transition cursor-pointer">
               <span>📥 Download Master Directory (.xlsx)</span>
-            </a>
-            <a href="/Civil_Engineering_Academic_Year_Student_Lists_2020_to_2027.xlsx" download="Civil_Engineering_Academic_Year_Student_Lists_2020_to_2027.xlsx" class="px-3.5 py-1.5 bg-emerald-700 hover:bg-emerald-800 text-white rounded-md text-xs font-bold flex items-center gap-1.5 shadow-sm transition">
+            </button>
+            <button type="button" id="btn-dl-ay" onclick="downloadLiveAYExcel(event)" class="px-3.5 py-1.5 bg-emerald-700 hover:bg-emerald-800 text-white rounded-md text-xs font-bold flex items-center gap-1.5 shadow-sm transition cursor-pointer">
               <span>📥 Download Complete AY Rosters (.xlsx)</span>
-            </a>
+            </button>
           </div>
         </div>
 
@@ -1423,6 +1423,13 @@
             });
             if (merged > 0) {
               console.log(`[Persistence] Merged ${merged} student edits from persistent localStorage cache.`);
+              // Immediately push cached edits to backend so Excel and server files regenerate
+              fetch('/save-data', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify(db, null, 2)
+              }).then(() => console.log('[Persistence] Server Excel updated with cached edits.'))
+                .catch(e => console.warn('[Persistence] Background sync warning:', e));
             }
           }
         } catch (e) {
@@ -2186,6 +2193,26 @@
       return true;
     }
 
+    function getStudentNBATag(s) {
+      const prog = s.progressionStatus || 'Normal';
+      const cat = s.category || 'Regular';
+      const discSem = s.discontinuedFromSem;
+      const ybSem = s.yearBackFromSem;
+      const ybBatch = s.yearBackJuniorBatch;
+      if (prog === 'Discontinued' || s.gradStatus?.includes('Discontinued')) {
+        return `N6 - Discontinued (Left from Sem ${discSem || 1})`;
+      } else if (prog === 'Year-Back' || s.isYearBackExit) {
+        return `YB - Year-Back (Detained at Sem ${ybSem || 4} ➔ Batch ${ybBatch || 'Junior'})`;
+      } else if (prog === 'Readmitted' || cat.includes('Readmitted')) {
+        const origB = s.yearBackOrigin?.batch || '';
+        return `N5 - Readmitted` + (origB ? ` (from Batch ${origB})` : '');
+      } else if (cat === 'Lateral') {
+        return 'N2 - Lateral Entry';
+      } else {
+        return 'N1 - Regular Admission';
+      }
+    }
+
     function getStudentsForAYYear(ayStart, yearLevel) {
       const baseBatch = String(ayStart - (yearLevel - 1));
       const oddKey = 'sem' + (yearLevel * 2 - 1);
@@ -2201,6 +2228,7 @@
         const prog = s.progressionStatus || (s.isYearBackExit ? 'Year-Back' : (s.gradStatus?.includes('Discontinued') ? 'Discontinued' : 'Normal'));
         const discSem = s.discontinuedFromSem;
         const ybSem = s.yearBackFromSem;
+        const ybBatch = s.yearBackJuniorBatch || String(parseInt(baseBatch) + 1);
 
         // Lateral entry only in Year II, III, IV
         if (yearLevel === 1 && cat === 'Lateral') continue;
@@ -2215,90 +2243,104 @@
           if (yearLevel < joinYear) continue;
         }
 
-        // Discontinued: strictly exclude if beyond discontinuation semester
-        if (prog === 'Discontinued' && discSem) {
-          const maxAttendedYear = Math.ceil(discSem / 2);
-          if (yearLevel > maxAttendedYear) continue;
-          if (discSem % 2 === 1 && (yearLevel * 2 - 1 > discSem)) continue;
-        } else if (prog === 'Discontinued') {
-          // Fallback based on last active semester
-          const lastSem = getLastActiveSem(s);
-          if (lastSem === 0 && yearLevel > 1) continue;
-          if (lastSem > 0 && yearLevel > Math.ceil((lastSem + 1) / 2)) continue;
-        }
-
-        // Year-Back: student must NOT continue in the next year with original batch!
-        if (prog === 'Year-Back' || s.isYearBackExit) {
-          const detainedSem = ybSem || 4;
-          const detainedYear = Math.ceil(detainedSem / 2);
-          if (yearLevel > detainedYear) {
-            // DO NOT continue in higher year with original batch!
-            continue;
-          }
-        }
-
         const semOdd = s.semesters?.[oddKey] || {};
         const semEven = s.semesters?.[evenKey] || {};
 
+        let oddStr = semOdd.sgpa ? `SGPA ${Number(semOdd.sgpa).toFixed(2)} (${semOdd.pct}%)` : (semOdd.status || '—');
+        let evenStr = semEven.sgpa ? `SGPA ${Number(semEven.sgpa).toFixed(2)} (${semEven.pct}%)` : (semEven.status || '—');
+
+        const isDisc = (prog === 'Discontinued' || s.gradStatus?.includes('Discontinued'));
+        const isYb = (prog === 'Year-Back' || s.isYearBackExit);
+
         let statusDesc = 'Enrolled / Active';
-        if (prog === 'Year-Back' && yearLevel === Math.ceil((ybSem || 4) / 2)) {
-          statusDesc = `Year-Back (Detained at Sem ${ybSem || 4} ➔ Moves to Batch ${s.yearBackJuniorBatch || (parseInt(baseBatch) + 1)})`;
-        } else if (prog === 'Discontinued' && discSem && yearLevel === Math.ceil(discSem / 2)) {
-          statusDesc = `Discontinued (Left from Sem ${discSem})`;
-        } else if (semOdd.status === 'Fail' || semEven.status === 'Fail') {
-          statusDesc = 'With Backlog';
-        } else if (semOdd.status === 'Pass' && semEven.status === 'Pass') {
-          statusDesc = 'Pass (All Cleared)';
-        } else if (semOdd.status === 'Pass' || semEven.status === 'Pass') {
-          statusDesc = 'In Progress / Part Verified';
-        } else if (s.gradStatus?.includes('No Backlog') && yearLevel === 4) {
-          statusDesc = 'Graduated (Clear)';
-        } else if (s.gradStatus?.includes('With Backlog') && yearLevel === 4) {
-          statusDesc = 'Graduated (With Backlog)';
-        }
-
         let remarks = [];
-        if (cat === 'Lateral') remarks.push('Lateral Entry in S3');
-        if (prog === 'Readmitted' || cat.includes('Readmitted')) {
-          remarks.push(`Readmitted in Year II after Year-Back`);
-        }
-        if (prog === 'Year-Back') {
-          remarks.push(`Year-Back from Sem ${ybSem || 4} ➔ Joins Batch ${s.yearBackJuniorBatch || (parseInt(baseBatch) + 1)}`);
-        }
-        if (prog === 'Discontinued') {
-          remarks.push(`Discontinued from Sem ${discSem || '—'}`);
-        }
-        if (remarks.length === 0) remarks.push('Regular Admission');
+        let isActive = true;
+        let isDiscontinued = false;
+        let isOffCampus = false;
 
-        const oddStr = semOdd.sgpa ? `SGPA ${Number(semOdd.sgpa).toFixed(2)} (${semOdd.pct}%)` : (semOdd.status || '—');
-        const evenStr = semEven.sgpa ? `SGPA ${Number(semEven.sgpa).toFixed(2)} (${semEven.pct}%)` : (semEven.status || '—');
+        const nbaTag = getStudentNBATag(s);
+
+        if (isDisc) {
+          const effDiscSem = discSem || 1;
+          const maxAttendedYear = Math.ceil(effDiscSem / 2);
+          isDiscontinued = true;
+          isActive = false;
+          if (yearLevel > maxAttendedYear) {
+            oddStr = '— (Discontinued)';
+            evenStr = '— (Discontinued)';
+            statusDesc = `Discontinued (Left from Sem ${effDiscSem})`;
+            remarks.push(`Discontinued from Sem ${effDiscSem} (N6 Exited Program)`);
+          } else {
+            statusDesc = `Discontinued (Left from Sem ${effDiscSem})`;
+            remarks.push(`Exited program from Semester ${effDiscSem}`);
+          }
+        } else if (isYb) {
+          const detainedSem = ybSem || 4;
+          const detainedYear = Math.ceil(detainedSem / 2);
+          if (yearLevel > detainedYear) {
+            oddStr = '— (Detained)';
+            evenStr = '— (Detained)';
+            statusDesc = `Off-Campus (Detained at Sem ${detainedSem} ➔ Batch ${ybBatch})`;
+            remarks.push(`Detained at Sem ${detainedSem}; off-campus before rejoining Batch ${ybBatch} at Sem ${detainedSem + 1}`);
+            isOffCampus = true;
+            isActive = false;
+          } else if (yearLevel === detainedYear) {
+            statusDesc = `Year-Back (Detained at Sem ${detainedSem} ➔ Moves to Batch ${ybBatch})`;
+            remarks.push(`Detained at Sem ${detainedSem}; rejoining Batch ${ybBatch}`);
+            isActive = true;
+          } else {
+            statusDesc = (semOdd.status === 'Pass' && semEven.status === 'Pass') ? 'Pass (All Cleared)' : 'Enrolled / Active';
+            remarks.push('Active progression in initial study year');
+            isActive = true;
+          }
+        } else {
+          // Normal active progression
+          if (semOdd.status === 'Fail' || semEven.status === 'Fail') {
+            statusDesc = 'With Backlog';
+          } else if (semOdd.status === 'Pass' && semEven.status === 'Pass') {
+            statusDesc = 'Pass (All Cleared)';
+          } else if (semOdd.status === 'Pass' || semEven.status === 'Pass') {
+            statusDesc = 'In Progress / Part Verified';
+          } else if (s.gradStatus?.includes('No Backlog') && yearLevel === 4) {
+            statusDesc = 'Graduated (Clear)';
+          } else if (s.gradStatus?.includes('With Backlog') && yearLevel === 4) {
+            statusDesc = 'Graduated (With Backlog)';
+          }
+
+          if (cat === 'Lateral') remarks.push('Lateral Entry in S3');
+          if (prog === 'Readmitted' || cat.includes('Readmitted')) {
+            remarks.push(`Readmitted after Year-Back`);
+          }
+          if (remarks.length === 0) remarks.push('Regular Admission');
+          isActive = true;
+        }
 
         roster.push({
           student: s,
           regNo: s.regNo,
           name: s.name,
           gender: s.gender || '—',
+          nbaTag: nbaTag,
           category: cat,
-          batch: baseBatch,
+          batch: `Batch ${s.batch}`,
           oddSem: oddKey.toUpperCase() + ': ' + oddStr,
           evenSem: evenKey.toUpperCase() + ': ' + evenStr,
           status: statusDesc,
-          remarks: remarks.join('; ')
+          remarks: remarks.join('; '),
+          isActive: isActive,
+          isDiscontinued: isDiscontinued,
+          isOffCampus: isOffCampus
         });
         includedRegNos.add(s.regNo);
       }
 
       // 2. Year-Back Students moving from Senior Batch into this Junior Batch
-      // When a student is detained at Sem 4, they already completed Sem 3 and Sem 4 with senior batch.
-      // They do NOT repeat Year II with junior batch. During junior batch's Year II, they are off-campus for a year.
-      // They join junior batch only when junior batch reaches Sem (ybSem + 1), i.e. Year III (Sem 5)!
       for (const s of (db.students || [])) {
         const prog = s.progressionStatus || (s.isYearBackExit ? 'Year-Back' : 'Normal');
         const targetBatch = s.yearBackJuniorBatch || (s.yearBackTransferredTo?.batch);
         const readmitRegNo = s.readmissionRegNo || (s.yearBackTransferredTo?.regNo);
 
         if ((prog === 'Year-Back' || s.isYearBackExit) && targetBatch === baseBatch) {
-          // Check if readmission record already exists in database
           const hasReadmissionRecord = Boolean(readmitRegNo && (db.students || []).some(st => st.regNo === readmitRegNo));
 
           if (!hasReadmissionRecord && !includedRegNos.has(s.regNo)) {
@@ -2315,18 +2357,30 @@
                 regNo: s.regNo,
                 name: s.name,
                 gender: s.gender || '—',
-                category: 'Year-Back (Rejoined)',
-                batch: `${baseBatch} (ex-Batch ${s.batch})`,
+                nbaTag: `N5 - Readmitted (from Batch ${s.batch})`,
+                category: 'Readmitted',
+                batch: `Batch ${baseBatch} (ex-Batch ${s.batch})`,
                 oddSem: oddKey.toUpperCase() + ': ' + oddStr,
                 evenSem: evenKey.toUpperCase() + ': ' + evenStr,
                 status: `Year-Back (Rejoined with Batch ${baseBatch} in Sem ${ybSem + 1})`,
-                remarks: `Year-Back from Batch ${s.batch}; joined Batch ${baseBatch} at Sem ${ybSem + 1}`
+                remarks: `Year-Back from Batch ${s.batch}; joined Batch ${baseBatch} at Sem ${ybSem + 1}`,
+                isActive: true,
+                isDiscontinued: false,
+                isOffCampus: false
               });
               includedRegNos.add(s.regNo);
             }
           }
         }
       }
+
+      // Sort: active students first, then discontinued/off-campus, by Reg No
+      roster.sort((a, b) => {
+        const aOut = (a.isDiscontinued || a.isOffCampus) ? 1 : 0;
+        const bOut = (b.isDiscontinued || b.isOffCampus) ? 1 : 0;
+        if (aOut !== bOut) return aOut - bOut;
+        return a.regNo.localeCompare(b.regNo);
+      });
 
       return roster;
     }
@@ -2346,12 +2400,24 @@
         const fullRoster = getStudentsForAYYear(ayItem.startYear, yl.level);
         const filtered = fullRoster.filter(r => {
           if (!query) return true;
-          return r.name.toLowerCase().includes(query) || r.regNo.toLowerCase().includes(query) || r.category.toLowerCase().includes(query);
+          return r.name.toLowerCase().includes(query) || r.regNo.toLowerCase().includes(query) || r.category.toLowerCase().includes(query) || (r.nbaTag || '').toLowerCase().includes(query);
         });
-        return { ...yl, cohortBatch: String(ayItem.startYear - (yl.level - 1)), fullCount: fullRoster.length, list: filtered };
+        const activeCount = fullRoster.filter(s => s.isActive).length;
+        const discCount = fullRoster.filter(s => s.isDiscontinued).length;
+        const ybCount = fullRoster.filter(s => s.isOffCampus).length;
+        return { 
+          ...yl, 
+          cohortBatch: String(ayItem.startYear - (yl.level - 1)), 
+          fullCount: fullRoster.length, 
+          activeCount: activeCount,
+          discCount: discCount,
+          ybCount: ybCount,
+          list: filtered 
+        };
       });
 
-      const totalAYStudents = rosters.reduce((acc, r) => acc + r.fullCount, 0);
+      const totalAYActiveStudents = rosters.reduce((acc, r) => acc + r.activeCount, 0);
+      const totalAYCohortStudents = rosters.reduce((acc, r) => acc + r.fullCount, 0);
 
       // Render Header Summary Strip
       const summaryStrip = document.getElementById('ay-header-summary-strip');
@@ -2365,12 +2431,13 @@
                   <span class="text-xs text-blue-200 font-medium">${ayItem.nbalabel}</span>
                 </div>
                 <h3 class="text-lg font-black mt-1">B.Tech Civil Engineering — Comprehensive Academic Year Student Roster</h3>
-                <p class="text-xs text-blue-100/80 mt-0.5">Active enrolled student distribution across First, Second, Third, and Fourth years with verified university marks.</p>
+                <p class="text-xs text-blue-100/80 mt-0.5">Active enrolled student distribution across First, Second, Third, and Fourth years with verified university marks and official NBA Classification Tags.</p>
               </div>
               <div class="flex items-center gap-3">
                 <div class="bg-white/10 backdrop-blur-xs px-4 py-2 rounded-lg border border-white/20 text-center">
-                  <div class="text-[11px] font-semibold text-blue-200 uppercase">Total AY Strength</div>
-                  <div class="text-2xl font-black text-amber-300">${totalAYStudents} <span class="text-xs text-white/70 font-normal">Students</span></div>
+                  <div class="text-[11px] font-semibold text-blue-200 uppercase">Active Enrolled</div>
+                  <div class="text-2xl font-black text-amber-300">${totalAYActiveStudents} <span class="text-xs text-white/70 font-normal">Students</span></div>
+                  <div class="text-[10px] text-blue-200/80 mt-0.5">Cohort Total: ${totalAYCohortStudents}</div>
                 </div>
               </div>
             </div>
@@ -2380,8 +2447,8 @@
               ${rosters.map(r => `
                 <div class="bg-white/5 hover:bg-white/10 transition p-2.5 rounded-lg border border-white/10">
                   <div class="text-[10px] font-bold text-blue-200 uppercase">${r.title.split('(')[0].trim()} (Batch ${r.cohortBatch})</div>
-                  <div class="text-xl font-black text-white mt-0.5">${r.fullCount} <span class="text-[11px] font-medium text-blue-200">Enrolled</span></div>
-                  <div class="text-[10px] text-blue-200/70 truncate">${r.subtitle}</div>
+                  <div class="text-xl font-black text-white mt-0.5">${r.activeCount} <span class="text-[11px] font-medium text-blue-200">Active</span> <span class="text-[10px] text-white/60">/ ${r.fullCount}</span></div>
+                  <div class="text-[10px] text-blue-200/70 truncate">${r.discCount > 0 ? `<span class="text-rose-300">N6 Discontinued: ${r.discCount}</span>` : 'Full Cohort Continuing'}</div>
                 </div>
               `).join('')}
             </div>
@@ -2406,20 +2473,32 @@
                 <table class="w-full text-xs">
                   <thead>
                     <tr class="bg-slate-100 text-slate-700 font-bold border-b border-slate-200">
-                      <th class="px-3 py-2 text-center w-12">#</th>
-                      <th class="px-3 py-2 text-left w-28">Reg No</th>
+                      <th class="px-3 py-2 text-center w-10">#</th>
+                      <th class="px-3 py-2 text-left w-24">Reg No</th>
                       <th class="px-3 py-2 text-left">Student Name</th>
-                      <th class="px-3 py-2 text-center w-16">Gender</th>
-                      <th class="px-3 py-2 text-center w-28">Category</th>
+                      <th class="px-3 py-2 text-center w-12">Gender</th>
+                      <th class="px-3 py-2 text-center w-36">NBA Category Tag</th>
+                      <th class="px-3 py-2 text-center w-24">Category</th>
                       <th class="px-3 py-2 text-center w-24">Batch</th>
-                      <th class="px-3 py-2 text-left w-44">Odd Semester</th>
-                      <th class="px-3 py-2 text-left w-44">Even Semester</th>
-                      <th class="px-3 py-2 text-center w-40">Status</th>
-                      <th class="px-3 py-2 text-left w-48">Remarks</th>
+                      <th class="px-3 py-2 text-left w-40">Odd Semester</th>
+                      <th class="px-3 py-2 text-left w-40">Even Semester</th>
+                      <th class="px-3 py-2 text-center w-36">Status</th>
+                      <th class="px-3 py-2 text-left w-44">Remarks</th>
                     </tr>
                   </thead>
                   <tbody class="divide-y divide-slate-100">
                     ${r.list.map((st, idx) => {
+                      let nbaTagBadge = '<span class="px-2 py-0.5 rounded text-[10px] font-black bg-blue-100 text-blue-900 border border-blue-300">N1 Regular</span>';
+                      if (st.nbaTag.includes('N2')) {
+                        nbaTagBadge = '<span class="px-2 py-0.5 rounded text-[10px] font-black bg-emerald-100 text-emerald-900 border border-emerald-300">N2 Lateral</span>';
+                      } else if (st.nbaTag.includes('N5')) {
+                        nbaTagBadge = '<span class="px-2 py-0.5 rounded text-[10px] font-black bg-purple-100 text-purple-900 border border-purple-300">N5 Readmitted</span>';
+                      } else if (st.nbaTag.includes('N6')) {
+                        nbaTagBadge = '<span class="px-2 py-0.5 rounded text-[10px] font-black bg-rose-100 text-rose-900 border border-rose-300">N6 Discontinued</span>';
+                      } else if (st.nbaTag.includes('YB')) {
+                        nbaTagBadge = '<span class="px-2 py-0.5 rounded text-[10px] font-black bg-amber-100 text-amber-900 border border-amber-300">YB Year-Back</span>';
+                      }
+
                       let catBadge = '<span class="badge badge-blue">Regular</span>';
                       if (st.category === 'Lateral') {
                         catBadge = '<span class="badge badge-amber font-bold">Lateral Entry</span>';
@@ -2428,26 +2507,35 @@
                       }
 
                       let statBadge = '<span class="badge badge-gray font-medium">Active</span>';
-                      if (st.status.includes('Backlog')) {
+                      if (st.isDiscontinued) {
+                        statBadge = '<span class="badge bg-rose-100 text-rose-950 border border-rose-300 font-bold">⛔ Discontinued</span>';
+                      } else if (st.isOffCampus) {
+                        statBadge = '<span class="badge bg-amber-100 text-amber-950 border border-amber-300 font-bold">⚠️ Detained / Off-Campus</span>';
+                      } else if (st.status.includes('Backlog')) {
                         statBadge = '<span class="badge badge-red font-bold">With Backlog</span>';
                       } else if (st.status.includes('Pass') || st.status.includes('Clear')) {
                         statBadge = '<span class="badge badge-green font-bold">Pass / Clear</span>';
-                      } else if (st.status.includes('Exit')) {
+                      } else if (st.status.includes('Exit') || st.status.includes('Year-Back')) {
                         statBadge = '<span class="badge bg-amber-100 text-amber-950 border border-amber-400 font-bold">⚠️ Year-Back Exit</span>';
                       }
 
+                      let rowBg = (idx % 2 === 1 ? 'bg-slate-50/50' : 'bg-white');
+                      if (st.isDiscontinued) rowBg = 'bg-rose-50/50 text-slate-600 italic';
+                      if (st.isOffCampus) rowBg = 'bg-amber-50/40 text-slate-600 italic';
+
                       return `
-                        <tr class="hover:bg-blue-50/30 transition ${idx % 2 === 1 ? 'bg-slate-50/50' : 'bg-white'}">
+                        <tr class="hover:bg-blue-50/30 transition ${rowBg}">
                           <td class="px-3 py-2 text-center text-slate-400 font-medium">${idx + 1}</td>
-                          <td class="px-3 py-2 font-mono font-bold text-blue-950">${st.regNo}</td>
-                          <td class="px-3 py-2 font-semibold text-slate-900">${st.name}</td>
+                          <td class="px-3 py-2 font-mono font-bold ${st.isDiscontinued ? 'text-slate-500' : 'text-blue-950'}">${st.regNo}</td>
+                          <td class="px-3 py-2 font-semibold ${st.isDiscontinued ? 'text-slate-600 line-through decoration-rose-400' : 'text-slate-900'}">${st.name}</td>
                           <td class="px-3 py-2 text-center font-medium text-slate-600">${st.gender === 'Male' ? 'M' : st.gender === 'Female' ? 'F' : '—'}</td>
+                          <td class="px-3 py-2 text-center">${nbaTagBadge}</td>
                           <td class="px-3 py-2 text-center">${catBadge}</td>
-                          <td class="px-3 py-2 text-center font-bold text-slate-700">Batch ${st.batch}</td>
+                          <td class="px-3 py-2 text-center font-bold text-slate-700">${st.batch}</td>
                           <td class="px-3 py-2 text-slate-700 font-medium">${st.oddSem}</td>
                           <td class="px-3 py-2 text-slate-700 font-medium">${st.evenSem}</td>
                           <td class="px-3 py-2 text-center">${statBadge}</td>
-                          <td class="px-3 py-2 text-[11px] text-slate-500 italic">${st.remarks}</td>
+                          <td class="px-3 py-2 text-[11px] text-slate-500">${st.remarks}</td>
                         </tr>
                       `;
                     }).join('')}
@@ -2465,8 +2553,12 @@
                   <span class="font-bold text-sm text-slate-800">${r.title.includes('(') ? '(' + r.title.split('(')[1] : ''}</span>
                   <span class="text-xs text-slate-500 font-medium">| Batch ${r.cohortBatch}</span>
                 </div>
-                <div class="flex items-center gap-2">
-                  <span class="text-xs font-bold text-slate-600">Enrolled: <strong>${r.fullCount}</strong></span>
+                <div class="flex flex-wrap items-center gap-2 text-xs">
+                  <span class="text-slate-600 font-bold">Total Admitted: <strong class="text-slate-900">${r.fullCount}</strong></span>
+                  <span class="text-slate-300">|</span>
+                  <span class="text-emerald-700 font-bold">Active Enrolled: <strong class="text-emerald-900">${r.activeCount}</strong></span>
+                  ${r.discCount > 0 ? `<span class="text-slate-300">|</span><span class="text-rose-700 font-bold">Discontinued (N6): <strong>${r.discCount}</strong></span>` : ''}
+                  ${r.ybCount > 0 ? `<span class="text-slate-300">|</span><span class="text-amber-700 font-bold">Detained (YB): <strong>${r.ybCount}</strong></span>` : ''}
                   ${r.list.length !== r.fullCount ? `<span class="text-[11px] text-blue-700 font-semibold">(Filtered: ${r.list.length})</span>` : ''}
                 </div>
               </div>
@@ -2477,7 +2569,72 @@
       }
     }
 
-    function renderBatchFilterButtons() {
+    async function downloadLiveAYExcel(e) {
+      if (e) e.preventDefault();
+      const btn = document.getElementById('btn-dl-ay') || (e ? e.currentTarget : null);
+      const origHtml = btn ? btn.innerHTML : '';
+      if (btn) {
+        btn.innerHTML = '<span>⏳ Syncing & Generating Excel...</span>';
+        btn.disabled = true;
+      }
+      try {
+        if (db) {
+          await fetch('/save-data', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify(db, null, 2)
+          });
+        }
+        const a = document.createElement('a');
+        a.href = '/Civil_Engineering_Academic_Year_Student_Lists_2020_to_2027.xlsx?t=' + Date.now();
+        a.download = 'Civil_Engineering_Academic_Year_Student_Lists_2020_to_2027.xlsx';
+        document.body.appendChild(a);
+        a.click();
+        document.body.removeChild(a);
+      } catch (err) {
+        console.error('AY Download sync error:', err);
+        window.location.href = '/Civil_Engineering_Academic_Year_Student_Lists_2020_to_2027.xlsx?t=' + Date.now();
+      } finally {
+        if (btn) {
+          btn.innerHTML = origHtml;
+          btn.disabled = false;
+        }
+      }
+    }
+
+    async function downloadLiveMasterExcel(e) {
+      if (e) e.preventDefault();
+      const btn = document.getElementById('btn-dl-master') || (e ? e.currentTarget : null);
+      const origHtml = btn ? btn.innerHTML : '';
+      if (btn) {
+        btn.innerHTML = '<span>⏳ Syncing & Generating Excel...</span>';
+        btn.disabled = true;
+      }
+      try {
+        if (db) {
+          await fetch('/save-data', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify(db, null, 2)
+          });
+        }
+        const a = document.createElement('a');
+        a.href = '/Master_Student_Directory_Editable.xlsx?t=' + Date.now();
+        a.download = 'Master_Student_Directory_Editable.xlsx';
+        document.body.appendChild(a);
+        a.click();
+        document.body.removeChild(a);
+      } catch (err) {
+        console.error('Master Download sync error:', err);
+        window.location.href = '/Master_Student_Directory_Editable.xlsx?t=' + Date.now();
+      } finally {
+        if (btn) {
+          btn.innerHTML = origHtml;
+          btn.disabled = false;
+        }
+      }
+    }
+function renderBatchFilterButtons() {
       const container = document.getElementById('batch-filter-container');
       const batches = ['All', '2026', '2025', '2024', '2023', '2022', '2021', '2020'];
       container.innerHTML = batches.map(b => `

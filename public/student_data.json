@@ -2444,7 +2444,7 @@
       "domicile": "Karnataka",
       "category": "Regular",
       "cgpa": 5.12,
-      "gradStatus": "Ongoing (With Backlog)",
+      "gradStatus": "Discontinued / Transferred",
       "failCount": 1,
       "semesters": {
         "sem1": {
@@ -2544,8 +2544,8 @@
         "title": null,
         "file": null
       },
-      "progressionStatus": "Normal",
-      "discontinuedFromSem": null,
+      "progressionStatus": "Discontinued",
+      "discontinuedFromSem": 2,
       "yearBackFromSem": null,
       "yearBackJuniorBatch": null,
       "readmissionRegNo": null
@@ -2560,7 +2560,7 @@
       "domicile": "Karnataka",
       "category": "Regular",
       "cgpa": null,
-      "gradStatus": "Enrolled (No Exam Records)",
+      "gradStatus": "Discontinued / Transferred",
       "failCount": 0,
       "semesters": {
         "sem1": {
@@ -2640,8 +2640,8 @@
         "title": null,
         "file": null
       },
-      "progressionStatus": "Normal",
-      "discontinuedFromSem": null,
+      "progressionStatus": "Discontinued",
+      "discontinuedFromSem": 1,
       "yearBackFromSem": null,
       "yearBackJuniorBatch": null,
       "readmissionRegNo": null
