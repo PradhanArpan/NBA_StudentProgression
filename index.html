@@ -2205,8 +2205,15 @@
         // Lateral entry only in Year II, III, IV
         if (yearLevel === 1 && cat === 'Lateral') continue;
 
-        // Readmitted students only in Year II, III, IV
-        if (yearLevel === 1 && (prog === 'Readmitted' || cat.includes('Readmitted'))) continue;
+        // Readmitted students only in Year II, III, IV and after gap year
+        if (prog === 'Readmitted' || cat.includes('Readmitted')) {
+          if (yearLevel === 1) continue;
+          const originReg = s.yearBackOrigin?.regNo;
+          const originStudent = originReg ? (db.students || []).find(st => st.regNo === originReg) : null;
+          const originYbSem = originStudent?.yearBackFromSem || (s.semesters?.sem4?.status === 'Pass' ? 4 : 2);
+          const joinYear = Math.ceil((originYbSem || 4) / 2) + 1;
+          if (yearLevel < joinYear) continue;
+        }
 
         // Discontinued: strictly exclude if beyond discontinuation semester
         if (prog === 'Discontinued' && discSem) {
@@ -2282,7 +2289,9 @@
       }
 
       // 2. Year-Back Students moving from Senior Batch into this Junior Batch
-      // "If year back, their names should not continue in the next year with their batch but go to the junior batch, unless readmission record is there (for those already)"
+      // When a student is detained at Sem 4, they already completed Sem 3 and Sem 4 with senior batch.
+      // They do NOT repeat Year II with junior batch. During junior batch's Year II, they are off-campus for a year.
+      // They join junior batch only when junior batch reaches Sem (ybSem + 1), i.e. Year III (Sem 5)!
       for (const s of (db.students || [])) {
         const prog = s.progressionStatus || (s.isYearBackExit ? 'Year-Back' : 'Normal');
         const targetBatch = s.yearBackJuniorBatch || (s.yearBackTransferredTo?.batch);
@@ -2293,21 +2302,25 @@
           const hasReadmissionRecord = Boolean(readmitRegNo && (db.students || []).some(st => st.regNo === readmitRegNo));
 
           if (!hasReadmissionRecord && !includedRegNos.has(s.regNo)) {
-            // Include this student in junior batch repeating year!
             const ybSem = s.yearBackFromSem || 4;
-            const repeatYear = Math.ceil(ybSem / 2);
-            if (yearLevel >= repeatYear) {
+            const joinYearLevel = Math.ceil(ybSem / 2) + 1;
+            if (yearLevel >= joinYearLevel) {
+              const semOdd = s.semesters?.[oddKey] || {};
+              const semEven = s.semesters?.[evenKey] || {};
+              const oddStr = semOdd.sgpa ? `SGPA ${Number(semOdd.sgpa).toFixed(2)} (${semOdd.pct}%)` : (semOdd.status || '—');
+              const evenStr = semEven.sgpa ? `SGPA ${Number(semEven.sgpa).toFixed(2)} (${semEven.pct}%)` : (semEven.status || '—');
+
               roster.push({
                 student: s,
                 regNo: s.regNo,
                 name: s.name,
                 gender: s.gender || '—',
-                category: 'Year-Back Repeat',
+                category: 'Year-Back (Rejoined)',
                 batch: `${baseBatch} (ex-Batch ${s.batch})`,
-                oddSem: 'Repeating Year',
-                evenSem: 'Repeating Year',
-                status: `Year-Back (Transferred from Batch ${s.batch} to Batch ${baseBatch})`,
-                remarks: `Year-Back from Batch ${s.batch}; repeating in Batch ${baseBatch}`
+                oddSem: oddKey.toUpperCase() + ': ' + oddStr,
+                evenSem: evenKey.toUpperCase() + ': ' + evenStr,
+                status: `Year-Back (Rejoined with Batch ${baseBatch} in Sem ${ybSem + 1})`,
+                remarks: `Year-Back from Batch ${s.batch}; joined Batch ${baseBatch} at Sem ${ybSem + 1}`
               });
               includedRegNos.add(s.regNo);
             }

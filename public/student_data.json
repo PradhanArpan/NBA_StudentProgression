@@ -2183,13 +2183,13 @@
       "gender": "Male",
       "domicile": "Karnataka",
       "category": "Regular",
-      "cgpa": 6.97,
+      "cgpa": 6.8,
       "gradStatus": "Ongoing (No Backlog)",
       "failCount": 0,
       "semesters": {
         "sem1": {
-          "pct": 63.69,
-          "sgpa": 6.7,
+          "pct": 60.46,
+          "sgpa": 6.36,
           "class": "FC",
           "status": "Pass",
           "sources": {
@@ -2201,8 +2201,22 @@
               "sgpa_10pt": 6.7,
               "status": "Pass",
               "course_count": 7
+            },
+            "verified_marksheet": {
+              "citation": "Uploaded Controller of Examinations Marks Card",
+              "file": "documents/Batch_2025/2560005/Adobe_Scan_sem_1_marks_card_261103215058-21_51_27.pdf",
+              "total_marks": "393/650",
+              "credits": 20,
+              "gpa_4pt": 2.78,
+              "sgpa_10pt": 6.36,
+              "pct": 60.46,
+              "class": "FC",
+              "status": "Pass",
+              "supp": "Math-I cleared in Dec 2025 (58 B, GPA 2.8)"
             }
-          }
+          },
+          "marksheetFile": "documents/Batch_2025/2560005/Adobe_Scan_sem_1_marks_card_261103215058-21_51_27.pdf",
+          "gpa_4pt": 2.78
         },
         "sem2": {
           "pct": 68.92,
@@ -2218,8 +2232,22 @@
               "sgpa_10pt": 7.25,
               "status": "Pass",
               "course_count": 8
+            },
+            "verified_marksheet": {
+              "citation": "Uploaded Controller of Examinations Marks Card",
+              "file": "documents/Batch_2025/2560005/Adobe_Scan_sem2_marks_card_261103215912-21_59_29.pdf",
+              "total_marks": "448/650",
+              "credits": 22,
+              "gpa_4pt": 3.38,
+              "sgpa_10pt": 7.25,
+              "pct": 68.92,
+              "class": "FC",
+              "status": "Pass",
+              "supp": null
             }
-          }
+          },
+          "marksheetFile": "documents/Batch_2025/2560005/Adobe_Scan_sem2_marks_card_261103215912-21_59_29.pdf",
+          "gpa_4pt": 3.38
         },
         "sem3": {
           "pct": null,
@@ -2743,13 +2771,13 @@
       "gender": "Male",
       "domicile": "Karnataka",
       "category": "Regular",
-      "cgpa": 7.01,
+      "cgpa": 7.6,
       "gradStatus": "Ongoing (No Backlog)",
       "failCount": 0,
       "semesters": {
         "sem1": {
-          "pct": 67.08,
-          "sgpa": 7.06,
+          "pct": 72.67,
+          "sgpa": 7.65,
           "class": "FC",
           "status": "Pass",
           "sources": {
@@ -2761,12 +2789,26 @@
               "sgpa_10pt": 7.06,
               "status": "Pass",
               "course_count": 7
+            },
+            "verified_marksheet": {
+              "citation": "Uploaded Controller of Examinations Marks Card",
+              "file": "documents/Batch_2025/2560010/kp.christuniversity.in_KnowledgePro_StudentLoginNewAction.do_methodprintMarksCardForBtech-22_10_3.pdf",
+              "total_marks": "436/600",
+              "credits": 23,
+              "gpa_4pt": 3.29,
+              "sgpa_10pt": 7.65,
+              "pct": 72.67,
+              "class": "FC",
+              "status": "Pass",
+              "supp": null
             }
-          }
+          },
+          "marksheetFile": "documents/Batch_2025/2560010/kp.christuniversity.in_KnowledgePro_StudentLoginNewAction.do_methodprintMarksCardForBtech-22_10_3.pdf",
+          "gpa_4pt": 3.29
         },
         "sem2": {
-          "pct": 66.15,
-          "sgpa": 6.96,
+          "pct": 71.67,
+          "sgpa": 7.55,
           "class": "FC",
           "status": "Pass",
           "sources": {
@@ -2778,8 +2820,22 @@
               "sgpa_10pt": 6.96,
               "status": "Pass",
               "course_count": 8
+            },
+            "verified_marksheet": {
+              "citation": "Uploaded Controller of Examinations Marks Card",
+              "file": "documents/Batch_2025/2560010/kp.christuniversity.in_KnowledgePro_StudentLoginNewAction.do_methodprintMarksCardForBtech_1-22_10_8.pdf",
+              "total_marks": "430/600",
+              "credits": 22,
+              "gpa_4pt": 3.22,
+              "sgpa_10pt": 7.55,
+              "pct": 71.67,
+              "class": "FC",
+              "status": "Pass",
+              "supp": null
             }
-          }
+          },
+          "marksheetFile": "documents/Batch_2025/2560010/kp.christuniversity.in_KnowledgePro_StudentLoginNewAction.do_methodprintMarksCardForBtech_1-22_10_8.pdf",
+          "gpa_4pt": 3.22
         },
         "sem3": {
           "pct": null,
@@ -4463,23 +4519,53 @@
       "gender": "Male",
       "domicile": "Karnataka",
       "category": "Regular",
-      "cgpa": null,
+      "cgpa": 7.0,
       "gradStatus": "Enrolled (No Exam Records)",
       "failCount": 0,
       "semesters": {
         "sem1": {
-          "pct": null,
-          "sgpa": null,
-          "class": "",
-          "status": "—",
-          "sources": {}
+          "pct": 61.5,
+          "sgpa": 6.8,
+          "class": "FC",
+          "status": "Pass",
+          "sources": {
+            "verified_marksheet": {
+              "citation": "Uploaded Controller of Examinations Marks Card",
+              "file": "documents/Batch_2025/2560027/semester_1-21_23_10.pdf",
+              "total_marks": "369/600",
+              "credits": 18,
+              "gpa_4pt": 2.6,
+              "sgpa_10pt": 6.8,
+              "pct": 61.5,
+              "class": "FC",
+              "status": "Pass",
+              "supp": "Physics cleared in Jan 2025 (60 A, GPA 3.2)"
+            }
+          },
+          "marksheetFile": "documents/Batch_2025/2560027/semester_1-21_23_10.pdf",
+          "gpa_4pt": 2.6
         },
         "sem2": {
-          "pct": null,
-          "sgpa": null,
-          "class": "",
-          "status": "—",
-          "sources": {}
+          "pct": 68.92,
+          "sgpa": 7.21,
+          "class": "FC",
+          "status": "Pass",
+          "sources": {
+            "verified_marksheet": {
+              "citation": "Uploaded Controller of Examinations Marks Card",
+              "file": "documents/Batch_2025/2560027/semester_2-21_23_27.pdf",
+              "total_marks": "448/650",
+              "credits": 23,
+              "gpa_4pt": 3.34,
+              "sgpa_10pt": 7.21,
+              "pct": 68.92,
+              "class": "FC",
+              "status": "Pass",
+              "supp": null
+            }
+          },
+          "marksheetFile": "documents/Batch_2025/2560027/semester_2-21_23_27.pdf",
+          "gpa_4pt": 3.34
         },
         "sem3": {
           "pct": null,
@@ -5485,8 +5571,22 @@
               "sgpa_10pt": 7.35,
               "status": "Pass",
               "course_count": 7
+            },
+            "verified_marksheet": {
+              "citation": "Uploaded Controller of Examinations Marks Card",
+              "file": "documents/Batch_2024/2460103/Sem1rslt-21_5_3.pdf",
+              "total_marks": "419/600",
+              "credits": 22,
+              "gpa_4pt": 3.22,
+              "sgpa_10pt": 7.35,
+              "pct": 69.83,
+              "class": "FC",
+              "status": "Pass",
+              "supp": null
             }
-          }
+          },
+          "marksheetFile": "documents/Batch_2024/2460103/Sem1rslt-21_5_3.pdf",
+          "gpa_4pt": 3.22
         },
         "sem2": {
           "pct": 68.62,
@@ -5502,11 +5602,25 @@
               "sgpa_10pt": 7.22,
               "status": "Pass",
               "course_count": 8
+            },
+            "verified_marksheet": {
+              "citation": "Uploaded Controller of Examinations Marks Card",
+              "file": "documents/Batch_2024/2460103/Sem2rslt-21_5_15.pdf",
+              "total_marks": "446/650",
+              "credits": 23,
+              "gpa_4pt": 3.29,
+              "sgpa_10pt": 7.22,
+              "pct": 68.62,
+              "class": "FC",
+              "status": "Pass",
+              "supp": null
             }
-          }
+          },
+          "marksheetFile": "documents/Batch_2024/2460103/Sem2rslt-21_5_15.pdf",
+          "gpa_4pt": 3.29
         },
         "sem3": {
-          "pct": 71.33,
+          "pct": 73.43,
           "sgpa": 7.51,
           "class": "FC",
           "status": "Pass",
@@ -5519,11 +5633,25 @@
               "sgpa_10pt": 7.51,
               "status": "Pass",
               "course_count": 7
+            },
+            "verified_marksheet": {
+              "citation": "Uploaded Controller of Examinations Marks Card",
+              "file": "documents/Batch_2024/2460103/Sem3rslt-21_5_28.pdf",
+              "total_marks": "514/700",
+              "credits": 24,
+              "gpa_4pt": 3.53,
+              "sgpa_10pt": 7.51,
+              "pct": 73.43,
+              "class": "FC",
+              "status": "Pass",
+              "supp": null
             }
-          }
+          },
+          "marksheetFile": "documents/Batch_2024/2460103/Sem3rslt-21_5_28.pdf",
+          "gpa_4pt": 3.53
         },
         "sem4": {
-          "pct": 66.36,
+          "pct": 66.92,
           "sgpa": 6.99,
           "class": "FC",
           "status": "Pass",
@@ -5536,8 +5664,22 @@
               "sgpa_10pt": 6.99,
               "status": "Pass",
               "course_count": 7
+            },
+            "verified_marksheet": {
+              "citation": "Uploaded Controller of Examinations Marks Card",
+              "file": "documents/Batch_2024/2460103/Sem4rslt-21_5_45.pdf",
+              "total_marks": "435/650",
+              "credits": 23,
+              "gpa_4pt": 3.3,
+              "sgpa_10pt": 6.99,
+              "pct": 66.92,
+              "class": "FC",
+              "status": "Pass",
+              "supp": null
             }
-          }
+          },
+          "marksheetFile": "documents/Batch_2024/2460103/Sem4rslt-21_5_45.pdf",
+          "gpa_4pt": 3.3
         },
         "sem5": {
           "pct": null,
@@ -5577,11 +5719,11 @@
         "program": null,
         "file": null
       },
-      "internship": null,
+      "internship": "Manipur Police Housing Corporation Limited (MPHC Ltd.) (Govt. of Manipur Undertaking)",
       "internship1": {
-        "company": null,
-        "title": null,
-        "file": null
+        "company": "Manipur Police Housing Corporation Limited (MPHC Ltd.) (Govt. of Manipur Undertaking)",
+        "title": "Civil Engineering Intern (Civil Construction Works & Field Supervision)",
+        "file": "documents/Batch_2024/2460103/certificate-21_3_53.jpeg"
       },
       "internship2": {
         "company": null,
@@ -5840,7 +5982,7 @@
       "failCount": 1,
       "semesters": {
         "sem1": {
-          "pct": 54,
+          "pct": 54.0,
           "sgpa": 5.68,
           "class": "SC",
           "status": "Pass",
@@ -5853,8 +5995,22 @@
               "sgpa_10pt": 5.68,
               "status": "Pass",
               "course_count": 7
+            },
+            "verified_marksheet": {
+              "citation": "Uploaded Controller of Examinations Marks Card",
+              "file": "documents/Batch_2024/2460106/Safari-13_12_52.pdf",
+              "total_marks": "324/600",
+              "credits": 18,
+              "gpa_4pt": 2.35,
+              "sgpa_10pt": 5.68,
+              "pct": 54.0,
+              "class": "SC",
+              "status": "Pass",
+              "supp": "Basic Electrical cleared in Feb 2025 (54 B, GPA 3.2)"
             }
-          }
+          },
+          "marksheetFile": "documents/Batch_2024/2460106/Safari-13_12_52.pdf",
+          "gpa_4pt": 2.35
         },
         "sem2": {
           "pct": 63.23,
@@ -5870,14 +6026,28 @@
               "sgpa_10pt": 6.66,
               "status": "Pass",
               "course_count": 8
+            },
+            "verified_marksheet": {
+              "citation": "Uploaded Controller of Examinations Marks Card",
+              "file": "documents/Batch_2024/2460106/Safari_2-13_13_4.pdf",
+              "total_marks": "411/650",
+              "credits": 20,
+              "gpa_4pt": 2.78,
+              "sgpa_10pt": 6.66,
+              "pct": 63.23,
+              "class": "FC",
+              "status": "Pass",
+              "supp": "Math-II cleared in Apr 2026 (47 C, GPA 2.0)"
             }
-          }
+          },
+          "marksheetFile": "documents/Batch_2024/2460106/Safari_2-13_13_4.pdf",
+          "gpa_4pt": 2.78
         },
         "sem3": {
           "pct": 61.5,
           "sgpa": 6.47,
-          "class": "FC",
-          "status": "Pass",
+          "class": "Fail",
+          "status": "Fail",
           "sources": {
             "ese_cia_repository": {
               "citation": "ESE & CIA marks repository (2024_Sem_3.xls.xls)",
@@ -5887,8 +6057,22 @@
               "sgpa_10pt": 6.47,
               "status": "Fail",
               "course_count": 7
+            },
+            "verified_marksheet": {
+              "citation": "Uploaded Controller of Examinations Marks Card",
+              "file": "documents/Batch_2024/2460106/Safari_4-13_13_17.pdf",
+              "total_marks": "456/700",
+              "credits": 21,
+              "gpa_4pt": 2.89,
+              "sgpa_10pt": 6.47,
+              "pct": 61.5,
+              "class": "Fail",
+              "status": "Fail",
+              "supp": "Solid Mechanics & Surveying backlog"
             }
-          }
+          },
+          "marksheetFile": "documents/Batch_2024/2460106/Safari_4-13_13_17.pdf",
+          "gpa_4pt": 2.89
         },
         "sem4": {
           "pct": 65.23,
@@ -5904,8 +6088,22 @@
               "sgpa_10pt": 6.87,
               "status": "Pass",
               "course_count": 8
+            },
+            "verified_marksheet": {
+              "citation": "Uploaded Controller of Examinations Marks Card",
+              "file": "documents/Batch_2024/2460106/Safari_5-13_13_24.pdf",
+              "total_marks": "424/650",
+              "credits": 23,
+              "gpa_4pt": 3.15,
+              "sgpa_10pt": 6.87,
+              "pct": 65.23,
+              "class": "FC",
+              "status": "Pass",
+              "supp": null
             }
-          }
+          },
+          "marksheetFile": "documents/Batch_2024/2460106/Safari_5-13_13_24.pdf",
+          "gpa_4pt": 3.15
         },
         "sem5": {
           "pct": null,
@@ -5945,11 +6143,11 @@
         "program": null,
         "file": null
       },
-      "internship": null,
+      "internship": "SNAS DESIGN STUDIO (SNAS GROUP), Bengaluru / Channapatna, Karnataka",
       "internship1": {
-        "company": null,
-        "title": null,
-        "file": null
+        "company": "SNAS DESIGN STUDIO (SNAS GROUP), Bengaluru / Channapatna, Karnataka",
+        "title": "Civil Engineering Intern (Three-Floor Commercial Complex Construction)",
+        "file": "documents/Batch_2024/2460106/SAUD_KHAN_INTERNSHIP_CERTIFICATE-13_11_5.pdf"
       },
       "internship2": {
         "company": null,
@@ -6112,7 +6310,7 @@
       "failCount": 1,
       "semesters": {
         "sem1": {
-          "pct": 65,
+          "pct": 65.0,
           "sgpa": 6.84,
           "class": "FC",
           "status": "Pass",
@@ -6125,8 +6323,22 @@
               "sgpa_10pt": 6.84,
               "status": "Pass",
               "course_count": 7
+            },
+            "verified_marksheet": {
+              "citation": "Uploaded Controller of Examinations Marks Card",
+              "file": "documents/Batch_2024/2460108/marksheet1-21_27_35.pdf",
+              "total_marks": "383/600",
+              "credits": 18,
+              "gpa_4pt": 2.67,
+              "sgpa_10pt": 6.84,
+              "pct": 65.0,
+              "class": "FC",
+              "status": "Pass",
+              "supp": "Basic Electrical cleared in Oct 2025 (54 B, GPA 2.4)"
             }
-          }
+          },
+          "marksheetFile": "documents/Batch_2024/2460108/marksheet1-21_27_35.pdf",
+          "gpa_4pt": 2.67
         },
         "sem2": {
           "pct": 61.85,
@@ -6142,8 +6354,22 @@
               "sgpa_10pt": 6.51,
               "status": "Pass",
               "course_count": 8
+            },
+            "verified_marksheet": {
+              "citation": "Uploaded Controller of Examinations Marks Card",
+              "file": "documents/Batch_2024/2460108/marksheet2-21_27_44.pdf",
+              "total_marks": "394/650",
+              "credits": 19,
+              "gpa_4pt": 2.47,
+              "sgpa_10pt": 6.51,
+              "pct": 61.85,
+              "class": "FC",
+              "status": "Pass",
+              "supp": "Chemistry cleared in Mar 2026 (54 B, GPA 2.4)"
             }
-          }
+          },
+          "marksheetFile": "documents/Batch_2024/2460108/marksheet2-21_27_44.pdf",
+          "gpa_4pt": 2.47
         },
         "sem3": {
           "pct": 61.17,
@@ -6159,14 +6385,28 @@
               "sgpa_10pt": 6.44,
               "status": "Pass",
               "course_count": 7
+            },
+            "verified_marksheet": {
+              "citation": "Uploaded Controller of Examinations Marks Card",
+              "file": "documents/Batch_2024/2460108/marksheet3-21_28_50.pdf",
+              "total_marks": "440/700",
+              "credits": 20,
+              "gpa_4pt": 2.63,
+              "sgpa_10pt": 6.44,
+              "pct": 61.17,
+              "class": "FC",
+              "status": "Pass",
+              "supp": "Surveying cleared in Dec 2025 (52 B, GPA 2.4)"
             }
-          }
+          },
+          "marksheetFile": "documents/Batch_2024/2460108/marksheet3-21_28_50.pdf",
+          "gpa_4pt": 2.63
         },
         "sem4": {
           "pct": 54.46,
           "sgpa": 5.73,
-          "class": "SC",
-          "status": "Pass",
+          "class": "Fail",
+          "status": "Fail",
           "sources": {
             "ese_cia_repository": {
               "citation": "ESE & CIA marks repository (2024_Sem_4.xls.xls)",
@@ -6176,8 +6416,22 @@
               "sgpa_10pt": 5.73,
               "status": "Fail",
               "course_count": 8
+            },
+            "verified_marksheet": {
+              "citation": "Uploaded Controller of Examinations Marks Card",
+              "file": "documents/Batch_2024/2460108/marksheet4-21_29_18.pdf",
+              "total_marks": "365/650",
+              "credits": 20,
+              "gpa_4pt": 2.5,
+              "sgpa_10pt": 5.73,
+              "pct": 54.46,
+              "class": "Fail",
+              "status": "Fail",
+              "supp": "Transportation Engineering backlog (*AA May 2026)"
             }
-          }
+          },
+          "marksheetFile": "documents/Batch_2024/2460108/marksheet4-21_29_18.pdf",
+          "gpa_4pt": 2.5
         },
         "sem5": {
           "pct": null,
@@ -6217,11 +6471,11 @@
         "program": null,
         "file": null
       },
-      "internship": null,
+      "internship": "District Rural Development Agency (DRDA), Churachandpur District, Government of Manipur",
       "internship1": {
-        "company": null,
-        "title": null,
-        "file": null
+        "company": "District Rural Development Agency (DRDA), Churachandpur District, Government of Manipur",
+        "title": "Civil Engineering Intern (Site Supervision & Construction Management)",
+        "file": "documents/Batch_2024/2460108/Internship-21_36_5.pdf"
       },
       "internship2": {
         "company": null,
@@ -6243,7 +6497,7 @@
       "gender": "Male",
       "domicile": "Karnataka",
       "category": "Regular",
-      "cgpa": 8,
+      "cgpa": 8.0,
       "gradStatus": "Ongoing (No Backlog)",
       "failCount": 0,
       "semesters": {
@@ -6261,8 +6515,22 @@
               "sgpa_10pt": 7.49,
               "status": "Pass",
               "course_count": 7
+            },
+            "verified_marksheet": {
+              "citation": "Uploaded Controller of Examinations Marks Card",
+              "file": "documents/Batch_2024/2460109/1st_sem-10_10_39.pdf",
+              "total_marks": "427/600",
+              "credits": 22,
+              "gpa_4pt": 3.36,
+              "sgpa_10pt": 7.49,
+              "pct": 71.17,
+              "class": "FC",
+              "status": "Pass",
+              "supp": null
             }
-          }
+          },
+          "marksheetFile": "documents/Batch_2024/2460109/1st_sem-10_10_39.pdf",
+          "gpa_4pt": 3.36
         },
         "sem2": {
           "pct": 70.31,
@@ -6278,8 +6546,22 @@
               "sgpa_10pt": 7.4,
               "status": "Pass",
               "course_count": 8
+            },
+            "verified_marksheet": {
+              "citation": "Uploaded Controller of Examinations Marks Card",
+              "file": "documents/Batch_2024/2460109/2nd_sem-10_10_49.pdf",
+              "total_marks": "441/650",
+              "credits": 20,
+              "gpa_4pt": 2.96,
+              "sgpa_10pt": 7.4,
+              "pct": 70.31,
+              "class": "FC",
+              "status": "Pass",
+              "supp": "Math-II cleared in Apr 2026 (63 B, GPA 3.2)"
             }
-          }
+          },
+          "marksheetFile": "documents/Batch_2024/2460109/2nd_sem-10_10_49.pdf",
+          "gpa_4pt": 2.96
         },
         "sem3": {
           "pct": 81.83,
@@ -6295,8 +6577,22 @@
               "sgpa_10pt": 8.61,
               "status": "Pass",
               "course_count": 7
+            },
+            "verified_marksheet": {
+              "citation": "Uploaded Controller of Examinations Marks Card",
+              "file": "documents/Batch_2024/2460109/3rd_sem-10_11_0.pdf",
+              "total_marks": "573/700",
+              "credits": 24,
+              "gpa_4pt": 3.81,
+              "sgpa_10pt": 8.61,
+              "pct": 81.83,
+              "class": "FC-D",
+              "status": "Pass",
+              "supp": null
             }
-          }
+          },
+          "marksheetFile": "documents/Batch_2024/2460109/3rd_sem-10_11_0.pdf",
+          "gpa_4pt": 3.81
         },
         "sem4": {
           "pct": 80.73,
@@ -6312,8 +6608,22 @@
               "sgpa_10pt": 8.5,
               "status": "Pass",
               "course_count": 7
+            },
+            "verified_marksheet": {
+              "citation": "Uploaded Controller of Examinations Marks Card",
+              "file": "documents/Batch_2024/2460109/4th_sem-10_11_9.pdf",
+              "total_marks": "519/650",
+              "credits": 23,
+              "gpa_4pt": 3.77,
+              "sgpa_10pt": 8.5,
+              "pct": 80.73,
+              "class": "FC-D",
+              "status": "Pass",
+              "supp": null
             }
-          }
+          },
+          "marksheetFile": "documents/Batch_2024/2460109/4th_sem-10_11_9.pdf",
+          "gpa_4pt": 3.77
         },
         "sem5": {
           "pct": null,
@@ -6475,7 +6785,7 @@
       "gender": "Male",
       "domicile": "Karnataka",
       "category": "Regular",
-      "cgpa": null,
+      "cgpa": 5.45,
       "gradStatus": "Enrolled (No Exam Records)",
       "failCount": 0,
       "semesters": {
@@ -6494,18 +6804,48 @@
           "sources": {}
         },
         "sem3": {
-          "pct": null,
-          "sgpa": null,
-          "class": "",
-          "status": "—",
-          "sources": {}
+          "pct": 45.86,
+          "sgpa": 4.86,
+          "class": "Fail",
+          "status": "Fail",
+          "sources": {
+            "verified_marksheet": {
+              "citation": "Uploaded Controller of Examinations Marks Card",
+              "file": "documents/Batch_2024/2460111/Screenshot_20261102_150819-15_9_7.jpg",
+              "total_marks": "321/700",
+              "credits": 17,
+              "gpa_4pt": 1.62,
+              "sgpa_10pt": 4.86,
+              "pct": 45.86,
+              "class": "Fail",
+              "status": "Fail",
+              "supp": "Math-III & Solid Mechanics backlog (Supp Oct 2025)"
+            }
+          },
+          "marksheetFile": "documents/Batch_2024/2460111/Screenshot_20261102_150819-15_9_7.jpg",
+          "gpa_4pt": 1.62
         },
         "sem4": {
-          "pct": null,
-          "sgpa": null,
-          "class": "",
-          "status": "—",
-          "sources": {}
+          "pct": 57.23,
+          "sgpa": 6.04,
+          "class": "Fail",
+          "status": "Fail",
+          "sources": {
+            "verified_marksheet": {
+              "citation": "Uploaded Controller of Examinations Marks Card",
+              "file": "documents/Batch_2024/2460111/Screenshot_20261102_150845-15_9_34.jpg",
+              "total_marks": "372/650",
+              "credits": 18,
+              "gpa_4pt": 2.35,
+              "sgpa_10pt": 6.04,
+              "pct": 57.23,
+              "class": "Fail",
+              "status": "Fail",
+              "supp": "Analysis of Structures & Ethics backlog (Supp Mar 2026)"
+            }
+          },
+          "marksheetFile": "documents/Batch_2024/2460111/Screenshot_20261102_150845-15_9_34.jpg",
+          "gpa_4pt": 2.35
         },
         "sem5": {
           "pct": null,
@@ -13012,15 +13352,15 @@
       "gender": "Male",
       "domicile": "Kerala",
       "category": "Regular",
-      "cgpa": 4.81,
+      "cgpa": 4.67,
       "gradStatus": "Year-Back (Moved to Batch 2024 as 2460113)",
       "failCount": 1,
       "semesters": {
         "sem1": {
-          "pct": 48,
+          "pct": 48.0,
           "sgpa": 5.05,
-          "class": "PC",
-          "status": "Pass",
+          "class": "Fail",
+          "status": "Fail",
           "sources": {
             "historical": {
               "pct": 48,
@@ -13028,14 +13368,28 @@
               "class": "Fail",
               "status": "Fail",
               "citation": "Department Academic Records (Pre-existing Master)"
+            },
+            "verified_marksheet": {
+              "citation": "Uploaded Controller of Examinations Marks Card",
+              "file": "documents/Batch_2022/2260110/1-2_9_9.pdf",
+              "total_marks": "293/600",
+              "credits": 14,
+              "gpa_4pt": 1.68,
+              "sgpa_10pt": 5.05,
+              "pct": 48.0,
+              "class": "Fail",
+              "status": "Fail",
+              "supp": null
             }
-          }
+          },
+          "marksheetFile": "documents/Batch_2022/2260110/1-2_9_9.pdf",
+          "gpa_4pt": 1.68
         },
         "sem2": {
           "pct": 43.27,
           "sgpa": 4.55,
-          "class": "PC",
-          "status": "Pass",
+          "class": "Fail",
+          "status": "Fail",
           "sources": {
             "historical": {
               "pct": 43.27,
@@ -13043,14 +13397,28 @@
               "class": "Fail",
               "status": "Fail",
               "citation": "Department Academic Records (Pre-existing Master)"
+            },
+            "verified_marksheet": {
+              "citation": "Uploaded Controller of Examinations Marks Card",
+              "file": "documents/Batch_2022/2260110/4-2_15_25.pdf",
+              "total_marks": "248/650",
+              "credits": 16,
+              "gpa_4pt": 1.64,
+              "sgpa_10pt": 4.55,
+              "pct": 43.27,
+              "class": "Fail",
+              "status": "Fail",
+              "supp": null
             }
-          }
+          },
+          "marksheetFile": "documents/Batch_2022/2260110/4-2_15_25.pdf",
+          "gpa_4pt": 1.64
         },
         "sem3": {
           "pct": 45.82,
           "sgpa": 4.82,
-          "class": "PC",
-          "status": "Pass",
+          "class": "Fail",
+          "status": "Fail",
           "sources": {
             "historical": {
               "pct": 45.82,
@@ -13058,15 +13426,44 @@
               "class": "Fail",
               "status": "Fail",
               "citation": "Department Academic Records (Pre-existing Master)"
+            },
+            "verified_marksheet": {
+              "citation": "Uploaded Controller of Examinations Marks Card",
+              "file": "documents/Batch_2022/2260110/6-2_17_41.pdf",
+              "total_marks": "252/700",
+              "credits": 12,
+              "gpa_4pt": 1.42,
+              "sgpa_10pt": 4.82,
+              "pct": 45.82,
+              "class": "Fail",
+              "status": "Fail",
+              "supp": null
             }
-          }
+          },
+          "marksheetFile": "documents/Batch_2022/2260110/6-2_17_41.pdf",
+          "gpa_4pt": 1.42
         },
         "sem4": {
-          "pct": null,
-          "sgpa": null,
-          "class": "",
-          "status": "—",
-          "sources": {}
+          "pct": 40.5,
+          "sgpa": 4.25,
+          "class": "Fail",
+          "status": "Fail",
+          "sources": {
+            "verified_marksheet": {
+              "citation": "Uploaded Controller of Examinations Marks Card",
+              "file": "documents/Batch_2022/2260110/7-2_18_41.pdf",
+              "total_marks": "212/650",
+              "credits": 16,
+              "gpa_4pt": 2.04,
+              "sgpa_10pt": 4.25,
+              "pct": 40.5,
+              "class": "Fail",
+              "status": "Fail",
+              "supp": null
+            }
+          },
+          "marksheetFile": "documents/Batch_2022/2260110/7-2_18_41.pdf",
+          "gpa_4pt": 2.04
         },
         "sem5": {
           "pct": null,

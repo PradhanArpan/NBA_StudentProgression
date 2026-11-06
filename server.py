@@ -27,7 +27,9 @@ DOWNLOADS = {
     '/download/p5-template': os.path.join(DIRECTORY, 'P5_Result_Classification_Template.xlsx'),
     '/download/master-excel': os.path.join(DIRECTORY, 'NBA_Civil_Criterion4_P4_P5_Master.xlsx'),
     '/download/master-student-directory': os.path.join(DIRECTORY, 'Master_Student_Directory_Editable.xlsx'),
+    '/Master_Student_Directory_Editable.xlsx': os.path.join(DIRECTORY, 'Master_Student_Directory_Editable.xlsx'),
     '/download/ay-student-rosters': os.path.join(DIRECTORY, 'Civil_Engineering_Academic_Year_Student_Lists_2020_to_2027.xlsx'),
+    '/Civil_Engineering_Academic_Year_Student_Lists_2020_to_2027.xlsx': os.path.join(DIRECTORY, 'Civil_Engineering_Academic_Year_Student_Lists_2020_to_2027.xlsx'),
     '/download/student-data-json': DATA_FILE,
 }
 
@@ -75,6 +77,9 @@ class CustomHandler(http.server.SimpleHTTPRequestHandler):
                 self.send_response(200)
                 self.send_header('Content-Type', mime)
                 self.send_header('Content-Disposition', f'attachment; filename="{filename}"')
+                self.send_header('Cache-Control', 'no-cache, no-store, must-revalidate')
+                self.send_header('Pragma', 'no-cache')
+                self.send_header('Expires', '0')
                 self.send_header('Content-Length', str(os.path.getsize(fpath)))
                 self.send_header('Access-Control-Allow-Origin', '*')
                 self.end_headers()
@@ -148,17 +153,14 @@ class CustomHandler(http.server.SimpleHTTPRequestHandler):
                     with open(pub_file, 'w', encoding='utf-8') as f:
                         json.dump(data, f, indent=2, ensure_ascii=False)
                 
-                # Auto refresh both Master Directory & AY Roster Excel files
+                # Synchronously regenerate both Master Directory & AY Roster Excel files
                 try:
-                    import subprocess
-                    script1 = os.path.join(DIRECTORY, 'generate_excel_ay_rosters.py')
-                    script2 = os.path.join(DIRECTORY, 'generate_master_student_directory.py')
-                    if os.path.exists(script1):
-                        subprocess.Popen(['python', script1])
-                    if os.path.exists(script2):
-                        subprocess.Popen(['python', script2])
+                    from generate_master_student_directory import generate_master_excel
+                    from generate_excel_ay_rosters import generate_ay_excel
+                    generate_master_excel(json_path=DATA_FILE)
+                    generate_ay_excel(json_path=DATA_FILE)
                 except Exception as ex:
-                    print("Background excel refresh error:", ex)
+                    print("Excel regeneration error on save:", ex)
 
                 self.send_response(200)
                 self.send_header('Content-Type', 'application/json')
