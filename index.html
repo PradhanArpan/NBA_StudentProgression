@@ -2028,6 +2028,54 @@
       renderAcademicYearRosters();
     }
 
+    function getLastActiveSem(s) {
+      const sems = s.semesters || {};
+      let last = 0;
+      for (let i = 1; i <= 8; i++) {
+        const sem = sems['sem' + i];
+        if (sem && (
+          (sem.sgpa !== null && sem.sgpa !== undefined) ||
+          (sem.pct !== null && sem.pct !== undefined) ||
+          ['Pass', 'Fail', 'FC-D', 'FC', 'SC', 'P'].includes(sem.status) ||
+          Boolean(sem.sources && Object.keys(sem.sources).length > 0)
+        )) {
+          last = i;
+        }
+      }
+      return last;
+    }
+
+    function isStudentEnrolledInYearLevel(s, yearLevel, cohortBatch) {
+      const cat = s.category || 'Regular';
+      const grad = s.gradStatus || 'Ongoing';
+      const isYbExit = Boolean(s.isYearBackExit);
+      const isDisc = grad.includes('Discontinued') || grad.includes('Transferred');
+      const lastSem = getLastActiveSem(s);
+      const lastYr = lastSem > 0 ? Math.floor((lastSem + 1) / 2) : (cat === 'Regular' ? 1 : 0);
+
+      // 1. Lateral entry only starts at Year II
+      if (yearLevel === 1 && cat === 'Lateral') return false;
+
+      // 2. Readmitted students joined junior cohort at Year II
+      if (yearLevel === 1 && cat.includes('Readmitted')) return false;
+
+      // 3. Year-Back Exit students exited senior batch after Year II
+      if (isYbExit && yearLevel > 2) return false;
+
+      // 4. Discontinued / Transferred students: strictly enrolled only up to last active study year
+      if (isDisc) {
+        if (lastSem === 0) return (yearLevel === 1 && cat === 'Regular');
+        if (yearLevel > lastYr) return false;
+      }
+
+      // 5. Graduated cohorts in Year IV: must have graduated or completed S7/S8
+      if (yearLevel === 4 && ['2020', '2021'].includes(cohortBatch)) {
+        if (!grad.includes('Graduated') && lastSem < 7) return false;
+      }
+
+      return true;
+    }
+
     function getStudentsForAYYear(ayStart, yearLevel) {
       const cohortBatch = String(ayStart - (yearLevel - 1));
       const batchStudents = (db.students || []).filter(s => s.batch === cohortBatch);
@@ -2036,25 +2084,21 @@
 
       const roster = [];
       for (const s of batchStudents) {
+        if (!isStudentEnrolledInYearLevel(s, yearLevel, cohortBatch)) continue;
+
         const cat = s.category || 'Regular';
+        const grad = s.gradStatus || 'Ongoing';
         const isYbExit = Boolean(s.isYearBackExit);
+        const isDisc = grad.includes('Discontinued') || grad.includes('Transferred');
 
-        // Lateral entry students only join in Year II (Sem 3)
-        if (yearLevel === 1 && cat === 'Lateral') continue;
-
-        // Year back exits did not progress to Year III or IV in this batch
-        if (isYbExit && yearLevel > 2) continue;
-
-        // Readmitted students did Year I under their senior registration number
-        if (yearLevel === 1 && cat.includes('Readmitted')) continue;
-
-        // Discontinued students: if marked discontinued and no semesters in this year level
         const semOdd = s.semesters?.[oddKey] || {};
         const semEven = s.semesters?.[evenKey] || {};
 
         let statusDesc = 'Enrolled / Active';
         if (isYbExit && yearLevel === 2) {
           statusDesc = 'Year-Back Exit (Detained / Rejoined Junior Batch)';
+        } else if (isDisc && (yearLevel * 2 >= getLastActiveSem(s))) {
+          statusDesc = 'Discontinued / Transferred';
         } else if (semOdd.status === 'Fail' || semEven.status === 'Fail') {
           statusDesc = 'With Backlog';
         } else if (semOdd.status === 'Pass' && semEven.status === 'Pass') {
@@ -2071,6 +2115,7 @@
         if (cat === 'Lateral') remarks.push('Lateral Entry (Admitted Year II / Sem 3)');
         if (cat.includes('Readmitted')) remarks.push('Readmitted in Year II after Year-Back');
         if (isYbExit) remarks.push('Year-Back Exit (Rejoined Junior Cohort)');
+        if (isDisc) remarks.push('Discontinued studies');
         if (remarks.length === 0) remarks.push('Regular Admission');
 
         const oddStr = semOdd.sgpa ? `SGPA ${Number(semOdd.sgpa).toFixed(2)} (${semOdd.pct}%)` : (semOdd.status || '—');
