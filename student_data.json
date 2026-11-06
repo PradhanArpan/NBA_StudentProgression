@@ -4,7 +4,7 @@
     "department": "Department of Civil Engineering",
     "institution": "CHRIST (Deemed to be University), Faculty of Engineering",
     "accreditation": "NBA Tier-I Pre-Qualifier & SAR Cycle",
-    "criterion": "Criterion 4 — Students' Performance (120 Marks)",
+    "criterion": "Criterion 4 \u2014 Students' Performance (120 Marks)",
     "criterionInCharges": "Dr. Arpan Pradhan & Dr. Shibu K Mani",
     "nbaCoordinator": "Dr. Thejas H K",
     "hod": "Dr. Sujatha Unnikrishnan",
@@ -287,56 +287,56 @@
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem2": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem3": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem4": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem5": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem6": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem7": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem8": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         }
       },
@@ -359,7 +359,12 @@
         "company": null,
         "title": null,
         "file": null
-      }
+      },
+      "progressionStatus": "Normal",
+      "discontinuedFromSem": null,
+      "yearBackFromSem": null,
+      "yearBackJuniorBatch": null,
+      "readmissionRegNo": null
     },
     {
       "id": "CIVIL_2026_2660002",
@@ -378,56 +383,56 @@
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem2": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem3": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem4": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem5": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem6": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem7": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem8": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         }
       },
@@ -450,7 +455,12 @@
         "company": null,
         "title": null,
         "file": null
-      }
+      },
+      "progressionStatus": "Normal",
+      "discontinuedFromSem": null,
+      "yearBackFromSem": null,
+      "yearBackJuniorBatch": null,
+      "readmissionRegNo": null
     },
     {
       "id": "CIVIL_2026_2660003",
@@ -469,56 +479,56 @@
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem2": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem3": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem4": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem5": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem6": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem7": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem8": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         }
       },
@@ -541,7 +551,12 @@
         "company": null,
         "title": null,
         "file": null
-      }
+      },
+      "progressionStatus": "Normal",
+      "discontinuedFromSem": null,
+      "yearBackFromSem": null,
+      "yearBackJuniorBatch": null,
+      "readmissionRegNo": null
     },
     {
       "id": "CIVIL_2026_2660004",
@@ -560,56 +575,56 @@
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem2": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem3": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem4": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem5": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem6": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem7": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem8": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         }
       },
@@ -632,7 +647,12 @@
         "company": null,
         "title": null,
         "file": null
-      }
+      },
+      "progressionStatus": "Normal",
+      "discontinuedFromSem": null,
+      "yearBackFromSem": null,
+      "yearBackJuniorBatch": null,
+      "readmissionRegNo": null
     },
     {
       "id": "CIVIL_2026_2660005",
@@ -651,56 +671,56 @@
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem2": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem3": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem4": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem5": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem6": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem7": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem8": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         }
       },
@@ -723,7 +743,12 @@
         "company": null,
         "title": null,
         "file": null
-      }
+      },
+      "progressionStatus": "Normal",
+      "discontinuedFromSem": null,
+      "yearBackFromSem": null,
+      "yearBackJuniorBatch": null,
+      "readmissionRegNo": null
     },
     {
       "id": "CIVIL_2026_2660006",
@@ -742,56 +767,56 @@
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem2": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem3": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem4": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem5": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem6": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem7": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem8": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         }
       },
@@ -814,7 +839,12 @@
         "company": null,
         "title": null,
         "file": null
-      }
+      },
+      "progressionStatus": "Normal",
+      "discontinuedFromSem": null,
+      "yearBackFromSem": null,
+      "yearBackJuniorBatch": null,
+      "readmissionRegNo": null
     },
     {
       "id": "CIVIL_2026_2660007",
@@ -833,56 +863,56 @@
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem2": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem3": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem4": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem5": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem6": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem7": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem8": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         }
       },
@@ -905,7 +935,12 @@
         "company": null,
         "title": null,
         "file": null
-      }
+      },
+      "progressionStatus": "Normal",
+      "discontinuedFromSem": null,
+      "yearBackFromSem": null,
+      "yearBackJuniorBatch": null,
+      "readmissionRegNo": null
     },
     {
       "id": "CIVIL_2026_2660008",
@@ -924,56 +959,56 @@
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem2": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem3": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem4": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem5": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem6": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem7": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem8": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         }
       },
@@ -996,7 +1031,12 @@
         "company": null,
         "title": null,
         "file": null
-      }
+      },
+      "progressionStatus": "Normal",
+      "discontinuedFromSem": null,
+      "yearBackFromSem": null,
+      "yearBackJuniorBatch": null,
+      "readmissionRegNo": null
     },
     {
       "id": "CIVIL_2026_2660009",
@@ -1015,56 +1055,56 @@
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem2": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem3": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem4": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem5": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem6": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem7": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem8": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         }
       },
@@ -1087,7 +1127,12 @@
         "company": null,
         "title": null,
         "file": null
-      }
+      },
+      "progressionStatus": "Normal",
+      "discontinuedFromSem": null,
+      "yearBackFromSem": null,
+      "yearBackJuniorBatch": null,
+      "readmissionRegNo": null
     },
     {
       "id": "CIVIL_2026_2660010",
@@ -1106,56 +1151,56 @@
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem2": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem3": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem4": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem5": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem6": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem7": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem8": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         }
       },
@@ -1178,7 +1223,12 @@
         "company": null,
         "title": null,
         "file": null
-      }
+      },
+      "progressionStatus": "Normal",
+      "discontinuedFromSem": null,
+      "yearBackFromSem": null,
+      "yearBackJuniorBatch": null,
+      "readmissionRegNo": null
     },
     {
       "id": "CIVIL_2026_2660011",
@@ -1197,56 +1247,56 @@
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem2": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem3": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem4": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem5": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem6": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem7": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem8": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         }
       },
@@ -1269,7 +1319,12 @@
         "company": null,
         "title": null,
         "file": null
-      }
+      },
+      "progressionStatus": "Normal",
+      "discontinuedFromSem": null,
+      "yearBackFromSem": null,
+      "yearBackJuniorBatch": null,
+      "readmissionRegNo": null
     },
     {
       "id": "CIVIL_2026_2660012",
@@ -1288,56 +1343,56 @@
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem2": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem3": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem4": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem5": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem6": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem7": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem8": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         }
       },
@@ -1360,7 +1415,12 @@
         "company": null,
         "title": null,
         "file": null
-      }
+      },
+      "progressionStatus": "Normal",
+      "discontinuedFromSem": null,
+      "yearBackFromSem": null,
+      "yearBackJuniorBatch": null,
+      "readmissionRegNo": null
     },
     {
       "id": "CIVIL_2026_2660013",
@@ -1379,56 +1439,56 @@
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem2": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem3": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem4": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem5": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem6": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem7": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem8": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         }
       },
@@ -1451,7 +1511,12 @@
         "company": null,
         "title": null,
         "file": null
-      }
+      },
+      "progressionStatus": "Normal",
+      "discontinuedFromSem": null,
+      "yearBackFromSem": null,
+      "yearBackJuniorBatch": null,
+      "readmissionRegNo": null
     },
     {
       "id": "CIVIL_2026_2660014",
@@ -1470,56 +1535,56 @@
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem2": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem3": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem4": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem5": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem6": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem7": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem8": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         }
       },
@@ -1542,7 +1607,12 @@
         "company": null,
         "title": null,
         "file": null
-      }
+      },
+      "progressionStatus": "Normal",
+      "discontinuedFromSem": null,
+      "yearBackFromSem": null,
+      "yearBackJuniorBatch": null,
+      "readmissionRegNo": null
     },
     {
       "id": "CIVIL_2026_2660133",
@@ -1561,56 +1631,56 @@
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem2": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem3": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem4": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem5": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem6": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem7": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem8": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         }
       },
@@ -1633,7 +1703,12 @@
         "company": null,
         "title": null,
         "file": null
-      }
+      },
+      "progressionStatus": "Normal",
+      "discontinuedFromSem": null,
+      "yearBackFromSem": null,
+      "yearBackJuniorBatch": null,
+      "readmissionRegNo": null
     },
     {
       "id": "CIVIL_2025_2560001",
@@ -1686,42 +1761,42 @@
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem4": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem5": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem6": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem7": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem8": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         }
       },
@@ -1744,7 +1819,12 @@
         "company": null,
         "title": null,
         "file": null
-      }
+      },
+      "progressionStatus": "Normal",
+      "discontinuedFromSem": null,
+      "yearBackFromSem": null,
+      "yearBackJuniorBatch": null,
+      "readmissionRegNo": null
     },
     {
       "id": "CIVIL_2025_2560002",
@@ -1797,42 +1877,42 @@
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem4": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem5": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem6": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem7": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem8": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         }
       },
@@ -1855,7 +1935,12 @@
         "company": null,
         "title": null,
         "file": null
-      }
+      },
+      "progressionStatus": "Normal",
+      "discontinuedFromSem": null,
+      "yearBackFromSem": null,
+      "yearBackJuniorBatch": null,
+      "readmissionRegNo": null
     },
     {
       "id": "CIVIL_2025_2560003",
@@ -1908,42 +1993,42 @@
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem4": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem5": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem6": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem7": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem8": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         }
       },
@@ -1966,7 +2051,12 @@
         "company": null,
         "title": null,
         "file": null
-      }
+      },
+      "progressionStatus": "Normal",
+      "discontinuedFromSem": null,
+      "yearBackFromSem": null,
+      "yearBackJuniorBatch": null,
+      "readmissionRegNo": null
     },
     {
       "id": "CIVIL_2025_2560004",
@@ -2019,42 +2109,42 @@
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem4": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem5": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem6": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem7": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem8": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         }
       },
@@ -2077,7 +2167,12 @@
         "company": null,
         "title": null,
         "file": null
-      }
+      },
+      "progressionStatus": "Normal",
+      "discontinuedFromSem": null,
+      "yearBackFromSem": null,
+      "yearBackJuniorBatch": null,
+      "readmissionRegNo": null
     },
     {
       "id": "CIVIL_2025_2560005",
@@ -2130,42 +2225,42 @@
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem4": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem5": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem6": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem7": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem8": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         }
       },
@@ -2188,7 +2283,12 @@
         "company": null,
         "title": null,
         "file": null
-      }
+      },
+      "progressionStatus": "Normal",
+      "discontinuedFromSem": null,
+      "yearBackFromSem": null,
+      "yearBackJuniorBatch": null,
+      "readmissionRegNo": null
     },
     {
       "id": "CIVIL_2025_2560006",
@@ -2241,42 +2341,42 @@
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem4": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem5": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem6": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem7": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem8": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         }
       },
@@ -2299,7 +2399,12 @@
         "company": null,
         "title": null,
         "file": null
-      }
+      },
+      "progressionStatus": "Normal",
+      "discontinuedFromSem": null,
+      "yearBackFromSem": null,
+      "yearBackJuniorBatch": null,
+      "readmissionRegNo": null
     },
     {
       "id": "CIVIL_2025_2560007",
@@ -2352,42 +2457,42 @@
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem4": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem5": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem6": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem7": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem8": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         }
       },
@@ -2410,7 +2515,12 @@
         "company": null,
         "title": null,
         "file": null
-      }
+      },
+      "progressionStatus": "Normal",
+      "discontinuedFromSem": null,
+      "yearBackFromSem": null,
+      "yearBackJuniorBatch": null,
+      "readmissionRegNo": null
     },
     {
       "id": "CIVIL_2025_2560008",
@@ -2429,56 +2539,56 @@
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem2": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem3": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem4": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem5": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem6": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem7": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem8": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         }
       },
@@ -2501,7 +2611,12 @@
         "company": null,
         "title": null,
         "file": null
-      }
+      },
+      "progressionStatus": "Normal",
+      "discontinuedFromSem": null,
+      "yearBackFromSem": null,
+      "yearBackJuniorBatch": null,
+      "readmissionRegNo": null
     },
     {
       "id": "CIVIL_2025_2560009",
@@ -2554,42 +2669,42 @@
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem4": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem5": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem6": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem7": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem8": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         }
       },
@@ -2612,7 +2727,12 @@
         "company": null,
         "title": null,
         "file": null
-      }
+      },
+      "progressionStatus": "Normal",
+      "discontinuedFromSem": null,
+      "yearBackFromSem": null,
+      "yearBackJuniorBatch": null,
+      "readmissionRegNo": null
     },
     {
       "id": "CIVIL_2025_2560010",
@@ -2665,42 +2785,42 @@
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem4": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem5": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem6": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem7": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem8": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         }
       },
@@ -2723,7 +2843,12 @@
         "company": null,
         "title": null,
         "file": null
-      }
+      },
+      "progressionStatus": "Normal",
+      "discontinuedFromSem": null,
+      "yearBackFromSem": null,
+      "yearBackJuniorBatch": null,
+      "readmissionRegNo": null
     },
     {
       "id": "CIVIL_2025_2560011",
@@ -2776,42 +2901,42 @@
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem4": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem5": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem6": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem7": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem8": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         }
       },
@@ -2834,7 +2959,12 @@
         "company": null,
         "title": null,
         "file": null
-      }
+      },
+      "progressionStatus": "Normal",
+      "discontinuedFromSem": null,
+      "yearBackFromSem": null,
+      "yearBackJuniorBatch": null,
+      "readmissionRegNo": null
     },
     {
       "id": "CIVIL_2025_2560013",
@@ -2887,42 +3017,42 @@
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem4": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem5": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem6": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem7": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem8": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         }
       },
@@ -2945,7 +3075,12 @@
         "company": null,
         "title": null,
         "file": null
-      }
+      },
+      "progressionStatus": "Normal",
+      "discontinuedFromSem": null,
+      "yearBackFromSem": null,
+      "yearBackJuniorBatch": null,
+      "readmissionRegNo": null
     },
     {
       "id": "CIVIL_2025_2560014",
@@ -2998,42 +3133,42 @@
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem4": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem5": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem6": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem7": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem8": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         }
       },
@@ -3056,7 +3191,12 @@
         "company": null,
         "title": null,
         "file": null
-      }
+      },
+      "progressionStatus": "Normal",
+      "discontinuedFromSem": null,
+      "yearBackFromSem": null,
+      "yearBackJuniorBatch": null,
+      "readmissionRegNo": null
     },
     {
       "id": "CIVIL_2025_2560015",
@@ -3109,42 +3249,42 @@
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem4": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem5": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem6": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem7": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem8": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         }
       },
@@ -3167,7 +3307,12 @@
         "company": null,
         "title": null,
         "file": null
-      }
+      },
+      "progressionStatus": "Normal",
+      "discontinuedFromSem": null,
+      "yearBackFromSem": null,
+      "yearBackJuniorBatch": null,
+      "readmissionRegNo": null
     },
     {
       "id": "CIVIL_2025_2560016",
@@ -3220,42 +3365,42 @@
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem4": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem5": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem6": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem7": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem8": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         }
       },
@@ -3278,7 +3423,12 @@
         "company": null,
         "title": null,
         "file": null
-      }
+      },
+      "progressionStatus": "Normal",
+      "discontinuedFromSem": null,
+      "yearBackFromSem": null,
+      "yearBackJuniorBatch": null,
+      "readmissionRegNo": null
     },
     {
       "id": "CIVIL_2025_2560017",
@@ -3331,42 +3481,42 @@
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem4": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem5": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem6": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem7": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem8": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         }
       },
@@ -3389,7 +3539,12 @@
         "company": null,
         "title": null,
         "file": null
-      }
+      },
+      "progressionStatus": "Normal",
+      "discontinuedFromSem": null,
+      "yearBackFromSem": null,
+      "yearBackJuniorBatch": null,
+      "readmissionRegNo": null
     },
     {
       "id": "CIVIL_2025_2560018",
@@ -3442,42 +3597,42 @@
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem4": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem5": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem6": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem7": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem8": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         }
       },
@@ -3500,7 +3655,12 @@
         "company": null,
         "title": null,
         "file": null
-      }
+      },
+      "progressionStatus": "Normal",
+      "discontinuedFromSem": null,
+      "yearBackFromSem": null,
+      "yearBackJuniorBatch": null,
+      "readmissionRegNo": null
     },
     {
       "id": "CIVIL_2025_2560020",
@@ -3553,42 +3713,42 @@
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem4": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem5": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem6": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem7": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem8": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         }
       },
@@ -3611,7 +3771,12 @@
         "company": null,
         "title": null,
         "file": null
-      }
+      },
+      "progressionStatus": "Normal",
+      "discontinuedFromSem": null,
+      "yearBackFromSem": null,
+      "yearBackJuniorBatch": null,
+      "readmissionRegNo": null
     },
     {
       "id": "CIVIL_2025_2560021",
@@ -3664,42 +3829,42 @@
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem4": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem5": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem6": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem7": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem8": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         }
       },
@@ -3722,7 +3887,12 @@
         "company": null,
         "title": null,
         "file": null
-      }
+      },
+      "progressionStatus": "Normal",
+      "discontinuedFromSem": null,
+      "yearBackFromSem": null,
+      "yearBackJuniorBatch": null,
+      "readmissionRegNo": null
     },
     {
       "id": "CIVIL_2025_2560022",
@@ -3775,42 +3945,42 @@
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem4": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem5": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem6": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem7": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem8": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         }
       },
@@ -3833,7 +4003,12 @@
         "company": null,
         "title": null,
         "file": null
-      }
+      },
+      "progressionStatus": "Normal",
+      "discontinuedFromSem": null,
+      "yearBackFromSem": null,
+      "yearBackJuniorBatch": null,
+      "readmissionRegNo": null
     },
     {
       "id": "CIVIL_2025_2560023",
@@ -3886,42 +4061,42 @@
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem4": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem5": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem6": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem7": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem8": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         }
       },
@@ -3944,7 +4119,12 @@
         "company": null,
         "title": null,
         "file": null
-      }
+      },
+      "progressionStatus": "Normal",
+      "discontinuedFromSem": null,
+      "yearBackFromSem": null,
+      "yearBackJuniorBatch": null,
+      "readmissionRegNo": null
     },
     {
       "id": "CIVIL_2025_2560024",
@@ -3997,42 +4177,42 @@
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem4": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem5": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem6": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem7": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem8": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         }
       },
@@ -4055,7 +4235,12 @@
         "company": null,
         "title": null,
         "file": null
-      }
+      },
+      "progressionStatus": "Normal",
+      "discontinuedFromSem": null,
+      "yearBackFromSem": null,
+      "yearBackJuniorBatch": null,
+      "readmissionRegNo": null
     },
     {
       "id": "CIVIL_2025_2560025",
@@ -4108,42 +4293,42 @@
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem4": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem5": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem6": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem7": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem8": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         }
       },
@@ -4166,7 +4351,12 @@
         "company": null,
         "title": null,
         "file": null
-      }
+      },
+      "progressionStatus": "Normal",
+      "discontinuedFromSem": null,
+      "yearBackFromSem": null,
+      "yearBackJuniorBatch": null,
+      "readmissionRegNo": null
     },
     {
       "id": "CIVIL_2025_2560026",
@@ -4185,56 +4375,56 @@
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem2": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem3": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem4": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem5": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem6": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem7": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem8": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         }
       },
@@ -4257,7 +4447,12 @@
         "company": null,
         "title": null,
         "file": null
-      }
+      },
+      "progressionStatus": "Normal",
+      "discontinuedFromSem": null,
+      "yearBackFromSem": null,
+      "yearBackJuniorBatch": null,
+      "readmissionRegNo": null
     },
     {
       "id": "CIVIL_2025_2560027",
@@ -4276,56 +4471,56 @@
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem2": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem3": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem4": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem5": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem6": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem7": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem8": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         }
       },
@@ -4348,7 +4543,12 @@
         "company": null,
         "title": null,
         "file": null
-      }
+      },
+      "progressionStatus": "Normal",
+      "discontinuedFromSem": null,
+      "yearBackFromSem": null,
+      "yearBackJuniorBatch": null,
+      "readmissionRegNo": null
     },
     {
       "id": "CIVIL_2025_2560028",
@@ -4367,56 +4567,56 @@
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem2": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem3": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem4": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem5": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem6": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem7": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem8": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         }
       },
@@ -4439,7 +4639,12 @@
         "company": null,
         "title": null,
         "file": null
-      }
+      },
+      "progressionStatus": "Normal",
+      "discontinuedFromSem": null,
+      "yearBackFromSem": null,
+      "yearBackJuniorBatch": null,
+      "readmissionRegNo": null
     },
     {
       "id": "CIVIL_2025_2562013",
@@ -4492,42 +4697,42 @@
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem4": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem5": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem6": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem7": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem8": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         }
       },
@@ -4550,7 +4755,12 @@
         "company": null,
         "title": null,
         "file": null
-      }
+      },
+      "progressionStatus": "Normal",
+      "discontinuedFromSem": null,
+      "yearBackFromSem": null,
+      "yearBackJuniorBatch": null,
+      "readmissionRegNo": null
     },
     {
       "id": "CIVIL_2025_2562032",
@@ -4603,42 +4813,42 @@
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem4": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem5": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem6": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem7": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem8": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         }
       },
@@ -4661,7 +4871,12 @@
         "company": null,
         "title": null,
         "file": null
-      }
+      },
+      "progressionStatus": "Normal",
+      "discontinuedFromSem": null,
+      "yearBackFromSem": null,
+      "yearBackJuniorBatch": null,
+      "readmissionRegNo": null
     },
     {
       "id": "CIVIL_2025_2562361",
@@ -4714,42 +4929,42 @@
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem4": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem5": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem6": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem7": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem8": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         }
       },
@@ -4772,7 +4987,12 @@
         "company": null,
         "title": null,
         "file": null
-      }
+      },
+      "progressionStatus": "Normal",
+      "discontinuedFromSem": null,
+      "yearBackFromSem": null,
+      "yearBackJuniorBatch": null,
+      "readmissionRegNo": null
     },
     {
       "id": "CIVIL_2025_2563415",
@@ -4825,42 +5045,42 @@
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem4": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem5": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem6": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem7": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem8": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         }
       },
@@ -4883,7 +5103,12 @@
         "company": null,
         "title": null,
         "file": null
-      }
+      },
+      "progressionStatus": "Normal",
+      "discontinuedFromSem": null,
+      "yearBackFromSem": null,
+      "yearBackJuniorBatch": null,
+      "readmissionRegNo": null
     },
     {
       "id": "CIVIL_2025_2563421",
@@ -4936,42 +5161,42 @@
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem4": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem5": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem6": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem7": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem8": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         }
       },
@@ -4994,7 +5219,12 @@
         "company": null,
         "title": null,
         "file": null
-      }
+      },
+      "progressionStatus": "Normal",
+      "discontinuedFromSem": null,
+      "yearBackFromSem": null,
+      "yearBackJuniorBatch": null,
+      "readmissionRegNo": null
     },
     {
       "id": "CIVIL_2024_2460101",
@@ -5081,28 +5311,28 @@
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem6": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem7": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem8": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         }
       },
@@ -5125,7 +5355,12 @@
         "company": null,
         "title": null,
         "file": null
-      }
+      },
+      "progressionStatus": "Normal",
+      "discontinuedFromSem": null,
+      "yearBackFromSem": null,
+      "yearBackJuniorBatch": null,
+      "readmissionRegNo": null
     },
     {
       "id": "CIVIL_2024_2460102",
@@ -5144,56 +5379,56 @@
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem2": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem3": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem4": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem5": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem6": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem7": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem8": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         }
       },
@@ -5216,7 +5451,12 @@
         "company": null,
         "title": null,
         "file": null
-      }
+      },
+      "progressionStatus": "Normal",
+      "discontinuedFromSem": null,
+      "yearBackFromSem": null,
+      "yearBackJuniorBatch": null,
+      "readmissionRegNo": null
     },
     {
       "id": "CIVIL_2024_2460103",
@@ -5303,28 +5543,28 @@
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem6": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem7": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem8": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         }
       },
@@ -5347,7 +5587,12 @@
         "company": null,
         "title": null,
         "file": null
-      }
+      },
+      "progressionStatus": "Normal",
+      "discontinuedFromSem": null,
+      "yearBackFromSem": null,
+      "yearBackJuniorBatch": null,
+      "readmissionRegNo": null
     },
     {
       "id": "CIVIL_2024_2460104",
@@ -5366,56 +5611,56 @@
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem2": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem3": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem4": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem5": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem6": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem7": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem8": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         }
       },
@@ -5438,7 +5683,12 @@
         "company": null,
         "title": null,
         "file": null
-      }
+      },
+      "progressionStatus": "Normal",
+      "discontinuedFromSem": null,
+      "yearBackFromSem": null,
+      "yearBackJuniorBatch": null,
+      "readmissionRegNo": null
     },
     {
       "id": "CIVIL_2024_2460105",
@@ -5525,28 +5775,28 @@
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem6": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem7": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem8": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         }
       },
@@ -5569,7 +5819,12 @@
         "company": null,
         "title": null,
         "file": null
-      }
+      },
+      "progressionStatus": "Normal",
+      "discontinuedFromSem": null,
+      "yearBackFromSem": null,
+      "yearBackJuniorBatch": null,
+      "readmissionRegNo": null
     },
     {
       "id": "CIVIL_2024_2460106",
@@ -5656,28 +5911,28 @@
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem6": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem7": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem8": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         }
       },
@@ -5700,7 +5955,12 @@
         "company": null,
         "title": null,
         "file": null
-      }
+      },
+      "progressionStatus": "Normal",
+      "discontinuedFromSem": null,
+      "yearBackFromSem": null,
+      "yearBackJuniorBatch": null,
+      "readmissionRegNo": null
     },
     {
       "id": "CIVIL_2024_2460107",
@@ -5787,28 +6047,28 @@
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem6": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem7": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem8": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         }
       },
@@ -5831,7 +6091,12 @@
         "company": null,
         "title": null,
         "file": null
-      }
+      },
+      "progressionStatus": "Normal",
+      "discontinuedFromSem": null,
+      "yearBackFromSem": null,
+      "yearBackJuniorBatch": null,
+      "readmissionRegNo": null
     },
     {
       "id": "CIVIL_2024_2460108",
@@ -5918,28 +6183,28 @@
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem6": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem7": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem8": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         }
       },
@@ -5962,7 +6227,12 @@
         "company": null,
         "title": null,
         "file": null
-      }
+      },
+      "progressionStatus": "Normal",
+      "discontinuedFromSem": null,
+      "yearBackFromSem": null,
+      "yearBackJuniorBatch": null,
+      "readmissionRegNo": null
     },
     {
       "id": "CIVIL_2024_2460109",
@@ -6049,28 +6319,28 @@
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem6": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem7": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem8": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         }
       },
@@ -6093,7 +6363,12 @@
         "company": null,
         "title": null,
         "file": null
-      }
+      },
+      "progressionStatus": "Normal",
+      "discontinuedFromSem": null,
+      "yearBackFromSem": null,
+      "yearBackJuniorBatch": null,
+      "readmissionRegNo": null
     },
     {
       "id": "CIVIL_2024_2460110",
@@ -6112,56 +6387,56 @@
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem2": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem3": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem4": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem5": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem6": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem7": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem8": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         }
       },
@@ -6184,7 +6459,12 @@
         "company": null,
         "title": null,
         "file": null
-      }
+      },
+      "progressionStatus": "Normal",
+      "discontinuedFromSem": null,
+      "yearBackFromSem": null,
+      "yearBackJuniorBatch": null,
+      "readmissionRegNo": null
     },
     {
       "id": "CIVIL_2024_2460111",
@@ -6203,56 +6483,56 @@
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem2": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem3": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem4": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem5": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem6": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem7": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem8": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         }
       },
@@ -6275,7 +6555,12 @@
         "company": null,
         "title": null,
         "file": null
-      }
+      },
+      "progressionStatus": "Normal",
+      "discontinuedFromSem": null,
+      "yearBackFromSem": null,
+      "yearBackJuniorBatch": null,
+      "readmissionRegNo": null
     },
     {
       "id": "CIVIL_2024_2460112",
@@ -6294,56 +6579,56 @@
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem2": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem3": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem4": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem5": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem6": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem7": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem8": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         }
       },
@@ -6366,7 +6651,12 @@
         "company": null,
         "title": null,
         "file": null
-      }
+      },
+      "progressionStatus": "Normal",
+      "discontinuedFromSem": null,
+      "yearBackFromSem": null,
+      "yearBackJuniorBatch": null,
+      "readmissionRegNo": null
     },
     {
       "id": "CIVIL_2024_2460113",
@@ -6430,35 +6720,35 @@
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem5": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem6": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem7": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem8": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         }
       },
@@ -6485,7 +6775,12 @@
       "yearBackOrigin": {
         "regNo": "2260110",
         "batch": "2022"
-      }
+      },
+      "progressionStatus": "Readmitted",
+      "yearBackFromSem": null,
+      "yearBackJuniorBatch": null,
+      "readmissionRegNo": null,
+      "discontinuedFromSem": null
     },
     {
       "id": "CIVIL_2024_2460423",
@@ -6572,28 +6867,28 @@
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem6": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem7": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem8": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         }
       },
@@ -6616,7 +6911,12 @@
         "company": null,
         "title": null,
         "file": null
-      }
+      },
+      "progressionStatus": "Normal",
+      "discontinuedFromSem": null,
+      "yearBackFromSem": null,
+      "yearBackJuniorBatch": null,
+      "readmissionRegNo": null
     },
     {
       "id": "CIVIL_2024_2461034",
@@ -6635,56 +6935,56 @@
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem2": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem3": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem4": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem5": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem6": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem7": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem8": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         }
       },
@@ -6707,7 +7007,12 @@
         "company": null,
         "title": null,
         "file": null
-      }
+      },
+      "progressionStatus": "Normal",
+      "discontinuedFromSem": null,
+      "yearBackFromSem": null,
+      "yearBackJuniorBatch": null,
+      "readmissionRegNo": null
     },
     {
       "id": "CIVIL_2024_2461222",
@@ -6794,28 +7099,28 @@
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem6": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem7": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem8": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         }
       },
@@ -6838,7 +7143,12 @@
         "company": null,
         "title": null,
         "file": null
-      }
+      },
+      "progressionStatus": "Normal",
+      "discontinuedFromSem": null,
+      "yearBackFromSem": null,
+      "yearBackJuniorBatch": null,
+      "readmissionRegNo": null
     },
     {
       "id": "CIVIL_2023_2360101",
@@ -6887,42 +7197,42 @@
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem4": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem5": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem6": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem7": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem8": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         }
       },
@@ -6945,7 +7255,12 @@
         "company": null,
         "title": null,
         "file": null
-      }
+      },
+      "progressionStatus": "Normal",
+      "discontinuedFromSem": null,
+      "yearBackFromSem": null,
+      "yearBackJuniorBatch": null,
+      "readmissionRegNo": null
     },
     {
       "id": "CIVIL_2023_2360102",
@@ -6964,56 +7279,56 @@
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem2": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem3": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem4": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem5": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem6": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem7": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem8": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         }
       },
@@ -7036,7 +7351,12 @@
         "company": null,
         "title": null,
         "file": null
-      }
+      },
+      "progressionStatus": "Discontinued",
+      "discontinuedFromSem": 1,
+      "yearBackFromSem": null,
+      "yearBackJuniorBatch": null,
+      "readmissionRegNo": null
     },
     {
       "id": "CIVIL_2023_2360103",
@@ -7055,56 +7375,56 @@
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem2": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem3": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem4": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem5": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem6": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem7": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem8": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         }
       },
@@ -7127,7 +7447,12 @@
         "company": null,
         "title": null,
         "file": null
-      }
+      },
+      "progressionStatus": "Discontinued",
+      "discontinuedFromSem": 1,
+      "yearBackFromSem": null,
+      "yearBackJuniorBatch": null,
+      "readmissionRegNo": null
     },
     {
       "id": "CIVIL_2023_2360104",
@@ -7146,56 +7471,56 @@
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem2": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem3": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem4": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem5": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem6": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem7": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem8": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         }
       },
@@ -7218,7 +7543,12 @@
         "company": null,
         "title": null,
         "file": null
-      }
+      },
+      "progressionStatus": "Discontinued",
+      "discontinuedFromSem": 1,
+      "yearBackFromSem": null,
+      "yearBackJuniorBatch": null,
+      "readmissionRegNo": null
     },
     {
       "id": "CIVIL_2023_2360105",
@@ -7459,14 +7789,14 @@
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem8": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         }
       },
@@ -7514,7 +7844,12 @@
           "sem5": "yes",
           "sem6": "yes"
         }
-      }
+      },
+      "progressionStatus": "Normal",
+      "discontinuedFromSem": null,
+      "yearBackFromSem": null,
+      "yearBackJuniorBatch": null,
+      "readmissionRegNo": null
     },
     {
       "id": "CIVIL_2023_2360106",
@@ -7755,14 +8090,14 @@
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem8": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         }
       },
@@ -7808,7 +8143,12 @@
           "sem5": "no",
           "sem6": "no"
         }
-      }
+      },
+      "progressionStatus": "Normal",
+      "discontinuedFromSem": null,
+      "yearBackFromSem": null,
+      "yearBackJuniorBatch": null,
+      "readmissionRegNo": null
     },
     {
       "id": "CIVIL_2023_2360107",
@@ -7857,42 +8197,42 @@
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem4": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem5": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem6": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem7": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem8": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         }
       },
@@ -7915,7 +8255,12 @@
         "company": null,
         "title": null,
         "file": null
-      }
+      },
+      "progressionStatus": "Normal",
+      "discontinuedFromSem": null,
+      "yearBackFromSem": null,
+      "yearBackJuniorBatch": null,
+      "readmissionRegNo": null
     },
     {
       "id": "CIVIL_2023_2360108",
@@ -8016,28 +8361,28 @@
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem6": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem7": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem8": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         }
       },
@@ -8060,7 +8405,12 @@
         "company": null,
         "title": null,
         "file": null
-      }
+      },
+      "progressionStatus": "Normal",
+      "discontinuedFromSem": null,
+      "yearBackFromSem": null,
+      "yearBackJuniorBatch": null,
+      "readmissionRegNo": null
     },
     {
       "id": "CIVIL_2023_2360109",
@@ -8195,14 +8545,14 @@
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem8": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         }
       },
@@ -8225,7 +8575,12 @@
         "company": null,
         "title": null,
         "file": null
-      }
+      },
+      "progressionStatus": "Normal",
+      "discontinuedFromSem": null,
+      "yearBackFromSem": null,
+      "yearBackJuniorBatch": null,
+      "readmissionRegNo": null
     },
     {
       "id": "CIVIL_2023_2360110",
@@ -8360,14 +8715,14 @@
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem8": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         }
       },
@@ -8390,7 +8745,12 @@
         "company": null,
         "title": null,
         "file": null
-      }
+      },
+      "progressionStatus": "Normal",
+      "discontinuedFromSem": null,
+      "yearBackFromSem": null,
+      "yearBackJuniorBatch": null,
+      "readmissionRegNo": null
     },
     {
       "id": "CIVIL_2023_2360111",
@@ -8525,14 +8885,14 @@
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem8": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         }
       },
@@ -8555,7 +8915,12 @@
         "company": null,
         "title": null,
         "file": null
-      }
+      },
+      "progressionStatus": "Normal",
+      "discontinuedFromSem": null,
+      "yearBackFromSem": null,
+      "yearBackJuniorBatch": null,
+      "readmissionRegNo": null
     },
     {
       "id": "CIVIL_2023_2360112",
@@ -8690,14 +9055,14 @@
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem8": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         }
       },
@@ -8720,7 +9085,12 @@
         "company": null,
         "title": null,
         "file": null
-      }
+      },
+      "progressionStatus": "Normal",
+      "discontinuedFromSem": null,
+      "yearBackFromSem": null,
+      "yearBackJuniorBatch": null,
+      "readmissionRegNo": null
     },
     {
       "id": "CIVIL_2023_2360113",
@@ -8961,14 +9331,14 @@
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem8": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         }
       },
@@ -9014,7 +9384,12 @@
           "sem5": "no",
           "sem6": "no"
         }
-      }
+      },
+      "progressionStatus": "Normal",
+      "discontinuedFromSem": null,
+      "yearBackFromSem": null,
+      "yearBackJuniorBatch": null,
+      "readmissionRegNo": null
     },
     {
       "id": "CIVIL_2023_2360114",
@@ -9033,56 +9408,56 @@
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem2": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem3": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem4": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem5": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem6": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem7": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem8": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         }
       },
@@ -9105,7 +9480,12 @@
         "company": null,
         "title": null,
         "file": null
-      }
+      },
+      "progressionStatus": "Discontinued",
+      "discontinuedFromSem": 1,
+      "yearBackFromSem": null,
+      "yearBackJuniorBatch": null,
+      "readmissionRegNo": null
     },
     {
       "id": "CIVIL_2023_2360115",
@@ -9124,56 +9504,56 @@
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem2": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem3": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem4": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem5": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem6": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem7": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem8": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         }
       },
@@ -9196,7 +9576,12 @@
         "company": null,
         "title": null,
         "file": null
-      }
+      },
+      "progressionStatus": "Discontinued",
+      "discontinuedFromSem": 1,
+      "yearBackFromSem": null,
+      "yearBackJuniorBatch": null,
+      "readmissionRegNo": null
     },
     {
       "id": "CIVIL_2023_2360116",
@@ -9437,14 +9822,14 @@
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem8": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         }
       },
@@ -9489,7 +9874,12 @@
           "sem5": "no",
           "sem6": "no"
         }
-      }
+      },
+      "progressionStatus": "Normal",
+      "discontinuedFromSem": null,
+      "yearBackFromSem": null,
+      "yearBackJuniorBatch": null,
+      "readmissionRegNo": null
     },
     {
       "id": "CIVIL_2023_2360117",
@@ -9624,14 +10014,14 @@
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem8": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         }
       },
@@ -9654,7 +10044,12 @@
         "company": null,
         "title": null,
         "file": null
-      }
+      },
+      "progressionStatus": "Normal",
+      "discontinuedFromSem": null,
+      "yearBackFromSem": null,
+      "yearBackJuniorBatch": null,
+      "readmissionRegNo": null
     },
     {
       "id": "CIVIL_2023_2360118",
@@ -9789,14 +10184,14 @@
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem8": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         }
       },
@@ -9819,7 +10214,12 @@
         "company": null,
         "title": null,
         "file": null
-      }
+      },
+      "progressionStatus": "Normal",
+      "discontinuedFromSem": null,
+      "yearBackFromSem": null,
+      "yearBackJuniorBatch": null,
+      "readmissionRegNo": null
     },
     {
       "id": "CIVIL_2023_2360119",
@@ -10060,14 +10460,14 @@
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem8": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         }
       },
@@ -10114,7 +10514,12 @@
           "sem5": "no",
           "sem6": "no"
         }
-      }
+      },
+      "progressionStatus": "Normal",
+      "discontinuedFromSem": null,
+      "yearBackFromSem": null,
+      "yearBackJuniorBatch": null,
+      "readmissionRegNo": null
     },
     {
       "id": "CIVIL_2023_2360120",
@@ -10133,56 +10538,56 @@
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem2": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem3": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem4": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem5": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem6": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem7": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem8": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         }
       },
@@ -10205,7 +10610,12 @@
         "company": null,
         "title": null,
         "file": null
-      }
+      },
+      "progressionStatus": "Discontinued",
+      "discontinuedFromSem": 1,
+      "yearBackFromSem": null,
+      "yearBackJuniorBatch": null,
+      "readmissionRegNo": null
     },
     {
       "id": "CIVIL_2023_2360121",
@@ -10333,14 +10743,14 @@
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem8": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         }
       },
@@ -10363,7 +10773,12 @@
         "company": null,
         "title": null,
         "file": null
-      }
+      },
+      "progressionStatus": "Normal",
+      "discontinuedFromSem": null,
+      "yearBackFromSem": null,
+      "yearBackJuniorBatch": null,
+      "readmissionRegNo": null
     },
     {
       "id": "CIVIL_2023_2360122",
@@ -10498,14 +10913,14 @@
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem8": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         }
       },
@@ -10528,7 +10943,12 @@
         "company": null,
         "title": null,
         "file": null
-      }
+      },
+      "progressionStatus": "Normal",
+      "discontinuedFromSem": null,
+      "yearBackFromSem": null,
+      "yearBackJuniorBatch": null,
+      "readmissionRegNo": null
     },
     {
       "id": "CIVIL_2023_2360123",
@@ -10629,28 +11049,28 @@
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem6": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem7": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem8": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         }
       },
@@ -10673,7 +11093,12 @@
         "company": null,
         "title": null,
         "file": null
-      }
+      },
+      "progressionStatus": "Normal",
+      "discontinuedFromSem": null,
+      "yearBackFromSem": null,
+      "yearBackJuniorBatch": null,
+      "readmissionRegNo": null
     },
     {
       "id": "CIVIL_2023_2360126",
@@ -10692,56 +11117,56 @@
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem2": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem3": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem4": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem5": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem6": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem7": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem8": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         }
       },
@@ -10764,7 +11189,12 @@
         "company": null,
         "title": null,
         "file": null
-      }
+      },
+      "progressionStatus": "Discontinued",
+      "discontinuedFromSem": 1,
+      "yearBackFromSem": null,
+      "yearBackJuniorBatch": null,
+      "readmissionRegNo": null
     },
     {
       "id": "CIVIL_2023_2360127",
@@ -10813,42 +11243,42 @@
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem4": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem5": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem6": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem7": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem8": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         }
       },
@@ -10871,7 +11301,12 @@
         "company": null,
         "title": null,
         "file": null
-      }
+      },
+      "progressionStatus": "Normal",
+      "discontinuedFromSem": null,
+      "yearBackFromSem": null,
+      "yearBackJuniorBatch": null,
+      "readmissionRegNo": null
     },
     {
       "id": "CIVIL_2023_2360128",
@@ -10890,56 +11325,56 @@
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem2": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem3": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem4": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem5": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem6": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem7": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem8": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         }
       },
@@ -10962,7 +11397,12 @@
         "company": null,
         "title": null,
         "file": null
-      }
+      },
+      "progressionStatus": "Discontinued",
+      "discontinuedFromSem": 1,
+      "yearBackFromSem": null,
+      "yearBackJuniorBatch": null,
+      "readmissionRegNo": null
     },
     {
       "id": "CIVIL_2023_2360129",
@@ -10981,56 +11421,56 @@
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem2": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem3": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem4": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem5": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem6": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem7": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem8": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         }
       },
@@ -11053,7 +11493,12 @@
         "company": null,
         "title": null,
         "file": null
-      }
+      },
+      "progressionStatus": "Discontinued",
+      "discontinuedFromSem": 1,
+      "yearBackFromSem": null,
+      "yearBackJuniorBatch": null,
+      "readmissionRegNo": null
     },
     {
       "id": "CIVIL_2023_2360130",
@@ -11072,56 +11517,56 @@
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem2": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem3": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem4": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem5": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem6": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem7": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem8": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         }
       },
@@ -11144,7 +11589,12 @@
         "company": null,
         "title": null,
         "file": null
-      }
+      },
+      "progressionStatus": "Discontinued",
+      "discontinuedFromSem": 1,
+      "yearBackFromSem": null,
+      "yearBackJuniorBatch": null,
+      "readmissionRegNo": null
     },
     {
       "id": "CIVIL_2023_2360131",
@@ -11163,56 +11613,56 @@
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem2": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem3": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem4": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem5": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem6": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem7": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem8": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         }
       },
@@ -11235,7 +11685,12 @@
         "company": null,
         "title": null,
         "file": null
-      }
+      },
+      "progressionStatus": "Discontinued",
+      "discontinuedFromSem": 1,
+      "yearBackFromSem": null,
+      "yearBackJuniorBatch": null,
+      "readmissionRegNo": null
     },
     {
       "id": "CIVIL_2023_2360132",
@@ -11314,28 +11769,28 @@
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem6": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem7": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem8": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         }
       },
@@ -11362,7 +11817,12 @@
       "yearBackOrigin": {
         "regNo": "2260113",
         "batch": "2022"
-      }
+      },
+      "progressionStatus": "Readmitted",
+      "yearBackFromSem": null,
+      "yearBackJuniorBatch": null,
+      "readmissionRegNo": null,
+      "discontinuedFromSem": 5
     },
     {
       "id": "CIVIL_2023_2360134",
@@ -11441,28 +11901,28 @@
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem6": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem7": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem8": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         }
       },
@@ -11489,7 +11949,12 @@
       "yearBackOrigin": {
         "regNo": "2260104",
         "batch": "2022"
-      }
+      },
+      "progressionStatus": "Readmitted",
+      "yearBackFromSem": null,
+      "yearBackJuniorBatch": null,
+      "readmissionRegNo": null,
+      "discontinuedFromSem": 5
     },
     {
       "id": "CIVIL_2023_2360135",
@@ -11568,28 +12033,28 @@
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem6": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem7": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem8": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         }
       },
@@ -11616,7 +12081,12 @@
       "yearBackOrigin": {
         "regNo": "2260112",
         "batch": "2022"
-      }
+      },
+      "progressionStatus": "Readmitted",
+      "yearBackFromSem": null,
+      "yearBackJuniorBatch": null,
+      "readmissionRegNo": null,
+      "discontinuedFromSem": 5
     },
     {
       "id": "CIVIL_2023_2362371",
@@ -11751,14 +12221,14 @@
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem8": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         }
       },
@@ -11781,7 +12251,12 @@
         "company": null,
         "title": null,
         "file": null
-      }
+      },
+      "progressionStatus": "Normal",
+      "discontinuedFromSem": null,
+      "yearBackFromSem": null,
+      "yearBackJuniorBatch": null,
+      "readmissionRegNo": null
     },
     {
       "id": "CIVIL_2022_2260101",
@@ -11980,7 +12455,12 @@
         "company": null,
         "title": null,
         "file": null
-      }
+      },
+      "progressionStatus": "Normal",
+      "discontinuedFromSem": null,
+      "yearBackFromSem": null,
+      "yearBackJuniorBatch": null,
+      "readmissionRegNo": null
     },
     {
       "id": "CIVIL_2022_2260104",
@@ -12059,28 +12539,28 @@
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem6": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem7": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem8": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         }
       },
@@ -12108,7 +12588,12 @@
       "yearBackTransferredTo": {
         "regNo": "2360134",
         "batch": "2023"
-      }
+      },
+      "progressionStatus": "Year-Back",
+      "yearBackFromSem": 4,
+      "yearBackJuniorBatch": "2023",
+      "readmissionRegNo": "2360134",
+      "discontinuedFromSem": null
     },
     {
       "id": "CIVIL_2022_2260106",
@@ -12307,7 +12792,12 @@
         "company": null,
         "title": null,
         "file": null
-      }
+      },
+      "progressionStatus": "Normal",
+      "discontinuedFromSem": null,
+      "yearBackFromSem": null,
+      "yearBackJuniorBatch": null,
+      "readmissionRegNo": null
     },
     {
       "id": "CIVIL_2022_2260107",
@@ -12506,7 +12996,12 @@
         "company": null,
         "title": null,
         "file": null
-      }
+      },
+      "progressionStatus": "Normal",
+      "discontinuedFromSem": null,
+      "yearBackFromSem": null,
+      "yearBackJuniorBatch": null,
+      "readmissionRegNo": null
     },
     {
       "id": "CIVIL_2022_2260110",
@@ -12570,35 +13065,35 @@
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem5": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem6": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem7": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem8": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         }
       },
@@ -12626,7 +13121,12 @@
       "yearBackTransferredTo": {
         "regNo": "2460113",
         "batch": "2024"
-      }
+      },
+      "progressionStatus": "Year-Back",
+      "yearBackFromSem": 3,
+      "yearBackJuniorBatch": "2024",
+      "readmissionRegNo": "2460113",
+      "discontinuedFromSem": null
     },
     {
       "id": "CIVIL_2022_2260112",
@@ -12705,28 +13205,28 @@
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem6": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem7": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem8": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         }
       },
@@ -12754,7 +13254,12 @@
       "yearBackTransferredTo": {
         "regNo": "2360135",
         "batch": "2023"
-      }
+      },
+      "progressionStatus": "Year-Back",
+      "yearBackFromSem": 4,
+      "yearBackJuniorBatch": "2023",
+      "readmissionRegNo": "2360135",
+      "discontinuedFromSem": null
     },
     {
       "id": "CIVIL_2022_2260113",
@@ -12833,28 +13338,28 @@
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem6": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem7": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem8": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         }
       },
@@ -12882,7 +13387,12 @@
       "yearBackTransferredTo": {
         "regNo": "2360132",
         "batch": "2023"
-      }
+      },
+      "progressionStatus": "Year-Back",
+      "yearBackFromSem": 4,
+      "yearBackJuniorBatch": "2023",
+      "readmissionRegNo": "2360132",
+      "discontinuedFromSem": null
     },
     {
       "id": "CIVIL_2022_2260114",
@@ -13081,7 +13591,12 @@
         "company": null,
         "title": null,
         "file": null
-      }
+      },
+      "progressionStatus": "Normal",
+      "discontinuedFromSem": null,
+      "yearBackFromSem": null,
+      "yearBackJuniorBatch": null,
+      "readmissionRegNo": null
     },
     {
       "id": "CIVIL_2022_2260117",
@@ -13280,7 +13795,12 @@
         "company": null,
         "title": null,
         "file": null
-      }
+      },
+      "progressionStatus": "Normal",
+      "discontinuedFromSem": null,
+      "yearBackFromSem": null,
+      "yearBackJuniorBatch": null,
+      "readmissionRegNo": null
     },
     {
       "id": "CIVIL_2022_2260119",
@@ -13359,28 +13879,28 @@
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem6": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem7": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem8": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         }
       },
@@ -13403,7 +13923,12 @@
         "company": null,
         "title": null,
         "file": null
-      }
+      },
+      "progressionStatus": "Discontinued",
+      "discontinuedFromSem": 5,
+      "yearBackFromSem": null,
+      "yearBackJuniorBatch": null,
+      "readmissionRegNo": null
     },
     {
       "id": "CIVIL_2022_2260120",
@@ -13452,42 +13977,42 @@
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem4": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem5": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem6": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem7": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem8": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         }
       },
@@ -13510,7 +14035,12 @@
         "company": null,
         "title": null,
         "file": null
-      }
+      },
+      "progressionStatus": "Discontinued",
+      "discontinuedFromSem": 3,
+      "yearBackFromSem": null,
+      "yearBackJuniorBatch": null,
+      "readmissionRegNo": null
     },
     {
       "id": "CIVIL_2022_2260122",
@@ -13709,7 +14239,12 @@
         "company": null,
         "title": null,
         "file": null
-      }
+      },
+      "progressionStatus": "Normal",
+      "discontinuedFromSem": null,
+      "yearBackFromSem": null,
+      "yearBackJuniorBatch": null,
+      "readmissionRegNo": null
     },
     {
       "id": "CIVIL_2022_2260123",
@@ -13788,28 +14323,28 @@
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem6": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem7": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem8": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         }
       },
@@ -13832,7 +14367,12 @@
         "company": null,
         "title": null,
         "file": null
-      }
+      },
+      "progressionStatus": "Discontinued",
+      "discontinuedFromSem": 5,
+      "yearBackFromSem": null,
+      "yearBackJuniorBatch": null,
+      "readmissionRegNo": null
     },
     {
       "id": "CIVIL_2022_2260124",
@@ -14031,7 +14571,12 @@
         "company": null,
         "title": null,
         "file": null
-      }
+      },
+      "progressionStatus": "Normal",
+      "discontinuedFromSem": null,
+      "yearBackFromSem": null,
+      "yearBackJuniorBatch": null,
+      "readmissionRegNo": null
     },
     {
       "id": "CIVIL_2022_2260126",
@@ -14050,14 +14595,14 @@
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem2": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem3": {
@@ -14094,28 +14639,28 @@
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem6": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem7": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem8": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         }
       },
@@ -14138,7 +14683,12 @@
         "company": null,
         "title": null,
         "file": null
-      }
+      },
+      "progressionStatus": "Discontinued",
+      "discontinuedFromSem": 5,
+      "yearBackFromSem": null,
+      "yearBackJuniorBatch": null,
+      "readmissionRegNo": null
     },
     {
       "id": "CIVIL_2022_2260127",
@@ -14157,14 +14707,14 @@
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem2": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem3": {
@@ -14201,28 +14751,28 @@
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem6": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem7": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem8": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         }
       },
@@ -14245,7 +14795,12 @@
         "company": null,
         "title": null,
         "file": null
-      }
+      },
+      "progressionStatus": "Discontinued",
+      "discontinuedFromSem": 5,
+      "yearBackFromSem": null,
+      "yearBackJuniorBatch": null,
+      "readmissionRegNo": null
     },
     {
       "id": "CIVIL_2022_2260128",
@@ -14264,14 +14819,14 @@
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem2": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem3": {
@@ -14308,28 +14863,28 @@
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem6": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem7": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem8": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         }
       },
@@ -14352,7 +14907,12 @@
         "company": null,
         "title": null,
         "file": null
-      }
+      },
+      "progressionStatus": "Discontinued",
+      "discontinuedFromSem": 5,
+      "yearBackFromSem": null,
+      "yearBackJuniorBatch": null,
+      "readmissionRegNo": null
     },
     {
       "id": "CIVIL_2022_2260129",
@@ -14371,14 +14931,14 @@
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem2": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem3": {
@@ -14415,28 +14975,28 @@
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem6": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem7": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem8": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         }
       },
@@ -14459,7 +15019,12 @@
         "company": null,
         "title": null,
         "file": null
-      }
+      },
+      "progressionStatus": "Discontinued",
+      "discontinuedFromSem": 5,
+      "yearBackFromSem": null,
+      "yearBackJuniorBatch": null,
+      "readmissionRegNo": null
     },
     {
       "id": "CIVIL_2022_2260130",
@@ -14478,14 +15043,14 @@
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem2": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem3": {
@@ -14522,28 +15087,28 @@
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem6": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem7": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem8": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         }
       },
@@ -14566,7 +15131,12 @@
         "company": null,
         "title": null,
         "file": null
-      }
+      },
+      "progressionStatus": "Discontinued",
+      "discontinuedFromSem": 5,
+      "yearBackFromSem": null,
+      "yearBackJuniorBatch": null,
+      "readmissionRegNo": null
     },
     {
       "id": "CIVIL_2022_2260131",
@@ -14585,14 +15155,14 @@
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem2": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem3": {
@@ -14629,28 +15199,28 @@
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem6": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem7": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem8": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         }
       },
@@ -14673,7 +15243,12 @@
         "company": null,
         "title": null,
         "file": null
-      }
+      },
+      "progressionStatus": "Discontinued",
+      "discontinuedFromSem": 5,
+      "yearBackFromSem": null,
+      "yearBackJuniorBatch": null,
+      "readmissionRegNo": null
     },
     {
       "id": "CIVIL_2022_2260132",
@@ -14737,35 +15312,35 @@
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem5": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem6": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem7": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem8": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         }
       },
@@ -14792,7 +15367,12 @@
       "yearBackOrigin": {
         "regNo": "2160103",
         "batch": "2021"
-      }
+      },
+      "progressionStatus": "Readmitted",
+      "yearBackFromSem": null,
+      "yearBackJuniorBatch": null,
+      "readmissionRegNo": null,
+      "discontinuedFromSem": 4
     },
     {
       "id": "CIVIL_2021_2160103",
@@ -14856,35 +15436,35 @@
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem5": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem6": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem7": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem8": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         }
       },
@@ -14912,7 +15492,12 @@
       "yearBackTransferredTo": {
         "regNo": "2260132",
         "batch": "2022"
-      }
+      },
+      "progressionStatus": "Year-Back",
+      "yearBackFromSem": 3,
+      "yearBackJuniorBatch": "2022",
+      "readmissionRegNo": "2260132",
+      "discontinuedFromSem": null
     },
     {
       "id": "CIVIL_2021_2160104",
@@ -15075,7 +15660,12 @@
         "company": null,
         "title": null,
         "file": null
-      }
+      },
+      "progressionStatus": "Normal",
+      "discontinuedFromSem": null,
+      "yearBackFromSem": null,
+      "yearBackJuniorBatch": null,
+      "readmissionRegNo": null
     },
     {
       "id": "CIVIL_2021_2160105",
@@ -15238,7 +15828,12 @@
         "company": null,
         "title": null,
         "file": null
-      }
+      },
+      "progressionStatus": "Normal",
+      "discontinuedFromSem": null,
+      "yearBackFromSem": null,
+      "yearBackJuniorBatch": null,
+      "readmissionRegNo": null
     },
     {
       "id": "CIVIL_2021_2160106",
@@ -15302,35 +15897,35 @@
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem5": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem6": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem7": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem8": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         }
       },
@@ -15353,7 +15948,12 @@
         "company": null,
         "title": null,
         "file": null
-      }
+      },
+      "progressionStatus": "Discontinued",
+      "discontinuedFromSem": 4,
+      "yearBackFromSem": null,
+      "yearBackJuniorBatch": null,
+      "readmissionRegNo": null
     },
     {
       "id": "CIVIL_2021_2160107",
@@ -15516,7 +16116,12 @@
         "company": null,
         "title": null,
         "file": null
-      }
+      },
+      "progressionStatus": "Normal",
+      "discontinuedFromSem": null,
+      "yearBackFromSem": null,
+      "yearBackJuniorBatch": null,
+      "readmissionRegNo": null
     },
     {
       "id": "CIVIL_2021_2160108",
@@ -15565,42 +16170,42 @@
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem4": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem5": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem6": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem7": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem8": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         }
       },
@@ -15623,7 +16228,12 @@
         "company": null,
         "title": null,
         "file": null
-      }
+      },
+      "progressionStatus": "Discontinued",
+      "discontinuedFromSem": 3,
+      "yearBackFromSem": null,
+      "yearBackJuniorBatch": null,
+      "readmissionRegNo": null
     },
     {
       "id": "CIVIL_2021_2160109",
@@ -15657,49 +16267,49 @@
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem3": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem4": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem5": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem6": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem7": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem8": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         }
       },
@@ -15722,7 +16332,12 @@
         "company": null,
         "title": null,
         "file": null
-      }
+      },
+      "progressionStatus": "Discontinued",
+      "discontinuedFromSem": 2,
+      "yearBackFromSem": null,
+      "yearBackJuniorBatch": null,
+      "readmissionRegNo": null
     },
     {
       "id": "CIVIL_2021_2160110",
@@ -15885,7 +16500,12 @@
         "company": null,
         "title": null,
         "file": null
-      }
+      },
+      "progressionStatus": "Normal",
+      "discontinuedFromSem": null,
+      "yearBackFromSem": null,
+      "yearBackJuniorBatch": null,
+      "readmissionRegNo": null
     },
     {
       "id": "CIVIL_2021_2160112",
@@ -16048,7 +16668,12 @@
         "company": null,
         "title": null,
         "file": null
-      }
+      },
+      "progressionStatus": "Normal",
+      "discontinuedFromSem": null,
+      "yearBackFromSem": null,
+      "yearBackJuniorBatch": null,
+      "readmissionRegNo": null
     },
     {
       "id": "CIVIL_2021_2160113",
@@ -16157,14 +16782,14 @@
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem8": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         }
       },
@@ -16187,7 +16812,12 @@
         "company": null,
         "title": null,
         "file": null
-      }
+      },
+      "progressionStatus": "Normal",
+      "discontinuedFromSem": null,
+      "yearBackFromSem": null,
+      "yearBackJuniorBatch": null,
+      "readmissionRegNo": null
     },
     {
       "id": "CIVIL_2021_2160114",
@@ -16206,7 +16836,7 @@
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem2": {
@@ -16228,42 +16858,42 @@
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem4": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem5": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem6": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem7": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem8": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         }
       },
@@ -16286,7 +16916,12 @@
         "company": null,
         "title": null,
         "file": null
-      }
+      },
+      "progressionStatus": "Discontinued",
+      "discontinuedFromSem": 3,
+      "yearBackFromSem": null,
+      "yearBackJuniorBatch": null,
+      "readmissionRegNo": null
     },
     {
       "id": "CIVIL_2021_2161801",
@@ -16449,7 +17084,12 @@
         "company": null,
         "title": null,
         "file": null
-      }
+      },
+      "progressionStatus": "Normal",
+      "discontinuedFromSem": null,
+      "yearBackFromSem": null,
+      "yearBackJuniorBatch": null,
+      "readmissionRegNo": null
     },
     {
       "id": "CIVIL_2021_2161802",
@@ -16612,7 +17252,12 @@
         "company": null,
         "title": null,
         "file": null
-      }
+      },
+      "progressionStatus": "Normal",
+      "discontinuedFromSem": null,
+      "yearBackFromSem": null,
+      "yearBackJuniorBatch": null,
+      "readmissionRegNo": null
     },
     {
       "id": "CIVIL_2020_2060101",
@@ -16775,7 +17420,12 @@
         "company": null,
         "title": null,
         "file": null
-      }
+      },
+      "progressionStatus": "Normal",
+      "discontinuedFromSem": null,
+      "yearBackFromSem": null,
+      "yearBackJuniorBatch": null,
+      "readmissionRegNo": null
     },
     {
       "id": "CIVIL_2020_2060102",
@@ -16938,7 +17588,12 @@
         "company": null,
         "title": null,
         "file": null
-      }
+      },
+      "progressionStatus": "Normal",
+      "discontinuedFromSem": null,
+      "yearBackFromSem": null,
+      "yearBackJuniorBatch": null,
+      "readmissionRegNo": null
     },
     {
       "id": "CIVIL_2020_2060104",
@@ -17101,7 +17756,12 @@
         "company": null,
         "title": null,
         "file": null
-      }
+      },
+      "progressionStatus": "Normal",
+      "discontinuedFromSem": null,
+      "yearBackFromSem": null,
+      "yearBackJuniorBatch": null,
+      "readmissionRegNo": null
     },
     {
       "id": "CIVIL_2020_2060105",
@@ -17120,56 +17780,56 @@
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem2": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem3": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem4": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem5": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem6": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem7": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem8": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         }
       },
@@ -17192,7 +17852,12 @@
         "company": null,
         "title": null,
         "file": null
-      }
+      },
+      "progressionStatus": "Discontinued",
+      "discontinuedFromSem": 1,
+      "yearBackFromSem": null,
+      "yearBackJuniorBatch": null,
+      "readmissionRegNo": null
     },
     {
       "id": "CIVIL_2020_2060106",
@@ -17355,7 +18020,12 @@
         "company": null,
         "title": null,
         "file": null
-      }
+      },
+      "progressionStatus": "Normal",
+      "discontinuedFromSem": null,
+      "yearBackFromSem": null,
+      "yearBackJuniorBatch": null,
+      "readmissionRegNo": null
     },
     {
       "id": "CIVIL_2020_2060108",
@@ -17518,7 +18188,12 @@
         "company": null,
         "title": null,
         "file": null
-      }
+      },
+      "progressionStatus": "Normal",
+      "discontinuedFromSem": null,
+      "yearBackFromSem": null,
+      "yearBackJuniorBatch": null,
+      "readmissionRegNo": null
     },
     {
       "id": "CIVIL_2020_2060109",
@@ -17681,7 +18356,12 @@
         "company": null,
         "title": null,
         "file": null
-      }
+      },
+      "progressionStatus": "Normal",
+      "discontinuedFromSem": null,
+      "yearBackFromSem": null,
+      "yearBackJuniorBatch": null,
+      "readmissionRegNo": null
     },
     {
       "id": "CIVIL_2020_2060110",
@@ -17844,7 +18524,12 @@
         "company": null,
         "title": null,
         "file": null
-      }
+      },
+      "progressionStatus": "Normal",
+      "discontinuedFromSem": null,
+      "yearBackFromSem": null,
+      "yearBackJuniorBatch": null,
+      "readmissionRegNo": null
     },
     {
       "id": "CIVIL_2020_2060111",
@@ -18007,7 +18692,12 @@
         "company": null,
         "title": null,
         "file": null
-      }
+      },
+      "progressionStatus": "Normal",
+      "discontinuedFromSem": null,
+      "yearBackFromSem": null,
+      "yearBackJuniorBatch": null,
+      "readmissionRegNo": null
     },
     {
       "id": "CIVIL_2020_2060112",
@@ -18170,7 +18860,12 @@
         "company": null,
         "title": null,
         "file": null
-      }
+      },
+      "progressionStatus": "Normal",
+      "discontinuedFromSem": null,
+      "yearBackFromSem": null,
+      "yearBackJuniorBatch": null,
+      "readmissionRegNo": null
     },
     {
       "id": "CIVIL_2020_2060113",
@@ -18333,7 +19028,12 @@
         "company": null,
         "title": null,
         "file": null
-      }
+      },
+      "progressionStatus": "Normal",
+      "discontinuedFromSem": null,
+      "yearBackFromSem": null,
+      "yearBackJuniorBatch": null,
+      "readmissionRegNo": null
     },
     {
       "id": "CIVIL_2020_2060116",
@@ -18496,7 +19196,12 @@
         "company": null,
         "title": null,
         "file": null
-      }
+      },
+      "progressionStatus": "Normal",
+      "discontinuedFromSem": null,
+      "yearBackFromSem": null,
+      "yearBackJuniorBatch": null,
+      "readmissionRegNo": null
     },
     {
       "id": "CIVIL_2020_2060117",
@@ -18659,7 +19364,12 @@
         "company": null,
         "title": null,
         "file": null
-      }
+      },
+      "progressionStatus": "Normal",
+      "discontinuedFromSem": null,
+      "yearBackFromSem": null,
+      "yearBackJuniorBatch": null,
+      "readmissionRegNo": null
     },
     {
       "id": "CIVIL_2020_2060118",
@@ -18822,7 +19532,12 @@
         "company": null,
         "title": null,
         "file": null
-      }
+      },
+      "progressionStatus": "Normal",
+      "discontinuedFromSem": null,
+      "yearBackFromSem": null,
+      "yearBackJuniorBatch": null,
+      "readmissionRegNo": null
     },
     {
       "id": "CIVIL_2020_2060119",
@@ -18985,7 +19700,12 @@
         "company": null,
         "title": null,
         "file": null
-      }
+      },
+      "progressionStatus": "Normal",
+      "discontinuedFromSem": null,
+      "yearBackFromSem": null,
+      "yearBackJuniorBatch": null,
+      "readmissionRegNo": null
     },
     {
       "id": "CIVIL_2020_2060120",
@@ -19148,7 +19868,12 @@
         "company": null,
         "title": null,
         "file": null
-      }
+      },
+      "progressionStatus": "Normal",
+      "discontinuedFromSem": null,
+      "yearBackFromSem": null,
+      "yearBackJuniorBatch": null,
+      "readmissionRegNo": null
     },
     {
       "id": "CIVIL_2020_2060121",
@@ -19311,7 +20036,12 @@
         "company": null,
         "title": null,
         "file": null
-      }
+      },
+      "progressionStatus": "Normal",
+      "discontinuedFromSem": null,
+      "yearBackFromSem": null,
+      "yearBackJuniorBatch": null,
+      "readmissionRegNo": null
     },
     {
       "id": "CIVIL_2020_2060122",
@@ -19474,7 +20204,12 @@
         "company": null,
         "title": null,
         "file": null
-      }
+      },
+      "progressionStatus": "Normal",
+      "discontinuedFromSem": null,
+      "yearBackFromSem": null,
+      "yearBackJuniorBatch": null,
+      "readmissionRegNo": null
     },
     {
       "id": "CIVIL_2020_2060124",
@@ -19637,7 +20372,12 @@
         "company": null,
         "title": null,
         "file": null
-      }
+      },
+      "progressionStatus": "Normal",
+      "discontinuedFromSem": null,
+      "yearBackFromSem": null,
+      "yearBackJuniorBatch": null,
+      "readmissionRegNo": null
     },
     {
       "id": "CIVIL_2020_2060125",
@@ -19800,7 +20540,12 @@
         "company": null,
         "title": null,
         "file": null
-      }
+      },
+      "progressionStatus": "Normal",
+      "discontinuedFromSem": null,
+      "yearBackFromSem": null,
+      "yearBackJuniorBatch": null,
+      "readmissionRegNo": null
     },
     {
       "id": "CIVIL_2020_2060126",
@@ -19819,56 +20564,56 @@
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem2": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem3": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem4": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem5": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem6": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem7": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         },
         "sem8": {
           "pct": null,
           "sgpa": null,
           "class": "",
-          "status": "—",
+          "status": "\u2014",
           "sources": {}
         }
       },
@@ -19891,7 +20636,12 @@
         "company": null,
         "title": null,
         "file": null
-      }
+      },
+      "progressionStatus": "Discontinued",
+      "discontinuedFromSem": 1,
+      "yearBackFromSem": null,
+      "yearBackJuniorBatch": null,
+      "readmissionRegNo": null
     },
     {
       "id": "CIVIL_2020_2061801",
@@ -20054,7 +20804,12 @@
         "company": null,
         "title": null,
         "file": null
-      }
+      },
+      "progressionStatus": "Normal",
+      "discontinuedFromSem": null,
+      "yearBackFromSem": null,
+      "yearBackJuniorBatch": null,
+      "readmissionRegNo": null
     },
     {
       "id": "CIVIL_2020_2061802",
@@ -20217,7 +20972,12 @@
         "company": null,
         "title": null,
         "file": null
-      }
+      },
+      "progressionStatus": "Normal",
+      "discontinuedFromSem": null,
+      "yearBackFromSem": null,
+      "yearBackJuniorBatch": null,
+      "readmissionRegNo": null
     },
     {
       "id": "CIVIL_2020_2061803",
@@ -20380,7 +21140,12 @@
         "company": null,
         "title": null,
         "file": null
-      }
+      },
+      "progressionStatus": "Normal",
+      "discontinuedFromSem": null,
+      "yearBackFromSem": null,
+      "yearBackJuniorBatch": null,
+      "readmissionRegNo": null
     },
     {
       "id": "CIVIL_2020_2061804",
@@ -20543,7 +21308,12 @@
         "company": null,
         "title": null,
         "file": null
-      }
+      },
+      "progressionStatus": "Normal",
+      "discontinuedFromSem": null,
+      "yearBackFromSem": null,
+      "yearBackJuniorBatch": null,
+      "readmissionRegNo": null
     }
   ],
   "marks_sources_metadata": {
